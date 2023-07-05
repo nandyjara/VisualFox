@@ -1,0 +1,160 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>Integración OFFLINE de Sucursales</title>
+<meta NAME="Template" CONTENT="C:\ARCHIVOS DE PROGRAMA\MICROSOFT OFFICE\OFFICE\html.dot">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+</head>
+
+<body LINK="#0000ff" VLINK="#800080">
+
+<h1 ALIGN="JUSTIFY">Módulo de Sistemas<br>
+<a NAME="_Toc531772423">Mantenimiento:</a> <a NAME="_Toc_00">Divisas</a></h1>
+
+<h2><a NAME="_Toc_Definición">Definición</a></h2>
+
+<p>El Fichero de Divisas, sirve para crear, modificar o eliminar las diferentes divisas
+con las que va a trabajar el Sistema. Solo una divisa va a ser la divisa base y es con
+esta moneda que se va a ser la contabilización, con otras monedas solo se podrán hacer
+transacciones.</p>
+<em>
+
+<p>No es recomendable cambiar la divisa base una vez que ya se han hecho transacciones
+debido a que el Sistema tiene que recalcular todas las transacciones para la nueva divisa,
+y estos calculos podrían ocasionar diferencias en las Transacciones por el Tipo de Cambio
+de la Nueva Moneda.<br>
+Si es que se realiza este cambio se debería revisar las Transacciones, documentos y
+verificar que no existan diferencias.</p>
+</em>
+
+<p ALIGN="JUSTIFY"><br>
+</p>
+
+<h2><a NAME="_Toc_Acceso">Acceso</a></h2>
+
+<p ALIGN="JUSTIFY">Para acceder a esta opción, haga lo siguiente:</p>
+
+<ol>
+  <li>Abra el menú <strong>Herramientas</strong> de DOBRA®.</li>
+  <li>Despliegue el Submenú <strong>Activos Fijos</strong> y desde la sección <strong>Mantenimiento</strong>
+    seleccione el comando <strong>Grupos</strong>.</li>
+</ol>
+
+<h2><a NAME="_Toc_Elementos">Elementos</a></h2>
+
+<p><img SRC="sis_record_divisas.gif" WIDTH="584" HEIGHT="419"></p>
+
+<p>&nbsp;</p>
+
+<table CELLSPACING="0" BORDER="0" WIDTH="585">
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP" HEIGHT="15"><b>Elemento</b></td>
+    <td WIDTH="71%" VALIGN="TOP" HEIGHT="15"><b>Descripción</b></td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Buscar</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Sirve para buscar el grupo que se desea
+    editar.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">ID</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Identificador relacional de la cuenta.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Código</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Código del divisa</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Nombre</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Nombre de la divisa.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Cambio</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Determina el tipo de cambio según la
+    divisa.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Símbolo</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Determina el símbolo. que puede ser
+    símbolo segun la moneda actual. </td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Divisa Base</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Determina la divisa base Mediante la
+    selección.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Nota</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Sirve para escribir una descripción acera
+    de la divisa.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Estado</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Determina si la divisa está activo o
+    inactivo.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Cambio de Divisa Base</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Determina el cambio de divisa base.</td>
+  </tr>
+</table>
+
+<h2><a NAME="_Toc_Crear">Crear</a></h2>
+
+<p>Para crear un nuevo fichero divisa, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando <strong>Nuevo</strong> desde el Menú <strong>Archivo</strong> o
+    haga un click en el botón (<img SRC="bas_interfaz_toolbar_new.gif" WIDTH="16" HEIGHT="16"
+    ALT="bas_interfaz_toolbar_new.gif (922 bytes)">) de la Barra de <strong>Herramientas</strong>.</li>
+  <li>Escriba el código y nombre de la divisa. </li>
+  <li>Ingrese el cambio, determina el tipo de cambio según la divisa.</li>
+  <li>Ingrese el símbolo, que puede ser símbolo según la moneda actual. </li>
+  <li>Divisa base, determine la divisa base Mediante selección.</li>
+  <li>Ingrese una nota o descripción acerca de la divisa.</li>
+  <li>Seleccione el estado que determina si la divisa está activa o inactiva.</li>
+  <li>Seleccione el comando <strong>Guardar</strong> desde el Menú <strong>Archivo</strong> o
+    haga un click en el botón (<img SRC="bas_interfaz_toolbar_save.gif" WIDTH="16"
+    HEIGHT="16" ALT="bas_interfaz_toolbar_save.gif (923 bytes)">) de la Barra de <strong>Herramientas</strong>.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<h2><a NAME="_Toc_Modificar">Modificar</a></h2>
+
+<p>Para modificar un fichero divisa, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando <strong>Modificar</strong> desde el Menú <strong>Archivo</strong>
+    o haga un click en el botón (<img SRC="Boton_modificar.gif" WIDTH="27" HEIGHT="21"
+    ALT="Boton_modificar.bmp (1818 bytes)">) de la Barra de <strong>Herramientas</strong>.</li>
+  <li>A continuación se pueden editar todos los campos del fichero divisa, para mas detalles
+    del ingreso de cada uno de los datos regrese a los pasos del procedimiento <strong><i>crear</i></strong>.</li>
+</ol>
+
+<h2><a NAME="_Toc_Eliminar">Eliminar</a></h2>
+
+<p>Para eliminar un fichero divisa, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando <strong>Eliminar</strong> desde el Menú <strong>Archivo</strong>
+    o haga un click en el botón (<img SRC="boton_eliminar.gif" WIDTH="32" HEIGHT="24"
+    ALT="boton_eliminar.bmp (2358 bytes)">) de la Barra de <strong>Herramientas</strong>.</li>
+  <li>A continuación, para eliminar el registro completamente haga click en el botón <strong>si</strong>
+    de la ventana que aparece o click en <strong>no</strong>; si no esta seguro de eliminar el
+    registro.</li>
+</ol>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img SRC="ventana_eliminar.gif" WIDTH="265" HEIGHT="119"
+ALT="ventana_eliminar.bmp (95254 bytes)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

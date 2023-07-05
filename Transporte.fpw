@@ -1,0 +1,6 @@
+PALETTE=OFF
+ESCAPE=OFF
+TITLE=SQLDobra Empresarial 7 [TRANS T&T]
+DEFAULT=C:\DOBRA70
+PATH=forms,reports,versions\tyt\forms,versions\tyt\MenuCia,versions\tyt\reports,versions\tyt\progs,graphics,library,clases,include
+COMMAND=MODIFY PROJECT C:\DOBRA70\Transporte

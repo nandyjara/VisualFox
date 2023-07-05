@@ -1,0 +1,1178 @@
+************************************************************************************
+************************************************************************************
+**                                                                                **
+** DOBRA Constant File                                                            **
+** This file contains named constants for most Visual FoxPro functions            **
+**                                                                                **
+************************************************************************************
+************************************************************************************
+
+*-- Operating System codes
+#DEFINE	OS_W32S				1
+#DEFINE	OS_NT				2
+#DEFINE	OS_WIN95			3
+#DEFINE	OS_MAC				4
+#DEFINE	OS_DOS				5
+#DEFINE	OS_UNIX				6
+
+*-- DLL Paths for various operating systems
+#DEFINE DLLPATH_32S			"\SYSTEM\"		&&used for ODBC only
+#DEFINE DLLPATH_NT			"\SYSTEM32\"
+#DEFINE DLLPATH_WIN95		"\SYSTEM\"
+
+*-- DLL files used to read INI files
+#DEFINE	DLL_KERNEL_W32S		"W32SCOMB.DLL"
+#DEFINE	DLL_KERNEL_NT		"KERNEL32.DLL"
+#DEFINE	DLL_KERNEL_WIN95	"KERNEL32.DLL"
+
+*-- DLL files used to read registry
+#DEFINE	DLL_ADVAPI_W32S		"W32SCOMB.DLL"
+#DEFINE	DLL_ADVAPI_NT		"ADVAPI32.DLL"
+#DEFINE	DLL_ADVAPI_WIN95	"ADVAPI32.DLL"
+
+*-- DLL files used to read ODBC info
+#DEFINE DLL_ODBC_W32S		"ODBC32.DLL"
+#DEFINE DLL_ODBC_NT			"ODBC32.DLL"
+#DEFINE DLL_ODBC_WIN95		"ODBC32.DLL"
+
+*-- Registry roots
+#DEFINE HKEY_CLASSES_ROOT           -2147483648  && BITSET(0,31)
+#DEFINE HKEY_CURRENT_USER           -2147483647  && BITSET(0,31)+1
+#DEFINE HKEY_LOCAL_MACHINE          -2147483646  && BITSET(0,31)+2
+#DEFINE HKEY_USERS                  -2147483645  && BITSET(0,31)+3
+
+*-- Misc
+#DEFINE APP_PATH_KEY		"\Shell\Open\Command"
+#DEFINE OLE_PATH_KEY		"\Protocol\StdFileEditing\Server"
+#DEFINE VFP_OPTIONS_KEY		"Software\Microsoft\VisualFoxPro\5.0\Options"
+#DEFINE VFP_OPT32S_KEY		"VisualFoxPro\5.0\Options"
+#DEFINE CURVER_KEY			"\CurVer"
+#DEFINE ODBC_DATA_KEY		"Software\ODBC\ODBC.INI\"
+#DEFINE ODBC_DRVRS_KEY		"Software\ODBC\ODBCINST.INI\"
+#DEFINE SQL_FETCH_NEXT		1
+#DEFINE SQL_NO_DATA			100
+
+*-- Error Codes
+#DEFINE ERROR_SUCCESS		0	&& OK
+#DEFINE ERROR_EOF 			259 && no more entries in key
+
+*-- Note these next error codes are specific to this Class, not DLL
+#DEFINE ERROR_NOAPIFILE		-101	&& DLL file to check registry not found
+#DEFINE ERROR_KEYNOREG		-102	&& key not registered
+#DEFINE ERROR_BADPARM		-103	&& bad parameter passed
+#DEFINE ERROR_NOENTRY		-104	&& entry not found
+#DEFINE	ERROR_BADKEY		-105	&& bad key passed
+#DEFINE	ERROR_NONSTR_DATA	-106	&& data type for value is not a data string
+#DEFINE ERROR_BADPLAT		-107	&& platform not supported
+#DEFINE ERROR_NOINIFILE		-108	&& DLL file to check INI not found
+#DEFINE ERROR_NOINIENTRY	-109	&& No entry in INI file
+#DEFINE ERROR_FAILINI		-110	&& failed to get INI entry
+#DEFINE ERROR_NOPLAT		-111	&& call not supported on this platform
+#DEFINE ERROR_NOODBCFILE	-112	&& DLL file to check ODBC not found
+#DEFINE ERROR_ODBCFAIL		-113	&& failed to get ODBC environment
+
+*-- Data types for keys
+#DEFINE REG_SZ 				1	&& Data string
+#DEFINE REG_BINARY 			3	&& Binary data in any form.
+#DEFINE REG_DWORD 			4	&& A 32-bit number.
+
+*-- Data types labels
+#DEFINE REG_BINARY_LOC		"*Binary*"			&& Dato binario en cualquier formulario.
+#DEFINE REG_DWORD_LOC 		"*Dword*"			&& Un número de 32 bits.
+#DEFINE REG_UNKNOWN_LOC		"*Tipo desconocido*"	&& unknown type
+
+*-- FoxPro ODBC drivers
+#DEFINE FOXODBC_25			"FoxPro Files (*.dbf)"
+#DEFINE FOXODBC_26			"Microsoft FoxPro Driver (*.dbf)"
+#DEFINE FOXODBC_30			"Microsoft Visual FoxPro Driver"
+
+*-- DragOver
+#DEFINE DRAG_ENTER      0
+#DEFINE DRAG_LEAVE      1
+#DEFINE DRAG_OVER       2
+
+*-- Drag (controls)
+#DEFINE DRAG_CANCEL          0
+#DEFINE DRAG_BEGIN      1
+#DEFINE DRAG_END        2
+
+*--ZOrder Method
+#DEFINE ZORDER_BRINGTOFRONT    0
+#DEFINE ZORDER_SENDTOBACK      1
+
+
+*-- TYPE() tags
+#DEFINE T_CHARACTER     "C"
+#DEFINE T_NUMERIC       "N"
+#DEFINE T_DOUBLE        "B"
+#DEFINE T_DATE          "D"
+#DEFINE T_DATETIME      "T"
+#DEFINE T_MEMO          "M"
+#DEFINE T_GENERAL       "G"
+#DEFINE T_OBJECT        "O"
+#DEFINE T_SCREEN        "S"
+#DEFINE T_LOGICAL       "L"
+#DEFINE T_CURRENCY      "Y"
+#DEFINE T_UNDEFINED     "U"
+
+#DEFINE NERR_BASE 				2100
+#DEFINE NERR_GroupExists 		2223
+#DEFINE NERR_InvalidComputer 	2351
+#DEFINE NERR_NotPrimary 		2226
+#DEFINE NERR_PasswordTooShort 	2245
+#DEFINE NERR_Success 			0
+#DEFINE NERR_UserExists 		2224
+
+*-- QueryUnload
+#DEFINE FORM_CONTROLMENU        0
+#DEFINE FORM_CODE               1
+#DEFINE APP_WINDOWS             2
+#DEFINE APP_TASKMANAGER         3
+#DEFINE FORM_MDIFORM            4
+
+*-- Properties
+
+*-- Colors
+#DEFINE COLOR_WHITE        16777215
+#DEFINE COLOR_BLACK               0
+#DEFINE COLOR_GRAY         12632256
+#DEFINE COLOR_DARK_GRAY     8421504
+#DEFINE COLOR_RED               255
+#DEFINE COLOR_DARK_BLUE     8388608
+#DEFINE COLOR_CYAN         16776960
+#DEFINE COLOR_DARK_CYAN     8421376
+#DEFINE COLOR_GREEN           65280
+#DEFINE COLOR_DARK_GREEN      32768
+#DEFINE COLOR_YELLOW          65535
+#DEFINE COLOR_DARK_YELLOW     32896
+#DEFINE COLOR_BLUE         16711680
+#DEFINE COLOR_DARK_RED          128
+#DEFINE COLOR_MAGENTA      16711935
+#DEFINE COLOR_DARK_MAGENTA  8388736
+
+*-- MousePointer
+#DEFINE MOUSE_DEFAULT           0       && 0 - Default
+#DEFINE MOUSE_ARROW             1       && 1 - Arrow
+#DEFINE MOUSE_CROSSHAIR         2       && 2 - Cross
+#DEFINE MOUSE_IBEAM             3       && 3 - I-Beam
+#DEFINE MOUSE_ICON_POINTER      4       && 4 - Icon
+#DEFINE MOUSE_SIZE_POINTER      5       && 5 - Size
+#DEFINE MOUSE_SIZE_NE_SW        6       && 6 - Size NE SW
+#DEFINE MOUSE_SIZE_N_S          7       && 7 - Size N S
+#DEFINE MOUSE_SIZE_NW_SE        8       && 8 - Size NW SE
+#DEFINE MOUSE_SIZE_W_E          9       && 9 - Size W E
+#DEFINE MOUSE_UP_ARROW          10      && 10 - Up Arrow
+#DEFINE MOUSE_HOURGLASS         11      && 11 - Hourglass
+#DEFINE MOUSE_NO_DROP           12      && 12 - No drop
+
+*-- DragMode
+#DEFINE DRAG_MANUAL          0       && 0 - Manual
+#DEFINE DRAG_AUTOMATIC       1       && 1 - Automatic
+
+*-- DrawMode
+#DEFINE DRAWMODE_BLACKNESS       1       && 1 - Blackness
+#DEFINE DRAWMODE_NOT_MERGE_PEN   2       && 2 - Not Merge Pen
+#DEFINE DRAWMODE_MASK_NOT_PEN    3       && 3 - Mask Not Pen
+#DEFINE DRAWMODE_NOT_COPY_PEN    4       && 4 - Not Copy Pen
+#DEFINE DRAWMODE_MASK_PEN_NOT    5       && 5 - Mask Pen Not
+#DEFINE DRAWMODE_INVERT          6       && 6 - Invert
+#DEFINE DRAWMODE_XOR_PEN         7       && 7 - Xor Pen
+#DEFINE DRAWMODE_NOT_MASK_PEN    8       && 8 - Not Mask Pen
+#DEFINE DRAWMODE_MASK_PEN        9       && 9 - Mask Pen
+#DEFINE DRAWMODE_NOT_XOR_PEN     10      && 10 - Not Xor Pen
+#DEFINE DRAWMODE_NOP             11      && 11 - Nop
+#DEFINE DRAWMODE_MERGE_NOT_PEN   12      && 12 - Merge Not Pen
+#DEFINE DRAWMODE_COPY_PEN        13      && 13 - Copy Pen
+#DEFINE DRAWMODE_MERGE_PEN_NOT   14      && 14 - Merge Pen Not
+#DEFINE DRAWMODE_MERGE_PEN       15      && 15 - Merge Pen
+#DEFINE DRAWMODE_WHITENESS       16      && 16 - Whiteness
+
+*-- DrawStyle
+#DEFINE DRAWSTYLE_SOLID           0       && 0 - Solid
+#DEFINE DRAWSTYLE_DASH            1       && 1 - Dash
+#DEFINE DRAWSTYLE_DOT             2       && 2 - Dot
+#DEFINE DRAWSTYLE_DASH_DOT        3       && 3 - Dash-Dot
+#DEFINE DRAWSTYLE_DASH_DOT_DOT    4       && 4 - Dash-Dot-Dot
+#DEFINE DRAWSTYLE_INVISIBLE       5       && 5 - Invisible
+#DEFINE DRAWSTYLE_INSIDE_SOLID    6       && 6 - Inside Solid
+
+*-- FillStyle
+#DEFINE FILLSTYLE_SOLID                   0       && 0 - Solid
+#DEFINE FILLSTYLE_TRANSPARENT             1       && 1 - Transparent
+#DEFINE FILLSTYLE_HORIZONTAL_LINE         2       && 2 - Horizontal Line
+#DEFINE FILLSTYLE_VERTICAL_LINE           3       && 3 - Vertical Line
+#DEFINE FILLSTYLE_UPWARD_DIAGONAL         4       && 4 - Upward Diagonal
+#DEFINE FILLSTYLE_DOWNWARD_DIAGONAL       5       && 5 - Downward Diagonal
+#DEFINE FILLSTYLE_CROSS                   6       && 6 - Cross
+#DEFINE FILLSTYLE_DIAGONAL_CROSS          7       && 7 - Diagonal Cross
+
+*-- ScaleMode
+#DEFINE SCALEMODE_PIXELS          3       && 3 - Pixel
+#DEFINE SCALEMODE_FOXELS          0       && 0 - Foxels
+
+*-- WindowState
+#DEFINE WINDOWSTATE_NORMAL          0       && 0 - Normal
+#DEFINE WINDOWSTATE_MINIMIZED       1       && 1 - Minimized
+#DEFINE WINDOWSTATE_MAXIMIZED       2       && 2 - Maximized
+
+*-- Window Borders
+#DEFINE BORDER_NONE     0
+#DEFINE BORDER_SINGLE   1
+#DEFINE BORDER_DOUBLE   2
+#DEFINE BORDER_SYSTEM   3
+
+*-- Toolbar Positions
+#DEFINE TOOL_NOTDOCKED  -1
+#DEFINE TOOL_TOP        0
+#DEFINE TOOL_LEFT       1
+#DEFINE TOOL_RIGHT      2
+#DEFINE TOOL_BOTTOM     3
+
+*-- Button parameter masks
+#DEFINE BUTTON_LEFT     1
+#DEFINE BUTTON_RIGHT    2
+#DEFINE BUTTON_MIDDLE   4
+
+*-- Function Parameters
+*-- MessageBox parameters
+#DEFINE MB_OK                   0       && OK button only
+#DEFINE MB_OKCANCEL             1       && OK and Cancel buttons
+#DEFINE MB_ABORTRETRYIGNORE     2       && Abort, Retry, and Ignore buttons
+#DEFINE MB_YESNOCANCEL          3       && Yes, No, and Cancel buttons
+#DEFINE MB_YESNO                4       && Yes and No buttons
+#DEFINE MB_RETRYCANCEL          5       && Retry and Cancel buttons
+
+#DEFINE MB_ICONSTOP             16      && Critical message
+#DEFINE MB_ICONQUESTION         32      && Warning query
+#DEFINE MB_ICONEXCLAMATION      48      && Warning message
+#DEFINE MB_ICONINFORMATION      64      && Information message
+
+#DEFINE MB_APPLMODAL            0       && Application modal message box
+#DEFINE MB_DEFBUTTON1           0       && First button is default
+#DEFINE MB_DEFBUTTON2           256     && Second button is default
+#DEFINE MB_DEFBUTTON3           512     && Third button is default
+#DEFINE MB_SYSTEMMODAL          4096    && System Modal
+
+*-- MsgBox return values
+#DEFINE IDOK            1       && OK button pressed
+#DEFINE IDCANCEL        2       && Cancel button pressed
+#DEFINE IDABORT         3       && Abort button pressed
+#DEFINE IDRETRY         4       && Retry button pressed
+#DEFINE IDIGNORE        5       && Ignore button pressed
+#DEFINE IDYES           6       && Yes button pressed
+#DEFINE IDNO            7       && No button pressed
+
+
+*-- Low Level File Constants
+#DEFINE F_READONLY              0
+#DEFINE F_WRITEONLY             1
+#DEFINE F_READWRITE             2
+#DEFINE F_READONLY_UNBUFF       10
+#DEFINE F_WRITEONLY_UNBUFF      11
+#DEFINE F_READWRITE_UNBUFF      12
+
+*-- LZOpenFile() Constants
+#DEFINE OF_CANCEL 				2048
+#DEFINE OF_CREATE 				4096
+#DEFINE OF_DELETE 				512
+#DEFINE OF_EXIST 				16384
+#DEFINE OF_PARSE 				256
+#DEFINE OF_PROMPT 				8192
+#DEFINE OF_READ 				0
+#DEFINE OF_READWRITE 			2
+#DEFINE OF_REOPEN 				32768
+#DEFINE OF_SHARE_COMPAT 		0
+#DEFINE OF_SHARE_DENY_NONE 		64
+#DEFINE OF_SHARE_DENY_READ 		48
+#DEFINE OF_SHARE_DENY_WRITE 	32
+#DEFINE OF_SHARE_EXCLUSIVE 		16
+#DEFINE OF_VERIFY 				512
+#DEFINE OF_WRITE 				1
+
+
+*-- PRTINFO() Constants
+*-- PRTINFO() Valid types to pass
+#DEFINE PRT_ORIENTATION         1
+#DEFINE PRT_PAPERSIZE           2
+#DEFINE PRT_PAPERLENGTH         3
+#DEFINE PRT_PAPERWIDTH          4
+#DEFINE PRT_SCALE               5
+#DEFINE PRT_COPIES              6
+#DEFINE PRT_DEFASOURCE          7
+#DEFINE PRT_PRINTQUAL           8
+#DEFINE PRT_COLOR               9
+#DEFINE PRT_DUPLEX              10
+#DEFINE PRT_YRESOLUTION         11
+#DEFINE PRT_TTOPTION            12
+
+*--PRTINFO() Return types
+*-- Paper sizes
+#define PRTPAPER_LETTER      1       && Letter 8 1/2 x 11 in               
+#define PRTPAPER_LETTERSMALL 2       && Letter Small 8 1/2 x 11 in         
+#define PRTPAPER_TABLOID     3       && Tabloid 11 x 17 in                 
+#define PRTPAPER_LEDGER      4       && Ledger 17 x 11 in                  
+#define PRTPAPER_LEGAL       5       && Legal 8 1/2 x 14 in                
+#define PRTPAPER_STATEMENT   6       && Statement 5 1/2 x 8 1/2 in         
+#define PRTPAPER_EXECUTIVE   7       && Executive 7 1/4 x 10 1/2 in      
+#define PRTPAPER_A3          8       && A3 297 x 420 mm                    
+#define PRTPAPER_A4          9       && A4 210 x 297 mm                    
+#define PRTPAPER_A4SMALL     10      && A4 Small 210 x 297 mm              
+#define PRTPAPER_A5          11      && A5 148 x 210 mm                    
+#define PRTPAPER_B4          12      && B4 250 x 354                       
+#define PRTPAPER_B5          13      && B5 182 x 257 mm                    
+#define PRTPAPER_FOLIO       14      && Folio 8 1/2 x 13 in                
+#define PRTPAPER_QUARTO      15      && Quarto 215 x 275 mm                
+#define PRTPAPER_10X14       16      && 10x14 in                           
+#define PRTPAPER_11X17       17      && 11x17 in                           
+#define PRTPAPER_NOTE        18      && Note 8 1/2 x 11 in                 
+#define PRTPAPER_ENV_9       19      && Envelope #9 3 7/8 x 8 7/8          
+#define PRTPAPER_ENV_10      20      && Envelope #10 4 1/8 x 9 1/2         
+#define PRTPAPER_ENV_11      21      && Envelope #11 4 1/2 x 10 3/8        
+#define PRTPAPER_ENV_12      22      && Envelope #12 4 \276 x 11           
+#define PRTPAPER_ENV_14      23      && Envelope #14 5 x 11 1/2            
+#define PRTPAPER_CSHEET      24      && C size sheet                       
+#define PRTPAPER_DSHEET      25      && D size sheet                       
+#define PRTPAPER_ESHEET      26      && E size sheet                       
+#define PRTPAPER_ENV_DL      27      && Envelope DL 110 x 220mm            
+#define PRTPAPER_ENV_C5      28      && Envelope C5 162 x 229 mm           
+#define PRTPAPER_ENV_C3      29      && Envelope C3  324 x 458 mm          
+#define PRTPAPER_ENV_C4      30      && Envelope C4  229 x 324 mm          
+#define PRTPAPER_ENV_C6      31      && Envelope C6  114 x 162 mm          
+#define PRTPAPER_ENV_C65     32      && Envelope C65 114 x 229 mm          
+#define PRTPAPER_ENV_B4      33      && Envelope B4  250 x 353 mm          
+#define PRTPAPER_ENV_B5      34      && Envelope B5  176 x 250 mm          
+#define PRTPAPER_ENV_B6      35      && Envelope B6  176 x 125 mm          
+#define PRTPAPER_ENV_ITALY   36      && Envelope 110 x 230 mm              
+#define PRTPAPER_ENV_MONARCH 37      && Envelope Monarch 3.875 x 7.5 in    
+#define PRTPAPER_ENV_PERSONAL 38     && 6 3/4 Envelope 3 5/8 x 6 1/2 in    
+#define PRTPAPER_FANFOLD_US  39      && US Std Fanfold 14 7/8 x 11 in      
+#define PRTPAPER_FANFOLD_STD_GERMAN  40 && German Std Fanfold 8 1/2 x 12 in   
+#define PRTPAPER_FANFOLD_LGL_GERMAN  41 && German Legal Fanfold 8 1/2 x 13 in 
+
+*-- Paper bins
+#define PRTBIN_UPPER            1
+#define PRTBIN_ONLYONE          1
+#define PRTBIN_LOWER            2
+#define PRTBIN_MIDDLE           3
+#define PRTBIN_MANUAL           4
+#define PRTBIN_ENVELOPE         5
+#define PRTBIN_ENVMANUAL        6
+#define PRTBIN_AUTO             7
+#define PRTBIN_TRACTOR          8
+#define PRTBIN_SMALLFMT         9
+#define PRTBIN_LARGEFMT         10
+#define PRTBIN_LARGECAPACITY    11
+#define PRTBIN_CASSETTE         14
+
+*-- Print qualities
+#define PRTRES_DRAFT        -1
+#define PRTRES_LOW          -2
+#define PRTRES_MEDIUM       -3
+#define PRTRES_HIGH         -4
+
+*-- Color printer
+#define PRTCOLOR_MONOCHROME  1
+#define PRTCOLOR_COLOR       2
+
+*-- Duplexing
+#define PRTDUP_SIMPLEX    1
+#define PRTDUP_VERTICAL   2
+#define PRTDUP_HORIZONTAL 3
+
+*-- True Type fonts
+#define PRTTT_BITMAP     1  && Print True Type fonts as graphics
+#define PRTTT_DOWNLOAD   2  && Download True Type fonts as soft fonts
+#define PRTTT_SUBDEV     3  && Substitute device fonts for True Type
+
+*-- FontMetric()
+#DEFINE TM_HEIGHT           1
+#DEFINE TM_ASCENT           2
+#DEFINE TM_DESCENT          3
+#DEFINE TM_INTERNALLEADING  4
+#DEFINE TM_EXTERNALLEADING  5
+#DEFINE TM_AVECHARWIDTH     6
+#DEFINE TM_MAXCHARWIDTH     7
+#DEFINE TM_WEIGHT           8
+#DEFINE TM_ITALIC           9
+#DEFINE TM_UNDERLINED      10
+#DEFINE TM_STRUCKOUT       11
+#DEFINE TM_FIRSTCHAR       12
+#DEFINE TM_LASTCHAR        13
+#DEFINE TM_DEFAULTCHAR     14
+#DEFINE TM_BREAKCHAR       15
+#DEFINE TM_PITCHANDFAMILY  16
+#DEFINE TM_CHARSET         17
+#DEFINE TM_OVERHANG        18
+#DEFINE TM_ASPECTX         19
+#DEFINE TM_ASPECTY         20
+
+*-- SysMetric()
+#DEFINE SM_CXSCREEN             0
+#DEFINE SM_CYSCREEN             1
+#DEFINE SM_CXVSCROLL            2
+#DEFINE SM_CYHSCROLL            3
+#DEFINE SM_CYCAPTION            4
+#DEFINE SM_CXBORDER             5
+#DEFINE SM_CYBORDER             6
+#DEFINE SM_CXDLGFRAME           7
+#DEFINE SM_CYDLGFRAME           8
+#DEFINE SM_CYVTHUMB             9
+#DEFINE SM_CXHTHUMB             10
+#DEFINE SM_CXICON               11
+#DEFINE SM_CYICON               12
+#DEFINE SM_CXCURSOR             13
+#DEFINE SM_CYCURSOR             14
+#DEFINE SM_CYMENU               15
+#DEFINE SM_CXFULLSCREEN         16
+#DEFINE SM_CYFULLSCREEN         17
+#DEFINE SM_CYKANJIWINDOW        18
+#DEFINE SM_MOUSEPRESENT         19
+#DEFINE SM_CYVSCROLL            20
+#DEFINE SM_CXHSCROLL            21
+#DEFINE SM_DEBUG                22
+#DEFINE SM_SWAPBUTTON           23
+#DEFINE SM_RESERVED1            24
+#DEFINE SM_RESERVED2            25
+#DEFINE SM_RESERVED3            26
+#DEFINE SM_RESERVED4            27
+#DEFINE SM_CXMIN                28
+#DEFINE SM_CYMIN                29
+#DEFINE SM_CXSIZE               30
+#DEFINE SM_CYSIZE               31
+#DEFINE SM_CXFRAME              32
+#DEFINE SM_CYFRAME              33
+#DEFINE SM_CXMINTRACK           34
+#DEFINE SM_CYMINTRACK           35
+#DEFINE SM_CMETRICS             36
+
+*-- Cursor buffering modes
+#DEFINE DB_BUFOFF               1
+#DEFINE DB_BUFLOCKRECORD        2
+#DEFINE DB_BUFOPTRECORD         3        
+#DEFINE DB_BUFLOCKTABLE         4
+#DEFINE DB_BUFOPTTABLE          5
+
+*-- Update types for views/cursors
+#DEFINE DB_UPDATE               1
+#DEFINE DB_DELETEINSERT         2
+
+*-- WHERE clause types for views/cursors
+#DEFINE DB_KEY                  1
+#DEFINE DB_KEYANDUPDATABLE      2
+#DEFINE DB_KEYANDMODIFIED       3
+#DEFINE DB_KEYANDTIMESTAMP      4
+
+*-- Remote connection login prompt options
+#DEFINE DB_PROMPTCOMPLETE       1
+#DEFINE DB_PROMPTALWAYS         2
+#DEFINE DB_PROMPTNEVER          3
+
+*-- Remote transaction modes
+#DEFINE DB_TRANSAUTO            1
+#DEFINE DB_TRANSMANUAL          2
+
+*-- Source Types for CursorGetProp()
+#DEFINE DB_SRCLOCALVIEW         1
+#DEFINE DB_SRCREMOTEVIEW        2
+#DEFINE DB_SRCTABLE             3
+
+*-- GetSysColor Parameter Constants
+#DEFINE COLOR_ScrollBars		0	&& Color de la barra de desplazamiento
+#DEFINE COLOR_Desktop			1	&& Color del escritorio
+#DEFINE COLOR_ActiveTitleBar		2	&& Color de la barra de título de la ventana activa
+#DEFINE COLOR_InactiveTitleBar		3	&& Color de la barra de título de la ventana inactiva
+#DEFINE COLOR_MenuBar			4	&& Color del menú de fondo
+#DEFINE COLOR_WindowBackground		5	&& Color de la ventanade fondo
+#DEFINE COLOR_WindowFrame		6	&& Color del marco de la ventana
+#DEFINE COLOR_MenuText			7	&& Color of text on menus
+#DEFINE COLOR_WindowText		8	&& Color del texto en las ventanas
+#DEFINE COLOR_TitleBarText		9	&& Color del texto en el título, cuadro control de tamaño y flecha de desplazamiento
+#DEFINE COLOR_ActiveBorder		10	&& Color del borde de la ventana activa
+#DEFINE COLOR_InactiveBorder		11	&& Color del borde de la ventana inactiva
+#DEFINE COLOR_ApplicationWorkspace	12	&& Color de fondo de las aplicaciones de interfaz de documentos múltiples (MDI)
+#DEFINE COLOR_Highlight			13	&& Color de fondo de los elementos seleccionados en un control 
+#DEFINE COLOR_HighlightText		14	&& Color del texto de los elementos seleccionados en un control
+#DEFINE COLOR_ButtonFace		15	&& Color del sombredo en la cara de los botones de comando
+#DEFINE COLOR_ButtonShadow		16	&& Color del sombredo en la borde de los botones de comando 
+#DEFINE COLOR_GrayText			17	&& Texto atenuado (desactivado)
+#DEFINE COLOR_ButtonText		18	&& Color del texto en botones de comando
+#DEFINE COLOR_InactiveCaptionText	19	&& Color del texto en un título inactivo
+#DEFINE COLOR_3Dhighlight		20	&& Color de resalte para elementos mostrados en 3D
+#DEFINE COLOR_3DDKShadow		21	&& Color de sombra más oscura para elementos mostrados en 3D
+#DEFINE COLOR_3Dlight			22	&& Segundo color más brillante en 3D después de vb3Dhighlight
+#DEFINE COLOR_InfoText			23	&& Color del texto en la Información sobre herramientas
+#DEFINE COLOR_InfoBackground		24	&& Color de fondo en la Información sobre herramientas
+
+* AddMenu Constants
+#DEFINE MF_BITMAP 				4
+#DEFINE MF_CHECKED 				8
+#DEFINE MF_DISABLED 			2
+#DEFINE MF_GRAYED 				1
+#DEFINE MF_SEPARATOR			2048
+
+*#DEFINE MF_APPEND 				&H100&
+*#DEFINE MF_BYCOMMAND 			&H0&
+*#DEFINE MF_BYPOSITION 			&H400&
+*#DEFINE MF_CALLBACKS 			&H8000000
+*#DEFINE MF_CHANGE 				&H80&
+*#DEFINE MF_CONV 				&H40000000
+*#DEFINE MF_DELETE 				&H200&
+*#DEFINE MF_ENABLED 				&H0&
+*#DEFINE MF_END 					&H80
+*#DEFINE MF_ERRORS 				&H10000000
+*#DEFINE MF_HELP 				&H4000&
+*#DEFINE MF_HILITE 				128
+*#DEFINE MF_HSZ_INFO 			&H1000000
+*#DEFINE MF_INSERT 				&H0&
+*#DEFINE MF_LINKS 				&H20000000
+*#DEFINE MF_MASK 				&HFF000000
+*#DEFINE MF_MENUBARBREAK 		&H20&
+*#DEFINE MF_MENUBREAK 			&H40&
+*#DEFINE MF_MOUSESELECT 			&H8000&
+*#DEFINE MF_OWNERDRAW 			&H100&
+*#DEFINE MF_POPUP 				&H10&
+*#DEFINE MF_POSTMSGS 			&H4000000
+*#DEFINE MF_REMOVE 				&H1000&
+*#DEFINE MF_SENDMSGS 			&H2000000
+*#DEFINE MF_STRING 				&H0&
+*#DEFINE MF_SYSMENU 				&H2000&
+*#DEFINE MF_UNCHECKED 			&H0&
+*#DEFINE MF_UNHILITE 			&H0&
+*#DEFINE MF_USECHECKBITMAPS		&H200&
+
+#DEFINE	SWP_TOPMOST 		-1
+#DEFINE	SWP_NOTOPMOST 		-2
+#DEFINE	SWP_NOACTIVATE		16
+#DEFINE	SWP_SHOWWINDOW 		64
+
+* CONSTANTES DE COMMONDIALOG
+#DEFINE CDL_PDAllPages 				0		&& Devuelve o establece el estado delbotón de opción Todo. 
+#DEFINE CDL_PDCollate 				16 		&& Devuelve o establece el estado de lacasilla de verificación Intercalar. 
+#DEFINE CDL_PDDisablePrintToFile	524288 	&& Deshabilita la casilla de verificación Imprimir en un archivo. 
+*cdlPDHelpButton &H800 Hace que el cuadro de diálogo presente el botón Ayuda. 
+*cdlPDHidePrintToFile &H100000 Oculta la casilla de verificación Imprimir en un archivo. 
+#DEFINE CDL_PDNoPageNums 			8	 	&& Deshabilita el botón de opción Páginas y el control de edición asociado. 
+*cdlPDNoSelection &H4 Deshabilita el botón de opción Selección. 
+*cdlPDNoWarning &H80 Evita que aparezca un mensaje de advertencia cuando no hay ninguna impresora predeterminada. 
+*cdlPDPageNums &H2 Devuelve o establece el estado del botón de opción Páginas. 
+*cdlPDPrintSetup &H40 Hace que el sistema presente el cuadro de diálogo Configurar impresora en vez del cuadro de diálogo Imprimir. 
+*cdlPDPrintToFile &H20 Devuelve o establece el estado de la casilla de verificación Imprimir en un archivo. 
+#DEFINE CDL_PDReturnDC 				256 	&& Devuelve uncontexto de dispositivo para la impresora seleccionada en el cuadro de diálogo. El contexto de dispositivo se devuelve en la propiedad hDC del cuadro de diálogo. 
+*cdlPDReturnDefault &H400 Devuelve el nombre de la impresora predeterminada. 
+*cdlPDReturnIC &H200 Devuelve un contexto de información para la impresora seleccionada en el cuadro de diálogo. El contexto de información proporciona una manera rápida de obtener información acerca del dispositivo sin crear un contexto de dispositivo. El contexto de información se devuelve en la propiedad hDC del cuadro de diálogo. 
+#DEFINE CDL_PDSelection 			1 		&& Devuelve o establece el estado del botón de opción Selección. Si no se especifican cdlPDPageNums ni cdlPDSelection, el botón de opción Todo estará en el estado seleccionado. 
+*CdlPDUseDevModeCopies &H40000 Si un controlador de impresora no acepta varias copias, el establecimiento de este indicador deshabilita el control Número de copias del cuadro de diálogo Imprimir. Si un controlador no acepta varias copias, el establecimiento de este indicador señala que el cuadro de diálogo almacena el número de copias solicitado en la propiedad Copies 
+
+* CONSTANTES SENDMESSAGE
+#DEFINE CB_SHOWDROPDOWN 	335
+
+***************************************************************
+* SOPORTE PARA DISPOSITIVOS MÓBILES POTENCIADOS POR WINDOWS CE
+* CONSTANTES A USARSE CON CEUTIL.DLL
+* PARA INTERCAMBIO DE ARCHIVOS ENTRE DOBRA Y PocketDOBRA.
+***************************************************************
+#DEFINE CESVC_ROOT_COMMON 		0
+#DEFINE CESVC_ROOT_USER 		1
+#DEFINE CESVC_DEVICES 			2
+#DEFINE CESVC_DEVICEX 			3
+#DEFINE CESVC_DEVICE 			4
+#DEFINE CESVC_DEVICE_SELECTED 	5
+#DEFINE CESVC_SERVICES 			6
+#DEFINE CESVC_SERVICES_COMMON 	7
+#DEFINE CESVC_SYNC 				8
+#DEFINE CESVC_SYNC_COMMON 		9
+#DEFINE CESVC_FILTERS 			10
+#DEFINE CESVC_SPECIAL_DEFAULTS 	11
+#DEFINE CESVC_CUSTOM_MENUS 		12
+#DEFINE CESVC_ROOT_MACHINE 		0
+#DEFINE CESVC_SERVICES_USER 	2
+
+**********************************
+*ANEXO TRANSACCIONAL
+**********************************
+#DEFINE NOT_SUPPORTED_DATATYPES	"GP"
+#DEFINE VIRTUAL_CRLF			chr(1)+chr(0)+chr(1)
+
+
+**********************************
+**  CONSTANTES EXCLUSIVAS DE DOBRA
+**********************************
+*** MAPA de Imágenes del Image List
+*** Small Icons
+#DEFINE IDSI_MUNDO		1
+#DEFINE IDSI_FOLDER		2
+#DEFINE IDSI_FOLDEROP		3
+#DEFINE IDSI_FOLDERC		4
+#DEFINE IDSI_FOLDEROPC		5
+#DEFINE IDSI_FOLDERG		6
+#DEFINE IDSI_FOLDEROPG		7
+#DEFINE IDSI_FOLDERM		8
+#DEFINE IDSI_FOLDEROPM		9
+#DEFINE IDSI_FOLDERR		10
+#DEFINE IDSI_FOLDEROPR		11
+#DEFINE IDSI_PAGE		12
+#DEFINE IDSI_LIBRO		13
+#DEFINE IDSI_SOBRE		14
+#DEFINE IDSI_SOBREOP		15
+#DEFINE IDSI_TASK			16
+#DEFINE IDSI_EMPRESA		17
+#DEFINE IDSI_DEPARTAMENTO	18
+#DEFINE IDSI_BODEGA			19
+#DEFINE IDSI_OFICINA		20
+#DEFINE IDSI_DELETED		20
+#DEFINE IDSI_USER			21
+#DEFINE IDSI_RECURSO		22
+#DEFINE IDSI_CHECKON		23
+#DEFINE IDSI_CHECKOFF		24
+#DEFINE IDSI_FILER			25
+#DEFINE IDSI_PARAMETER		26
+#DEFINE IDSI_LIST			27
+#DEFINE IDSI_CUENTAS		28
+#DEFINE IDSI_CUSTOM			29
+#DEFINE IDSI_REPORTE		30
+#DEFINE IDSI_SAVE			31
+#DEFINE IDSI_UNDO			32
+#DEFINE IDSI_NEW			33
+#DEFINE IDSI_EDIT			34
+#DEFINE IDSI_DELETE			20
+#DEFINE IDSI_SEARCH			35
+#DEFINE IDSI_PRINT			36
+#DEFINE IDSI_EXIT			37
+#DEFINE IDSI_HOME			17
+#DEFINE IDSI_BACK			38
+#DEFINE IDSI_BROWSER		45
+#DEFINE IDSI_TREE			40
+#DEFINE IDSI_MAXIMIZE		41
+#DEFINE IDSI_UPLEVEL		42
+#DEFINE IDSI_OPEN			43
+#DEFINE IDSI_MAILTO			44
+#DEFINE IDSI_QUERY			39
+#DEFINE IDSI_USUARIO		29
+#DEFINE IDSI_TABLA			26
+#DEFINE IDSI_CURSO			18
+#DEFINE IDSI_ZONA			46
+#DEFINE IDSI_GRAPH			47
+#DEFINE IDSI_GRID			48
+#DEFINE IDSI_LISTVIEW		49
+#DEFINE IDSI_HTML			50
+#DEFINE IDSI_CONTAINER		39
+#DEFINE IDSI_RTF			26
+#DEFINE IDSI_BUZON			51
+#DEFINE IDSI_AREA			52
+#DEFINE IDSI_BODEGA1		53
+#DEFINE IDSI_DEPARTAMENTO1	54
+#DEFINE IDSI_EDIFICIO		55
+#DEFINE IDSI_OFICINA1		56
+#DEFINE IDSI_GARAJE			57
+#DEFINE IDSI_ISLA			58
+#DEFINE IDSI_COMPANIA1		59
+
+
+
+
+*** Large Icons
+#DEFINE IDLI_DOBRA			1
+#DEFINE IDLI_TASKBOX		2
+#DEFINE IDLI_DIARIO			3
+#DEFINE IDLI_INBOX			4
+#DEFINE IDLI_OUTBOX			5
+#DEFINE IDLI_LIBRO			6
+#DEFINE IDLI_BANCO			7
+#DEFINE IDLI_FOLDER			8
+#DEFINE IDLI_PAPER			9
+
+*** Constantes para libros de trabajo
+*** DEFINICION
+#DEFINE IDBOOK_CLIENTES		"CLIENTES"
+#DEFINE IDBOOK_ACREEDORES	"ACREEDORES"
+#DEFINE IDBOOK_INVENTARIO	"INVENTARIO"
+#DEFINE IDBOOK_BANCOS		"BANCOS"
+#DEFINE IDBOOK_CONTABILIDAD	"CONTABILIDAD"
+#DEFINE IDBOOK_EMPLEADOS	"PERSONAL"
+#DEFINE IDBOOK_USUARIOS		"USUARIOS"
+#DEFINE IDBOOK_MAILBOX		"MAILBOX"
+#DEFINE IDBOOK_DOCUMENTOS	"DOCUMENTOS"
+
+*** CONTABILIDAD
+#DEFINE IDACNT_TYPE_GRUPO		"GRUPO"
+#DEFINE IDACNT_TYPE_DETALLE		"DETALLE"
+#DEFINE IDACNT_TYPE_ENLACE		"ENLACE"
+
+#DEFINE IDACNT_CLASS_PATRIMONIALES		"10"
+#DEFINE IDACNT_CLASS_ACTIVO				"11"
+#DEFINE IDACNT_CLASS_PASIVO				"12"
+#DEFINE IDACNT_CLASS_CAPITAL			"13"
+#DEFINE IDACNT_CLASS_PRESUPUESTARIAS	"20"
+#DEFINE IDACNT_CLASS_PARTIDA_INGRESOS	"21"
+#DEFINE IDACNT_CLASS_PARTIDA_GASTOS		"22"
+#DEFINE IDACNT_CLASS_RESULTADOS			"60"
+#DEFINE IDACNT_CLASS_INGRESOS			"61"
+#DEFINE IDACNT_CLASS_GASTOS				"62"
+#DEFINE IDACNT_CLASS_ORDEN				"90"
+#DEFINE IDACNT_CLASS_ORDEN_DEUDORA		"91"
+#DEFINE IDACNT_CLASS_ORDEN_ACREEDORA	"92"
+
+**** BANCOS
+#DEFINE IDBANK_CLASS_BANCO		1
+#DEFINE IDBANK_CLASS_CAJA		2
+#DEFINE IDBANK_CLASS_EFECTIVO	3
+
+**** DOCUMENTOS
+#DEFINE IDDOC_ACC_ASIENTO			"ACC-CD"
+#DEFINE IDDOC_ACC_ASIENTO_LIQUIDACIÓN "ACC-LQ"
+#DEFINE IDDOC_ACC_ASIENTO_ANULADO	"ACC-CD*"
+
+**** ACTIVOS
+#DEFINE IDACT_DIASCOMERCIALES		360
+
+**** ACTIVOS
+#DEFINE IDDOC_ACT_FACTURAS			"ACT-FA"
+#DEFINE IDDOC_ACT_ASIGNACION		"ACT-AS"
+#DEFINE IDDOC_ACT_INGRESOS			"ACT-IN"
+#DEFINE IDDOC_ACT_EGRESOS			"ACT-EG"
+#DEFINE IDDOC_ACT_DEPRECIACION		"ACT-DP"
+#DEFINE IDDOC_ACT_ORDENES			"ACT-OR"
+
+*****AGRICOLA
+#DEFINE IDDOC_AGR_CONTROL_LABORES   "AGR-CO"
+#DEFINE IDDOC_AGR_LIQUIDACIONES		"AGR-LI"
+*****BANCOS
+#DEFINE IDDOC_BAN_DEBITO			"BAN-ND"
+#DEFINE IDDOC_BAN_DEBITO_ANULADO	"BAN-ND*"
+#DEFINE IDDOC_BAN_DEBITO_GARANTIA	"BAN-ND-GA"
+#DEFINE IDDOC_BAN_CREDITO			"BAN-NC"
+#DEFINE IDDOC_BAN_CREDITO_ANULADO	"BAN-NC*"
+#DEFINE IDDOC_BAN_CONCILIACION		"BAN-CN"
+#DEFINE IDDOC_BAN_TRANSFERENCIA		"BAN-TR"
+#DEFINE IDDOC_BAN_DEPOSITO			"BAN-DP"
+#DEFINE IDDOC_BAN_INGRESO			"BAN-IN"
+#DEFINE IDDOC_BAN_INGRESO_GARANTIA	"BAN-IN-GA"
+#DEFINE IDDOC_BAN_EGRESO			"BAN-EG"
+#DEFINE IDDOC_BAN_EGRESO_GARANTIA	"BAN-EG-GA"
+#DEFINE IDDOC_AGR_EGRESO			"AGR-EG"
+#DEFINE IDDOC_BAN_PAPELETA			"BAN-PA"
+#DEFINE IDDOC_BAN_CHEQUE_PROTESTADO	 "BAN-CH-PR"
+
+******ESTUDIANTES
+#DEFINE IDDOC_EST_INICIAL			"EST-SI"
+#DEFINE IDDOC_EST_MATRICULA			"EST-MA"
+#DEFINE IDDOC_EST_MATRICULA_ANULADO	"EST-MA*"
+#DEFINE IDDOC_EST_INGRESO			"EST-IN"
+#DEFINE IDDOC_EST_RESERVADO			"EST-IN-RE"
+#DEFINE IDDOC_EST_INSCRIPCION		"EST-INSCR"
+#DEFINE IDDOC_EST_EGRESO			"EST-EG"
+#DEFINE IDDOC_EST_INGRESO_ANULADO	"EST-IN*"
+#DEFINE IDDOC_EST_DEBITO			"EST-DB"
+#DEFINE IDDOC_EST_CREDITO			"EST-CR"
+#DEFINE IDDOC_EST_FACTURAS			"EST-FA"
+#DEFINE IDDOC_EST_FACTURA			"EST-FA"
+#DEFINE IDDOC_EST_FACTURA_MATRICULA	"EST-FA-MA"
+#DEFINE IDDOC_EST_FACTURA_PENSION	"EST-FA-PE"
+#DEFINE IDDOC_EST_DEVOLUCIONES		"EST-DE"
+#DEFINE IDDOC_EST_ORDENES			"EST-OR"
+#DEFINE IDDOC_EST_CANCELACION		"EST-CA"
+#DEFINE IDDOC_EST_PRESUPUESTO		"EST-PR-CO"
+#DEFINE IDDOC_EST_CRUCE_AFAVOR		"EST-CR-AF"
+#DEFINE IDDOC_MBX_MENSAJE			"MBX-MS"
+
+********CLIENTES
+#DEFINE IDDOC_CLI_INICIAL			"CLI-SI"
+#DEFINE IDDOC_CLI_INGRESO			"CLI-IN"
+#DEFINE IDDOC_CLI_RETENCION			"CLI-RT"
+#DEFINE IDDOC_CLI_INGRESO_FACTURA	"CLI-IN-FA"
+#DEFINE IDDOC_CLI_EGRESO			"CLI-EG"
+#DEFINE IDDOC_CLI_DEBITO			"CLI-DB"
+#DEFINE IDDOC_CLI_DEBITO_AJUSTE		"CLI-DB-AJ"
+#DEFINE IDDOC_CLI_DEBITO_INTERNA	"CLI-DB-IN"
+#DEFINE IDDOC_CLI_CREDITO_AJUSTE	"CLI-CR-AJ"
+#DEFINE IDDOC_CLI_CREDITO_INTERNA	"CLI-CR-IN"
+#DEFINE IDDOC_CLI_CREDITO			"CLI-CR"
+#DEFINE IDDOC_CLI_CREDITO_PRODUCTO  "CLI-CR-PD"
+#DEFINE IDDOC_CLI_CREDITO_DEVOLUCION "CLI-CR-DV"
+#DEFINE IDDOC_CLI_CREDITO_MASIVO	"CLI-CR-MA"
+#DEFINE IDDOC_CLI_CHEQUES			"CLI-CH"
+#DEFINE IDDOC_CLI_LICENCIA			"CLI-LICE"
+#DEFINE IDDOC_CLI_COTIZACION		"CLI-CT"
+#DEFINE IDDOC_CLI_INGRESO_CHEQUE	"CLI-IN-CH"
+#DEFINE IDDOC_CLI_INGRESO_ANTICIPO	"CLI-IN-AN"
+#DEFINE IDDOC_CLI_INGRESO_RETENCIONES	"CLI-IN-RT"
+#DEFINE IDDOC_CLI_INGRESO_MASIVO	"CLI-IN-MA"
+#DEFINE IDDOC_CLI_INGRESO_COBRANZAS	"CLI-IN-CB"
+#DEFINE IDDOC_CLI_LETRAS_CAMBIO		"CLI-LT"
+#DEFINE IDDOC_CLI_EGRESO_FONDO_MORTUORIO "CLI-EG-FM"
+#DEFINE IDDOC_CRUCE_AFAVOR			"CLI-CR-AF"
+#DEFINE IDDOC_CRUCE_PAPELETA		"CLI-CR-PP"
+#DEFINE IDDOC_CRUCE_AFAVOR_ACR		"ACR-CR-AF"
+#DEFINE IDDOC_CRUCE_ACREEDOR		"CLI-CR-AC"
+#DEFINE IDDOC_CLI_SOLICITUD			"CLI-SL"
+#DEFINE IDDOC_CLI_PLAN_ACUMULATIVO	"CLI-PA"
+#DEFINE IDDOC_CLI_OBSERVACIONES		"CLI-OBS"
+#DEFINE IDDOC_CLI_GARANTIA_CHEQUE	"CLI-CH-GA"
+#DEFINE IDDOC_CLI_ARRIENDO_CHEQUE	"CLI-CH-AR"
+#DEFINE IDDOC_CLI_GARANTIA_FACTURAS "CLI-FA-GA"
+#DEFINE IDDOC_CLI_RUTA				"CLI-RT-VE"
+#DEFINE IDDOC_CLI_RETENCIONES		"CLI-RET"
+
+********EMPLEADOS
+#DEFINE IDDOC_EMP_INICIAL			"EMP-SI"
+#DEFINE IDDOC_EMP_INGRESO			"EMP-IN"
+#DEFINE IDDOC_EMP_DEBITO			"EMP-DB"
+#DEFINE IDDOC_EMP_DEBITO_MASIVO		"EMP-DB-MA"
+#DEFINE IDDOC_EMP_DEBITO_COMIDA		"EMP-DB-CO"
+#DEFINE IDDOC_EMP_CREDITO			"EMP-CR"
+#DEFINE IDDOC_EMP_CREDITO_MASIVO	"EMP-CR-MA"
+#DEFINE IDDOC_EMP_ROL				"EMP-RL"
+#DEFINE IDDOC_EMP_ROL_AGRICOLA		"EMP-RL-AG"
+#DEFINE IDDOC_EMP_PRESTAMO			"EMP-EG"
+#DEFINE IDDOC_EMP_PRESTAMO_MASIVO	"EMP-EG-MA"
+#DEFINE IDDOC_EMP_ANTICIPO			"EMP-EG-AT"
+#DEFINE IDDOC_EMP_DECIMOS			"EMP-DE"
+#DEFINE IDDOC_EMP_VACACIONES		"EMP-VA"
+#DEFINE IDDOC_EMP_LIQUIDACION		"EMP-LI"
+#DEFINE IDDOC_EMP_UTILIDADES		"EMP-UT"
+#DEFINE IDDOC_EMP_ATRASOS			"EMP-AT"
+#DEFINE IDDOC_EMP_FACTURAS_NOTAVENTA "EMP-NV"
+#DEFINE IDDOC_EMP_OBSERVACIONES		"EMP-OBS"
+#DEFINE IDDOC_EMP_MULTAS			"EMP-MUL"
+
+********ACREEDORES
+#DEFINE IDDOC_ACR_INICIAL			"ACR-SI"
+#DEFINE IDDOC_ACR_EGRESO			"ACR-EG"
+#DEFINE IDDOC_ACR_EGRESO_MASIVO		"ACR-EG-MA"
+#DEFINE IDDOC_ACR_RETENCION			"ACR-RT"
+#DEFINE IDDOC_ACR_DEBITO_PRODUCTO  "ACR-DB-PD"
+#DEFINE IDDOC_ACR_DEBITO			"ACR-DB"
+#DEFINE IDDOC_ACR_CREDITO			"ACR-CR"
+#DEFINE IDDOC_ACR_CRUCE_AFAVOR		"ACR-CR-AF"
+#DEFINE IDDOC_ACR_CHEQUES			"ACR-CH"
+#DEFINE IDDOC_ACR_CHEQUES_GARANTIA	"ACR-GA"
+#DEFINE IDDOC_ACR_EGRESO_CHEQUE		"ACR-EG-CH"
+#DEFINE IDDOC_ACR_EGRESO_GARANTIAS	"ACR-EG-GA"
+
+********INVENTARIOS
+#DEFINE IDDOC_INV_INICIAL			"INV-SI"
+#DEFINE IDDOC_INV_INGRESO			"INV-IN"
+#DEFINE IDDOC_INV_INGRESO_CUSTODIO	"INV-IN-CU"
+#DEFINE IDDOC_INV_EGRESO			"INV-EG"
+#DEFINE IDDOC_INV_EGRESO_CUSTODIO	"INV-EG-CU"
+#DEFINE IDDOC_INV_EGRESO_ORDENES	"INV-EG-OR"
+#DEFINE IDDOC_INV_FISICA			"INV-FI"
+#DEFINE IDDOC_INV_CONTEO			"INV-CT"
+#DEFINE IDDOC_INV_TRANSFERENCIA		"INV-TR"
+#DEFINE IDDOC_INV_TRANSFERENCIA_SUC	"INV-TR-SU"
+#DEFINE IDDOC_INV_TRANSFERENCIA_APROBACION	"INV-TR-AP"
+#DEFINE IDDOC_INV_TRANSFERENCIA_EGRESO "INV-TR-EG"
+#DEFINE IDDOC_INV_TRANSFERENCIA_INGRESO "INV-TR-IN"
+#DEFINE IDDOC_INV_INGRESO_TRANSFERENCIA	"INV-IN-TR"
+#DEFINE IDDOC_INV_FISICA_INGRESO	"INV-FIIN"
+#DEFINE IDDOC_INV_FISICA_EGRESO		"INV-FIEG"
+#DEFINE IDDOC_INV_GUIAS_REMISION	"INV-GUIA"
+#DEFINE IDDOC_INV_INGRESO_PRODUCCION "INV-INPR"
+#DEFINE IDDOC_INV_AJUSTE_COSTOS 	"INV-AJ"
+#DEFINE IDDOC_INV_AJUSTE_EQUIVALENCIAS "INV-AJ-EQ"
+#DEFINE IDDOC_INV_ENSAMBLAJE 		"INV-EN"
+#DEFINE IDDOC_INV_CONSUMOS			"INV-CO"
+#DEFINE IDDOC_INV_CONVERSION		"INV-CV"
+
+********INMOBILIARIA
+#DEFINE IDDOC_INM_CREDITO			"INM-CR"
+
+********PROVEEDURÍA
+#DEFINE IDDOC_PRV_INICIAL			"PRV-SI"
+#DEFINE IDDOC_PRV_FACTURAS			"PRV-FA"
+#DEFINE IDDOC_PRV_LIQUIDACIONES		"PRV-LI"
+#DEFINE IDDOC_PRV_FACTURAS_CTA		"PRV-FA-CT"
+#DEFINE IDDOC_PRV_LIQUIDACIONES_CTA	"PRV-LI-CT"
+#DEFINE IDDOC_PRV_ORDENES			"PRV-OR"
+#DEFINE IDDOC_PRV_INGRESO			"PRV-IN"
+#DEFINE IDDOC_PRV_EGRESO			"PRV-EG"
+#DEFINE IDDOC_PRV_FISICA			"PRV-FI"
+#DEFINE IDDOC_PRV_CONSUMOS			"PRV-CO"
+#DEFINE IDDOC_PRV_REINTEGROS		"PRV-RE"
+#DEFINE IDDOC_PRV_DEVOLUCIONES		"PRV-DE"
+#DEFINE IDDOC_PRV_TRANSFERENCIA		"PRV-TR"
+#DEFINE IDDOC_PRV_FISICA_INGRESO	"PRV-FIIN"
+#DEFINE IDDOC_PRV_FISICA_EGRESO		"PRV-FIEG"
+#DEFINE IDDOC_PRV_LIQUIDACIONES		"PRV-LI"
+#DEFINE IDDOC_PRV_SUMINISTROS		"PRV-SOL"
+
+********TRAMITES
+#DEFINE IDDOC_TRM_INICIAL			"TRM-SI"
+#DEFINE IDDOC_TRM_TRAMITES			"TRM-DO"
+#DEFINE IDDOC_TRM_EGRESOS			"TRM-EG"
+#DEFINE IDDOC_TRM_EGRESOS_MASIVOS	"TRM-EG-MA"
+#DEFINE IDDOC_TRM_INGRESOS			"TRM-IN"
+#DEFINE IDDOC_TRM_INGRESOS_MASIVOS	"TRM-IN-MA"
+#DEFINE IDDOC_TRM_DEBITO			"TRM-ND"
+#DEFINE IDDOC_TRM_DEBITO_CONTABLE	"TRM-ND-CT"
+#DEFINE IDDOC_TRM_CREDITO			"TRM-CR"
+#DEFINE IDDOC_TRM_DEBITO_MASIVOS	"TRM-ND-MA"
+#DEFINE IDDOC_TRM_FACTURAS				"TRM-FA"
+#DEFINE IDDOC_TRM_FACTURAS_REEMBOLSO	"TRM-RE"
+#DEFINE IDDOC_TRM_FACTURAS_REEMBOLSO_TOL	"TRM-RB"
+#DEFINE IDDOC_TRM_FACTURAS_FLETE_TOL		"TRM-RE"
+&& #DEFINE IDDOC_TRM_FACTURAS_FLETE		"TRM-RE"
+#DEFINE IDDOC_TRM_FACTURAS_AVISO_COBRO	"TRM-AC"
+#DEFINE IDDOC_TRM_ALCANCE_SERVICIOS		"TRM-AH"
+#DEFINE IDDOC_TRM_ALCANCE_REEMBOLSO		"TRM-AR"
+#DEFINE IDDOC_TRM_RE_FACTURAS_SERVICIOS	"TRM-RH"
+#DEFINE IDDOC_TRM_RE_FACTURAS_FLETE_TOL "TRM-RF"
+#DEFINE IDDOC_TRM_RE_FACTURAS_REEMBOLSO	"TRM-RR"
+#DEFINE IDDOC_TRM_RE_FACTURAS_AVISO		"TRM-RA"
+#DEFINE IDDOC_TRM_FACTURAS_ANTICIPADA 	"TRM-AN"
+#DEFINE IDDOC_TRM_FACTURAS_ANTICIPADA_SERVICIOS	"TRM-AS"
+#DEFINE IDDOC_TRM_SERVICIOS				"TRM-SE"
+#DEFINE IDDOC_TRM_SERVICIOS_MASIVOS		"TRM-SE-MA"
+#DEFINE IDDOC_TRM_VALORES_RECIBIDOS		"TRM-VA"
+#DEFINE IDDOC_TRM_GARANTIA				"TRM-GA"
+#DEFINE IDDOC_TRM_GARANTIA_COOPSEGUROS	"TRM-GA-CO"
+#DEFINE IDDOC_TRM_GARANTIA_HISPANA		"TRM-GA-HI"
+
+********TRANSPORTE
+#DEFINE IDDOC_TRA_ORDEN_TRABAJO			 "TRA-OR"
+#DEFINE IDDOC_TRA_BODEGAJE				 "TRA-BO"
+#DEFINE IDDOC_TRA_EGRESOS_MASIVOS		 "TRA-EG-MA"
+#DEFINE IDDOC_TRA_EGRESOS				 "TRA-EG"
+#DEFINE IDDOC_TRA_EGRESOS_COMISION		 "TRA-EG-CO"
+#DEFINE IDDOC_TRA_FACTURAS				 "TRA-FA"
+#DEFINE IDDOC_TRA_FACTURAS_REEMBOLSO 	 "TRA-RE"
+#DEFINE IDDOC_TRA_FACTURAS_AVISO_COBRO	 "TRA-AC"
+#DEFINE IDDOC_TRA_ALCANCES				 "TRA-AL"
+#DEFINE IDDOC_TRA_ALCANCES_SERVICIOS	 "TRA-AS"
+#DEFINE IDDOC_TRA_ALCANCES_REEMBOLSOS	 "TRA-AR"
+#DEFINE IDDOC_TRA_ALCANCES_AVISOS_COBRO	 "TRA-AC"
+#DEFINE IDDOC_TRA_REFACTURAS_SERVICIOS	 "TRA-RS"
+#DEFINE IDDOC_TRA_REFACTURAS_REEMBOLSOS	 "TRA-RR"
+#DEFINE IDDOC_TRA_REFACTURAS_AVISO_COBRO "TRA-RA"
+#DEFINE IDDOC_TRA_SERVICIOS_MASIVOS		 "TRA-SE-MA"
+#DEFINE IDDOC_TRA_GALONAJE				 "TRA-TQ"
+#DEFINE IDDOC_TRA_SERVICIOS				 "TRA-FA-PV"
+#DEFINE IDDOC_TRA_EGRESO_GARANTIA		 "TRA-GA"
+#DEFINE IDDOC_TRA_COMISION 				 "TRA-FA-CO"
+#DEFINE IDDOC_TRA_GUIAS_REMISION		 "TRA-GUIA"
+
+
+
+********VENTAS
+#DEFINE IDDOC_VEN_FACTURAS			 	"VEN-FA"
+#DEFINE IDDOC_VEN_FACTURAS_SERVICIOS 	"VEN-FA-SV"
+#DEFINE IDDOC_VEN_FACTURAS_COBERTURA    "VEN-FA-CB"
+#DEFINE IDDOC_VEN_FACTURAS_ESTUDIANTES	"VEN-FA-ES"
+#DEFINE IDDOC_VEN_FACTURAS_REEMBOLSOS 	"VEN-RE"
+#DEFINE IDDOC_VEN_FACTURAS_NOTAVENTA 	"VEN-NV"
+#DEFINE IDDOC_VEN_FACTURAS_NOTADESPACHO	"VEN-ND"
+#DEFINE IDDOC_VEN_FACTURAS_FOB		 	"VEN-FO"
+#DEFINE IDDOC_VEN_FACTURAS_CIF		    "VEN-CI"
+#DEFINE IDDOC_VEN_FACTURAS_CHASIS	 	"VEN-FA-CH"
+#DEFINE IDDOC_VEN_FACTURAS_BUSES 	 	"VEN-FA-BS"
+#DEFINE IDDOC_VEN_FACTURAS_LETRAS	 	"VEN-LT"
+#DEFINE IDDOC_EMP_FACTURAS			 	"EMP-FA"
+#DEFINE IDDOC_EMP_FACTURAS_NOTAVENTA 	"EMP-NV"
+#DEFINE IDDOC_VEN_UTILIDADES			"VEN-UT"
+#DEFINE IDDOC_VEN_ORDENES			 	"VEN-OR"
+#DEFINE IDDOC_VEN_DESPACH0			 	"VEN-OD"
+#DEFINE IDDOC_VEN_EGRESO_ORDENES		"VEN-EG"
+#DEFINE IDDOC_VEN_ORDEN_TRABAJO			"VEN-OT"
+#DEFINE IDDOC_VEN_LIQUIDACION_OTRABAJO	"VEN-OT-LI"
+#DEFINE IDDOC_VEN_DEVOLUCIONES		    "VEN-DE"
+#DEFINE IDDOC_VEN_DEVOLUCIONES_EMP	    "EMP-DE"
+
+#DEFINE IDDOC_VEN_PLAN_ACUMULATIVO	   "VEN-PL"
+#DEFINE IDDOC_VEN_DEVOLUCIONES_ESTUDIANTES	 "VEN-DE-ES"
+#DEFINE IDDOC_VEN_DEVOLUCIONES_CHASIS "VEN-DE-CH"
+#DEFINE IDDOC_VEN_DEVOLUCIONES_BUSES "VEN-DE-BS"
+#DEFINE IDDOC_VEN_NOTAS_ENTREGA		 "VEN-NE"
+#DEFINE IDDOC_VEN_ORDEN_DESPACHO	 "VEN-OD"
+#DEFINE IDDOC_VEN_NOTA_VENTA		 "VEN-NV"
+#DEFINE IDDOC_VEN_CROQUIS			 "VEN-CQ"
+#DEFINE IDDOC_VEN_ENTREGA			 "VEN-EN"
+#DEFINE IDDOC_POS_FACTURAS			 		"POS-FA"
+#DEFINE IDDOC_POS_FACTURAS_EMPLEADOS 		"POS-FA-EM"
+#DEFINE IDDOC_POS_FACTURAS_ESTUDIANTES 		"POS-FA-ES"
+#DEFINE IDDOC_POS_NOTA_VENTA		 		"POS-NV"
+#DEFINE IDDOC_POS_ORDENES    		 		"POS-OR"
+#DEFINE IDDOC_POS_DEVOLUCIONES		 		"POS-DE"
+#DEFINE IDDOC_POS_DEVOLUCIONES_ESTUDIANTES 	"POS-DE-ES"
+#DEFINE IDDOC_POS_TRANSFERENCIAS	 "POS-TR"
+#DEFINE IDDOC_VEN_PACKINGLIST  		 "VEN-PK"
+
+********ASISTENCIAS
+#DEFINE IDDOC_AST_ASISTENCIA		"AST-HO"
+#DEFINE IDDOC_AST_FACTURAS			"AST-FA"
+#DEFINE IDDOC_AST_ERRORES			"AST-ER"
+#DEFINE IDDOC_AST_COTIZACION		"AST-CT"
+
+********ADMINISTRATIVO
+#DEFINE IDDOC_ADM_DOCUMENTO			"ADM-DO"
+
+********COMPRAS
+#DEFINE IDDOC_COM_FACTURAS			"COM-FA"
+#DEFINE IDDOC_COM_LIQUIDACIONES		"COM-LI"
+#DEFINE IDDOC_COM_ORDENES			"COM-OR"
+#DEFINE IDDOC_COM_INGRESO_ORDENES	"COM-IN"
+#DEFINE IDDOC_COM_DEVOLUCIONES		"COM-DE"
+#DEFINE IDDOC_IMP_PEDIDOS			"IMP-PE"
+#DEFINE IDDOC_IMP_EGRESOS			"IMP-EG"
+#DEFINE IDDOC_IMP_INGRESO_ORDENES	"IMP-IN"
+#DEFINE IDDOC_IMP_LIQUIDACION		"IMP-LQ"
+#DEFINE IDDOC_COM_DEVOLUCIONES_DT	"COM-DE-DT"
+
+********CONSIGNACION
+#DEFINE IDDOC_CSG_FACTURAS			"CSG-FA"
+#DEFINE IDDOC_CSG_ORDENES			"CSG-OR"
+#DEFINE IDDOC_CSG_INGRESO_ORDENES	"CSG-IN"
+#DEFINE IDDOC_CSG_EGRESO_ORDENES	"CSG-EG"
+#DEFINE IDDOC_CSG_LIQUIDACION_ORDENES	"CSG-LI"
+
+********PRODUCCION
+#DEFINE IDDOC_PRD_ORDENES			"PRD-OR"
+#DEFINE IDDOC_PRD_ORDENES_PROCESOS	"PRD-OR-PR"
+#DEFINE IDDOC_PRD_PRODUCCIONES		"PRD-PD"
+#DEFINE IDDOC_PRD_EXTRUSIONES		"PRD-EX"
+#DEFINE IDDOC_PRD_SELLADO			"PRD-SE"
+#DEFINE IDDOC_PRD_PERFORADO			"PRD-PE"
+#DEFINE IDDOC_PRD_IMPRESION			"PRD-IM"
+#DEFINE IDDOC_PRD_COSTOS_INDIRECTOS	"PRD-CI"
+#DEFINE IDDOC_PRD_JORNALES			"PRD-JO"
+#DEFINE IDDOC_PRD_LIQUIDACIONES		"PRD-LI"
+#DEFINE IDDOC_PRD_INGRESOS			"PRD-IN"
+#DEFINE IDDOC_PRD_EGRESOS			"PRD-EG"
+
+********RMA
+#DEFINE IDDOC_RMA_COMPRAS			"RMA-CO"
+#DEFINE IDDOC_RMA_IMPORTACIONES		"RMA-IMP"
+#DEFINE IDDOC_RMA_FACTURAS			"RMA-FA"
+#DEFINE IDDOC_RMA_INGRESOS			"RMA-IN"
+#DEFINE IDDOC_RMA_EGRESOS			"RMA-EG"
+#DEFINE IDDOC_RMA_ENSAMBLAJE		"RMA-EN"
+#DEFINE IDDOC_RMA_CLIENTE_EGRESOS	"RMA-CL-EG"
+#DEFINE IDDOC_RMA_ACREEDOR_EGRESOS	"RMA-AC-EG"
+#DEFINE IDDOC_RMA_ACREEDOR_INGRESOS	"RMA-AC-IN"
+#DEFINE IDDOC_RMA_CLIENTE_INGRESOS	"RMA-CL-IN"
+#DEFINE IDDOC_INM_CONTRATOS			"INM-CO"
+
+*** MAILBOX
+#DEFINE IDMAIL_TYPE_MENSAJE	"MENSAJE"
+#DEFINE IDMAIL_TYPE_TAREA	"TAREA"
+
+*** Constantes para Opciones Generales
+*** CHANGEBROWSERPAGE
+#DEFINE IDNOREMOVE	.T.
+
+*** SARCH_CONTROLS
+#DEFINE IDCTRL_NOVALIDATE	.T.
+
+*** GETPARAMETER
+#DEFINE BYID			.T.
+#DEFINE BYKEY			.F.
+
+*** TREEVIEW
+#DEFINE IDTREE_ROOT		"ROOT"
+#DEFINE IDTREE_GRUPO	"GRUPO"
+#DEFINE IDTREE_ITEM		"ITEM"
+
+*** PARAMETROS
+#DEFINE IDPARA_PARAMETER	"PARAMETER"
+#DEFINE IDPARA_COUNTER		"COUNTER"
+#DEFINE IDPARA_LIST			"LIST"
+#DEFINE IDPARA_LISTITEM		"LISTITEM"
+#DEFINE IDPARA_TREE			"TREE"
+#DEFINE IDPARA_TREENODE		"TREENODE"
+#DEFINE IDPARA_GROUP		"GRUPO"
+
+*** RUBROS de EMPLEADOS
+#DEFINE IDRUBRO_INGRESO		"INGRESO"
+#DEFINE IDRUBRO_EGRESO		"EGRESO"
+#DEFINE IDRUBRO_PROVISION	"PROVISION"
+
+*** DEPARTAMENTOS
+#DEFINE IDDEP_AREA			"AREA"
+#DEFINE IDDEP_DEPARTAMENTO	"DEPARTMENT"
+#DEFINE IDDEP_OFICINA		"OFICINA"
+#DEFINE IDDEP_SUCURSAL		"SUCURSAL"
+
+*** ZONAS
+#DEFINE IDZONA_CONTINENTE	"CONTINENTE"
+#DEFINE IDZONA_PAIS			"PAIS"
+#DEFINE IDZONA_PROVINCIA	"PROVINCIA"
+#DEFINE IDZONA_CIUDAD		"CIUDAD"
+#DEFINE IDZONA_PARROQUIA	"PARROQUIA"
+#DEFINE IDZONA_RECINTO		"RECINTO"
+#DEFINE IDZONA_REGION		"REGION"
+#DEFINE IDZONA_ZONA			"ZONA"
+
+*** INFORMES
+#DEFINE IDINFO_TYPE_GRID		"GRID"
+#DEFINE IDINFO_TYPE_REPORT		"REPORT"
+#DEFINE IDINFO_TYPE_HTML		"HTML"
+#DEFINE IDINFO_TYPE_LISTVIEW	"LISTVIEW"
+#DEFINE IDINFO_TYPE_GRAPH		"GRAPH"
+#DEFINE IDINFO_TYPE_CONTAINER	"CONTAINER"
+#DEFINE IDINFO_TYPE_RTF			"RTF"
+
+*** METODOS DE COSTEO
+#DEFINE IDCOSTMETHOD_PROMEDIO	"PROMEDIO"
+#DEFINE IDCOSTMETHOD_LIFO		"LIFO"
+#DEFINE IDCOSTMETHOD_FIFO		"FIFO"
+
+*** MENSAJES DEL SISTEMA
+#DEFINE IDMSG_ERROR_BADSEEK			"Registro no encontrado."
+#DEFINE IDMSG_ERROR_BADTRANSACTION	"No fué posible guardar el registro."
+#DEFINE IDMSG_ERROR_BADTASK			"No fué posible completar el proceso."
+#DEFINE IDMSG_ERROR_DATEMISSING		"No es posible guardar la transacción." + CHR(13) + "La fecha de DOBRA es incorrecta o no ha sido establecida."
+#DEFINE IDMSG_ERROR_DATECHANGED		"No es posible guardar la transacción." + CHR(13) + "Se ha detectado que el Administrador del Sistema ha cambiado la fecha de DOBRA.  Tiene 2 opciones: " + CHR(13) + "1. Esperar hasta que el Administrador restaure la fecha de DOBRA y reintentar, o " + CHR(13) + "2. Deshacer la transacción actual y reiniciar DOBRA para adoptar la nueva fecha."
+#DEFINE IDMSG_ERROR_DATEMAYORIZATED	"No puede guardar transacciones con fechas anteriores a la FECHA DE CIERRE." + CHR(13) + "Para más información, consulte al departamento de Contabilidad."
+
+*** LOGIN
+#DEFINE	IDLOGIN_ERROR_BADCONECTION	1
+#DEFINE	IDLOGIN_ERROR_BADUSER		2
+#DEFINE	IDLOGIN_ERROR_BADPASSWORD	3
+#DEFINE	IDLOGIN_ERROR_BADRENTMONTH	4
+#DEFINE	IDLOGIN_ERROR_BADTRIALDATE	5
+#DEFINE	IDLOGIN_ERROR_BADVERSION	6
+#DEFINE	IDLOGIN_ERROR_BADCOMPANY	7
+#DEFINE	IDLOGIN_ERROR_GENERAL		9
+#DEFINE	IDLOGIN_ERROR_BADCLONECONECTION	10
+#DEFINE IDLOGIN_ERROR_BADSUCURSALCONECTION 11
+
+*** TRIAL VERSION
+#DEFINE	IDTRIAL_END_DATE	CTOD("^2003/12/05")
+
+*** GRAPH-8
+#DEFINE	IDGRAPH_COLOR_GREEN		4
+#DEFINE	IDGRAPH_COLOR_YELLOW	6
+
+*** OTROS
+#DEFINE CRLF	CHR(13) + CHR(10)
+#DEFINE SYSDTTM	CTOT(DTOC(_DOBRA.SysDate) + " " + ALLTRIM(STR(HOUR(DATETIME()))) + ":" + ALLTRIM(STR(MINUTE(DATETIME()))) + ":" + ALLTRIM(STR(SEC(DATETIME()))))
+
+* Recuperar Información de la Versión de DOBRA 
+#DEFINE FILEVER_COMMENT_LOC 		"Comentarios"
+#DEFINE FILEVER_COMPANY_LOC 		"Nombre de compañía"
+#DEFINE FILEVER_FILEDES_LOC 		"Descripción de archivo"
+#DEFINE FILEVER_FILEVER_LOC 		"Versión de archivo"
+#DEFINE FILEVER_INTERNAL_LOC		"Nombre interno"
+#DEFINE FILEVER_COPYRIGHT_LOC	 	"Copyright legal"
+#DEFINE FILEVER_TRADMARK_LOC		"Marcas legales"
+#DEFINE FILEVER_FILENAME_LOC	 	"Nombre de archivo original"
+#DEFINE FILEVER_PRIVATE_LOC 		"Generación privada"
+#DEFINE FILEVER_PRODUCTNAME_LOC		"Nombre del producto"
+#DEFINE FILEVER_PRODUCTVER_LOC	 	"Versión del producto"
+#DEFINE FILEVER_SPECIAL_LOC			"Generación especial"
+#DEFINE FILEVER_LANGUAGE_LOC		"Idioma"
+#DEFINE FILEVER_NOVERSION_LOC		"No existe información de versión"
+#DEFINE FILEVER_REGCOMPANY_LOC		"Licencia Empresarial"
+#DEFINE FILEVER_REGNAME_LOC			"Licencia Personal"
+#DEFINE FILEVER_USERNAME_LOC		"Usuario actual"
+#DEFINE FILEVER_CONECTION_LOC		"Nombre de Conexión"
+#DEFINE FILEVER_DATASOURCE_LOC		"Origen de Datos"
+#DEFINE FILEVER_DATABASE_LOC		"Base de Datos"
+
+
+
+*****
+* DEBUG MODE ESPECIFICA SI EL PRODUCTO SE COMPILA PARA DEPURACION Y PRUEBAS
+* O COMO PRODUCTO FINAL O RELEASE.
+* 1 para MODO DEBUG
+* 0 para MODO RELEASE (PRODUCTO FINAL)
+#DEFINE DEBUG_MODE 0

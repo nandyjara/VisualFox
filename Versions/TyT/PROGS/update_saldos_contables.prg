@@ -1,0 +1,62 @@
+** Programa actualiza los saldos de las cuentas contables.
+
+*!*	lnNúmero 	= 1
+*!*	lcCuentaID 	= ""
+
+*!*	SELECT CGCOMPRO
+*!*	lcClave1 = CGCOMPRO.CodDia
+*!*	lcClave2 = CGCOMPRO.NumDoc
+*!*	SCAN ALL
+*!*		lcCuenta = CGCOMPRO.CodCta
+*!*		
+*!*		** Buscar el ID de la Cuenta
+*!*		SELECT CUENTAS
+*!*		LOCATE FOR CUENTAS.Código = lcCuenta
+*!*		lcCuentaID = CUENTAS.ID
+*!*		
+*!*		IF lcClave1 = CGCOMPRO.Coddia AND lcClave2 = CGCOMPRO.NumDoc
+*!*			SELECT CGCOMPRO
+*!*			REPLACE ID			WITH TRAN(lnNúmero, "@L 9999999999"), ;
+*!*					CuentaID 	WITH lcCuentaID
+*!*		ELSE
+*!*			lnNúmero = lnNúmero + 1
+*!*			lcClave1 = CGCOMPRO.CodDia
+*!*			lcClave2 = CGCOMPRO.NumDoc 
+*!*			SELECT CGCOMPRO
+*!*			REPLACE ID			WITH TRAN(lnNúmero, "@L 9999999999"), ;
+*!*					CuentaID 	WITH lcCuentaID
+*!*		ENDIF
+*!*		
+*!*		SELECT CGCOMPRO
+*!*	ENDSCAN
+
+** Actualizar la Cabecera y Detalle del SQL Server
+m.Tipo		= 'ACC-CD'
+m.División 	= '0000000001'
+m.SucursalID = '00'
+m.CreadoPor	= 'CODETEK'
+m.PcID		= 'Jessica'
+
+SELECT CGCOMPRO
+lcID = ""
+SCAN ALL
+	IF lcID != CGCOMPRO.ID
+		** Cabecera
+		m.ID 		= CGCOMPRO.ID
+		m.Número 	= CGCOMPRO.ID
+		m.Fecha		= CGCOMPRO.Fecha
+		m.Detalle 	= CGCOMPRO.Detalle
+		INSERT INTO ACC_ASIENTOS FROM MEMVAR
+	ENDIF
+	lcID = CGCOMPRO.ID
+	
+	** Detalle
+	m.AsientoID	= CGCOMPRO.ID
+	m.CuentaID	= CGCOMPRO.CuentaID
+	m.Débito	= CGCOMPRO.Débito
+	m.Valor		= CGCOMPRO.Valor
+	m.Detalle	= CGCOMPRO.Detalle
+	INSERT INTO ACC_ASIENTOS_DT FROM MEMVAR
+	
+	SELECT CGCOMPRO
+ENDSCAN

@@ -1,0 +1,190 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Border" content="none">
+<title>DOBRA Empresarial 7.0</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY"><a name="_Toc_00">Módulo: Clientes<br>
+Introducción</a></h1>
+
+<p class="MsoBodyText">El Módulo de Clientes sirve para administrar las Cuentas por
+Cobrar de la Empresa.&nbsp; Proporciona herramientas para la organización de los Clientes
+y para mantener registros y saldos de sus respectivas deudas y cancelaciones.</p>
+
+<p class="MsoBodyText">El Auxiliar de Clientes corresponde al grupo de Cuentas de Activo
+Corriente Exigible del Plan de Cuentas<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE &quot;Plan de
+Cuentas&quot; </span><![endif]--> <!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-end'></span></span><![endif]--> , sin embargo, DOBRA®&nbsp; permite que el
+usuario relacione cada cliente con una cuenta distinta del Plan de Cuentas.</p>
+
+<h3>Integración Contable</h3>
+
+<p class="MsoBodyText">DOBRA®7 mantiene un Estado de Cuenta por cada Cliente y un Estado
+de Cuenta está compuesto de movimientos de débito y créditos.&nbsp; Los Débitos
+incrementan el saldo de la cuenta y los Créditos disminuyen el saldo de la misma.&nbsp;
+DOBRA® calcula el Saldo del Cliente sumando los débitos y restando los créditos.<o:p> </o:p> </p>
+
+<h3>DEBITOS<o:p> </o:p> </h3>
+
+<p class="MsoBodyText">Los DEBITOS son las DEUDAS generadas mediante una NOTA DE DEBITO o
+una FACTURA DE VENTA.&nbsp; Cada DEUDA debe corresponder a un RUBRO determinado como se
+explica más adelante.&nbsp; DOBRA® mantiene un SALDO por cada DEUDA, este saldo es
+disminuido con cada ABONO o CREDITO registrado; es decir, en un momento determinado
+DOBRA® puede proporcionar un Saldo del Cliente basado en la suma de DEBITOS menos
+CREDITOS o en la suma de los Saldos de las DEUDAS PENDIENTES.<o:p> </o:p> </p>
+
+<h3>CREDITOS<o:p> </o:p> </h3>
+
+<p class="MsoBodyText">Los CREDITOS son los movimientos generados por las NOTAS DE CREDITO
+o DEVOLUCIONES EN VENTAS.&nbsp; Las NOTAS DE CREDITO utilizan RUBROS para justificar
+contablemente la transacción.<o:p> </o:p> </p>
+
+<h3>Catálogo de Rubros</h3>
+
+<p class="MsoBodyText">Al igual que otros módulos de DOBRA®, en el módulo de Clientes
+es necesario crear un catálogo de RUBROS antes de poder iniciar cualquier transacción,
+existen rubros de DEBITO y de CREDITO.&nbsp; Cada Rubro puede tener asignadas 2 cuentas
+contables una cuenta de DEBE y una cuenta de HABER que se explican mejor en el tema de
+Fichero de Rubros.</p>
+
+<h2><br>
+<a name="_Toc505605565">Control de Saldos</a></h2>
+
+<p class="MsoBodyText">DOBRA®&nbsp; mantiene un estado de cuenta por cliente, basado en
+el saldo de sus deudas.</p>
+
+<p class="MsoBodyText">Las deudas de un cliente (DEBITOS) se generan al registrar una
+Factura de Venta o una Nota de Débito.<o:p> </o:p> </p>
+
+<p class="MsoBodyText">Hay varias maneras de registrar abonos o cancelaciones pero
+DOBRA®&nbsp; mantiene una política de no permitir que el saldo de un cliente sea
+negativo.</p>
+
+<p class="MsoBodyText">Para cancelar una deuda de un cliente (ACREDITAR) se usan los
+siguientes documentos:</p>
+
+<p class="MsoListBullet">Comprobante de Ingreso de Clientes<br>
+Nota de Crédito<br>
+Devoluciones en Venta<br>
+Anulaciones de Facturas de Venta<br>
+Recibo de Cheques Postfechados y posterior Vencimiento<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;Vencimiento&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> &nbsp;de Cheques<br>
+Recibo de Letras de Cambio<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE &quot;Letras de
+Cambio&quot; </span><![endif]--> <!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-end'></span></span><![endif]--> &nbsp;y posterior Vencimiento<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE &quot;Vencimiento&quot;
+</span><![endif]--> <!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-end'></span></span><![endif]--> &nbsp;de Cheques en Garantía</p>
+
+<h3><a name="_Toc505605566">Cheques a Fecha</a></h3>
+
+<p class="MsoBodyText">DOBRA®&nbsp; permite registrar cheques<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;cheques&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> &nbsp;postfechados de
+clientes, pero no genera un Comprobante de Ingreso por este concepto sino que genera un
+Recibo de Cheques Postfechados.</p>
+
+<p class="MsoBodyText">Todos los cheques<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE &quot;cheques&quot;
+</span><![endif]--> <!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-end'></span></span><![endif]--> &nbsp;que han sido recibidos de uno o más
+clientes, pueden ser efectivizados en su fecha de vencimiento mediante el asistente para
+Vencimiento<!--[if supportFields]><b
+style='mso-bidi-font-weight:normal'><span lang=ES-EC><span style='mso-element:
+field-begin'></span></span></b><span lang=ES-EC> XE &quot;<b style='mso-bidi-font-weight:
+normal'>Vencimiento</b>&quot; </span><![endif]--> <!--[if supportFields]><b
+style='mso-bidi-font-weight:normal'><span lang=ES-EC><span style='mso-element:
+field-end'></span></span></b><![endif]--> &nbsp;de Cheques, el mismo que muestra una lista de todos los cheques que se
+deben efectivizar en una fecha dada (hoy), y genera automáticamente Comprobantes de
+Ingreso por cada cliente y DIVISA distinta; es decir, que si hoy se vencen 2 cheques del
+cliente A y 2 cheques del cliente B, DOBRA®&nbsp; genera 2 Comprobantes de Ingreso, uno
+por cada cliente.</p>
+
+<h3><a name="_Toc505605567">Aprobación de Crédito</a></h3>
+
+<p class="MsoBodyText">El Módulo de Clientes, también incorpora mecanismos para receptar
+Solicitudes de Crédito para nuevos clientes y mediante el apoyo del Subsistema de Correo
+de DOBRA® , se puede dirigir la responsabilidad de Aprobar o Negar un Solicitud<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;Solicitud&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> &nbsp;a
+otros niveles departamentales dentro de la empresa.</p>
+
+<h2><a name="_Toc505605568">Mantenimiento</a></h2>
+
+<p class="MsoBodyText">Para mantener los elementos que conforman el Módulo de Clientes,
+se usan las siguientes transacciones<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;transacciones&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Grupos<br>
+Clientes<br>
+Rubros<br>
+Opciones</p>
+
+<h2><a name="_Toc505605569">Documentos</a></h2>
+
+<p class="MsoBodyText">El Módulo de Clientes genera una serie de Documentos listados a
+continuación:</p>
+
+<p class="MsoListBullet">Comprobante de Ingreso<br>
+Nota de Débito<br>
+Nota de Crédito<br>
+Cheques Postfechados<br>
+Comprobante Ingreso Masivo<br>
+Cobranzas<br>
+Letras de Cambio<br>
+Cotizaciones</p>
+
+<h2><a name="_Toc505605570">Procesos</a><!--[if supportFields]><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h2>
+
+<p class="MsoBodyText">El Módulo de Clientes tiene los siguientes Asistentes<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Saldos Iniciales<br>
+Vencimiento de Cheques<br>
+Hoja de Cobranzas<br>
+Liquidación de Cobranzas<br>
+Documento en Garantía&nbsp;<o:p> </o:p> </p>
+
+<h2><a name="_Toc505605571">Informes</a><!--[if supportFields]><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h2>
+
+<p class="MsoBodyText">El Módulo de Clientes tiene los siguientes Informes<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Estado de Cuenta<br>
+Deudas Pendientes<br>
+Saldos<br>
+Cartera por Cobrar<br>
+Catálogo de Clientes<br>
+Deudas vs Pagos<br>
+Nota de Crédito<br>
+Nota de Débito<br>
+Cobranzas<br>
+Gráfico: Débito vs Crédito<br>
+Gráfico: Distribución de la Cartera<br>
+Gráfico: Movimiento de Cuenta</p>
+
+<p class="MsoListBullet">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

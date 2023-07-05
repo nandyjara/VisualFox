@@ -1,0 +1,216 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<meta name="Microsoft Border" content="none">
+<title>DOBRA Empresarial 7.0 </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY"><a name="_Toc_00">Módulo: Empleados<br>
+Introducción</a></h1>
+
+<p class="MsoBodyText">El Módulo de Empleados sirve para administrar los Empleados de la
+empresa.&nbsp; Proporciona herramientas para la organización de los Empleados y para
+mantener registros y saldos de sus respectivas deudas, anticipos y descuentos en Roles de
+Pagos.</p>
+
+<p class="MsoBodyText">El Auxiliar de Empleados corresponde al grupo de Cuentas de Activo
+Corriente Exigible del Plan de Cuentas.<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE &quot;Plan de
+Cuentas&quot; </span><![endif]--> <!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-end'></span></span><![endif]--> </p>
+
+<h2><a name="_Toc505605213">Integración Contable</a></h2>
+
+<p class="MsoBodyText">Como se muestra en el diagrama, DOBRA® 7 mantiene un Estado de
+Cuenta por cada Empleado y un Estado de Cuenta está compuesto de movimientos de débito y
+créditos.&nbsp; Los Débitos incrementan el saldo de la cuenta y los Créditos disminuyen
+el saldo de la misma.&nbsp; DOBRA® calcula el Saldo de un Empleado sumando los débitos y
+restando los créditos.<o:p> </o:p> </p>
+
+<h3>DEBITOS<o:p> </o:p> </h3>
+
+<p class="MsoBodyText">Los DEBITOS son las DEUDAS generadas mediante un PRESTAMO o NOTA DE
+DEBITO.&nbsp; Cada DEUDA debe corresponder a un RUBRO determinado como se explica más
+adelante.&nbsp; DOBRA® mantiene un SALDO por cada DEUDA, este saldo es disminuido con
+cada ABONO o CREDITO registrado; es decir, en momento determinado DOBRA® puede
+proporcionar un Saldo del Empleado basado en la suma de DEBITOS menos CREDITOS o en la
+suma de los Saldos de las DEUDAS PENDIENTES.<o:p> </o:p> </p>
+
+<h3>CREDITOS<o:p> </o:p> </h3>
+
+<p class="MsoBodyText">Los CREDITOS son los movimientos generados por las NOTAS DE CREDITO
+o por los descuentos registrados en la liquidación de un ROL DE PAGOS.&nbsp; Tanto las
+NOTAS DE CREDITO como los ROLES DE PAGO también utilizan RUBROS para justificar
+contablemente la transacción.<o:p> </o:p> </p>
+
+<h2>Catálogo de Rubros</h2>
+
+<p class="MsoBodyText">Al igual que otros módulos de DOBRA®, en el módulo de Empleados
+es necesario crear un catálogo de RUBROS antes de poder iniciar cualquier transacción,
+existen rubros de DEBITO y de CREDITO.&nbsp; Cada Rubro puede tener asignadas 2 cuentas
+contables una cuenta de DEBE y una cuenta de HABER que se explican mejor en el tema de
+Fichero de Rubros.<o:p> </o:p> </p>
+
+<p class="MsoBodyText">Particularmente en el módulo de Empleados es necesario crear otros
+Rubros que son utilizados en el Rol de Pagos y sirven para la conformación de las
+llamadas Tablas de Remuneración que se explican a continuación.&nbsp; Estos Rubros
+pueden ser del tipo INGRESO, EGRESO o PROVISIÓN y no necesitan tener una cuenta contable
+relacionada ya que estas cuentas se asignan en la Tabla de Remuneración.</p>
+
+<h2>Remuneración y Roles de Pago</h2>
+
+<p class="MsoBodyText">DOBRA® facilita la generación de Roles de Pago pero para ello es
+necesario establecer una política de remuneración para cada empleado.&nbsp; Para poder
+establecer una política de remuneración DOBRA® emplea el concepto de Tablas de
+Remuneración.</p>
+
+<p class="MsoBodyText">Una TABLA DE REMUNERACIÓN es un conjunto de Rubros, Fórmulas y
+Cuentas Contables que definen la forma como se debe remunerar a un empleado.</p>
+
+<p class="MsoBodyText">En la empresa se puede crear una Tabla de Remuneración para cada
+Empleado o se puede utilizar una misma Tabla de Remuneración para varios empleados.&nbsp;
+Cada empleado sólo puede tener asignada una Tabla de Remuneración en un momento
+determinado.&nbsp; Para más información consulte el tema Fichero: Tablas de
+Remuneración.</p>
+
+<p class="MsoBodyText">El ROL DE PAGOS es un documento que lleva a cabo una serie de
+procesos y que principalmente genera el correspondiente Asiento Contable a partir de las
+cuentas y políticas establecidas en la Tabla de Remuneración de cada empleado.&nbsp;
+Generalmente, en una empresa el ROL DE PAGOS debe ser un documento mensual pero algunas
+empresas acostumbran a proporcionar a sus empleados un anticipo de su sueldo denominado
+QUINCENA.&nbsp; DOBRA® no divide los roles de pago en 2 periodos; es decir, los cálculos
+establecidos en una Tabla de Remuneración se aplican por su totalidad.&nbsp; Para que una
+empresa pueda registrar anticipos como el caso de la QUINCENA DOBRA® proporciona un
+mecanismo para registrar anticipos o préstamos a Empleados pero en este caso, el usuario
+debe establecer el valor ya que estas transacciones son independientes de las Tablas de
+Remuneración.&nbsp; Para más información consulte Documento: Rol de Pagos.<o:p> </o:p> </p>
+
+<h3>CLASES DE EMPLEADOS</h3>
+
+<p class="MsoBodyText">DOBRA®&nbsp; clasifica a los empleados en:</p>
+
+<p class="MsoListBullet">Empleado</p>
+
+<p class="MsoListBullet">Vendedor</p>
+
+<p class="MsoListBullet">Profesor</p>
+
+<h4>EMPLEADO</h4>
+
+<p class="MsoBodyText">La Clase Empleado es la clase predeterminada para el módulo de
+Empleados.</p>
+
+<h4>VENDEDOR</h4>
+
+<p class="MsoBodyText">DOBRA® usa esta clasificación para identificar los empleados que
+participarán o estarán relacionados con los procesos de Ventas y Comisiones.&nbsp; Por
+ejemplo; en las Facturas de Venta,&nbsp; cuando se despliega la lista para seleccionar
+vendedor, sólo se muestran aquellos empleados de la clase Vendedor.</p>
+
+<h4>PROFESOR</h4>
+
+<p class="MsoBodyText">Los registros de la clase Profesor, son utilizados en diversos
+procesos de Planificación Docente del Módulo Académico.&nbsp; DOBRA® 7 utiliza los
+campos denominados HorasM, HorasV, HorasN así como JornalM, JornalV, JornalN sólo para
+Profesores y estos campos se aplican a las jornadas: Matutina, Vespertina y Nocturna
+respectivamente.</p>
+
+<h2><a name="_Toc505605215">Comisiones</a><!--[if supportFields]><span
+style='mso-element:field-begin'></span> XE &quot;<b style='mso-bidi-font-weight:
+normal'>Comisiones</b>&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h2>
+
+<p class="MsoBodyText">El Módulo de Empleados también proporciona mecanismos para
+liquidar las comisiones a los Vendedores en base a las Facturas Vendidas.&nbsp; La
+Comisión se calcula en base a los días en que se recupera el crédito de la factura de
+venta, evidentemente que si se trata de una Venta de Contado, la comisión será
+mayor.&nbsp; Las tasas para el cálculo de comisiones se establecen por Producto en el
+Módulo de Inventarios en donde se pueden establecer hasta 6 tasas para distintos números
+de días.&nbsp; Para más información sobre cómo establecer tasas de comisión, consulte
+el Módulo de Productos.</p>
+
+<p class="MsoBodyText">El proceso correspondiente al cálculo de comisiones generalmente
+se lleva a cabo a nivel del Módulo de Ventas y generalmente lo hace el Jefe o Director de
+Ventas.&nbsp; El Jefe de Ventas debe marcar las facturas que serán liquidadas para que
+sean tomadas en cuenta al momento de preparar el Rol de Pagos.&nbsp; El usuario que
+prepara el Rol de Pagos no puede modificar los valores de comisión establecidos por el
+Jefe de Ventas y una vez que se Contabiliza el Rol de Pagos, el Jefe de Ventas ya no
+tendrá disponible las facturas de venta para su proceso de liquidación de
+comisiones.&nbsp; Para más información consulte el módulo de Ventas.<o:p> </o:p> </p>
+
+<h2><a name="_Toc505605217">Mantenimiento</a></h2>
+
+<p class="MsoBodyText">Para mantener los elementos que conforman el Módulo de Empleados,
+se usan las siguientes transacciones<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;transacciones&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Fichero de Grupos<br>
+Fichero de Empleados<br>
+Fichero de Rubros<br>
+Fichero de Tablas<br>
+Fichero de Opciones<br>
+Fichero de Funciones</p>
+
+<h2><a name="_Toc505605218">Documentos</a></h2>
+
+<p class="MsoBodyText">El Módulo de Empleados genera una serie de Documentos listados a
+continuación:<br>
+<br>
+<br>
+Egreso por Préstamos<br>
+Rol de Pagos<br>
+Nota de Débito<br>
+Nota de Crédito<br>
+Liquidación de Décimos</p>
+
+<h2><a name="_Toc505605219">Procesos</a><!--[if supportFields]><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h2>
+
+<p class="MsoBodyText">El Módulo de Empleados tiene los siguientes Procesos<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Saldos Iniciales<br>
+Horas Trabajadas<br>
+Actualizar Sueldos y Horas<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE &quot;Comisiones&quot;
+</span><![endif]--> <!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-end'></span></span><![endif]--> </p>
+
+<h2><a name="_Toc505605220">Informes</a><!--[if supportFields]><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h2>
+
+<p class="MsoBodyText">El Módulo de Empleados tiene los siguientes Informes<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Empleados<br>
+Saldos<br>
+Deudas Pendientes<br>
+Estado de Cuenta<br>
+Cartera por Cobrar<br>
+Roles de Pago<br>
+Préstamos<br>
+Tablas de Remuneración<br>
+Roles Individuales<br>
+Vencimiento<br>
+Roles General<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;Comisiones&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> </p>
+
+<p><br clear="all" style="mso-special-character:line-break;page-break-before:always">
+</p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

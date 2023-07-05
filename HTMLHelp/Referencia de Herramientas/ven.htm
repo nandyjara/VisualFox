@@ -1,0 +1,158 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<meta name="Microsoft Border" content="none">
+<title>DOBRA Empresarial 7.0 </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY"><a name="_Toc_00">Módulo: Ventas<br>
+Introducción</a></h1>
+
+<p class="MsoBodyText">El Módulo de Ventas proporciona herramientas para el registro de
+las Facturas de Venta que la empresa hace a sus clientes.&nbsp; Aunque el usuario puede
+registrar facturas de venta directas en un solo paso, DOBRA®&nbsp; proporciona un
+mecanismo basado en una Orden de Venta.</p>
+
+<h2><a name="_Toc505605985">Venta Directa</a></h2>
+
+<p class="MsoBodyText">Este Método de Venta se usa principalmente para registrar ventas
+de Contado en donde la información de crédito o los procesos de Aprobación de créditos
+no son necesarios.</p>
+
+<h2><a name="_Toc505605986">Venta mediante Orden de Venta</a></h2>
+
+<p class="MsoBodyText">En este método, el cliente hace un Pedido u Orden de Venta que es
+registrada en el Sistema. &nbsp;Esta Orden de Venta tiene que pasar por un proceso de
+Aprobación basado en el Subsistema de Correo de DOBRA® , y finalmente, esta Orden de
+Venta aprobada pasa a ser facturada.</p>
+
+<h2><a name="_Toc505605987">Facturación de Mercaderías</a><!--[if supportFields]><span
+style='mso-bookmark:_Toc505605987'></span><span style='mso-element:field-begin'></span><span
+style='mso-bookmark:_Toc505605987'> XE &quot;Mercaderías&quot; </span><![endif]--> <!--[if supportFields]><span
+style='mso-bookmark:_Toc505605987'></span><span style='mso-element:field-end'></span><![endif]--> &nbsp;y Servicios<!--[if supportFields]><span style='mso-element:field-begin'></span>
+XE &quot;Servicios&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h2>
+
+<p class="MsoBodyText">DOBRA®&nbsp; tiene la capacidad de facturar Mercaderías<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;Mercaderías&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> &nbsp;y
+Servicios<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;Servicios&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> .&nbsp; Estos dos tipos de productos se diferencian en que las Mercaderías
+tienen un costo de venta y una existencia para facturar; los servicios, por otro lado,
+representan Ingresos para la empresa, no tienen costo o su costo no se determina en el
+momento de la venta y no se pueden cuantificar por lo que no es necesario que tengan
+existencias o saldos.</p>
+
+<p class="MsoBodyText">Para el usuario esto debe ser transparente, lo único que notará
+al momento de registrar Documentos de Venta es que cuando se trata de un servicio no se
+requiere seleccionar una Bodega para facturarlo.</p>
+
+<h2><a name="_Toc505605988">Impresión de Facturas</a></h2>
+
+<p class="MsoBodyText">DOBRA®&nbsp; imprime de forma predeterminada un Comprobante de
+Venta cuando se registra una Factura de Venta; pero, si el usuario necesita que
+DOBRA®&nbsp; imprima la Factura en un Formato Pre-Impreso<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;Pre-Impreso&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> , debe realizar 3 pasos:</p>
+
+<p class="MsoListBullet">Instalar (aunque ya exista) una nueva impresora en Windows® y
+establecer un tamaño definido por el usuario.&nbsp; Note que esta nueva impresora no debe
+ser la impresora predeterminada.</p>
+
+<p class="MsoListBullet">Crear un Archivo de Formato que use el tamaño definido por el
+usuario de la nueva impresora y que cuadre con el tamaño del Formato Pre-Impreso<!--[if supportFields]><span lang=ES-EC><span
+style='mso-element:field-begin'></span> XE &quot;Pre-Impreso&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]-->
+&nbsp;de la empresa. Este Archivo de Formato debe ser guardado en el directorio
+predeterminado de reportes.&nbsp; Para más información sobre cómo crear un Formato para
+un reporte, consulte el Capítulo de Reportes Agregados.</p>
+
+<p class="MsoListBullet">A continuación, el usuario debe editar el parámetro del
+sistema: FORMATO-FACTURA-VENTA y asignarle como valor el nombre del nuevo archivo de
+formato.</p>
+
+<h3><a name="_Toc505605989">Mantenimiento</a></h3>
+
+<p class="MsoBodyText">Para mantener los elementos que conforman el Módulo de Ventas, se
+usan las siguientes transacciones<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;transacciones&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Opciones</p>
+
+<h3><a name="_Toc505605990">Documentos</a></h3>
+
+<p class="MsoBodyText">El Módulo de Ventas genera una serie de Documentos listados a
+continuación:</p>
+
+<p class="MsoListBullet">Orden de Venta</p>
+
+<p class="MsoListBullet">Factura de Venta</p>
+
+<p class="MsoListBullet">Factura de Venta a Empleados</p>
+
+<p class="MsoListBullet">Devolución en Venta</p>
+
+<p class="MsoListBullet">Notas de Entrega</p>
+
+<p class="MsoListBullet">Orden de Despacho</p>
+
+<h3><a name="_Toc505605991">Procesos</a><!--[if supportFields]><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h3>
+
+<p class="MsoBodyText">El Módulo de Ventas tiene los siguientes Procesos<!--[if supportFields]><span lang=ES-EC><span style='mso-element:
+field-begin'></span> XE &quot;Asistentes&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Facturar Orden</p>
+
+<p class="MsoListBullet">Comisiones<!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-begin'></span> XE
+&quot;Comisiones&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> </p>
+
+<h3><a name="_Toc505605992">Informes</a><!--[if supportFields]><span
+style='mso-element:field-begin'></span> XE &quot;Asistentes&quot; <![endif]--> <!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> </h3>
+
+<p class="MsoBodyText">El Módulo de Ventas tiene los siguientes Informes<!--[if supportFields]><span lang=ES-EC><span style='mso-element:
+field-begin'></span> XE &quot;Asistentes&quot; </span><![endif]--> <!--[if supportFields]><span
+lang=ES-EC><span style='mso-element:field-end'></span></span><![endif]--> :</p>
+
+<p class="MsoListBullet">Facturas de Venta</p>
+
+<p class="MsoListBullet">Devoluciones</p>
+
+<p class="MsoListBullet">Comisiones</p>
+
+<p class="MsoListBullet">Ordenes de Venta</p>
+
+<p class="MsoListBullet">Productos Facturados</p>
+
+<p class="MsoListBullet">Utilidad por Producto</p>
+
+<p class="MsoListBullet">Gráfico de Mejores Productos</p>
+
+<p class="MsoListBullet">Gráfico de Ventas vs. Costos</p>
+
+<p class="MsoListBullet">Notas de Entrega</p>
+
+<p class="MsoListBullet">Orden de Despacho</p>
+
+<p class="MsoListBullet">Ventas Mensuales</p>
+
+<p>&nbsp; </p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

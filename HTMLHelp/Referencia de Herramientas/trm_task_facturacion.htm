@@ -1,0 +1,261 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Microsoft Border" content="none">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>DOBRA Empresarial 7.0 </title>
+<link rel="stylesheet" href="../estilos.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1><a name="_Toc_00">Módulo de Trámites<br>
+Proceso: Facturación</a></h1>
+
+<h2><a name="_Toc_Definición">Definición</a></h2>
+
+<p>El Proceso de Facturación sirve para que el usuario después que ha
+ingresado ordenes de trámites realice la Factura para generar una deuda al
+cliente. Este proceso genera 2 facturas, una por los servicios involucrados y
+otra por reembolsos.</p>
+
+<h2><a name="_Toc_Acceso">Acceso</a></h2>
+
+<p>Para acceder a esta opción, haga lo siguiente:
+
+<ol>
+  <li>Abra el menú <strong>Herramientas</strong> de DOBRA®.</li>
+  <li>Despliegue el Submenú <strong>Trámites</strong> y desde la sección <strong>Proceso</strong>
+    seleccione el comando <strong>Facturación.</strong></li>
+</ol>
+
+<h2><a name="_Toc_Elementos">Elementos</a></h2>
+
+<p><img border="0" src="trm_task_facturar.gif" width="800" height="600"></p>
+
+<table border="0" width="585" height="417">
+  <tr>
+    <th valign="top" width="157" height="13"><p align="left">Elemento</th>
+    <th valign="top" width="400" height="13"><p align="left">Descripción</th>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="20">Cliente</td>
+    <td valign="top" width="400" height="26">Lista desplegable de clientes.</td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Tipo </td>
+    <td valign="top" width="400" height="13">El cuadro Tipo es de &quot;solo lectura&quot; y
+    muestra el Tipo de transacción. </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="26">Divisas </td>
+    <td valign="top" width="400" height="26">El cuadro divisa es de &quot;solo lectura&quot;
+    sirve para seleccionar la divisa ó se visualiza la divisa según el tipo de cambio. </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="26">Cambio</td>
+    <td valign="top" width="400" height="26">El cuadro Cambio es de &quot;sólo lectura&quot;
+    y sirve para visualizar el tipo de cambio. </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Oficial </td>
+    <td valign="top" width="400" height="13">Lista de empleados tipo Oficial </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Término Hono.: </td>
+    <td valign="top" width="400" height="13">El cuadro Término es de &quot;solo lectura&quot;
+    y sirve para seleccionar la forma de pago por servicios, pueden ser&nbsp; a 5, 15, 20 días. </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Término Reemb.: </td>
+    <td valign="top" width="400" height="13">El cuadro Término es de &quot;solo lectura&quot;
+    y sirve para seleccionar la forma de pago por reembolsos, pueden ser&nbsp; a 5, 15, 20 días. </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Referencia </td>
+    <td valign="top" width="400" height="13">Campo para ingresar referencia </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="1">División</td>
+    <td valign="top" width="400" height="1">El cuadro de División es de &quot;sólo
+    lectura&quot; sirve para seleccionar la división o línea de negocio a la que pertenece
+    el documento.</td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Fecha </td>
+    <td valign="top" width="400" height="13">El cuadro Fecha es de &quot;solo lectura&quot; y
+    muestra fecha de la transacción. </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="26">Cuadrícula de Trámites</td>
+    <td valign="top" width="400" height="26">Cuadrícula de trámites realizados
+      al cliente y está compuesto por No. Trámites, Tipo Trámite, CIF</td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="26">Nota que se imprime en la fact. de
+      servicios</td>
+    <td valign="top" width="400" height="26">Nota al final del reporte de la
+      factura de servicios</td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="26">Nota que se imprime en la fact. de
+      reembolsos</td>
+    <td valign="top" width="400" height="26">Nota al final del reporte de la
+      factura de reembolsos</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña SERVICIOS</a></h2>
+
+<p><img border="0" src="trm_task_facturar_pestana_servicios.gif" width="694" height="211">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">No. Trámites</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Número del trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Código</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Código
+      del producto tipo <b>servicio</b> a facturar.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nombre</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Nombre del servicio</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Cant</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Cantidad de productos a facturar</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Pr. Standard</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Precio del honorario, este campo
+      se llena automáticamente.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Precio</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Precio final del servicio</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Desc%</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Porcentaje de descuento</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Descuento</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Valor del descuento</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Extendido</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Precio menos el descuento</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Totales</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">En la parte inferior de la
+      pestaña se acumulan los totales de: Subtotal, Descuento, Impuestos,
+      Anticipos y Total.</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña REEMBOLSOS</a></h2>
+
+<p><img border="0" src="trm_task_facturar_pestana_reembolso.gif" width="694" height="210">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">No. Trámites</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Número del trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Tipo</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Tipo del Trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Código</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Código
+      del producto tipo <b>reembolso</b> a facturar.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nombre</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Nombre del reembolso</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Valor</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Valor a facturar</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Totales</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">En la parte inferior de la
+      pestaña se acumulan los totales de: Egresos, Anticipos Total.</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña TARIFAS</a></h2>
+
+<p><img border="0" src="trm_task_facturar_pestana_tarifas.gif" width="694" height="208">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Código</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Código
+      de honorarios.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nombre</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Nombre de honorarios</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">%</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Porcentaje&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Precio</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Precio del honorario</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Observaciones</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Observación del servicio</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Crear</a></h2>
+
+<p>Para realizar el proceso, haga lo siguiente: 
+
+<ol style="font-size: 8 pt">
+  <li><p align="left">Seleccione el cliente de la lista desplegable, la pestaña
+    de tarifas se llena automáticamente, ya que la información presentada se
+    encuentra almacenada en el fichero del <b>cliente</b> del módulo clientes.</p>
+  </li>
+  <li><p align="left">Llene los datos de acuerdo a lo explicado
+    en la cabecera del formulario, debe chequear los trámites a facturar.</p>
+  </li>
+  <li><p align="left">Según los trámites seleccionados se llenan
+    automáticamente las pestañas de Servicios y Reembolsos con los respectivos
+    totales.</p>
+  </li>
+  <li><p align="left">Seleccione el comando Guardar desde el Menú Archivo o haga un click en
+    el botón (<img src="bas_interfaz_toolbar_save.gif"
+    alt="bas_interfaz_toolbar_save.gif (923 bytes)" align="bottom" width="16" height="16">) de
+    la Barra de Herramientas.</p>
+  </li>
+  <li><p align="left">A continuación el sistema limpia los datos de la pantalla
+    para realizar una nueva facturación.</p>
+  </li>
+</ol>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

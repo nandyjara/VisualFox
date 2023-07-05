@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shipments xmlns="http://www.magaya.com/XMLSchema/V1">
+	<GroundShipment GUID="e76386c7-8906-412f-b44b-2d1e6395ad01" Type="SH">
+		<URL>https://track.magaya.net/TransTracking/TransTracking.dll?ID=36028&amp;SH=e76386c7-8906-412f-b44b-2d1e6395ad01&amp;LG=es&amp;XM=0</URL>
+		<CreatedOn>2021-07-15T13:51:29-05:00</CreatedOn>
+		<Number>2021-HTTI-243</Number>
+		<CreatedByName>Ma Esther Arteaga</CreatedByName>
+		<Version>106</Version>
+		<ModeOfTransportation Code="30">
+			<Description>Camión</Description>
+			<Method>Ground</Method>
+		</ModeOfTransportation>
+		<ModeOfTransportCode>30</ModeOfTransportCode>
+		<ShipperName>MONDELEZ ECUADOR C. LTDA.</ShipperName>
+		<Shipper GUID="2e133cb4-8dc3-40d1-9b84-2557efcb3524">
+			<Type>Client</Type>
+			<Name>MONDELEZ ECUADOR C. LTDA.</Name>
+			<EntityID>0990335028001</EntityID>
+			<CreatedOn>2019-10-05T20:14:25-05:00</CreatedOn>
+			<Address>
+				<Street>LUXEMBURGO N34-359 Y AVENIDA PORTUGAL</Street>
+				<ContactName>Paola Espinoza </ContactName>
+				<ContactPhone>(593)-2592190</ContactPhone>
+				<ContactPhoneExtension>0</ContactPhoneExtension>
+				<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+			</Address>
+			<BillingAddress>
+				<Street>LUXEMBURGO N34-359 Y AVENIDA PORTUGAL</Street>
+				<ContactName>Paola Espinoza </ContactName>
+				<ContactPhone>(593)-2592190</ContactPhone>
+				<ContactPhoneExtension>0</ContactPhoneExtension>
+				<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+			</BillingAddress>
+			<Email>Paola.Espinoza@Mdlz.com</Email>
+			<Phone>(593)-2592190</Phone>
+			<PhoneExtension>0</PhoneExtension>
+			<AccountNumber>153</AccountNumber>
+			<ContactFirstName>Paola Espinoza</ContactFirstName>
+			<TransactionDueDays>30</TransactionDueDays>
+			<PaymentTerms>
+				<Description>Crédito 30</Description>
+				<NetDueDays>30</NetDueDays>
+				<DiscountPercentage>0.00</DiscountPercentage>
+				<DiscountPaidDays>0</DiscountPaidDays>
+			</PaymentTerms>
+			<IsPrepaid>false</IsPrepaid>
+		</Shipper>
+		<ShipperAddress>
+			<Street>AVENIDA 10 DE AGOSTO Y NACIONES UNIDAS NO. 36-239</Street>
+			<ContactName>Paola Espinoza </ContactName>
+			<ContactPhone>(593)-2592190</ContactPhone>
+			<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+		</ShipperAddress>
+		<ConsigneeName>MONDELEZ ECUADOR C. LTDA.</ConsigneeName>
+		<Consignee GUID="2e133cb4-8dc3-40d1-9b84-2557efcb3524">
+			<Type>Client</Type>
+			<Name>MONDELEZ ECUADOR C. LTDA.</Name>
+			<EntityID>0990335028001</EntityID>
+			<CreatedOn>2019-10-05T20:14:25-05:00</CreatedOn>
+			<Address>
+				<Street>LUXEMBURGO N34-359 Y AVENIDA PORTUGAL</Street>
+				<ContactName>Paola Espinoza </ContactName>
+				<ContactPhone>(593)-2592190</ContactPhone>
+				<ContactPhoneExtension>0</ContactPhoneExtension>
+				<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+			</Address>
+			<BillingAddress>
+				<Street>LUXEMBURGO N34-359 Y AVENIDA PORTUGAL</Street>
+				<ContactName>Paola Espinoza </ContactName>
+				<ContactPhone>(593)-2592190</ContactPhone>
+				<ContactPhoneExtension>0</ContactPhoneExtension>
+				<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+			</BillingAddress>
+			<Email>Paola.Espinoza@Mdlz.com</Email>
+			<Phone>(593)-2592190</Phone>
+			<PhoneExtension>0</PhoneExtension>
+			<AccountNumber>153</AccountNumber>
+			<ContactFirstName>Paola Espinoza</ContactFirstName>
+			<TransactionDueDays>30</TransactionDueDays>
+			<PaymentTerms>
+				<Description>Crédito 30</Description>
+				<NetDueDays>30</NetDueDays>
+				<DiscountPercentage>0.00</DiscountPercentage>
+				<DiscountPaidDays>0</DiscountPaidDays>
+			</PaymentTerms>
+			<IsPrepaid>false</IsPrepaid>
+		</Consignee>
+		<ConsigneeAddress>
+			<Street>AVENIDA 10 DE AGOSTO Y NACIONES UNIDAS NO. 36-239</Street>
+			<ContactName>Paola Espinoza </ContactName>
+			<ContactPhone>(593)-2592190</ContactPhone>
+			<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+		</ConsigneeAddress>
+		<CarrierName>CARGUEROS TERRESTRES E.I.R .L. CARTER</CarrierName>
+		<Carrier GUID="17e1499f-811b-4329-91a3-c4864fbec307">
+			<Type>Carrier</Type>
+			<Name>CARGUEROS TERRESTRES E.I.R .L. CARTER</Name>
+			<EntityID>20103081603</EntityID>
+			<CreatedOn>2019-10-21T17:05:56-05:00</CreatedOn>
+			<Address>
+				<Street>AV. TINGO MARIA NO. 1148 1166 CERCADO DE LIMA</Street>
+				<City>LIMA</City>
+				<Country Code="PE">Peru</Country>
+				<ContactName>EDUARDO AZAMA KIYAN</ContactName>
+				<ContactEmail>eazama@carter.com.pe</ContactEmail>
+			</Address>
+			<BillingAddress>
+				<Street>AV. TINGO MARIA NO. 1148 1166 CERCADO DE LIMA</Street>
+				<City>LIMA</City>
+				<Country Code="PE">Peru</Country>
+				<ContactName>EDUARDO AZAMA KIYAN</ContactName>
+				<ContactEmail>eazama@carter.com.pe</ContactEmail>
+			</BillingAddress>
+			<Email>eazama@carter.com.pe</Email>
+			<Website>www.carter.com.pe</Website>
+			<ContactFirstName>EDUARDO</ContactFirstName>
+			<ContactLastName>AZAMA KIYAN</ContactLastName>
+			<Notes>El Transportista cuenta con: FURGONES // CAMAS BAJAS Y PLATAFORMAS TIENEN VENCIDOS EL PERMISO
+
+40 camiones (furgones, plataformas, cama bajas) todos equipados con sistema de rastreo satelital GPS, con frecuencia de salidas diarias, además de permisos para el traslado de Mercancía Peligrosa.
+
+RED IFLN: NO </Notes>
+			<TransactionDueDays>15</TransactionDueDays>
+			<PaymentTerms>
+				<Description>Crédito 15</Description>
+				<NetDueDays>15</NetDueDays>
+				<DiscountPercentage>0.00</DiscountPercentage>
+				<DiscountPaidDays>0</DiscountPaidDays>
+			</PaymentTerms>
+			<IsPrepaid>true</IsPrepaid>
+			<MobilePhone>4258002        </MobilePhone>
+			<CarrierInfo>
+				<CarrierTypeCode>Ground</CarrierTypeCode>
+			</CarrierInfo>
+		</Carrier>
+		<CarrierAddress>
+			<Street>AV. TINGO MARIA NO. 1148 1166 CERCADO DE LIMA</Street>
+			<City>LIMA</City>
+			<Country Code="PE">Peru</Country>
+			<ContactName>EDUARDO AZAMA KIYAN</ContactName>
+			<ContactEmail>eazama@carter.com.pe</ContactEmail>
+		</CarrierAddress>
+		<Items>
+			<Item GUID="09b463de-744c-4164-b2aa-ba7462723756" Type="WI">
+				<Version>105</Version>
+				<Status>Loaded</Status>
+				<Pieces>1</Pieces>
+				<PieceQuantity>0.00</PieceQuantity>
+				<IsSummarized>false</IsSummarized>
+				<PackageName>Furgón</PackageName>
+				<WHRItemID>0</WHRItemID>
+				<Length Unit="in">0.00</Length>
+				<Height Unit="in">0.00</Height>
+				<Width Unit="in">0.00</Width>
+				<Weight Unit="kg">0.00</Weight>
+				<ContainedPiecesWeightIncluded>true</ContainedPiecesWeightIncluded>
+				<Volume Unit="m3">0.00</Volume>
+				<VolumeWeight Unit="vkg">0.00</VolumeWeight>
+				<PieceWeight Unit="kg">0.00</PieceWeight>
+				<PieceVolume Unit="m3">0.00</PieceVolume>
+				<Package>
+					<Type>Unit</Type>
+					<Code>UNT</Code>
+					<Name>Furgón</Name>
+				</Package>
+				<InShipmentGUID>e76386c7-8906-412f-b44b-2d1e6395ad01</InShipmentGUID>
+				<InShipmentURL>https://track.magaya.net/TransTracking/TransTracking.dll?ID=36028&amp;SH=e76386c7-8906-412f-b44b-2d1e6395ad01&amp;LG=es&amp;XM=0</InShipmentURL>
+				<IncludeInSED>false</IncludeInSED>
+				<IsContainer>false</IsContainer>
+				<InMasterWayBillNumber>2021-HTTI-243</InMasterWayBillNumber>
+				<InHouseWayBillNumber>2021-HTTI-243</InHouseWayBillNumber>
+				<ArrivalDate>2021-07-15T13:49:02-05:00</ArrivalDate>
+				<OrderIndex>1</OrderIndex>
+				<IsPallet>false</IsPallet>
+				<IsOverstock>false</IsOverstock>
+				<NotLoaded>false</NotLoaded>
+				<InTask>false</InTask>
+			</Item>
+		</Items>
+		<MeasurementUnits>
+			<LengthUnit>in</LengthUnit>
+			<VolumeUnit>m3</VolumeUnit>
+			<WeightUnit>kg</WeightUnit>
+			<VolumeWeightUnit>vkg</VolumeWeightUnit>
+			<AreaUnit>ft2</AreaUnit>
+			<LengthPrecision>2</LengthPrecision>
+			<VolumePrecision>2</VolumePrecision>
+			<WeightPrecision>2</WeightPrecision>
+			<VolumeWeightPrecision>2</VolumeWeightPrecision>
+			<AreaPrecision>2</AreaPrecision>
+			<VolumeWeightFactor>166.08</VolumeWeightFactor>
+		</MeasurementUnits>
+		<CreatorNetworkID>36028</CreatorNetworkID>
+		<TotalPieces>1</TotalPieces>
+		<TotalWeight Unit="kg">0.00</TotalWeight>
+		<TotalVolume Unit="m3">0.00</TotalVolume>
+		<TotalVolumeWeight Unit="vkg">0.00</TotalVolumeWeight>
+		<ChargeableWeight Unit="kg">0.00</ChargeableWeight>
+		<TotalValue Currency="USD">0.00</TotalValue>
+		<OriginPort Code="PELIM">
+			<Country Code="PE">Peru</Country>
+			<Method>Air</Method>
+			<Method>Ocean</Method>
+			<Method>Ground</Method>
+			<Name>Lima</Name>
+		</OriginPort>
+		<DestinationPort Code="ECGYE">
+			<Country Code="EC">Ecuador</Country>
+			<Method>Air</Method>
+			<Method>Ocean</Method>
+			<Method>Ground</Method>
+			<Name>Guayaquil</Name>
+		</DestinationPort>
+		<Status>Loaded</Status>
+		<LayoutType>House</LayoutType>
+		<Direction>Incoming</Direction>
+		<EstimatedArrivalDate>2021-07-15T13:49:02-05:00</EstimatedArrivalDate>
+		<ActualArrivalDate>2021-07-15T13:51:29-05:00</ActualArrivalDate>
+		<EstimatedDepartureDate>2021-07-15T13:49:02-05:00</EstimatedDepartureDate>
+		<ActualDepartureDate>2021-07-15T13:51:29-05:00</ActualDepartureDate>
+		<BillingClient GUID="2e133cb4-8dc3-40d1-9b84-2557efcb3524">
+			<Type>Client</Type>
+			<Name>MONDELEZ ECUADOR C. LTDA.</Name>
+			<EntityID>0990335028001</EntityID>
+			<CreatedOn>2019-10-05T20:14:25-05:00</CreatedOn>
+			<Address>
+				<Street>LUXEMBURGO N34-359 Y AVENIDA PORTUGAL</Street>
+				<ContactName>Paola Espinoza </ContactName>
+				<ContactPhone>(593)-2592190</ContactPhone>
+				<ContactPhoneExtension>0</ContactPhoneExtension>
+				<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+			</Address>
+			<BillingAddress>
+				<Street>LUXEMBURGO N34-359 Y AVENIDA PORTUGAL</Street>
+				<ContactName>Paola Espinoza </ContactName>
+				<ContactPhone>(593)-2592190</ContactPhone>
+				<ContactPhoneExtension>0</ContactPhoneExtension>
+				<ContactEmail>Paola.Espinoza@Mdlz.com</ContactEmail>
+			</BillingAddress>
+			<Email>Paola.Espinoza@Mdlz.com</Email>
+			<Phone>(593)-2592190</Phone>
+			<PhoneExtension>0</PhoneExtension>
+			<AccountNumber>153</AccountNumber>
+			<ContactFirstName>Paola Espinoza</ContactFirstName>
+			<TransactionDueDays>30</TransactionDueDays>
+			<PaymentTerms>
+				<Description>Crédito 30</Description>
+				<NetDueDays>30</NetDueDays>
+				<DiscountPercentage>0.00</DiscountPercentage>
+				<DiscountPaidDays>0</DiscountPaidDays>
+			</PaymentTerms>
+			<IsPrepaid>false</IsPrepaid>
+		</BillingClient>
+		<ExecutedPlace>Guayaquil</ExecutedPlace>
+		<ExecutedCityCode>ECECGYE</ExecutedCityCode>
+		<MasterGUID>a19f320a-dcae-490c-87b5-759964e973e6</MasterGUID>
+		<LastDateOfDeparture>2021-07-15T13:49:02-05:00</LastDateOfDeparture>
+		<SpottingDate>2021-07-15T13:49:02-05:00</SpottingDate>
+		<PickupDate>2021-07-15T13:49:02-05:00</PickupDate>
+		<CutoffDate>2021-07-15T13:49:02-05:00</CutoffDate>
+		<MasterWayBillNumber>2021-HTTI-243</MasterWayBillNumber>
+		<MasterNumber>2021-MTTI-243</MasterNumber>
+		<HasAttachments>false</HasAttachments>
+		<ShipmentOptions>
+			<IsShipperConsigneeRelated>false</IsShipperConsigneeRelated>
+			<IsRoutedTransaction>true</IsRoutedTransaction>
+			<IsAirWayBillDetailExpanded>true</IsAirWayBillDetailExpanded>
+			<IsBillOfLadingDetailExpanded>true</IsBillOfLadingDetailExpanded>
+			<IsCargoManifestDetailExpanded>true</IsCargoManifestDetailExpanded>
+			<FillDocsWithAccountingInfo>true</FillDocsWithAccountingInfo>
+			<AirWayBillWeightUnit>Kg</AirWayBillWeightUnit>
+			<BillOfLadingWeightUnit>Lb</BillOfLadingWeightUnit>
+			<ShowContainerDetails>true</ShowContainerDetails>
+			<ShowWHRsInCargoManifest>false</ShowWHRsInCargoManifest>
+			<ShowDimensionsInAWB>true</ShowDimensionsInAWB>
+			<ShowDimensionsDetailedInAWB>false</ShowDimensionsDetailedInAWB>
+			<UseNotesAsMarksNumbersInBL>false</UseNotesAsMarksNumbersInBL>
+			<BillOfLadingGroupSimilarItems>false</BillOfLadingGroupSimilarItems>
+		</ShipmentOptions>
+		<IsLessThanFullLoad>true</IsLessThanFullLoad>
+		<Service>PortToPort</Service>
+		<IsOnline>false</IsOnline>
+		<IsLiquidated>false</IsLiquidated>
+		<CreatedFrom>
+			<GUID>5eea7df7-d2db-46e1-9662-321bf9fde2b1</GUID>
+			<Type>GroundBooking</Type>
+			<Number>2021-SI-2940</Number>
+		</CreatedFrom>
+		<CustomFields>
+			<CustomField>
+				<CustomFieldDefinition>
+					<Type>Logical</Type>
+					<InternalName>freehand</InternalName>
+					<DisplayName>Freehand</DisplayName>
+					<InternalUse>true</InternalUse>
+					<BuildReports>false</BuildReports>
+					<Inactive>false</Inactive>
+					<IsCalculated>false</IsCalculated>
+					<IsReadOnly>false</IsReadOnly>
+					<DefaultValue>
+						<Value>false</Value>
+					</DefaultValue>
+				</CustomFieldDefinition>
+				<Value>false</Value>
+			</CustomField>
+			<CustomField>
+				<CustomFieldDefinition>
+					<Type>PickList</Type>
+					<InternalName>urgencia_problema</InternalName>
+					<DisplayName>Urgencia/ problema</DisplayName>
+					<InternalUse>true</InternalUse>
+					<BuildReports>false</BuildReports>
+					<Inactive>false</Inactive>
+					<IsCalculated>false</IsCalculated>
+					<IsReadOnly>false</IsReadOnly>
+					<DefaultValue>
+						<Value>NORMAL</Value>
+					</DefaultValue>
+					<PickItems>
+						<PickItem>NORMAL</PickItem>
+						<PickItem>URGENTE</PickItem>
+						<PickItem>PROBLEMA</PickItem>
+					</PickItems>
+				</CustomFieldDefinition>
+				<Value>NORMAL</Value>
+			</CustomField>
+			<CustomField>
+				<CustomFieldDefinition>
+					<Type>Logical</Type>
+					<InternalName>confirmacion_emisionliberacion</InternalName>
+					<DisplayName>CONFIRMACION EMISION-LIBERACION</DisplayName>
+					<InternalUse>true</InternalUse>
+					<BuildReports>false</BuildReports>
+					<Inactive>false</Inactive>
+					<IsCalculated>false</IsCalculated>
+					<IsReadOnly>false</IsReadOnly>
+					<DefaultValue>
+						<Value>false</Value>
+					</DefaultValue>
+				</CustomFieldDefinition>
+				<Value>false</Value>
+			</CustomField>
+		</CustomFields>
+		<GroundShipmentInfo>
+			<BillOfLadingNumber>2021-HTTI-243</BillOfLadingNumber>
+		</GroundShipmentInfo>
+	</GroundShipment>
+</Shipments>

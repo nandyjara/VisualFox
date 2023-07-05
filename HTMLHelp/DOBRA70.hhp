@@ -1,0 +1,20 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1
+Compiled file=\\SERVER\Proyectos\DOBRA70\HTMLHelp\DOBRA70.chm
+Contents file=DOBRA70.hhc
+Default Window=DOBRA70
+Default topic=DOBRA70_Welcome.htm
+Display compile notes=No
+Display compile progress=No
+Full-text search=Yes
+Index file=DOBRA70.hhk
+Language=0xc0a Español (Alfabetización internacional)
+Title=DOBRA Empresarial 7.0
+
+[WINDOWS]
+DOBRA70="DOBRA Empresarial 7.0","DOBRA70.hhc","DOBRA70.hhk","DOBRA70_Welcome.htm","DOBRA70_Welcome.htm",,,,,0x2520,200,0x304c,[0,0,800,572],,,,0,,,
+
+
+[FILES]
+DOBRA70_Welcome.htm

@@ -1,0 +1,210 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<meta name="Microsoft Border" content="none">
+<title>DOBRA Empresarial7.0 </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY"><a name="_Toc_00">Módulo: Caja Y Bancos<br>
+Documento: Depósito</a></h1>
+
+<h2><a name="_Toc_Definición">Definición</a></h2>
+
+<p ALIGN="JUSTIFY">El depósito de caja y bancos es un documento que sirve para transferir
+todos los valores recibidos mediante comprobantes de ingreso,&nbsp; de una caja
+determinada a una cuenta bancaria o de efectivo.</p>
+
+<p ALIGN="JUSTIFY">Los valores que se ingresan mediante comprobante de ingreso a una caja
+determinada se encuentran clasificados en efectivo, cheques, etc;&nbsp; y pueden ser
+identificados uno a uno;&nbsp; por esta razón, cuando se realiza un depósito el usuario
+tiene la posibilidad de seleccionar los valores que desea transferir a una determinada
+cuenta,&nbsp; puede depositar ciertos valores en una cuenta y dejar otros valores para
+depositarlos posteriormente.</p>
+
+<p ALIGN="JUSTIFY">Generalmente los valores recibidos tienen un saldo inicial que va
+disminuyendo en cada depósito y esto que consultarse en el informe de arqueo de caja del
+módulo de caja y bancos.&nbsp; Sólo se pueden depositar los valores que aún tienen
+saldos aquellos que no tienen saldo no aparecen en la pantalla al momento de efectuar el
+depósito.</p>
+
+<p ALIGN="JUSTIFY">La lista de valores recibidos sólo está disponible como una
+información relacionada con la caja respectiva; cuando se realiza un depósito, se
+transfiere únicamente el total de los valores seleccionados&nbsp; y se genera un
+sólo&nbsp; movimiento de depósito en la cuenta bancaria o de efectivo correspondiente.</p>
+
+<h2 ALIGN="JUSTIFY"><a name="_Toc_Clases de Cuenta">Integración</a></h2>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img
+src="ban_document_intdepositos.gif" width="487" height="354"
+alt="ban_document_intdepositos.bmp (518310 bytes)"></p>
+
+<h2><a name="_Toc_Acceso">Acceso</a></h2>
+
+<p ALIGN="JUSTIFY">Para acceder a esta opción, haga lo siguiente:</p>
+
+<ol>
+  <li>Abra el menú <strong>Herramientas</strong> de DOBRA®.</li>
+  <li>Despliegue el Submenú <strong>Caja y Bancos</strong> y desde la sección <strong>Documentos</strong>
+    seleccione el comando <strong>Depósito</strong>.</li>
+</ol>
+
+<h2><a name="_Toc_Elementos">Elementos</a></h2>
+
+<p><img src="ban_document_depositos.gif" width="800" height="574"></p>
+
+<table BORDER="0" WIDTH="585" style="font-family: Verdana; font-size: 8 pt">
+  <tr>
+    <th WIDTH="29%" VALIGN="top"><p ALIGN="left">Elemento</th>
+    <th WIDTH="71%" VALIGN="top"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Buscar</td>
+    <td WIDTH="71%" VALIGN="TOP">Sirve para buscar el documento por número.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Estado</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro estado es de &quot;solo lectura&quot; y muestra
+    información acerca del estado actual del documento Ej: ANULADO, APROBADO, ETC.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">ID</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro ID es de &quot;solo lectura&quot; y muestra el
+    número de identificación relacional del documento que es generado por el sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Número</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Numero es de &quot;solo lectura&quot; y muestra
+    número secuencial del documento que es generado por el sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Asiento</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Asiento es de &quot;solo lectura&quot; y muestra el
+    número del asiento contable asociado al documento y que es generado por el sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Tipo</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Tipo es de &quot;solo lectura&quot; y muestra el
+    Tipo de transacción.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Fecha</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Fecha es de &quot;editable&quot; y muestra fecha de
+    la transacción.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">División</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro de lista de división sirve para seleccionar la
+    división o línea de negocio a la que pertenece el documento</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Concepto</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">El cuadro Concepto es de
+    &quot;editable&quot; y sirve para ingresar una descripción corta o abreviada del motivo
+    de la transacción.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Caja</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">El cuadro de Caja es donde se recibe todo
+    tipo de depósitos ya sea de cheque o efectivo, contiene tipo de divisa dólares/efectivo,
+    Fecha la cual puede ser editable mediante la caja de selección.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Lista de Valores Ingresados</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">La sección Lista de Valores Ingresados
+    está compuesta por los cuadros Ingreso, Tipo, Fecha, Cheque, banco, cuenta, Girador,
+    Divisa, Importe, Valor, Valor base; Estos cuadros son editables y sirven para visualizar
+    todos los pagos o valores ingresados ya sea en cheque o efectivo, estos valores
+    posteriormente serán depositados y egresarán de cuentas bancarias y efectivo. Sólo se
+    pueden hacer pagos menores de la cantidad visualizada de valores de &quot;Efectivo&quot;
+    si hay pagos en efectivo puede elegir una cantidad menor al valor del efectivo. Además
+    cuenta con los botones Marcar/Desmarcar, Marcar todos, Desmarcar todos, Buscar, Igual.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Cuenta</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">El cuadro Cuenta es donde se va a
+    depositar todos los valores recibidos en una fecha dada.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Glosa</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">El cuadro Glosa es &quot;editable&quot; y
+    sirve para ingresar una descripción completa de la transacción.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Subtotal</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">Muestra el total de egreso.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">I.C.C.</td>
+    <td WIDTH="71%" VALIGN="TOP">Sirve para ingresar el impuesto a la circulación de
+    capital.&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Total </td>
+    <td WIDTH="71%" VALIGN="TOP">Muestra total del depósito.</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Crear</a></h2>
+
+<p>Para crear un nuevo documento de depreciación, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando <strong>Nuevo</strong> desde el Menú <strong>Archivo</strong> o
+    haga un click en el botón (<img src="bas_interfaz_toolbar_new.gif"
+    alt="bas_interfaz_toolbar_new.gif (922 bytes)" align="bottom" width="16" height="16">) de
+    la Barra de Herramientas.<br>
+  </li>
+  <li>El cursor se ubica en el cuadro concepto. Escriba el concepto o motivo de la
+    transacción y luego presione la tecla TAB para mover el el cursor al cuadro caja.<br>
+  </li>
+  <li>Seleccione la caja donde se recibe los depósitos.&nbsp;&nbsp; Puede usar las teclas
+    ALT+FLECHA_ABAJO o CTRL+FLECHA_ABAJO.&nbsp; Ahora ud. Podrá visualizar todos los ingresos
+    registrados en esta caja ya sea en efectivo ó cheque.&nbsp; Acontinuación presione la
+    tecla TAB para mover el cursor al siguiente cuadro.<br>
+  </li>
+  <li><p align="left">Si desea, luego de haber seleccionado la caja para el respectivo
+    depósito.&nbsp;&nbsp; Haga click en la caja de selección (<img border="0"
+    src="ban_cajaseleccion.gif" align="bottom" width="14" height="14">Fecha) lo que permite a
+    ud. Que la misma pueda ser &quot; editable&quot;.&nbsp;</p>
+  </li>
+  <li><p align="left">Ud. Visualizará los ingresos de la lista que van a ser depositados,
+    podrá elegirlos con los botones(<img border="0" src="ban_desmarcar.gif" width="102"
+    height="21" align="bottom">) éste botón sirve para seleccionar uno a uno los ingresos.
+    El botón de comandos (<img border="0" src="ban_document_marcar.gif" align="bottom"
+    width="81" height="20">) selecciona todos los ingresos de la lista.&nbsp; Por último el
+    botón de comandos (<img border="0" src="ban_document_desmar.gif" align="bottom"
+    width="97" height="20">) desactiva todas las filas marcadas.</p>
+  </li>
+  <li><p align="left">Ingrese la cuenta contable donde va a depositar todos los valores
+    recibidos. Use la tecla ALT+FLECHA_ABAJO o CTRL+FLECHA_ABAJO y&nbsp; Acontinuación
+    presione la tecla TAB para mover el cursor al siguiente cuadro.</p>
+  </li>
+  <li><p align="left">Luego puede escribir una glosa con el detalle del depósito.&nbsp;
+    Acontinuación presione la tecla TAB para mover el cursor al cuadro I.C.C.</p>
+  </li>
+  <li><p align="left">Seleccione el comando Guardar desde el Menú Archivo o haga un click en
+    el botón (<img src="bas_interfaz_toolbar_save.gif"
+    alt="bas_interfaz_toolbar_save.gif (923 bytes)" align="bottom" width="16" height="16">) de
+    la Barra de Herramientas.</p>
+  </li>
+  <li><p align="left">Acontinuación el sistema le mostrará con el nuevo número de documento
+    asignado.</p>
+  </li>
+</ol>
+
+<h2><a name="_Toc_Editar">Modificar</a> </h2>
+
+<p>Este documento no es modificable.</p>
+
+<p>&nbsp;</p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

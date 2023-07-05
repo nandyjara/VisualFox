@@ -1,0 +1,9 @@
+PALETTE=OFF
+ESCAPE=OFF
+TITLE=SQLDobra Empresarial 7 [Torres & Torres]
+DEFAULT=M:\
+PATH=forms,reports,versions\TYT\forms,versions\TYT\menus,versions\TYT\reports,versions\TYT\progs,graphics,library,clases,include
+COMMAND=MODIFY PROJECT M:\TYT
+
+
+

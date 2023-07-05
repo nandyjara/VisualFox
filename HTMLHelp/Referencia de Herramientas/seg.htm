@@ -1,0 +1,116 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<title>Seguridad</title>
+</head>
+
+<body>
+
+<h1>Módulo de Seguridad<br>
+Introducción</h1>
+
+<p>DOBRA® 7 es un Sistema de Información diseñado para operar en una Red de
+Computadoras lo cual implica que muchos usarios podrán hacer uso de la información de la
+Empresa pero no todos los usuarios pueden conocer o alterar toda la información.&nbsp; Es
+importante establecer niveles de acceso para que los usuarios sólo accedan a las opciones
+e información necesarias para su trabajo.</p>
+
+<p ALIGN="JUSTIFY">Generalmente, los usuarios son &quot;Investigadores&quot; por
+naturaleza y siempre que sea posible, intentarán acceder a ciertas áreas de información
+del sistema, por lo menos, para saber cómo funciona. Esta característica natural de los
+usuarios sugiere que DOBRA® cuente con un mecanismo de defensa.</p>
+
+<p>El Módulo de Seguridad proporciona las herramientas necesarias para controlar el
+acceso a las diferentes opciones de DOBRA® 7 por parte de los usuarios.</p>
+
+<h2 ALIGN="JUSTIFY">Diferencia entre seguridad de SQLServer® y Windows®</h2>
+
+<p>El Sistema de Seguridad de DOBRA® se centra únicamente en el control del acceso a las
+distintas opciones del sistema, NO tiene relación con el Sistema de Seguridad de
+SQLServer® que se centra en el control del acceso a los distintos componentes de la Base
+de Datos como: Tablas, Procedimientos Almacenados, etc.&nbsp; Tampoco tiene relación con
+el Sistema de Seguridad de Windows® el cual se centra en el control del acceso a los
+recursos del Sistema Operativo y del Servidor de Archivos en General.</p>
+
+<p>DOBRA® proporciona una control para que un usuario que trabaja en el departamento de
+ventas; por ejemplo, sólo pueda usar opciones como Facturas de venta, Precios de
+Productos, Informes de Ventas, etc., bloqueando el acceso hacia otras áreas como
+Empleados, Contabilidad, Caja y Bancos, etc. </p>
+
+<h2 ALIGN="JUSTIFY">Perfiles de Seguridad</h2>
+
+<p>El Módulo de Seguridad proporciona las herramientas necesarias para poder establecer
+quienes pueden usar el sistema y en qué áreas de información pueden trabajar. El
+Sistema de Seguridad de DOBRA® se basa en perfiles de seguridad de usuario y para
+comprender mejor este mecanismo, se presenta el siguiente diagrama:</p>
+
+<p><img src="seg_perfil.gif" width="537" height="152"></p>
+
+<p>Según el diagrama, DOBRA® está diseñado con un conjunto de Opciones que permiten
+ejecutar acciones sobre la Base de Datos (OPCIONES DE DOBRA® en el diagrama).&nbsp; Para
+poder acceder a cada una de estas opciones DOBRA implementa una Interfaz mediante el Menú
+de Inicio de DOBRA.&nbsp; El Perfil de Seguridad en este caso, es un protocolo entre el
+Usuario y la Interfaz del Sistema que determina las opciones que estarán habilitadas en
+el Menú de Inicio de DOBRA.</p>
+
+<p>Para crear un Perfil de Seguridad, es necesario ingresar la siguiente información:</p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="4%" bgcolor="#F0F0F0" valign="top">1</td>
+    <td width="32%" bgcolor="#F0F0F0" valign="top">Lista de Recursos</td>
+    <td width="82%" bgcolor="#F0F0F0" valign="top">La Lista de Recursos es una estructura
+    jerárquica que contiene todas las opciones del sistema codificadas con códigos de
+    seguridad reconocidos por DOBRA®.&nbsp; Generalmente, esta lista se incluye al instalar
+    la Base de Datos de DOBRA®; sin embargo, el usuario puede ingresarla desde la opción
+    Recursos de la sección de Mantenimiento del Módulo de Seguridad en el Menú de Inicio de
+    DOBRA.</td>
+  </tr>
+  <tr>
+    <td width="4%" bgcolor="#F0F0F0" valign="top">2</td>
+    <td width="32%" bgcolor="#F0F0F0" valign="top">Grupos de Usuarios</td>
+    <td width="82%" bgcolor="#F0F0F0" valign="top">Para facilitar la organización de los
+    usuarios, DOBRA® proporciona una lista de grupos de usuarios que puede acceder desde la
+    opción Grupos de la sección de Mantenimiento del&nbsp; Módulo de Seguridad en el Menú
+    de Inicio de DOBRA. &nbsp; </td>
+  </tr>
+  <tr>
+    <td width="4%" bgcolor="#F0F0F0" valign="top">3</td>
+    <td width="32%" bgcolor="#F0F0F0" valign="top">Lista de Usuarios</td>
+    <td width="82%" bgcolor="#F0F0F0" valign="top">Es el Catálogo de cuentas de Usuarios con
+    sus respectivos datos de identificación y Contraseñas. &nbsp; Para Crear la lista de
+    usuarios seleccione la opción Usuarios de la sección de Mantenimiento del&nbsp; Módulo
+    de Seguridad en el Menú de Inicio de DOBRA.</td>
+  </tr>
+</table>
+
+<h2 ALIGN="JUSTIFY">Mecanismo de Auditoría</h2>
+
+<p>Para facilitar la identificación de los usuarios que han realizado operaciones con la
+Base de Datos desde DOBRA®, el Sistema usa dos métodos: 
+
+<ul>
+  <li>Pistas de Auditoría</li>
+  <li>Bitácora</li>
+</ul>
+
+<h4>PISTAS DE AUDITORIA</h4>
+
+<p>DOBRA® almacena el código de identificación de cada usuario en cada uno de los
+registros procesados, editados, creados o anulados, de tal forma que con sólo examinar
+alguna de las tablas de la Base de Datos es posible identificar qué usuario estuvo
+realizando una operación con la misma.</p>
+
+<h4>BITÁCORA</h4>
+
+<p>La Bitácora es una tabla que guarda un registro histórico de las actividades de los
+usuarios en el Sistema.&nbsp; Esta es otra fuente de información para determinar con
+fecha y hora si un usuario ha ingresado al sistema y los procesos que ha ejecutado.</p>
+
+<p>&nbsp;</p>
+
+<p class="copyright">©2000 Laboratorios CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

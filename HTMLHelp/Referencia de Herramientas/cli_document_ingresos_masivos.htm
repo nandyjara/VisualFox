@@ -1,0 +1,243 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<meta name="Microsoft Border" content="none">
+<title>DOBRA Empresarial 7.0 </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY"><a name="_Toc_00">Módulo: Clientes<br>
+Documento: Comprobante de Ingreso Masivo</a></h1>
+
+<h2><a name="_Toc_Definición">Definición</a></h2>
+
+<p ALIGN="JUSTIFY">El Comprobante de Ingreso Masivo del módulo de clientes es un
+documento, que a diferencia del comprobante de ingreso normal sirve para registrar los
+pagos recibidos de los varios clientes a la vez.<br>
+El comprobante de ingreso masivo de clientes tiene dos secciones importantes en una
+sección se registran los valores recibidos como por ejemplo: efectivo ó cheque al día;
+y en otra sección se muestra las deudas pendientes de los clientes.<br>
+<br>
+El comprobante de ingreso masivo funciona de la siguiente manera:<br>
+<br>
+Se registran los valores recibidos de los cliente y las respectivas retenciones que los
+cliente nos ha efectuado y luego estos valores deben ser aplicados como abonos a las
+deudas respectivas.&nbsp; El total de valores recibidos más las retenciones tiene que ser
+igual al total de abonos, si existieran los valores recibidos más las retenciones fueran
+mayor al total de abonos, el sistema creará un valor a favor del cliente que podrá ser
+utilizado en una transacción posterior como un pago anticipado.<br>
+<br>
+En el sistema no puede abonarse un valor mayor que el total de ingresos recibidos.<br>
+El comprobante de ingreso masivo sirve para registrar pagos en efectivo, en caso de tener
+cheque postfechados use el documento de recibo de cheques postfechados.</p>
+
+<h3><a name="_Toc_Clases de Cuenta">Integración</a></h3>
+
+<p ALIGN="JUSTIFY"><img border="0" src="cli_document_intingmas.gif" width="580"
+height="340"></p>
+
+<h2><a name="_Toc_Acceso">Acceso</a></h2>
+
+<p ALIGN="JUSTIFY">Para acceder a esta opción, haga lo siguiente:</p>
+
+<ol>
+  <li>Abra el menú <strong>Herramientas </strong>de DOBRA®.</li>
+  <li>Despliegue el Submenú <strong>Clientes </strong>y desde la sección <strong>Documento</strong>
+    seleccione el comando <strong>Comprobante de Ingreso Masivo</strong>.</li>
+</ol>
+
+<h2><a name="_Toc_Elementos">Elementos</a></h2>
+
+<p><img src="cli_document_igrmasivo.gif" width="800" height="555"></p>
+
+<table BORDER="0" WIDTH="585">
+  <tr>
+    <th WIDTH="29%" VALIGN="top"><p ALIGN="left">Elemento</th>
+    <th WIDTH="71%" VALIGN="top"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Buscar</td>
+    <td WIDTH="71%" VALIGN="TOP">Sirve para buscar el documento por número.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Estado</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro estado es de &quot;solo lectura&quot; y muestra
+    información acerca del estado actual del documento Ej: ANULADO, APROBADO, ETC.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">ID</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro ID es de &quot;solo lectura&quot; y muestra el
+    número de identificación relacional del documento que es generado por el sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Número</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Numero es de &quot;solo lectura&quot; y muestra
+    número secuencial del documento que es generado por el sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Asiento</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Asiento es de &quot;solo lectura&quot; y muestra el
+    número del asiento contable asociado al documento y que es generado por el sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Tipo</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Tipo es de &quot;solo lectura&quot; y muestra el
+    Tipo de transacción.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Fecha</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro Fecha es &quot;editable&quot; y muestra fecha de la
+    transacción.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">División</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro de lista de división sirve para seleccionar la
+    división o línea de negocio a la que pertenece el documento</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Concepto</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">El cuadro Concepto es &quot;editable&quot;
+    y sirve para ingresar una descripción corta o abreviada del motivo de la transacción.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Caja</td>
+    <td WIDTH="71%" VALIGN="TOP">El cuadro de caja sirve para seleccionar el número de caja.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Detalle de Valores Recibidos</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">La sección de Detalle de Valores
+    Recibidos está compuesto por una cuadrícula de valores recibidos que tiene las columnas
+    de tipo, fecha, número, banco, cuenta, girador,divisa, valor, valor base y además de los
+    botones de comandos Nuevo&nbsp;y Quitar que sirve para agregar o quitar filas en la
+    cuadrícula. La sección de detalle de valores recibidos sirve para registrar los valores
+    recibidos ya sean estos cheque, efectivo, depósito etc.&nbsp;<br>
+    La sección de Detalle de Valores Recibidos cuenta además con el R.F.IVA., R.F.RENTA,
+    total de ingresos, .</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Detalle de&nbsp; Duedas&nbsp;</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">La sección de Detalle de Deudas del
+    Cliente está compuesta por una cuadrícula de deudas que tienen las siguientes columnas:
+    cliente, deuda, tipo, concepto, divisa, saldo, abono, saldo base, abono base y además de
+    los botones de comandos Nuevo&nbsp;y Quitar que sirve para agregar o quitar filas en la
+    cuadrícula.<br>
+    La sección de detalle de Deudas del Cliente sirve para seleccionar ó registrar los
+    diferentes clientes con sus respectivos números de facturas seleccionada desde el cuadro
+    de &quot;Deuda&quot;, a dicha factura se le asignará una cantidad como abono según el
+    total de valores recibidos por el cliente.&nbsp;<br>
+    La sección de Detalle de Deudas del Cliente cuenta además con el total deudas, total
+    abonos, déficit de ingresos , superávit.</td>
+  </tr>
+  <tr>
+    <td WIDTH="29%" VALIGN="TOP">Observaciones</td>
+    <td WIDTH="71%" VALIGN="TOP"><p ALIGN="JUSTIFY">El cuadro observaciones es
+    &quot;editable&quot; y sirve para ingresar una descripción completa de la transacción.</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Crear</a></h2>
+
+<p>Para crear una nueva Cuenta, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando Nuevo desde el Menú Archivo o haga un click en el botón (<img
+    src="bas_interfaz_toolbar_new.gif" align="bottom" width="16" height="16">) de la Barra de
+    Herramientas.<br>
+  </li>
+  <li>El cursor se ubica en el cuadro concepto. Escriba el concepto o motivo de la
+    transacción y luego presione la tecla TAB para mover el el cursor al cuadro caja.<br>
+  </li>
+  <li>Seleccione el caja.&nbsp; Puede usar las teclas ALT+FLECHA_ABAJO o
+    CTRL+FLECHA_ABAJO.&nbsp; A continuación presione la tecla tab para mover el cursor a la
+    sección de Detalle de Valores Recibidos.<br>
+  </li>
+  <li><p align="left">Para registrar los valores recibidos efectuados debe agregar nuevas
+    filas en la cuadrícula de valores.&nbsp; Para agregar una nueva fila haga un click en el
+    botón (<img border="0" src="botón_nuevo.gif" align="bottom" width="53" height="21">) de
+    la sección Valores recibidos o presione la tlecla ALT+N.&nbsp; Aparece una nueva fila en
+    la cuadrícula y el cursor se ubica en la primera celda de la fila.</p>
+  </li>
+  <li><p align="left">Seleccione el tipo de pago que puede ser en efectivo, cheque,
+    depósitos, etc.&nbsp; Puede usar las teclas ALT+FLECHA_ABAJO o CTRL+FLECHA_ABAJO. A
+    continuación y presione la tecla TAB para mover el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Escriba la fecha del pago y luego presione la tecla TAB para mover el el
+    cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Escriba el número del cheque o tarjeta si el pago es efectuado con
+    éstos y luego presione la tecla TAB para mover el el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Seleccione el nombre del banco .&nbsp; Puede usar las teclas
+    ALT+FLECHA_ABAJO o CTRL+FLECHA_ABAJO.&nbsp; A continuación presione la tecla tab para
+    mover el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Escriba el número de cuenta del cheque si el pago es efectuado con
+    éste y luego presione la tecla TAB para mover el el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Escriba el nombre del girador y luego presione la tecla TAB para mover
+    el el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Seleccione la divisa del pago.&nbsp; Generalmente en la celda de divisa
+    aparece seleccionada la divisa base del sistema, si no necesita cambiar la divisa entonces
+    solo presione la tecla TAB para mover el cursor a la siguiente celda; en caso contrario,
+    use la tecla ALT+FLECHA_ABAJO y seleccione la divisa.&nbsp; A continuación presione la
+    tecla TAB para mover el cursor a la siguiente celda.&nbsp;&nbsp;</p>
+  </li>
+  <li><p align="left">Escriba el valor según la divisa seleccionada y luego presione la tecla
+    TAB para mover el el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Si desea ingresar un nuevo tipo de pago regrese al paso 4.&nbsp; Si
+    desea quitar una fila de la cuadrícula de valores recibidos, haga un click en la fila
+    correspondiente y luego haga un click el botón (<img border="0" src="botón_quitar.gif"
+    align="bottom" width="52" height="21">) de la sección Detalle de Valores Recibidos o
+    presione la tlecla ALT+Q.&nbsp;&nbsp;</p>
+  </li>
+  <li><p align="left">Para registrar el Detalle de Deudas debe agregar nuevas filas en la
+    cuadrícula de deudas.&nbsp; Para agregar una nueva fila haga un click en el botón (<img
+    border="0" src="botón_nuevo.gif" align="bottom" width="53" height="21">) de la sección
+    de detalle de deudas ó presione la tlecla ALT+N.&nbsp; Aparece una nueva fila en la
+    cuadrícula y el cursor se ubica en la primera celda de la fila.</p>
+  </li>
+  <li><p align="left">Seleccione el código del cliente y nombre.&nbsp; Puede usar las teclas
+    ALT+FLECHA_ABAJO o CTRL+FLECHA_ABAJO. A continuación y presione la tecla TAB para mover
+    el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Seleccione la deuda (No. de factura) a la cual desea abonar cierta
+    cantidad restada de los valores recibidos ingresados.&nbsp; Puede usar las teclas
+    ALT+FLECHA_ABAJO o CTRL+FLECHA_ABAJO.&nbsp; A continuación y presione la tecla TAB para
+    mover el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Escriba o reparta el abono a los diferentes clientes según el valor de
+    Total Ingresos y luego presione la tecla TAB para mover el el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Si desea ingresar un nuevo Detalle de Deudas regrese al paso 14.&nbsp;
+    Si desea quitar una fila de la cuadrícula, haga un click en la fila correspondiente y
+    luego haga un click el botón (<img border="0" src="botón_quitar.gif" align="bottom"
+    width="52" height="21">) de la sección Detalle de Deudas o presione la tlecla
+    ALT+Q.&nbsp;&nbsp;</p>
+  </li>
+  <li><p align="left">Luego puede escribir una observación con el detalle del Comprobante de
+    Ingreso Masivo.&nbsp; Cuando este listo debe asegurarse que todos los valores totales
+    estén correctamente calculados.</p>
+  </li>
+  <li><p align="left">Seleccione el comando Guardar desde el Menú Archivo o haga un click en
+    el botón (<img src="bas_interfaz_toolbar_save.gif"
+    alt="bas_interfaz_toolbar_save.gif (923 bytes)" align="bottom" width="16" height="16">) de
+    la Barra de Herramientas.</p>
+  </li>
+  <li><p align="left">A continuación el sistema le mostrará con el nuevo número de
+    documento asignado.</p>
+  </li>
+</ol>
+
+<h2><a name="_Toc_Editar">Modificar</a></h2>
+
+<p>Este documento no puede ser modificado.</p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

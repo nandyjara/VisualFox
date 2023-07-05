@@ -1,0 +1,17 @@
+IF !USED("PDEGDETA")
+	USE PDEGDETA IN 0
+ENDIF
+
+lnCont01 = 0
+lnCont02 = 0
+select pdEGdeta
+scan all
+	IF PDEGDETA.SucursalID = "00"
+		lnCont01 = lnCont01 + 1
+		lcID = pdEGdeta.sucursalid + tran(lncont01, "@L 99999999")
+	ELSE
+		lnCont02 = lnCont02 + 1
+		lcID = pdEGdeta.sucursalid + tran(lncont02, "@L 99999999")
+	ENDIF
+	replace id with lcID
+endscan

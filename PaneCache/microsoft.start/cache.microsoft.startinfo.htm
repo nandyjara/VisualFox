@@ -1,0 +1,18 @@
+<?xml version="1.0"?><SCRIPT><!--
+				
+		function showContent( cID) {
+			var content = cID + "_content"
+			var link = cID + "_link"
+			if (window.document.all(content).style.display == "none")
+			{
+			window.document.all(link).src = "m.gif";
+			window.document.all(content).style.display = "";
+			}
+			else
+			{
+			window.document.all(link).src = "p.gif";
+			window.document.all(content).style.display = "none";
+			}
+		}
+									
+	--></SCRIPT><TABLE BORDER="0" width="100%" cellpadding="2" cellspacing="0"><TR><TD><A href="javascript:showContent('1')" class="toggle"><img border="0" src="p.gif" id="1_link" align="absmiddle" /></A><A href="vfps:help?id=1231106">What's new in Visual FoxPro?</A></TD></TR><TR><TD><TABLE BORDER="0" width="100%" cellpadding="2" cellspacing="0" id="1_content" style="display:none" class="cat"><TR><TD><A href="vfps:help?id=1231113">Reference</A></TD></TR><TR><TD /></TR><TR><TD><A href="vfps:help?id=1231114">Working with Visual FoxPro</A></TD></TR><TR><TD /></TR><TR><TD><A href="vfps:help?id=1231115">Getting Started?</A></TD></TR><TR><TD /></TR><TR><TD><A href="vfps:help?id=1231112">Samples and Walkthroughs</A></TD></TR><TR><TD /></TR></TABLE></TD></TR><TR><TD><A href="vfps:gotopane?uniqueid=microsoft.environmgr">Customize my development environment</A></TD></TR><TR><TD /></TR><TR><TD><A href="vfps:doapplication?appname=(justpath(_wizard)+&quot;\wizards\appwiz.prg&quot;)">Create a new application</A></TD></TR><TR><TD /></TR><TR><TD><A href="vfps:doapplication?appname=(justpath(_wizard)+&quot;\wizards\wzdbc.app&quot;)">Create a new database</A></TD></TR><TR><TD /></TR><TR><TD><A href="vfps:linkto?url=http://msdn.microsoft.com/vfoxpro/">Go to the Visual FoxPro web site</A></TD></TR><TR><TD /></TR></TABLE>

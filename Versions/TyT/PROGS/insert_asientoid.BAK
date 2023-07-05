@@ -1,0 +1,44 @@
+
+*!*	SELECT CABECERA
+*!*	scan all 
+*!*		* recuperara posición del punto en el código hacia atrás
+*!*		SELECT CABECERA
+*!*		m.ID 		= CABECERA.id
+*!*		m.coddia 	= ALLTRIM(CABECERA.coddia)
+*!*		m.numdoc 	= ALLTRIM(CABECERA.numdoc)
+
+*!*		select DETALLE
+*!*		replace all DETALLE.asientoid with m.ID FOR ALLTRIM(DETALLE.coddia) = m.coddia and ALLTRIM(DETALLE.numdoc) = m.numdoc 
+*!*		
+*!*		select CABECERA
+*!*	endscan
+
+
+**SELECT CT.ID AS CUENTAID, DT.CODCTA AS CUENTA FROM CUENTA CT INNER JOIN DETALLE DT ON (CT.CÓDIGO = DT.CODCTA) INTO CURSOR SQLTEMP ORDER BY DT.codcta
+SELECT cuenta
+GO TOP
+scan all 
+	* recuperara posición del punto en el código hacia atrás
+	SELECT cuenta
+	m.ID 		= CUENTA.ID
+	m.codcta 	= ALLTRIM(CUENTA.Código)
+
+	select DETALLE
+	replace all DETALLE.cuentaID with m.ID FOR ALLTRIM(DETALLE.codcta) = m.codcta
+	
+	select CUENTA
+endscan
+
+*!*	SELECT CLI_CLIENTES
+*!*	GO TOP
+*!*	scan all 
+*!*		* recuperara posición del punto en el código hacia atrás
+*!*		SELECT CLI_CLIENTES
+*!*		m.ID 		= CLI_CLIENTES.ID
+*!*		m.código	= ALLTRIM(CLI_CLIENTES.Código)
+
+*!*		select CLI_SALDOS
+*!*		replace all CLI_SALDOS.ClienteID with m.ID FOR ALLTRIM(CLI_SALDOS.Cliente) = m.código
+*!*		
+*!*		select CLI_SALDOS
+*!*	endscan

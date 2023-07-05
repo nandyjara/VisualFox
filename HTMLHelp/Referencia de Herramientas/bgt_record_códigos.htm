@@ -1,0 +1,258 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<link REL="stylesheet" HREF="../estilos.css" TYPE="text/css">
+<title>DOBRA 7.0 - Presupuesto</title>
+<meta name="Microsoft Border" content="none">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY">Modulo: Presupuesto<br>
+<a name="_Toc_00">Mantenimiento: Códigos Presupuestarios</a></h1>
+
+<h2><a name="_Toc_Definición">Definición</a></h2>
+
+<p ALIGN="JUSTIFY">Cada PRESUPUESTO es una estructura jerárquica compuesta de CÓDIGOS
+PRESUPUESTARIOS. Cada CÓDIGO PRESUPUESTARIO puede ser de un tipo y clase determinados y
+tiene atributos que determinan la forma de calcular o los valores mensuales
+proyectados.&nbsp; El Fichero de Códigos Presupuestarios, sirve para crear PRESUPUESTOS. </p>
+
+<h2><a name="_Toc_Clases de Cuenta">Estructura Presupuestaria</a></h2>
+
+<p ALIGN="JUSTIFY">En DOBRA se pueden crear y dar mantenimiento a múltiples PRESUPUESTOS
+o Estructuras Presupuestarias.&nbsp; Una Estructura Presupuestaria es un conjunto de
+Códigos Presupuestarios organizados jerárquicamente y que representan ingresos o egresos
+dependiendo del tipo de presupuesto. &nbsp; En DOBRA, una estructura presupuestaria
+podría tener la siguiente apariencia:</p>
+
+<p ALIGN="JUSTIFY"><img src="bgt_record_códigos_01.gif" width="360" height="430"></p>
+
+<p ALIGN="JUSTIFY">En la figura se ha creado un solo presupuesto denominado CODETEK S.A.,
+por debajo de CODETEK S.A. se encuentran los códigos que conforman el presupuesto.&nbsp;
+Cada código presupuestario puede tener estimaciones mensuales para uno o más años
+determinados, como se muestra a continuación:</p>
+
+<p ALIGN="JUSTIFY"><img src="bgt_record_códigos_02.gif" width="407" height="210"></p>
+
+<p ALIGN="JUSTIFY">La clase es el equivalente a la Naturaleza de cuenta y determina si una
+cuenta es Deudora o Acreedora; esto determina además, que las cuentas Deudoras
+incrementan su saldo cuando se ha efectuado un débito y lo decrementan con los créditos;
+las cuentas Acreedoras incrementan su saldo cuando se ha efectuado un crédito y lo
+decrementan con los débitos. Las Clases básicas que DOBRA® reconoce son: </p>
+
+<p ALIGN="JUSTIFY">BALANCE o PATRIMONIALES<br>
+<br>
+<img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_node_mid.jpg" width="48" height="16">11 Activo<br>
+<img border="0" src="bullet_node_mid.gif" width="48" height="16">12
+Pasivo<br>
+<img src="bullet_node_last.gif" width="48" height="16">13
+Patrimonio o Capital</p>
+
+<p ALIGN="JUSTIFY">PARTIDAS PRESUPUESTARIAS<br>
+<img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_node_mid.jpg" width="48" height="16">41
+Partidas de Ingresos (Funcional)<br>
+<img src="bullet_node_last.jpg" alt="node_last.jpg (755 bytes)" width="48" height="16">42
+Partidas de Gastos (Proyectos)</p>
+
+<p ALIGN="JUSTIFY">RESULTADOS<br>
+<img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_node_mid.jpg" width="48" height="16">61
+Ingresos<br>
+<img src="bullet_node_last.jpg" width="48" height="16">62
+Gastos</p>
+
+<p ALIGN="JUSTIFY">ORDEN<br>
+<img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_node_mid.jpg" width="48" height="16">91
+Deudora<br>
+<img src="bullet_node_last.jpg" width="48" height="16">92
+Acreedora</p>
+
+<table BORDER="0" WIDTH="594">
+  <tr>
+    <th WIDTH="81%" VALIGN="top"><p ALIGN="JUSTIFY">CLASE DE CUENTA</th>
+    <th WIDTH="19%" VALIGN="top"><p ALIGN="JUSTIFY">NATURALEZA</th>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Grupo de Balance o Patrimoniales</td>
+    <td WIDTH="19%" VALIGN="TOP">GRUPO</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Activo </td>
+    <td WIDTH="19%" VALIGN="TOP">DEUDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Pasivo </td>
+    <td WIDTH="19%" VALIGN="TOP">ACREEDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Patrimonio o Capital</td>
+    <td WIDTH="19%" VALIGN="TOP">ACREEDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Grupo de Resultados</td>
+    <td WIDTH="19%" VALIGN="TOP">GRUPO</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Ingreso o Ventas </td>
+    <td WIDTH="19%" VALIGN="TOP">ACREEDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Gastos o Costos</td>
+    <td WIDTH="19%" VALIGN="TOP">DEUDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Grupo de Presupuestarias</td>
+    <td WIDTH="19%" VALIGN="TOP">GRUPO</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Partida de Ingresos o de Funciones</td>
+    <td WIDTH="19%" VALIGN="TOP">ACREEDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Partida de Gastos o de Proyectos</td>
+    <td WIDTH="19%" VALIGN="TOP">DEUDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Grupo de Orden</td>
+    <td WIDTH="19%" VALIGN="TOP">GRUPO</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Cuenta de Orden Deudora</td>
+    <td WIDTH="19%" VALIGN="TOP">DEUDORA</td>
+  </tr>
+  <tr>
+    <td WIDTH="81%" VALIGN="TOP">Cuenta de Orden Acreedora</td>
+    <td WIDTH="19%" VALIGN="TOP">ACREEDORA</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Tipos de Cuenta">Tipos de Códigos Presupuestarios</a></h2>
+
+<p ALIGN="JUSTIFY">Para facilitar la creación de una ESTRUCTURA PRESUPUESTARIA, DOBRA
+reconoce y clasifica los Códigos Presupuestarios según el efecto o comportamiento que
+tendrán al momento de Generar los Informes de Presupuesto; en los siguientes Tipos:</p>
+
+<ol>
+  <li>PRESUPUESTO</li>
+  <li>GRUPO</li>
+  <li>DETALLE</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" width="488">
+  <tr>
+    <td width="355" valign="top"><img src="bullet_folder.gif" alt="folder.bmp (246 bytes)"
+    width="16" height="16">1.01 - ACTIVO CORRIENTE</td>
+    <td width="121" valign="middle" align="right"></td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img src="bullet_node_last.jpg"
+    alt="node_last.jpg (755 bytes)" width="48" height="16"><img src="bullet_folder.gif"
+    alt="folder.bmp (246 bytes)" width="16" height="16"> 1.01.01 - CUENTAS POR COBRAR CLIENTES</td>
+    <td width="121" valign="middle" align="right">405,000.00</td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img border="0" src="bullet_node_mid_L2.gif" width="96" height="16"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_paper.gif" width="16" height="16">
+      1.01.01.001 - Andrés García</td>
+    <td width="121" valign="middle" align="right">250,000.00</td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_node_mid_L2.jpg" width="96" height="16"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_paper.gif" width="16" height="16">
+      1.01.01.002 - Sergio Amador</td>
+    <td width="121" valign="middle" align="right">35,000.00</td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img src="bullet_node_last_L2.jpg"
+    alt="node_last_L2.jpg (779 bytes)" width="96" height="16"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_paper.gif" width="16" height="16">
+      1.01.01.003 - Cristina Oñate</td>
+    <td width="121" valign="middle" align="right">120,000.00</td>
+  </tr>
+</table>
+
+<p ALIGN="JUSTIFY">En el ejemplo, la cuenta CUENTAS POR COBRAR CLIENTES es una cuenta de
+Agrupación cuyo saldo depende del saldo que sumen las cuentas: Andrés García, Sergio
+Amador y Cristina Oñate que a su vez son cuentas de movimiento por estar en el último
+nivel de la jerarquía de cuentas.</p>
+
+<p>Note que las cuentas de Agrupación generalmente se identifican con una carpeta y las
+cuentas de movimiento se identifican con una hoja.&nbsp; Una cuenta de movimiento no puede
+tener subcuentas.</p>
+
+<p>Jerarquía y Niveles de Agrupación</p>
+
+<p ALIGN="JUSTIFY">A diferencia de otros sistemas de contabilidad, DOBRA® no se basa en
+código de la cuenta para determinar su posición dentro del Plan de Cuentas, cada cuenta
+en en Plan tiene un número de identificación único llamado ID y un atributo llamado
+PadreID.&nbsp; El atributo PadreID guarda el ID de su cuenta Padre.&nbsp; De esta manera,
+el nivel de agrupación que puede tener su Plan de Cuentas es técnicamente ilimitado; si
+embargo, DOBRA® limita el Plan de Cuentas a 10 subniveles ya que consideramos que es
+suficiente para definir un Plan de Cuentas completo.</p>
+
+<table border="0" width="410">
+  <tr>
+    <td width="355" valign="top">ID - CUENTA</td>
+    <td width="43" valign="middle" align="center">PadreID</td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img src="bullet_folder.gif" alt="folder.bmp (246 bytes)"
+    width="16" height="16">001 - ACTIVO CORRIENTE</td>
+    <td width="43" valign="middle" align="center"></td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img src="bullet_node_last.jpg"
+    alt="node_last.jpg (755 bytes)" width="48" height="16"><img src="bullet_folder.gif"
+    alt="folder.bmp (246 bytes)" width="16" height="16"> 002 - CUENTAS POR COBRAR CLIENTES</td>
+    <td width="43" valign="middle" align="center">001</td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_node_mid_L2.jpg" width="96" height="16"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_paper.gif" width="16" height="16">
+      003 - Andrés García</td>
+    <td width="43" valign="middle" align="center">002</td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_node_mid_L2.jpg" width="96" height="16"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_paper.gif" width="16" height="16">
+      004 - Sergio Amador</td>
+    <td width="43" valign="middle" align="center">002</td>
+  </tr>
+  <tr>
+    <td width="355" valign="top"><img src="bullet_node_last_L2.jpg"
+    alt="node_last_L2.jpg (779 bytes)" width="96" height="16"><img border="0" src="file:///G:/DOBRA70/HTMLHelp/Images/bullet_paper.gif" width="16" height="16">
+      005 - Cristina Oñate</td>
+    <td width="43" valign="middle" align="center">002</td>
+  </tr>
+</table>
+
+<p>El usuario no necesita conocer cual es el ID de cada cuenta ya que DOBRA® proporciona
+una forma visual y fácil de dar mantenimiento al Plan de Cuentas por medio del Fichero de
+Cuentas.</p>
+
+<p>Gracias a este mecanismo, el Plan de Cuentas puede ser Recodificado en cualquier
+momento si que esto afecte la integridad de la jerarquía de cuentas ni las transacciones
+asociadas.</p>
+
+<h2>Formato de Códigos de Cuenta</h2>
+
+<p ALIGN="JUSTIFY">Debido a que existen múltiples formatos de codificación de cuentas y
+a que estos códigos muchas veces están compuestos de varios caracteres; en DOBRA® el
+código de una cuenta puede contener hasta 25 caracteres alfanuméricos. Y puede usar
+cualquier modelo de codificación:</p>
+
+<ol>
+  <li>Numérico separado con puntos: 1.01.001.0001</li>
+  <li>Numérico sin separación: 10010020005</li>
+  <li>Numérico por rangos: 1000 &#150; 1999 | 2000 &#150; 2999</li>
+  <li>Etc.</li>
+</ol>
+
+<p ALIGN="JUSTIFY">La única restricción es que el código no puede duplicarse. Es
+importante que el usuario final use un sistema de codificación sencillo y numérico ya
+que muchos informes de DOBRA® se ordenan en base al código.</p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

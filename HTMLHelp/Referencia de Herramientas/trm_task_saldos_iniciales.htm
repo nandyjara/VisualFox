@@ -1,0 +1,570 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Microsoft Border" content="none">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>DOBRA Empresarial 7.0 </title>
+<link rel="stylesheet" href="../estilos.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1><a name="_Toc_00">Módulo de Trámites<br>
+Proceso: Saldos Iniciales</a></h1>
+
+<h2><a name="_Toc_Definición">Definición</a></h2>
+
+<p><font size="1" face="Verdana">Este Asistente sirve para
+establecer las deudas iniciales de los clientes por ordenes de trámites.&nbsp; Este
+proceso no afecta las cuentas contables solo afecta el módulo,
+por eso con los datos de este Proceso se debe ingresar
+manualmente por primera vez los valores de Saldos iniciales en el
+Asiento de Balance de Situación Inicial.</font></p>
+
+<p class="warning">Este Asistente debe ser usado únicamente al
+iniciar las operaciones con DOBRA®.&nbsp; Puede modificar las
+deudas iniciales de un cliente en cualquier momento antes de
+registrar el Asiento de Situación Inicial Contable.</p>
+
+<h2><a name="_Toc_Acceso">Acceso</a></h2>
+
+<p>Para acceder a esta opción, haga lo siguiente:
+
+<ol>
+  <li>Abra el menú <strong>Herramientas</strong> de DOBRA®.</li>
+  <li>Despliegue el Submenú <strong>Trámites</strong> y desde la sección <strong>Proceso</strong>
+    seleccione el comando <strong>Saldos Iniciales.</strong></li>
+</ol>
+
+<h2><a name="_Toc_Elementos">Elementos</a></h2>
+
+<p><img border="0" src="trm_task_saldos_iniciales.gif" width="800" height="600"></p>
+
+<table border="0" width="585" height="417">
+  <tr>
+    <th valign="top" width="157" height="13"><p align="left">Elemento</th>
+    <th valign="top" width="400" height="13"><p align="left">Descripción</th>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="20">No. Orden</td>
+    <td valign="top" width="400" height="26">Número de orden de trámite</td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Tipo </td>
+    <td valign="top" width="400" height="13">El cuadro Tipo es de &quot;solo lectura&quot; y
+    muestra el Tipo de transacción. </td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="1">División</td>
+    <td valign="top" width="400" height="1">El cuadro de División es de &quot;sólo
+    lectura&quot; sirve para seleccionar la división o línea de negocio a la que pertenece
+    el documento.</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Fecha/Hora de Recepción</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Se ingresa la fecha y hora de
+      recepción del trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Producto:</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Producto&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Agente Aduanero:</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Nombre de agente de aduana
+      encargado del trámite</td>
+  </tr>
+  <tr>
+    <td valign="top" width="157" height="13">Tipo de Trámite </td>
+    <td valign="top" width="400" height="13">Lista desplegable de Tipos de
+      Trámites </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Etapa</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Etapa en que se encuentra
+      actualmente la orden</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Vía Transporte</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Lista desplegable de vías dee
+      transportes, esta lista se alimenta en&nbsp; parámetros del módulo de
+      Sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Nro. Pedido:</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Número de pedido</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Cliente:</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Lista desplegable de Clientes</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="28">Oficial de Cuenta:</td>
+    <td WIDTH="400" VALIGN="TOP" height="28">Lista desplegable de Oficiales de
+      Cuenta</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña DOCUMENTOS RECIBIDOS</a></h2>
+
+<p><img border="0" src="trm_document_pestana_docrec.gif">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Requisito</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Este campo se llena
+      automáticamente cuando el usuario selecciona el Tipo de Trámite con los
+      requisitos ingresados en el Fichero de <b>Tipos</b> del menú
+      mantenimiento.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Original</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Se chequea este campo para indicar
+      que se necesita original del documento</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Copia</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Se chequea este campo para indicar
+      que se necesita copia del documento</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Fecha</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Se llena automáticamente con la
+      fecha ingresada en la cabecera del documento de trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Hora</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Se llena automáticamente con la
+      hora ingresada en la cabecera del documento de trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nro. Documentos</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Número de documentos</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Observación</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Campo para observaciones
+      adicionales</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña VALORES</a></h2>
+
+<p><img border="0" src="trm_task_saldos_iniciales_p_val.gif" width="763" height="270">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80.%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nro. DUI/FUE</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Número de DUI o FUE del trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Ag. de Carga</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Lista desplegable de <b><i>Agencias
+      de Carga</i></b> contenidas en el módulo CAE</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Divisa</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Moneda que se realiza el trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Cambio</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Valor del cambio de la moneda</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">FOB Total</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Campo para ingresar el valor del
+      total de FOB</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Flete Total</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Campo para ingresar el valor total
+      de Fletes</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Seguro Total</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Campo para ingresar el valor total
+      de Seguros</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">CIF Total</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Este campo se llena
+      automáticamente según los valores ingresados en FOB, Flete y Seguro</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Fecha Aprob. DUI</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Fecha de aprobación del documento
+      único de importación</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Fecha Embarque</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Fecha de embarque de la
+      mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Fecha Llegada</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Fecha de llegada de la mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Vapor</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Nombre - descripc¡ón del buque</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Volumen (mt3)</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Volúmen de la mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Peso Neto (Kg)</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Peso Neto de la mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Peso Bruto (Kg)</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Peso Bruto de la mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Contenedor</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Al chequear este botón se indica
+      que se transporta contenedores y se activan los campos: Nro Bultos, Desc.
+      Contenedor, Carga/Retiro&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Carga Suelta</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Al chequear este botón se indica
+      que se transporta carga suelta y se activan los campos: Nro Bultos, Autor.
+      de Retiro</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nro. Bultos</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Nro de bultos en el contenedor,
+      20': número de bultos de 20 pulgadas, 40': número de bultos de 40
+      pulgadas.&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Desc. Contenedor</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Descripción del contenedor</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Carga/Retiro</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Fecha de Carga o retiro</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Autor. Retiro</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Botón para chequear si se tiene
+      autorización de retiro</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Embalaje</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Lista desplegable con datos
+      alimentodos del formulario <b>Tipo Carga</b> del módulo CAE</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Bandera</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Lista desplegable con datos
+      alimentodos del formulario <b>Banderas</b> del módulo CAE</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Almacen</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Lista desplegable con datos
+      alimentodos del formulario <b>Almacenes</b> del módulo CAE</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Digitador</td>
+    <td WIDTH="80.%" VALIGN="TOP" height="28">Lista desplegable con datos
+      alimentodos del formulario <b>Empleados</b> del módulo Empleados, del
+      tipo digitador</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña CERTIFICADOS</a></h2>
+
+<p><img border="0" src="trm_document_pestana_certificados.gif">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Cert. Verificación</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Campo para registrar descripción
+      del Certificado de Verificación</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Cert. Origen</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Campo para registrar descripción
+      del Certificado de Origen</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Número B/L</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Número de conocimiento de
+      embarque</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Ruc Endosante</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Número de RUC&nbsp;de la persona
+      que endosa el documento</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Banco</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Lista desplegable de Bancos del
+      formulario de parámetros</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Fecha Aprob. FUE</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Fecha de aprobación del
+      formulario único de exportación</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">País de Origen</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">País de Origen de la mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">País de Adquisición</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">País de adquisición de la
+      mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">País de Embarque</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">País de embarque de la
+      mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Puero de Embarque</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Puerto de embarque de la
+      mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Código liberatorio</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Código autorazado para liberar
+      mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Num. Declaración</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Número asignada por la CAE</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Num. Refrendo</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Número que asigna la CAE para un
+      trámite FUE-DUI-DAV</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Num. Manifiesto</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Manifiesto de Carga&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28"># de Items</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Número de items de la mercadería</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28"># Partidas</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Código asignado para los
+      diferentes grupos y productos a importar</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Realizar DAV</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Documento de aduana de valor a
+      autorizarse</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Transporte</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Cliente requiere servicio de
+      transporte</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Tasa Regimen Espec.</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Impuesto al trámite</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Multa</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">El chequeo de este campo indica
+      que al trámite se le aplica una multa ejm: atraso en los diferentes
+      trámites</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Derechos AD-Valore</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Todos los derechos
+      arancelarios&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Tasa Modernización</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Tasa autorizada por la CAE</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">FODINFA</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Impuesto al fondo del niño y la
+      familia</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">IVA</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Impuesto al valor agregado</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">ICE</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Impuesto al consumo especial</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña OBSERVACIONES</a></h2>
+
+<p><img border="0" src="trm_document_pestana_observaciones.gif">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Fecha</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Se llena automáticamente con la
+      fecha del servidor, se puede editar el campo.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Hora</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Se llena automáticamente con la
+      hora del servidor, se puede editar el campo.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Usuario</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Se llena automáticamente con el
+      usuario que inicio la sesión, se puede editar el campo.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">PcID</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Se llena automáticamente con el
+      nombre de la máquina, se puede editar el campo.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Observación</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Campo para registrar alguna
+      observación</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña SERVICIOS</a></h2>
+
+<p><img border="0" src="trm_document_pestana_servicios.gif">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Código</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Lista desplegable con los códigos
+      de los productos tipo <b>servicio</b> a facturar, esta lista tiene
+      dependencia con los datos ingresados en <b><i>tarifas</i></b> del fichero
+      de clientes del módulo CLIENTES. Además esta lista depende del cliente
+      seleccionado en la cabecera del documento de trámite.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nombre</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Nombre del producto seleccionado
+      en la lista de código</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Cant</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Cantidad de productos a facturar</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Pr. Standard</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Precio del honorario, este campo
+      se llena automáticamente.</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Pr. Usuario</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Es el mismo precio standard, pero
+      este permite ser modificado por el usuario&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Total</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Total de cantidad por precio</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Observaciones</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Observación del servicio</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Pestaña REEMBOLSO</a></h2>
+
+<p><img border="0" src="trm_document_pestana_reembolso.gif">
+
+<table BORDER="0" width="100%" height="67">
+  <tr>
+    <th WIDTH="20%" VALIGN="top" height="15"><p ALIGN="left">Elemento</th>
+    <th WIDTH="80%" VALIGN="top" height="15"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="1">Fecha</td>
+    <td WIDTH="80%" VALIGN="TOP" height="1">Fecha del reembolso</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Tipo</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Tipo del documento que genero el
+      reembolso</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Documento</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Número del documento</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Código</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Código del producto (reembolso)</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Nombre</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Nombre del producto (reembolso)</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Detalle</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Detalle del reembolso</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Valor</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Valor del reembolso</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">Egresos</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Total de egresos por reembolsos</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">(-) Anticipos</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Anticipos del cliente</td>
+  </tr>
+  <tr>
+    <td WIDTH="20%" VALIGN="TOP" height="28">A Facturar</td>
+    <td WIDTH="80%" VALIGN="TOP" height="28">Valor a facturar al cliente</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Crear</a></h2>
+
+<p>Para crear un nuevo Documento, haga lo siguiente: 
+
+<ol style="font-size: 8 pt">
+  <li><p align="left">Llene los datos del formulario de acuerdo a lo explicado
+    en las explicaciones de la cabecera y las pestañas que conforman el
+    documento de trámite.</p>
+  </li>
+  <li><p align="left">Seleccione el comando Guardar desde el Menú Archivo o haga un click en
+    el botón (<img src="bas_interfaz_toolbar_save.gif"
+    alt="bas_interfaz_toolbar_save.gif (923 bytes)" align="bottom" width="16" height="16">) de
+    la Barra de Herramientas.</p>
+  </li>
+  <li><p align="left">A continuación el sistema le mostrará con el nuevo número de
+    documento asignado.</p>
+  </li>
+</ol>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

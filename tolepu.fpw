@@ -1,0 +1,6 @@
+PALETTE=OFF
+ESCAPE=OFF
+TITLE=SQLDobra Empresarial 7 [TOLEPU]
+DEFAULT=C:\dobra70
+PATH=forms,reports,versions\tyt\forms,versions\tyt\MenuTolepu,versions\tyt\reports,versions\tyt\progs,graphics,library,clases,include
+COMMAND=MODIFY PROJECT C:\DOBRA70\TOLEPU

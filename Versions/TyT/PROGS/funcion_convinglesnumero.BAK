@@ -1,0 +1,201 @@
+LPARAMETERS tNumToConvert
+LOCAL Temp
+LOCAL NumToConvert
+LOCAL cDollars, cCents
+LOCAL nDecimalPlace, nCount
+LOCAL ARRAY aPlace[9]
+
+DO CASE
+CASE EMPTY(tNumToConvert)
+	NumToConvert = "0"
+
+CASE TYPE("tNumToConvert") = "N"
+	IF tNumToConvert > 9999999999999.99
+		RETURN "**,***,***,***,***.**"
+	ENDIF
+	NumToConvert = ALLTRIM(STR(ABS(tNumToConvert), 16, 2)) 
+	
+OTHERWISE
+	NumToConvert = IIF(LEFT(ALLTRIM(tNumToConvert), 1) = "-", SUBSTR(ALLTRIM(tNumToConvert), 2), ALLTRIM(tNumToConvert)) ENDCASE
+ENDCASE
+nDecimalPlace = AT(".", NumToConvert)
+
+STORE "" TO cDollars, cCents, Result
+
+aPlace = ""
+aPlace[2] = " Thousand "
+aPlace[3] = " Million "
+aPlace[4] = " Billion "
+aPlace[5] = " Trillion "
+aPlace[6] = " Quadrillion "
+aPlace[7] = " Quintillion "
+aPlace[8] = " Sextillion "
+aPlace[9] = " Septillion "
+
+
+IF nDecimalPlace > 0
+	* Convert cents
+	Temp = LEFT(SUBSTR(NumToConvert, nDecimalPlace + 1) + "00", 2)
+	cCents = ConvertTens(Temp)
+	
+	* Strip off cents from remainder to convert.
+	NumToConvert = ALLTRIM(LEFT(NumToConvert, nDecimalPlace - 1))
+	 ENDIF
+
+nCount = 1
+DO WHILE NOT NumToConvert == ""
+	* Convert last 3 digits of NumToConvert to English dollars.
+	Temp = ConvertHundreds(RIGHT(NumToConvert, 3))
+	IF NOT Temp == ""
+		cDollars = Temp + aPlace[nCount] + cDollars
+	ENDIF
+	IF LEN(NumToConvert) > 3 Then
+		* Remove last 3 converted digits from NumToConvert.
+		NumToConvert = LEFT(NumToConvert, LEN(NumToConvert) - 3)
+	ELSE
+		NumToConvert = ""
+	ENDIF
+	nCount = nCount + 1
+ENDDO
+
+* Clean up dollars.
+DO CASE
+CASE cDollars == ""
+	cDollars = "No Dollars"
+CASE cDollars == "One"
+	cDollars = "One Dollar"
+OTHERWISE
+	cDollars = cDollars + " Dollars"
+ENDCASE
+
+* Clean up cents.
+DO CASE
+CASE cCents == ""
+	cCents = " And No Cents"
+CASE cCents == "One"
+	cCents = " And One Cent"
+OTHERWISE
+	cCents = " And " + cCents + " Cents"
+ENDCASE
+
+ConvertCurrencyToEnglish = cDollars + cCents 
+*MESSAGEBOX(ConvertCurrencyToEnglish )
+RETURN ConvertCurrencyToEnglish 
+
+ENDFUNC
+
+FUNCTION ConvertHundreds
+	LPARAMETERS NumToConvert
+	LOCAL Result
+	Result = ""
+
+	* Exit if there is nothing to convert.
+	IF VAL(NumToConvert) = 0
+		RETURN Result
+	ENDIF
+
+	* Append leading zeros to number.
+	NumToConvert = RIGHT("000" + NumToConvert, 3)
+
+	* Do you have a hundreds place digit to convert?'
+	IF LEFT(NumToConvert, 1) <> "0" Then
+		Result = ConvertDigit(LEFT(NumToConvert, 1)) + " Hundred "
+	ENDIF
+
+	* Do you have a tens place digit to convert?'
+	IF SUBSTR(NumToConvert, 2, 1) <> "0" Then
+		Result = Result + ConvertTens(SUBSTR(NumToConvert, 2))
+	ELSE
+		* If not, then convert the ones place digit.
+		Result = Result + ConvertDigit(SUBSTR(NumToConvert, 3))
+	ENDIF
+
+	ConvertHundreds = ALLTRIM(Result)
+	RETURN ConvertHundreds
+ENDFUNC
+
+FUNCTION ConvertTens
+	LPARAMETERS MyTens
+	LOCAL Result
+	Result = ""
+
+	* Is value between 10 and 19?'
+	IF VAL(LEFT(MyTens, 1)) = 1
+		DO CASE
+		CASE VAL(MyTens) = 10
+			Result = "Ten"
+		CASE VAL(MyTens) = 11
+			Result = "Eleven"
+		CASE VAL(MyTens) = 12
+			Result = "Twelve"
+		CASE VAL(MyTens) = 13
+			Result = "Thirteen"
+		CASE VAL(MyTens) = 14
+			Result = "Fourteen"
+		CASE VAL(MyTens) = 15
+			Result = "Fifteen"
+		CASE VAL(MyTens) = 16
+			Result = "Sixteen"
+		CASE VAL(MyTens) = 17
+			Result = "Seventeen"
+		CASE VAL(MyTens) = 18
+			Result = "Eighteen"
+		CASE VAL(MyTens) = 19
+			Result = "Nineteen"
+		OTHERWISE
+		ENDCASE
+	ELSE
+		* .. otherwise it's BETWEEN 20 AND 99.
+		DO CASE
+		CASE VAL(LEFT(MyTens, 1)) = 2
+			Result = "Twenty "
+		CASE VAL(LEFT(MyTens, 1)) = 3
+			Result = "Thirty "
+		CASE VAL(LEFT(MyTens, 1)) = 4
+			Result = "Forty "
+		CASE VAL(LEFT(MyTens, 1)) = 5
+			Result = "Fifty "
+		CASE VAL(LEFT(MyTens, 1)) = 6
+			Result = "Sixty "
+		CASE VAL(LEFT(MyTens, 1)) = 7
+			Result = "Seventy "
+		CASE VAL(LEFT(MyTens, 1)) = 8
+			Result = "Eighty "
+		CASE VAL(LEFT(MyTens, 1)) = 9
+			Result = "Ninety "
+		OTHERWISE
+		ENDCASE
+
+		* Convert ones place digit.
+		Result = Result + ConvertDigit(RIGHT(MyTens, 1))
+	ENDIF
+	ConvertTens = Result
+	RETURN ConvertTens
+ENDFUNC
+
+FUNCTION ConvertDigit
+	LPARAMETERS MyDigit
+	DO CASE
+	CASE VAL(MyDigit) = 1
+		ConvertDigit = "One"
+	CASE VAL(MyDigit) = 2
+		ConvertDigit = "Two"
+	CASE VAL(MyDigit) = 3
+		ConvertDigit = "Three"
+	CASE VAL(MyDigit) = 4
+		ConvertDigit = "Four"
+	CASE VAL(MyDigit) = 5
+		ConvertDigit = "Five"
+	CASE VAL(MyDigit) = 6
+		ConvertDigit = "Six"
+	CASE VAL(MyDigit) = 7
+		ConvertDigit = "Seven"
+	CASE VAL(MyDigit) = 8
+		ConvertDigit = "Eight"
+	CASE VAL(MyDigit) = 9
+		ConvertDigit = "Nine"
+	OTHERWISE
+		ConvertDigit = ""
+	ENDCASE
+	RETURN ConvertDigit
+ENDFUNC

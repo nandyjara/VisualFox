@@ -1,0 +1,1497 @@
+SCCTEXT versión 4.0.0.2
+PLATFORM C(8,0),UNIQUEID C(10,0),TIMESTAMP N(10,0),CLASS M(4,0),CLASSLOC M(4,0),BASECLASS M(4,0),OBJNAME M(4,0),PARENT M(4,0),PROPERTIES M(4,0),PROTECTED M(4,0),METHODS M(4,0),OBJCODE M(4,0),OLE M(4,0),OLE2 M(4,0),RESERVED1 M(4,0),RESERVED2 M(4,0),RESERVED3 M(4,0),RESERVED4 M(4,0),RESERVED5 M(4,0),RESERVED6 M(4,0),RESERVED7 M(4,0),RESERVED8 M(4,0),USER M(4,0)
+1252
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] Class     
+[START RESERVED1]
+VERSION =   3.00[END RESERVED1]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKU0ESD50
+[CLASS] image
+[BASECLASS] image
+[OBJNAME] imglogo
+[START PROPERTIES]
+Picture = ..\graphics\market.bmp
+Height = 178
+Width = 241
+Name = "imglogo"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] imglogo
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKU0FXTRV
+[CLASS] commandbutton
+[BASECLASS] commandbutton
+[OBJNAME] cmdbase
+[START PROPERTIES]
+Height = 27
+Width = 84
+FontName = "MS Sans Serif"
+FontSize = 8
+Caption = "Dobra"
+errorcount = 0
+Name = "cmdbase"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Error
+LPARAMETERS nError, cMethod, nLine
+This.ErrorCount = This.ErrorCount + 1
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED3]
+errorcount
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cmdbase
+[START PROPERTIES]
+MS Sans Serif, 0, 8, 5, 13, 11, 11, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKU0G3L6R
+[CLASS] cmdbase
+[CLASSLOC] controls.vcx
+[BASECLASS] commandbutton
+[OBJNAME] cmdok
+[START PROPERTIES]
+FontBold = .T.
+Caption = "Aceptar"
+Default = .T.
+StatusBarText = "Guarda los cambios realizados en el cuadro de diálogo"
+Name = "cmdok"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cmdok
+[START PROPERTIES]
+MS Sans Serif, 1, 8, 6, 13, 11, 12, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKU0GAMZL
+[CLASS] cmdbase
+[CLASSLOC] controls.vcx
+[BASECLASS] commandbutton
+[OBJNAME] cmdcancel
+[START PROPERTIES]
+Cancel = .T.
+Caption = "Cancelar"
+StatusBarText = "Ignora los cambios realizados"
+Name = "cmdcancel"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Click
+IF EVALUATE( GetParameter( "ConfirmarCancel", ".F." ))	
+	IF MESSAGEBOX("Esta seguro de salir de la ventana e ignorar los cambios realizados.",36 ,_SCREEN.Caption ) = 6
+		ThisForm.Release()			  
+	ENDIF			  
+ELSE
+	ThisForm.Release()
+ENDIF
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cmdcancel
+[START PROPERTIES]
+MS Sans Serif, 0, 8, 5, 13, 11, 11, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKU0GN6F2
+[CLASS] pageframe
+[BASECLASS] pageframe
+[OBJNAME] pgfbase
+[START PROPERTIES]
+ErasePage = .T.
+PageCount = 0
+ActivePage = 0
+Width = 241
+Height = 169
+Name = "pgfbase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] pgfbase
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKU0GXYYC
+[CLASS] cmdbase
+[CLASSLOC] controls.vcx
+[BASECLASS] commandbutton
+[OBJNAME] cmdgraph
+[START PROPERTIES]
+Height = 59
+Width = 180
+Caption = ""
+MousePointer = 99
+MouseIcon = ..\bmps\hand.cur
+SpecialEffect = 1
+Name = "cmdgraph"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cmdgraph
+[START PROPERTIES]
+MS Sans Serif, 0, 8, 5, 13, 11, 11, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKU1A8UB0
+[CLASS] textbox
+[BASECLASS] textbox
+[OBJNAME] txtbase
+[START PROPERTIES]
+FontName = "Tahoma"
+FontSize = 8
+Format = "T"
+Height = 23
+SelectOnEntry = .T.
+Width = 100
+NullDisplay = "(Nada)"
+Name = "txtbase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] txtbase
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RKW09SMG3
+[CLASS] label
+[BASECLASS] label
+[OBJNAME] lblbase
+[START PROPERTIES]
+FontName = "Tahoma"
+FontSize = 8
+BackStyle = 0
+Caption = "Dobra"
+Height = 19
+Width = 147
+Name = "lblbase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] lblbase
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RL40RZ4S7
+[CLASS] combobox
+[BASECLASS] combobox
+[OBJNAME] cbobase
+[START PROPERTIES]
+FontName = "Tahoma"
+FontSize = 8
+Height = 21
+Style = 2
+Width = 73
+ItemTips = .T.
+Name = "cbobase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cbobase
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RL40T1PFJ
+[CLASS] editbox
+[BASECLASS] editbox
+[OBJNAME] edtbase
+[START PROPERTIES]
+FontName = "Tahoma"
+FontSize = 8
+Height = 53
+Width = 100
+Name = "edtbase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] edtbase
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RL50NU9NW
+[CLASS] listbox
+[BASECLASS] listbox
+[OBJNAME] lstbase
+[START PROPERTIES]
+FontName = "Tahoma"
+FontSize = 8
+Height = 170
+Width = 178
+Name = "lstbase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] lstbase
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RL60WMCFO
+[CLASS] container
+[BASECLASS] container
+[OBJNAME] cntbase
+[START PROPERTIES]
+Width = 200
+Height = 200
+BackStyle = 0
+BorderWidth = 0
+TabStop = .F.
+Name = "cntbase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cntbase
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RL60X5NE5
+[CLASS] cntbase
+[CLASSLOC] controls.vcx
+[BASECLASS] container
+[OBJNAME] ctr3darea
+[START PROPERTIES]
+Width = 192
+Height = 192
+Name = "ctr3darea"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Resize
+This.shp3DBorder.Width = This.Width
+This.shp3DBorder.Height = This.Height
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+2[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RL60XH3TR
+[CLASS] shape
+[BASECLASS] shape
+[OBJNAME] shp3DBoder
+[PARENT] ctr3darea
+[START PROPERTIES]
+Top = 0
+Left = 0
+Height = 192
+Width = 192
+BackStyle = 0
+SpecialEffect = 0
+Name = "shp3DBoder"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] ctr3darea
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RL81EYWVS
+[CLASS] timer
+[BASECLASS] timer
+[OBJNAME] tmrlisttimer
+[START PROPERTIES]
+Height = 23
+Width = 23
+Enabled = .F.
+Interval = 1
+Name = "tmrlisttimer"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Init
+This.Delay = 0
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED3]
+delay
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] tmrlisttimer
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLA1ASQ0W
+[CLASS] shape
+[BASECLASS] shape
+[OBJNAME] shpspliter
+[START PROPERTIES]
+Height = 119
+Width = 8
+BorderStyle = 0
+MousePointer = 99
+MouseIcon = ..\graphics\vertical.cur
+Name = "shpspliter"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Init
+This.SplitPos = This.Left
+
+ENDPROC
+PROCEDURE MouseDown
+LPARAMETERS nButton, nShift, nXCoord, nYCoord
+IF nButton = 1
+	This.SplitPos = This.Left
+	This.Splitting = .T.
+ENDIF
+ENDPROC
+PROCEDURE MouseMove
+LPARAMETERS nButton, nShift, nXCoord, nYCoord
+IF ( nButton = 1 ) AND ( This.Splitting )
+	IF ( nXCoord ) <= 0
+		This.SplitPos = 10
+	ELSE 
+		IF ( nXCoord ) >= ThisForm.Width
+			This.SplitPos = ThisForm.Width - 10 
+		ELSE 
+			This.SplitPos = nXCoord
+		ENDIF
+	ENDIF
+ENDIF
+ENDPROC
+PROCEDURE MouseUp
+LPARAMETERS nButton, nShift, nXCoord, nYCoord
+IF ( nButton = 1 ) AND ( This.Splitting )
+	This.Splitting = .F.
+	This.Left = This.SplitPos
+	ThisForm.ResizePanels()
+ENDIF
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED3]
+splitpos
+splitting
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] shpspliter
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLB0PQDNU
+[CLASS] optiongroup
+[BASECLASS] optiongroup
+[OBJNAME] optbase
+[START PROPERTIES]
+ButtonCount = 1
+BackStyle = 0
+Value = 1
+Height = 31
+Width = 135
+Name = "optbase"
+Option1.Caption = "optBase"
+Option1.Value = 1
+Option1.Height = 17
+Option1.Left = 5
+Option1.Top = 5
+Option1.Width = 61
+Option1.Name = "OptBase"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Init
+This.SetAll("FontName","Tahoma")
+This.SetAll("FontSize",8)
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] optbase
+[START PROPERTIES]
+Arial, 0, 9, 5, 15, 12, 13, 3, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLE09VY18
+[CLASS] checkbox
+[BASECLASS] checkbox
+[OBJNAME] chkbase
+[START PROPERTIES]
+Height = 17
+Width = 60
+FontBold = .T.
+FontName = "Tahoma"
+FontSize = 8
+Caption = "Dobra"
+Name = "chkbase"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] chkbase
+[START PROPERTIES]
+Tahoma, 1, 8, 6, 13, 11, 16, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLF1EY968
+[CLASS] cntbase
+[CLASSLOC] controls.vcx
+[BASECLASS] container
+[OBJNAME] cntlistoptions
+[START PROPERTIES]
+Width = 603
+Height = 28
+BackStyle = 1
+BorderWidth = 0
+SpecialEffect = 0
+TabStop = .T.
+Name = "cntlistoptions"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+7[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLF1F2P0N
+[CLASS] txtbase
+[CLASSLOC] controls.vcx
+[BASECLASS] textbox
+[OBJNAME] txtBuscar
+[PARENT] cntlistoptions
+[START PROPERTIES]
+Height = 21
+Left = 4
+StatusBarText = "En este espacio puede escribir el criterio de búsqueda..."
+TabIndex = 3
+TabStop = .F.
+ToolTipText = "Criterio de búsqueda"
+Top = 3
+Width = 116
+Name = "txtBuscar"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE KeyPress
+LPARAMETERS nKeyCode, nShiftAltCtrl
+DO CASE
+	CASE nKeyCode = 13
+		SELECT SQLGrid
+		IF This.Parent.chkByCode.Value
+			This.Value = UPPER( This.Value )
+			lcCadena = This.Value
+			LOCATE ALL FOR SQLGrid.Código = lcCadena
+		ELSE
+			lcCadena = "*" + This.Value + "*"
+			LOCATE ALL FOR LIKE( lcCadena , SQLGrid.Nombre )
+		ENDIF
+		IF !FOUND()
+			MESSAGEBOX("No se encontró un registro coincidente.", 64, _SCREEN.Caption )
+			KEYBOARD "{CTRL+B}" CLEAR
+		ELSE
+			This.Parent.cboCampos.SetFocus()
+		ENDIF
+ENDCASE
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLF1F2P2D
+[CLASS] chkbase
+[CLASSLOC] controls.vcx
+[BASECLASS] checkbox
+[OBJNAME] chkByCode
+[PARENT] cntlistoptions
+[START PROPERTIES]
+Top = 4
+Left = 124
+Height = 19
+Width = 12
+FontBold = .F.
+Caption = "#"
+Value = .F.
+StatusBarText = "Cambia la modalidad de búsqueda por Apellido o por Código..."
+Style = 1
+TabIndex = 4
+TabStop = .F.
+ToolTipText = "Buscar por código"
+Name = "chkByCode"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Click
+This.Parent.txtBuscar.SetFocus()
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLF1F2P4U
+[CLASS] shape
+[BASECLASS] shape
+[OBJNAME] Shape1
+[PARENT] cntlistoptions
+[START PROPERTIES]
+Top = 2
+Left = 140
+Height = 23
+Width = 2
+SpecialEffect = 0
+Name = "Shape1"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLF1F2P7B
+[CLASS] shape
+[BASECLASS] shape
+[OBJNAME] Shape3
+[PARENT] cntlistoptions
+[START PROPERTIES]
+Top = 2
+Left = 336
+Height = 23
+Width = 2
+SpecialEffect = 0
+Name = "Shape3"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLQ072OEI
+[CLASS] ctrfecha
+[CLASSLOC] controls.vcx
+[BASECLASS] control
+[OBJNAME] Ctrfecha2
+[PARENT] cntlistoptions
+[START PROPERTIES]
+Top = 3
+Left = 146
+Width = 91
+Height = 21
+ZOrderSet = 22
+Name = "Ctrfecha2"
+txtFecha.Name = "txtFecha"
+cmdCalendar.Name = "cmdCalendar"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLQ072OHB
+[CLASS] ctrfecha
+[CLASSLOC] controls.vcx
+[BASECLASS] control
+[OBJNAME] Ctrfecha1
+[PARENT] cntlistoptions
+[START PROPERTIES]
+Top = 3
+Left = 242
+Width = 90
+Height = 21
+ZOrderSet = 24
+Name = "Ctrfecha1"
+txtFecha.Name = "txtFecha"
+cmdCalendar.Name = "cmdCalendar"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cntlistoptions
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+Arial, 0, 9, 5, 15, 12, 13, 3, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLJ1DGQJM
+[CLASS] control
+[BASECLASS] control
+[OBJNAME] ctrcuenta
+[START PROPERTIES]
+Width = 221
+Height = 23
+BackStyle = 0
+BorderWidth = 0
+id = 
+tipo = 
+clase = 0
+Name = "ctrcuenta"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE locateitem
+LPARAMETER lcItemID
+This.Lista.ListIndex = This.Lista.ItemIDToIndex( VAL( lcItemID ))
+This.Lista.InteractiveChange()
+
+
+ENDPROC
+PROCEDURE Init
+lcClase = This.Clase
+lcTipo  = This.Tipo
+
+IF FILE("CUENTAS.DBF")
+	SELECT Código, Nombre, Tipo, ID ;
+		FROM CUENTAS ;
+		WHERE !Anulado AND Clase = lcClase AND Tipo = lcTipo ;
+		ORDER BY Ruta , Código ;
+		INTO CURSOR SQLResult
+
+	SELECT SQLResult
+	SCAN ALL
+		This.Lista.AddListItem( SQLResult.Código, VAL(SQLResult.ID), 1 )
+		This.Lista.AddListItem( SQLResult.Nombre, VAL(SQLResult.ID), 2 )
+	ENDSCAN
+
+	SELECT SQLResult
+	USE  && SQLResult
+ENDIF
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+3[END RESERVED2]
+[START RESERVED3]
+id
+tipo
+clase
+*locateitem 
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+[START RESERVED7]
+Permite seleccionar una cuenta y muestra el nombre de la misma, también recupera información de la clase de cuenta y el id en sus respectivas propiedades.  Requiere que se genere un cursor de cuentas con el alias de SQLCuentas.[END RESERVED7]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLJ1DO57U
+[CLASS] cbobase
+[CLASSLOC] controls.vcx
+[BASECLASS] combobox
+[OBJNAME] Lista
+[PARENT] ctrcuenta
+[START PROPERTIES]
+ColumnCount = 2
+ColumnWidths = "100,250"
+RowSourceType = 1
+Height = 21
+Left = 0
+TabIndex = 1
+Top = 0
+Width = 80
+Name = "Lista"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE InteractiveChange
+This.Parent.ID = TRAN( This.ListItemID, "@L 99999" )
+This.Parent.Nombre.Value = This.List( This.ListIndex , 2 )
+This.Parent.Nombre.Refresh()
+
+ENDPROC
+PROCEDURE Valid
+
+
+
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLJ1DO5AG
+[CLASS] txtbase
+[CLASSLOC] controls.vcx
+[BASECLASS] textbox
+[OBJNAME] Nombre
+[PARENT] ctrcuenta
+[START PROPERTIES]
+BackStyle = 0
+Height = 21
+Left = 83
+ReadOnly = .T.
+TabIndex = 2
+TabStop = .F.
+Top = 0
+Width = 134
+Name = "Nombre"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] ctrcuenta
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLL1DFPLH
+[CLASS] cntbase
+[CLASSLOC] controls.vcx
+[BASECLASS] container
+[OBJNAME] cntvisoroptions
+[START PROPERTIES]
+Width = 622
+Height = 28
+BorderWidth = 1
+SpecialEffect = 0
+Name = "cntvisoroptions"
+[END PROPERTIES]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+4[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLL1DGSCC
+[CLASS] lblbase
+[CLASSLOC] controls.vcx
+[BASECLASS] label
+[OBJNAME] Lblbase2
+[PARENT] cntvisoroptions
+[START PROPERTIES]
+FontBold = .T.
+FontSize = 10
+Caption = "Dobra"
+Height = 16
+Left = 5
+Top = 3
+Width = 71
+TabIndex = 1
+ForeColor = 0,0,0
+Name = "Lblbase2"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLL1DGSE0
+[CLASS] lblbase
+[CLASSLOC] controls.vcx
+[BASECLASS] label
+[OBJNAME] Lblbase3
+[PARENT] cntvisoroptions
+[START PROPERTIES]
+FontBold = .T.
+FontSize = 10
+Caption = "Dobra"
+Height = 16
+Left = 3
+Top = 1
+Width = 71
+TabIndex = 2
+ForeColor = 0,255,0
+Name = "Lblbase3"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RLL1DGSOM
+[CLASS] shape
+[BASECLASS] shape
+[OBJNAME] Shape2
+[PARENT] cntvisoroptions
+[START PROPERTIES]
+Top = 2
+Left = 92
+Height = 23
+Width = 2
+SpecialEffect = 0
+Name = "Shape2"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] cntvisoroptions
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RNI0RCC3O
+[CLASS] txtbase
+[CLASSLOC] controls.vcx
+[BASECLASS] textbox
+[OBJNAME] txtsum
+[START PROPERTIES]
+FontBold = .T.
+Alignment = 1
+Value = 0
+InputMask = "99,999,999,999.99"
+ReadOnly = .T.
+TabStop = .F.
+ForeColor = 0,255,0
+BackColor = 0,0,0
+DisabledBackColor = 0,0,0
+DisabledForeColor = 0,255,0
+Name = "txtsum"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE When
+RETURN .F.
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] txtsum
+[START PROPERTIES]
+Tahoma, 1, 8, 6, 13, 11, 16, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RNI12YLTI
+[CLASS] control
+[BASECLASS] control
+[OBJNAME] ctrcliente
+[START PROPERTIES]
+Width = 221
+Height = 24
+BackStyle = 0
+BorderWidth = 0
+Name = "ctrcliente"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE isvalid
+RETURN !EMPTY( This.Lista.Value )
+ENDPROC
+PROCEDURE Init
+lbShowCompany = EVALUATE( GetParameter( "CL-LIST-ShowCompany", ".F." ))
+lbByName = EVALUATE( GetParameter( "CL-LIST-ByName", ".F." ))
+IF lbByName
+	IF lbShowCompany
+		This.Lista.RowSource = "SELECT Empresa AS Nombre, Código, ID " + ;
+			 "FROM CLIENTES WHERE !Anulado INTO CURSOR SQLClientes ORDER BY 1 "
+	Else
+		This.Lista.RowSource = "SELECT Trim(Apellido) + ' ' + " + ;
+			 "Trim(Nombre) + ', ' + Trim(Prefijo) AS Nombre, Código, ID " + ;
+			 "FROM CLIENTES WHERE !Anulado INTO CURSOR SQLClientes ORDER BY 1 "
+	Endif
+	This.Lista.ColumnWidths = "250,100"
+Else
+	IF lbShowCompany
+		This.Lista.RowSource = "SELECT Código, Empresa AS Nombre, ID " + ;
+			 "FROM CLIENTES WHERE !Anulado INTO CURSOR SQLClientes ORDER BY 1 "
+	Else
+		This.Lista.RowSource = "SELECT Código, Trim(Apellido) + ' ' + " + ;
+			 "Trim(Nombre) + ', ' + Trim(Prefijo) AS Nombre, ID " + ;
+			 "FROM CLIENTES WHERE !Anulado INTO CURSOR SQLClientes ORDER BY 1 "
+	Endif
+	This.Lista.ColumnWidths = "100,250"
+Endif
+
+* Arreglar ancho de cuadro de texto
+This.Nombre.Width = This.Width - This.Nombre.Left
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+3[END RESERVED2]
+[START RESERVED3]
+*validate Se desencadena cuando se ha terminado de seleccionar un cliente.
+*isvalid 
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RNI130BGF
+[CLASS] cbobase
+[CLASSLOC] controls.vcx
+[BASECLASS] combobox
+[OBJNAME] Lista
+[PARENT] ctrcliente
+[START PROPERTIES]
+ColumnCount = 2
+ColumnWidths = "100,250"
+RowSourceType = 3
+DisplayValue = 1
+Height = 21
+Left = 0
+TabIndex = 1
+Top = 0
+Width = 80
+Name = "Lista"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Valid
+This.Parent.Nombre.Value = SQLClientes.Nombre
+This.Parent.Validate()
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RNI130BH2
+[CLASS] txtbase
+[CLASSLOC] controls.vcx
+[BASECLASS] textbox
+[OBJNAME] Nombre
+[PARENT] ctrcliente
+[START PROPERTIES]
+BackStyle = 0
+Height = 21
+Left = 83
+ReadOnly = .T.
+TabIndex = 2
+TabStop = .F.
+Top = 0
+Width = 134
+Name = "Nombre"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] ctrcliente
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RNO1A3QVO
+[CLASS] olecontrol
+[BASECLASS] olecontrol
+[OBJNAME] oledialog
+[START PROPERTIES]
+Height = 100
+Width = 100
+Name = "oledialog"
+[END PROPERTIES]
+[BINSTART OLE]
+CHECKSUM=32624
+[BINEND OLE]
+[BINSTART OLE2]
+CHECKSUM=44567
+[BINEND OLE2]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] oledialog
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RR60CG7R8
+[CLASS] control
+[BASECLASS] control
+[OBJNAME] ctrtreebox
+[START PROPERTIES]
+Width = 405
+Height = 21
+BackStyle = 0
+BorderWidth = 0
+nodekey = 
+nodename = 
+tablename = 
+Name = "ctrtreebox"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Init
+This.Nombre.Width = This.Width - This.cmdTree.Width - 4
+This.cmdTree.Left = This.Width - This.cmdTree.Width
+
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+3[END RESERVED2]
+[START RESERVED3]
+nodekey
+nodename
+tablename
+*validate 
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RR60CQJ20
+[CLASS] txtbase
+[CLASSLOC] controls.vcx
+[BASECLASS] textbox
+[OBJNAME] Nombre
+[PARENT] ctrtreebox
+[START PROPERTIES]
+Height = 21
+Left = 0
+ReadOnly = .T.
+TabIndex = 1
+TabStop = .F.
+Top = 0
+Width = 232
+Name = "Nombre"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE ProgrammaticChange
+This.Parent.Validate()
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RR60CQJ2D
+[CLASS] cmdbase
+[CLASSLOC] controls.vcx
+[BASECLASS] commandbutton
+[OBJNAME] cmdTree
+[PARENT] ctrtreebox
+[START PROPERTIES]
+Top = 1
+Left = 236
+Height = 20
+Width = 20
+Picture = ..\graphics\legend.bmp
+Caption = ""
+TabIndex = 2
+Name = "cmdTree"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Click
+oTree = CREATEOBJECT("FORMS.frmTreeSelect")
+oTree.TableName = This.Parent.TableName
+oTree.GetTreeList()
+oTree.Top =ThisForm.Top + This.Parent.Top + 50
+oTree.Left = ThisForm.Left + This.Parent.Left
+oTree.Show(1)
+This.Parent.NodeKey = oTree.NodeKey
+This.Parent.NodeName = oTree.NodeName
+This.Parent.Nombre.Value = oTree.NodeName
+oTree.Release()
+
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] ctrtreebox
+[START PROPERTIES]
+Tahoma, 0, 8, 5, 13, 11, 15, 2, 0
+MS Sans Serif, 0, 8, 5, 13, 11, 11, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RRA0P041K
+[CLASS] control
+[BASECLASS] control
+[OBJNAME] ctrsearch
+[START PROPERTIES]
+Width = 127
+Height = 24
+BackStyle = 0
+BorderWidth = 0
+itemid = NULL
+itemname = NULL
+itemcode = NULL
+tablename = 
+Name = "ctrsearch"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Resize
+This.txtFondo.Width = This.Width
+This.txtFondo.Height = This.Height
+This.txtSearch.Width = This.Width - This.cmdSearch.Width - 5
+This.txtSearch.Height = This.Height - 4
+This.cmdSearch.Left = This.Width - This.cmdSearch.Width - 2
+This.cmdSearch.height = This.Height - 4
+
+
+
+ENDPROC
+PROCEDURE Init
+This.txtSearch.TableName = This.TableName
+This.Resize()
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+4[END RESERVED2]
+[START RESERVED3]
+itemid
+itemname
+itemcode
+tablename
+*validate 
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RRB03MXYS
+[CLASS] textbox
+[BASECLASS] textbox
+[OBJNAME] txtFondo
+[PARENT] ctrsearch
+[START PROPERTIES]
+Enabled = .F.
+Height = 21
+Left = 0
+ReadOnly = .T.
+TabStop = .F.
+Top = 0
+Width = 109
+Name = "txtFondo"
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RRB03MXZ5
+[CLASS] txtsearch
+[CLASSLOC] controls.vcx
+[BASECLASS] textbox
+[OBJNAME] txtSearch
+[PARENT] ctrsearch
+[START PROPERTIES]
+BorderStyle = 0
+Height = 17
+Left = 2
+SpecialEffect = 0
+Top = 2
+Width = 93
+Name = "txtSearch"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE When
+* Desactivar WHEN del Ancestro
+
+ENDPROC
+PROCEDURE validate
+This.Value = This.ItemCode
+This.Parent.ItemID = This.ItemID
+This.Parent.ItemName = This.ItemName
+This.Parent.ItemCode = This.ItemCode
+This.Parent.Validate()
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RRB03MXZG
+[CLASS] commandbutton
+[BASECLASS] commandbutton
+[OBJNAME] cmdSearch
+[PARENT] ctrsearch
+[START PROPERTIES]
+Top = 2
+Left = 95
+Height = 17
+Width = 12
+Picture = ..\graphics\buscar.bmp
+Caption = ""
+TabStop = .F.
+Name = "cmdSearch"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE Click
+This.Parent.txtSearch.SetFocus()
+This.Parent.txtSearch.KeyPress( 160, 0 )
+
+
+ENDPROC
+[END METHODS]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] ctrsearch
+[START PROPERTIES]
+Arial, 0, 9, 5, 15, 12, 13, 3, 0
+Tahoma, 1, 8, 6, 13, 11, 19, 2, 0
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _RRA0SCKW3
+[CLASS] textbox
+[BASECLASS] textbox
+[OBJNAME] txtsearch
+[START PROPERTIES]
+FontBold = .T.
+FontName = "Tahoma"
+FontSize = 8
+BorderStyle = 0
+Format = "!T"
+Height = 23
+SelectOnEntry = .T.
+SpecialEffect = 1
+Width = 100
+itemid = NULL
+itemname = NULL
+itemcode = NULL
+tablename = 
+Name = "txtsearch"
+[END PROPERTIES]
+[START METHODS]
+PROCEDURE When
+This.ItemCode = This.Value
+
+
+ENDPROC
+PROCEDURE KeyPress
+LPARAMETERS nKeyCode, nShiftAltCtrl
+IF nKeyCode = 160
+	lcID = This.ItemID
+	oSearch = CREATEOBJECT("FORMS.frmSearch")
+	oSearch.TableName = This.TableName
+	oSearch.GetItemList()
+	oSearch.Show(1)
+	This.ItemID = oSearch.ItemID
+	This.ItemName = oSearch.ItemName
+	This.ItemCode = oSearch.ItemCode
+	This.ForeColor = IIF( This.ItemCode == "(Nada)", RGB(255,0,0), ThisForm.ForeColor )
+	oSearch.Release()
+	IF This.ItemID != lcID
+		This.Validate()
+	ENDIF
+ENDIF
+ENDPROC
+PROCEDURE Valid
+lcID = This.ItemID
+IF !EMPTY(This.Value)
+	lcTable = This.TableName
+	IF !USED( lcTable )
+		USE (lcTable) IN 0
+	ENDIF
+	SELECT (lcTable)
+	IF SEEK( This.Value, lcTable, "Código" )
+		This.ItemID = ID
+		DO CASE
+			CASE lcTable = "CLIENTES"
+				This.ItemName = TRIM(Apellido) + " " + TRIM(Nombre) + ", " + TRIM(Prefijo)
+			OTHERWISE
+				This.ItemName = Nombre
+		ENDCASE
+		This.ItemCode = Código
+		This.ForeColor = ThisForm.ForeColor
+	ELSE
+		This.ItemID = " "
+		This.ItemName = " "
+		This.ItemCode = "(Nada)"
+		This.ForeColor = RGB(255,0,0)
+	ENDIF
+ELSE
+	This.ItemID = " "
+	This.ItemName = " "
+	This.ItemCode = "(Nada)"
+	This.ForeColor = RGB(255,0,0)
+ENDIF
+This.Validate()
+
+ENDPROC
+[END METHODS]
+[START RESERVED1]
+Class[END RESERVED1]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED3]
+itemid
+itemname
+itemcode
+tablename
+*validate 
+[END RESERVED3]
+[START RESERVED6]
+Pixels[END RESERVED6]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[OBJNAME] txtsearch
+[START PROPERTIES]
+Tahoma, 1, 8, 6, 13, 11, 19, 2, 0
+[END PROPERTIES]
+[EOF]

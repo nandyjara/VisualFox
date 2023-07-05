@@ -1,0 +1,9 @@
+PALETTE=OFF
+ESCAPE=OFF
+TITLE=SQLDobra Empresarial 7 [INHOUSE]
+DEFAULT=C:\DOBRA70
+PATH=forms,reports,versions\TYT\forms,versions\TYT\MenuInhouse,versions\TYT\reports,versions\TYT\progs,graphics,library,clases,include
+COMMAND=MODIFY PROJECT C:\DOBRA70\INHOUSE
+
+
+

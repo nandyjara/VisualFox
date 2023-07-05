@@ -1,0 +1,323 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<meta name="Microsoft Border" content="none">
+<title>DOBRA Empresarial 7.0 </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY"><a name="_Toc_00">Módulo de Importaciones<br>
+Documento: Nota de Pedido</a></h1>
+
+<h2><a name="_Toc_Definición">Definición</a></h2>
+
+<p ALIGN="JUSTIFY">Para realizar un proceso de pedido de importación tenemos el
+seguimiento de 4 pasos esenciales descritos a continuación:</p>
+
+<ol>
+  <li><p ALIGN="JUSTIFY"><strong>Creación de Pedido</strong>: Se ingresan todos los productos
+    que se van a solicitar al proveedor y éste se queda pendiente.</p>
+  </li>
+  <li><p ALIGN="JUSTIFY"><strong>Aprobación de pedidos de Importación</strong>: Consiste en
+    editar el pedido de importación y si se desea se modifica alguna cantidad o costo de los
+    productos pedidos y se guarda el pedido de importación en la modalidad de <strong>Aprobado.<br>
+    </strong>Una vez guardado el pedido no se puede modificar las cantidades del pedido de
+    importación.</p>
+  </li>
+  <li><p ALIGN="JUSTIFY"><strong>Facturar pedido de importación</strong>: Cuando el pedido de
+    importación ha sido aprobado y llega a manos del proveedor en el extranjero, el proveedor
+    procede hacer la embarcación de los productos pedidos y envía la factura correspondiente
+    de los productos pedidos y esa lista de embarque a más de otros documentos. Cuando
+    recibimos la factura del proveedor debemos editar el pedido de importación y en la
+    columna facturado y escribir la cantidad real facturada por el proveedor para cada uno de
+    los productos pedidos.<br>
+    Acontinuación se guarda el pedido de importación con el modo &quot;Facturado&quot; ésta
+    operación genera una deuda por pagar al proveedor y el correspondiente asiento de diario
+    de mercadería en tránsito de cuentas por pagar.</p>
+  </li>
+  <li><p ALIGN="JUSTIFY"><strong>Liquidación de Pedidos de Importación</strong>: El pedido
+    de importación cuando llega la mercadería es necesario realizar una serie de gastos por
+    concepto de nacionalización y desaduanización de los productos importados, los gastos se
+    registran mediante <strong>comprobante de egreso </strong>de importaciones haciendo
+    referencia al número de pedido correspondiente.<br>
+    Cuando se han registrado los gastos se procede a la liquidación, para esto es necesario <strong>Modificar
+    </strong>el pedido de importación que ha facturado; para que el sistema calcule los
+    costos de los productos acontinuación debe seleccionar la bodega en la que ingresó
+    mercadería y debe guardar el pedido de importaciones en modo <strong>liquidado.<br>
+    </strong>Al liquidar el pedido se mueven los inventarios de productos que genera el
+    asiento contable de mercadería contra importación en tránsito.</p>
+  </li>
+</ol>
+
+<h2><a name="_Toc_Acceso">Acceso</a></h2>
+
+<p ALIGN="JUSTIFY">Para acceder a esta opción, haga lo siguiente:</p>
+
+<ol>
+  <li>Abra el menú <strong>Herramientas</strong> de DOBRA®.</li>
+  <li>Despliegue el Submenú <strong>Importaciones</strong> y desde la sección <strong>Documento</strong>
+    seleccione el comando <strong>Nota de Pedido.</strong></li>
+</ol>
+
+<h2><a name="_Toc_Elementos">Elementos</a> </h2>
+
+<p><img src="imp_document_nota_pedido.gif" width="800" height="576"></p>
+
+<p>&nbsp;</p>
+
+<table BORDER="0" WIDTH="585" height="854">
+  <tr>
+    <th WIDTH="157" VALIGN="top" height="13"><p ALIGN="left">Elemento</th>
+    <th WIDTH="400" VALIGN="top" height="13"><p ALIGN="left">Descripción</th>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Buscar </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">Sirve para buscar el documento por número. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="20">Estado </td>
+    <td WIDTH="400" VALIGN="TOP" height="20">El cuadro estado es de &quot;solo lectura&quot; y
+    muestra información acerca del estado actual del documento Ej: ANULADO, APROBADO, ETC. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="39">ID </td>
+    <td WIDTH="400" VALIGN="TOP" height="39">El cuadro ID es de &quot;solo lectura&quot; y
+    muestra el número de identificación relacional del documento que es generado por el
+    sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="26">Número </td>
+    <td WIDTH="400" VALIGN="TOP" height="26">El cuadro Numero es de &quot;solo lectura&quot; y
+    muestra número secuencial del documento que es generado por el sistema.</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Tipo </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Tipo es de &quot;solo lectura&quot; y
+    muestra el Tipo de transacción. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Fecha </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Fecha es de &quot;editable&quot; y
+    muestra fecha de la transacción. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="26">Divisas </td>
+    <td WIDTH="400" VALIGN="TOP" height="26">El cuadro de divisa sirve para seleccionar la
+    divisa ó se visualiza la divisa según el tipo de cambio. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="26">Cambio</td>
+    <td WIDTH="400" VALIGN="TOP" height="26"><p ALIGN="JUSTIFY">El cuadro Cambio es de
+    &quot;Sólo lectura&quot; y sirve para visualizar el tipo de cambio. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="26">División</td>
+    <td WIDTH="400" VALIGN="TOP" height="26"><p ALIGN="JUSTIFY">El cuadro de División sirve
+    para seleccionar la división o línea de negocio a la que pertenece el documento</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="26">Proveedor</td>
+    <td WIDTH="400" VALIGN="TOP" height="26"><p ALIGN="JUSTIFY">El cuadro Proveedor sirve para
+    seleccionar el proveedor a quién se le hace el pedido.</td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="14">Término </td>
+    <td WIDTH="400" VALIGN="TOP" height="14">El cuadro Término es &quot;editable&quot; y
+    sirve para seleccionar la forma de pago pueden ser&nbsp; a 5, 15, 20 días. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Transporte </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Transporte es &quot;editable&quot; y
+    sirve para ingresar el tipo de transporte por donde va a ser llevada la mercadería. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Peso Neto Aproximado </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Peso Neto Aproximado es
+    &quot;editable&quot; y sirve para ingresar el peso del pedido. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="26">Fecha embarque </td>
+    <td WIDTH="400" VALIGN="TOP" height="26">El cuadro Fecha Embarque es &quot;editable&quot;
+    y muestra fecha en que se hizo el embarque del pedido. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">País Origen </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro País Origen es &quot;editable&quot; y
+    sirve para ingresar el país de donde sale el embarque. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Puerto de Embarque </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Puerto de Embarque es
+    &quot;editable&quot; y sirve para ingresar el puerto de donde se embarca la mercadería. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Embalaje </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Empaque es &quot;editable&quot; y sirve
+    para ingresar el tipo de empaque, puede ser en cajas, bultos, etc. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Negociación </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Negociación es &quot;editable&quot; y
+    sirve para ingresar el tipo de negociación, puede ser flete+seguro, flete, etc. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Seguro </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Seguro es &quot;editable&quot; y sirve
+    para ingresar el tipo de seguro, puede ser propio o del proveedor. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Pago </td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Pago es &quot;editable&quot; y sirve
+    para ingresar el tipo de pago, puede ser giro directo, cheque, tarjeta. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="13">Bodega</td>
+    <td WIDTH="400" VALIGN="TOP" height="13">El cuadro Empaque es &quot;editable&quot; y sirve
+    para ingresar el tipo de empaque, puede ser en cajas, bultos, etc. </td>
+  </tr>
+  <tr>
+    <td WIDTH="157" VALIGN="TOP" height="78">Detalle de Pedido</td>
+    <td WIDTH="400" VALIGN="TOP" height="78"><p ALIGN="JUSTIFY">La sección de Detalle de
+    Pedido está compuesta por los cuadros código, nombre, cantidad, empaque, total, precio,
+    extendido; Estos cuadros son editables y sirven para ingresar los productos que se hacen
+    en el pedido. Además cuenta con el botón de comando nuevo y quitar el cual sirve para
+    quitar o agregar una nueva fila en la cuadrícula.</td>
+  </tr>
+</table>
+
+<h2><a name="_Toc_Nuevo">Crear</a></h2>
+
+<p>Para crear una nuevo Documento, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando <strong>Nuevo</strong> desde el Menú <strong>Archivo</strong> o
+    haga un click en el botón (<img src="bas_interfaz_toolbar_new.gif"
+    alt="bas_interfaz_toolbar_new.gif (922 bytes)" align="bottom" width="16" height="16">) de
+    la Barra de <strong>Herramientas</strong>.<br>
+    <br>
+  </li>
+  <li>El cursor se ubica en el cuadro Proveedor.&nbsp; Escriba el nombre del proveedor y luego
+    presione la tecla TAB para mover el el cursor al cuadro Fact.Prov.<br>
+    <br>
+  </li>
+  <li>Ingrese la factura del proveedor.&nbsp;Luego presione la tecla TAB para mover el cursor
+    al cuadro término.<br>
+    <br>
+  </li>
+  <li>Seleccione el término de pago al que corresponde la factura.&nbsp; Puede usar las
+    teclas ALT+FLECHA_ABAJO o CTRL+FLECHA_ABAJO.&nbsp; Acontinuación presione la tecla TAB
+    para mover el cursor al cuadro seguro.</li>
+  <li>Ingrese el transporte, puede ser aéreo, terrestre, marítimo.&nbsp; Acontinuación
+    presione la tecla TAB para mover el cursor al cuadro peso neto aproximado.</li>
+  <li>Ingrese el peso neto aproximado de la mercadería.&nbsp; Acontinuación presione la
+    tecla TAB para mover el cursor a la sección de detalle de pedido.</li>
+  <li>El cuadro Fecha Embarque es &quot;editable&quot; y muestra fecha en que se hizo el
+    embarque del pedido. <br>
+  </li>
+  <li>Ingrese el país de origen de donde sale el embarque.&nbsp; Acontinuación presione la
+    tecla TAB para mover el cursor al cuadro negociación.</li>
+  <li>El cuadro Puerto de Embarque es &quot;editable&quot; y sirve para ingresar el puerto de
+    donde se embarca la mercadería. <br>
+  </li>
+  <li>Ingrese el embalaje.&nbsp; Acontinuación presione la tecla TAB para mover el cursor al
+    cuadro marca y números.<br>
+  </li>
+  <li>Ingrese la negociación, puede ser FOB (flete a su puerto de destino), CIF (flete a su
+    puerto de destino con seguro incluido).&nbsp; Acontinuación presione la tecla TAB para
+    mover el cursor al cuadro transporte.<br>
+  </li>
+  <li>Ingrese el seguro, puede ser propio o del proveedor..&nbsp; Acontinuación presione la
+    tecla TAB para mover el cursor al cuadro pago.<br>
+  </li>
+  <li>Ingrese el pago, puede ser giro directo, cheque, tarjeta.&nbsp; Acontinuación presione
+    la tecla TAB para mover el cursor al cuadro empaque.<br>
+  </li>
+  <li><p align="left">Para registrar los productos que serán descritos en el pedido de
+    importación,&nbsp;se debe agregar nuevas filas en la cuadrícula de Detalle de
+    Pedido.&nbsp; Para agregar una nueva fila haga un click en el botón (<img border="0"
+    src="botón_nuevo.gif" align="bottom" width="53" height="21">) de la sección Detalle de
+    Pedido o presione la tecla ALT+N.&nbsp; Aparece una nueva fila en la cuadrícula y el
+    cursor se ubica en la primera celda de la fila.</p>
+  </li>
+  <li><p align="left">Seleccione el código del producto.&nbsp; Use la tecla ALT+FLECHA_ABAJO
+    y seleccione el producto.&nbsp; A continuación presione la tecla TAB para mover el cursor
+    a la siguiente celda.&nbsp;&nbsp;</p>
+  </li>
+  <li>Ingrese peso en Kg. del producto.&nbsp; A continuación presione la tecla TAB para mover
+    el cursor a la siguiente celda.<br>
+  </li>
+  <li>Ingrese el pedido del producto.&nbsp; A continuación presione la tecla TAB para mover
+    el cursor a la siguiente celda.<br>
+  </li>
+  <li><p align="left">Ingrese el precio del producto.&nbsp; A continuación presione la tecla
+    TAB para mover el cursor a la siguiente celda.</p>
+  </li>
+  <li><p align="left">Si desea ingresar una nuevo Detalle de Pedido regrese al paso 14.&nbsp;
+    Si desea quitar una fila de la cuadrícula de pedido, haga un click en la fila
+    correspondiente y luego haga un click el botón (<img border="0" src="botón_quitar.gif"
+    align="bottom" width="52" height="21">) de la sección Detalle de Pedido ó presione la
+    tecla ALT+Q.&nbsp;&nbsp;</p>
+  </li>
+  <li><p align="left">Seleccione el comando Guardar desde el Menú Archivo o haga un click en
+    el botón (<img src="bas_interfaz_toolbar_save.gif"
+    alt="bas_interfaz_toolbar_save.gif (923 bytes)" align="bottom" width="16" height="16">) de
+    la Barra de Herramientas.</p>
+  </li>
+  <li><p align="left">Acontinuación el sistema le mostrará con el nuevo número de documento
+    asignado.</p>
+  </li>
+</ol>
+
+<h2><a name="_Toc_Editar">Modificar</a></h2>
+
+<p>Para modificar una nota de pedido, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando <strong>Modificar</strong> desde el Menú <strong>Archivo</strong>
+    o haga un click en el botón (<img src="bas_interfaz_toolbar_edit.gif" width="16"
+    height="16" alt="bas_interfaz_toolbar_edit.gif (934 bytes)">) de la Barra de <strong>Herramientas</strong>.</li>
+  <li>Cuando éste documento es guardado tiene un<strong> Tipo de Registro</strong> que puede
+    ser a modo <strong>Pendiente</strong>, <strong>Aprobado</strong>, <strong>Facturado</strong>
+    y <strong>Liquidado</strong>.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img
+    src="imp_document_registro.gif" width="357" height="135">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+    <br>
+  </li>
+  <li>Haga click en el botón de comandos <strong>Aceptar</strong>.&nbsp; Acontinuación se
+    presenta una ventana con el número de documento que se le asigna a la <strong>Nota de
+    Pedido</strong> de importación, luego haga click en el botón de comandos <strong>Aceptar</strong>
+    de ésta ventana para terminar de confirmar que el documento esté grabado.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li>
+</ol>
+
+<h2><a name="_Toc_Editar">Imprimir</a></h2>
+
+<p>Para imprimir una nota de pedido, haga lo siguiente: 
+
+<ol>
+  <li>Seleccione el comando <strong>Imprimir</strong> desde el Menú <strong>Archivo</strong>
+    o haga un click en el botón (<img
+    src="../Iniciando%20con%20DOBRA/ini_tema_02_03_print.gif" width="16" height="16"
+    align="bottom">) de la Barra de <strong>Herramientas</strong>.</li>
+  <li>Luego se visualiza una ventana de diálogo en la que se elije el <strong>Tipo de
+    Impresión</strong> que pueden ser los reportes de cotizaciones, diferencias en precios,
+    notas de pedido y partidas arencelarias, junto con el tipo de divisa que se asigne a cada
+    uno de éstos reportes. <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img
+    src="imp_document_tipo_impresion.gif" width="362" height="166">&nbsp; </li>
+  <li>Haga click en el botón de comandos <strong>Aceptar</strong> y luego se viualzará las
+    ventanas de diálogo de configuración de impresión para enviar a imprimir los reportes
+    deseados.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li>
+</ol>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

@@ -1,0 +1,250 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 70%;
+    behavior:url(valid.htc)	
+}
+H1
+{
+    BORDER-BOTTOM: black 2px solid;
+    PADDING-BOTTOM: 4px;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 160%
+}
+H2
+{
+    BORDER-BOTTOM: gray 1px solid;
+    PADDING-BOTTOM: 2px;
+    MARGIN-RIGHT: 50%;
+    FONT-SIZE: 130%
+}
+H3
+{
+    FONT-SIZE: 100%
+}
+H4
+{
+    FONT-SIZE: 100%
+}
+UL
+{
+    LIST-STYLE-TYPE: disc;
+}
+TABLE
+{
+    MARGIN-BOTTOM: 20px;
+    MARGIN-TOP: 5px;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 100%;
+    WIDTH: 100%
+}
+TABLE UL
+{
+    MARGIN-BOTTOM: 0px;
+    MARGIN-TOP: 0px;
+}
+TH
+{
+    BACKGROUND: #dddddd;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    PADDING-TOP: 5px
+}
+TD
+{
+    BACKGROUND: #eeeeee;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    PADDING-TOP: 5px;
+    VERTICAL-ALIGN: top
+}
+THEAD
+{
+    FONT-WEIGHT: bold;
+}
+THEAD TD
+{
+    BACKGROUND: #dddddd;
+}
+.note
+{
+    BORDER: black 1px solid;
+    MARGIN: 20px;
+    PADDING: 1em;
+}
+.seealso
+{
+    BACKGROUND: #eeeeee;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    MARGIN: 1em;
+    PADDING-BOTTOM: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-RIGHT: 1em;
+    PADDING-TOP: 1em
+}
+.caution
+{
+    BACKGROUND: #ffefd5;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    MARGIN: 1em;
+    PADDING-BOTTOM: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-RIGHT: 1em;
+    PADDING-TOP: 1em
+}
+.warning
+{
+    BACKGROUND: #ffefd5;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    MARGIN: 1em;
+    PADDING-BOTTOM: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-RIGHT: 1em;
+    PADDING-TOP: 1em
+}
+.sidebar
+{
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    MARGIN: 1em;
+    PADDING-BOTTOM: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-RIGHT: 1em;
+    PADDING-TOP: 1em
+}
+.code
+{
+    BACKGROUND-COLOR: #eeeeee;
+    FONT-FAMILY: "Courier New";
+    FONT-SIZE: 125%;
+    MARGIN: 1em;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    PADDING-TOP: 5px;
+    WIDTH: 95%
+}
+.prevnext
+{
+    FONT-FAMILY: Webdings;
+    FONT-SIZE: 175%;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 0px;
+    TEXT-ALIGN: right
+}
+.fignum
+{
+    FONT-WEIGHT: bold;
+    DISPLAY: inline;
+}
+.caption
+{
+    FONT-STYLE: italic;
+    DISPLAY: inline;
+}
+
+.ch
+{
+    BORDER-BOTTOM: black 8px solid;
+    PADDING-BOTTOM: 4px;
+    FONT-SIZE: 300%
+}
+.th
+{
+    FONT-WEIGHT: bold;
+}
+.prevnext A:link
+{
+    TEXT-DECORATION: none
+}
+.prevnext A:visited
+{
+    TEXT-DECORATION: none
+}
+LI
+{
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    PADDING-TOP: 5px
+}
+.figure
+{
+}
+.figure IMG
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    CURSOR: hand;
+    MARGIN-TOP: 10px;
+}
+.cover
+{
+    COLOR: gray;
+    FONT-SIZE: smaller;
+    TEXT-ALIGN: center
+}
+.cover IMG
+{
+    BORDER-BOTTOM: black 0.1em solid;
+    BORDER-LEFT: black 0.1em solid;
+    BORDER-RIGHT: black 0.1em solid;
+    BORDER-TOP: black 0.1em solid
+}
+.tip
+{
+    BACKGROUND-COLOR: #f0f8ff;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    MARGIN: 1em;
+    PADDING-BOTTOM: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-RIGHT: 1em;
+    PADDING-TOP: 1em
+}
+.glossterm, .acronym
+{
+    DISPLAY: inline;
+    FONT-WEIGHT: bold;
+}
+.alphabet
+{
+    FONT-SIZE:175%
+}
+.copyright
+{
+    BORDER-TOP: black 1px solid;
+    PADDING-TOP: 4px;
+    MARGIN: 0px;
+}
+.topheaderimage
+{
+    BACKGROUND-COLOR: black;
+    BORDER-BOTTOM: black 0px solid;
+    BORDER-LEFT: black 0px solid;
+    BORDER-RIGHT: black 0px solid;
+    BORDER-TOP: black 0px solid;
+    MARGIN: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+}

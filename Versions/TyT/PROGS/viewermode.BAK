@@ -1,0 +1,6 @@
+ThisForm.SetAll( "Enabled", .T. )
+ThisForm.SetAll( "Enabled", .F., "Commandbutton" )
+ThisForm.SetAll( "ReadOnly", .T., "Grid" )
+ThisForm.SetAll( "ReadOnly", .T., "Search_cbo" )
+ThisForm.SetAll( "ReadOnly", .T., "List_cbo" )
+ThisForm.SetAll( "ReadOnly", .T., "Combobox" )

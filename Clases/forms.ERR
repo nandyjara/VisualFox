@@ -1,0 +1,3524 @@
+status_wnd
+Error in line 2: Unrecognized command verb.
+Arial, 0, 9, 5, 15, 12, 32, 3, 0
+Error in line 3: Unrecognized command verb.
+info_grid_wnd
+Error in line 5: Unrecognized command verb.
+record_wnd
+Error in line 6: Unrecognized command verb.
+dialog_wnd
+Error in line 7: Unrecognized command verb.
+dialog_wnd
+Error in line 9: Unrecognized command verb.
+dialog_wnd
+Error in line 10: Unrecognized command verb.
+commandbutton
+Error in line 11: Unrecognized command verb.
+commandbutton
+Error in line 13: Unrecognized command verb.
+olecontrol
+Error in line 20: Unrecognized command verb.
+olecontrol
+Error in line 22: Unrecognized command verb.
+dialog_wnd
+Error in line 23: Unrecognized command verb.
+olecontrol
+Error in line 26: Unrecognized command verb.
+olecontrol
+Error in line 33: Unrecognized command verb.
+
+Error in line 34: Unrecognized command verb.
+commandbutton
+Error in line 35: Unrecognized command verb.
+commandbutton
+Error in line 36: Unrecognized command verb.
+header_wnd
+Error in line 37: Unrecognized command verb.
+LPARAMETERS nButton, nShift, nXCoord, nYCoord
+Error in line 53: Statement is not in a procedure.
+IF (_DOBRA.GetRegKey("SIS-MenuOver", "NO") = "YES" )
+Error in line 54: Statement is not in a procedure.
+_DOBRA.ShowMenuWindow()
+Error in line 55: Statement is not in a procedure.
+ENDIF
+Error in line 56: Statement is not in a procedure.
+ENDPROC
+Error in line 59: Nesting error.
+Arial, 0, 9, 5, 15, 12, 13, 3, 0
+Error in line 65: Unrecognized command verb.
+
+Error in line 67: Unrecognized command verb.
+info_grid_wnd
+Error in line 68: Unrecognized command verb.
+info_grid_wnd
+Error in line 69: Unrecognized command verb.
+cmdDocumento2
+Error in line 70: Unrecognized command verb.
+IF ThisForm.SaveDialog()
+Error in line 71: Statement is not in a procedure.
+ThisForm.IsOK = .T.
+Error in line 72: Statement is not in a procedure.
+ThisForm.Release()
+Error in line 73: Statement is not in a procedure.
+ENDIF
+Error in line 74: Statement is not in a procedure.
+ENDPROC
+Error in line 76: Nesting error.
+olecontrol
+Error in line 79: Unrecognized command verb.
+olecontrol
+Error in line 80: Unrecognized command verb.
+Left = 2
+Error in line 81: Statement is not in a procedure.
+Width = 253
+Error in line 82: Statement is not in a procedure.
+Height = 57
+Error in line 83: Statement is not in a procedure.
+Visible = .F.
+Error in line 84: Statement is not in a procedure.
+Name = "cntBottomPanel"
+Error in line 85: Statement is not in a procedure.
+olecontrol
+Error in line 87: Unrecognized command verb.
+olecontrol
+Error in line 88: Unrecognized command verb.
+commandbutton
+Error in line 89: Unrecognized command verb.
+This.BackColor = ThisForm.txtLeftPanel.DisabledForeColor
+Error in line 90: Statement is not in a procedure.
+ENDPROC
+Error in line 92: Nesting error.
+txtRightPanel
+Error in line 94: Unrecognized command verb.
+header_wnd
+Error in line 95: Unrecognized command verb.
+Left = 696
+Error in line 96: Statement is not in a procedure.
+Height = 23
+Error in line 97: Statement is not in a procedure.
+Width = 23
+Error in line 98: Statement is not in a procedure.
+Enabled = .F.
+Error in line 99: Statement is not in a procedure.
+Interval = 1000
+Error in line 100: Statement is not in a procedure.
+Name = "tmrSessionTImeOut"
+Error in line 101: Statement is not in a procedure.
+header_wnd
+Error in line 103: Unrecognized command verb.
+commandbutton
+Error in line 104: Unrecognized command verb.
+info_grid_wnd
+Error in line 106: Unrecognized command verb.
+commandbutton
+Error in line 107: Unrecognized command verb.
+commandbutton
+Error in line 108: Unrecognized command verb.
+olecontrol
+Error in line 109: Unrecognized command verb.
+This.BackColor = GetSysColor( COLOR_ButtonShadow )
+Error in line 110: Statement is not in a procedure.
+This.BorderColor = GetSysColor( COLOR_ButtonShadow )
+Error in line 111: Statement is not in a procedure.
+ENDPROC
+Error in line 112: Nesting error.
+Left = 296
+Error in line 114: Statement is not in a procedure.
+Height = 21
+Error in line 115: Statement is not in a procedure.
+Width = 72
+Error in line 116: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 117: Statement is not in a procedure.
+FontSize = 8
+Error in line 118: Statement is not in a procedure.
+Cancel = .T.
+Error in line 119: Statement is not in a procedure.
+Caption = "Cancelar"
+Error in line 120: Statement is not in a procedure.
+Name = "cmdCancel"
+Error in line 121: Statement is not in a procedure.
+ocxEndDate
+Error in line 123: Unrecognized command verb.
+search_cbo
+Error in line 125: Unrecognized command verb.
+info_grid_wnd
+Error in line 127: Unrecognized command verb.
+status_wnd
+Error in line 129: Unrecognized command verb.
+ENDPROC
+Error in line 131: Nesting error.
+info_grid_wnd
+Error in line 133: Unrecognized command verb.
+info_grid_wnd
+Error in line 134: Unrecognized command verb.
+header_wnd
+Error in line 136: Unrecognized command verb.
+ENDPROC
+Error in line 139: Nesting error.
+status_wnd
+Error in line 141: Unrecognized command verb.
+This.BackColor = ThisForm.txtLeftPanel.DisabledForeColor
+Error in line 142: Statement is not in a procedure.
+ENDPROC
+Error in line 144: Nesting error.
+search_cbo
+Error in line 147: Unrecognized command verb.
+olecontrol
+Error in line 148: Unrecognized command verb.
+olecontrol
+Error in line 149: Unrecognized command verb.
+info_grid_wnd
+Error in line 151: Unrecognized command verb.
+Left = 2
+Error in line 152: Statement is not in a procedure.
+Height = 25
+Error in line 153: Statement is not in a procedure.
+Width = 166
+Error in line 154: Statement is not in a procedure.
+Visible = .F.
+Error in line 155: Statement is not in a procedure.
+TabStop = .F.
+Error in line 156: Statement is not in a procedure.
+ZOrderSet = 19
+Error in line 157: Statement is not in a procedure.
+Name = "ocxTabs"
+Error in line 158: Statement is not in a procedure.
+Arial, 0, 9, 5, 15, 12, 32, 3, 0
+Error in line 162: Unrecognized command verb.
+Tahoma, 2, 8, 5, 13, 11, 21, 2, 0
+Error in line 163: Unrecognized command verb.
+olecontrol
+Error in line 165: Unrecognized command verb.
+olecontrol
+Error in line 166: Unrecognized command verb.
+info_grid_wnd
+Error in line 167: Unrecognized command verb.
+ocxEndDate
+Error in line 168: Unrecognized command verb.
+olecontrol
+Error in line 169: Unrecognized command verb.
+header_wnd
+Error in line 170: Unrecognized command verb.
+olecontrol
+Error in line 171: Unrecognized command verb.
+olecontrol
+Error in line 173: Unrecognized command verb.
+IF This.Value
+Error in line 174: Statement is not in a procedure.
+ThisForm.ShowLeftPanel()
+Error in line 175: Statement is not in a procedure.
+ELSE
+Error in line 176: Statement is not in a procedure.
+ThisForm.HideLeftPanel()
+Error in line 177: Statement is not in a procedure.
+ENDIF
+Error in line 178: Statement is not in a procedure.
+ENDPROC
+Error in line 179: Nesting error.
+informeid
+Error in line 186: Unrecognized command verb.
+frxformat
+Error in line 187: Unrecognized command verb.
+olecontrol
+Error in line 189: Unrecognized command verb.
+dialog_wnd
+Error in line 190: Unrecognized command verb.
+commandbutton
+Error in line 191: Unrecognized command verb.
+commandbutton
+Error in line 193: Unrecognized command verb.
+This.DisabledBackColor = This.BackColor
+Error in line 194: Statement is not in a procedure.
+ENDPROC
+Error in line 196: Nesting error.
+commandbutton
+Error in line 198: Unrecognized command verb.
+commandbutton
+Error in line 199: Unrecognized command verb.
+dialog_wnd
+Error in line 200: Unrecognized command verb.
+olecontrol
+Error in line 201: Unrecognized command verb.
+Left = 668
+Error in line 202: Statement is not in a procedure.
+Height = 25
+Error in line 203: Statement is not in a procedure.
+Width = 25
+Error in line 204: Statement is not in a procedure.
+Enabled = .F.
+Error in line 205: Statement is not in a procedure.
+Interval = 500
+Error in line 206: Statement is not in a procedure.
+Name = "tmrTreeView"
+Error in line 207: Statement is not in a procedure.
+header_wnd
+Error in line 210: Unrecognized command verb.
+dialog_wnd
+Error in line 211: Unrecognized command verb.
+Left = 0
+Error in line 212: Statement is not in a procedure.
+Top = 43
+Error in line 213: Statement is not in a procedure.
+Width = 750
+Error in line 214: Statement is not in a procedure.
+BorderColor = 56,56,56
+Error in line 215: Syntax error.
+ZOrderSet = 19
+Error in line 216: Statement is not in a procedure.
+Name = "linSeparator01"
+Error in line 217: Statement is not in a procedure.
+header_wnd
+Error in line 219: Unrecognized command verb.
+olecontrol
+Error in line 220: Unrecognized command verb.
+olecontrol
+Error in line 223: Unrecognized command verb.
+ocxSysInfo
+Error in line 224: Unrecognized command verb.
+olecontrol
+Error in line 225: Unrecognized command verb.
+olecontrol
+Error in line 227: Unrecognized command verb.
+IF This.Value
+Error in line 228: Statement is not in a procedure.
+ThisForm.ShowBottomPanel()
+Error in line 229: Statement is not in a procedure.
+ThisForm.UpdateBottomPanel()
+Error in line 230: Statement is not in a procedure.
+ELSE
+Error in line 231: Statement is not in a procedure.
+ThisForm.HideBottomPanel()
+Error in line 232: Statement is not in a procedure.
+ENDIF
+Error in line 233: Statement is not in a procedure.
+ENDPROC
+Error in line 234: Nesting error.
+ENDPROC
+Error in line 238: Nesting error.
+olecontrol
+Error in line 240: Unrecognized command verb.
+Left = 588
+Error in line 242: Statement is not in a procedure.
+Height = 49
+Error in line 243: Statement is not in a procedure.
+Width = 49
+Error in line 244: Statement is not in a procedure.
+ZOrderSet = 11
+Error in line 245: Statement is not in a procedure.
+Name = "ocxIcons"
+Error in line 246: Statement is not in a procedure.
+header_wnd
+Error in line 248: Unrecognized command verb.
+Left = 746
+Error in line 252: Statement is not in a procedure.
+Height = 100
+Error in line 253: Statement is not in a procedure.
+Width = 100
+Error in line 254: Statement is not in a procedure.
+ZOrderSet = 16
+Error in line 255: Statement is not in a procedure.
+Name = "ocxToolBarImageList"
+Error in line 256: Statement is not in a procedure.
+Left = 28
+Error in line 258: Statement is not in a procedure.
+Height = 21
+Error in line 259: Statement is not in a procedure.
+Width = 22
+Error in line 260: Statement is not in a procedure.
+Picture = ..\admin\sqldobra\graphics\showbottom.bmp
+Error in line 261: Syntax error.
+Caption = ""
+Error in line 262: Statement is not in a procedure.
+Value = .F.
+Error in line 263: Statement is not in a procedure.
+Style = 1
+Error in line 264: Statement is not in a procedure.
+ToolTipText = "Panel Inferior"
+Error in line 265: Statement is not in a procedure.
+Name = "chkBottomPanel"
+Error in line 266: Statement is not in a procedure.
+olecontrol
+Error in line 268: Unrecognized command verb.
+search_cbo
+Error in line 270: Unrecognized command verb.
+Left = -3
+Error in line 271: Statement is not in a procedure.
+Width = 3
+Error in line 272: Statement is not in a procedure.
+Height = 248
+Error in line 273: Statement is not in a procedure.
+BorderWidth = 0
+Error in line 274: Statement is not in a procedure.
+Enabled = .F.
+Error in line 275: Statement is not in a procedure.
+Visible = .F.
+Error in line 276: Statement is not in a procedure.
+MousePointer = 9
+Error in line 277: Statement is not in a procedure.
+TabIndex = 20
+Error in line 278: Statement is not in a procedure.
+TabStop = .F.
+Error in line 279: Statement is not in a procedure.
+BackColor = 0,0,0
+Error in line 280: Syntax error.
+ZOrderSet = 20
+Error in line 281: Statement is not in a procedure.
+Name = "cntVSplitClone"
+Error in line 282: Statement is not in a procedure.
+olecontrol
+Error in line 284: Unrecognized command verb.
+olecontrol
+Error in line 285: Unrecognized command verb.
+olecontrol
+Error in line 286: Unrecognized command verb.
+record_wnd
+Error in line 287: Unrecognized command verb.
+Left = 4
+Error in line 288: Statement is not in a procedure.
+Height = 21
+Error in line 289: Statement is not in a procedure.
+Width = 22
+Error in line 290: Statement is not in a procedure.
+Picture = ..\admin\sqldobra\graphics\showtree.bmp
+Error in line 291: Syntax error.
+Caption = ""
+Error in line 292: Statement is not in a procedure.
+Value = .F.
+Error in line 293: Statement is not in a procedure.
+Style = 1
+Error in line 294: Statement is not in a procedure.
+ToolTipText = "Carpetas"
+Error in line 295: Statement is not in a procedure.
+Name = "chkLeftPanel"
+Error in line 296: Statement is not in a procedure.
+olecontrol
+Error in line 298: Unrecognized command verb.
+ThisForm.oleGraph.DoVerb( -2 )
+Error in line 299: Statement is not in a procedure.
+ENDPROC
+Error in line 302: Nesting error.
+commandbutton
+Error in line 304: Unrecognized command verb.
+commandbutton
+Error in line 305: Unrecognized command verb.
+olecontrol
+Error in line 307: Unrecognized command verb.
+Left = 0
+Error in line 309: Statement is not in a procedure.
+Height = 20
+Error in line 310: Statement is not in a procedure.
+Width = 628
+Error in line 311: Statement is not in a procedure.
+Name = "ocxStatusBar"
+Error in line 312: Statement is not in a procedure.
+record_wnd
+Error in line 314: Unrecognized command verb.
+Left = 0
+Error in line 315: Statement is not in a procedure.
+Height = 2
+Error in line 316: Statement is not in a procedure.
+Width = 129
+Error in line 317: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 318: Statement is not in a procedure.
+Name = "shpSeparator01"
+Error in line 319: Statement is not in a procedure.
+record_wnd
+Error in line 321: Unrecognized command verb.
+olecontrol
+Error in line 322: Unrecognized command verb.
+header_wnd
+Error in line 323: Unrecognized command verb.
+record_wnd
+Error in line 327: Unrecognized command verb.
+FontName = "Tahoma"
+Error in line 331: Statement is not in a procedure.
+FontSize = 8
+Error in line 332: Statement is not in a procedure.
+Name = "generic_wnd"
+Error in line 333: Statement is not in a procedure.
+Left = 0
+Error in line 335: Statement is not in a procedure.
+Width = 59
+Error in line 336: Statement is not in a procedure.
+Height = 3
+Error in line 337: Statement is not in a procedure.
+BorderWidth = 0
+Error in line 338: Statement is not in a procedure.
+Enabled = .F.
+Error in line 339: Statement is not in a procedure.
+Visible = .F.
+Error in line 340: Statement is not in a procedure.
+MousePointer = 7
+Error in line 341: Statement is not in a procedure.
+TabIndex = 20
+Error in line 342: Statement is not in a procedure.
+TabStop = .F.
+Error in line 343: Statement is not in a procedure.
+BackColor = 0,0,0
+Error in line 344: Syntax error.
+ZOrderSet = 18
+Error in line 345: Statement is not in a procedure.
+Name = "cntHSplitClone"
+Error in line 346: Statement is not in a procedure.
+olecontrol
+Error in line 348: Unrecognized command verb.
+ThisForm.UpdateTreeView( This.SelectedItem.Key )
+Error in line 349: Statement is not in a procedure.
+ThisForm.ocxTreeView.SetFocus()
+Error in line 350: Statement is not in a procedure.
+ENDPROC
+Error in line 352: Nesting error.
+Left = 0
+Error in line 359: Statement is not in a procedure.
+Height = 2
+Error in line 360: Statement is not in a procedure.
+Width = 129
+Error in line 361: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 362: Statement is not in a procedure.
+Name = "shpSeparator01"
+Error in line 363: Statement is not in a procedure.
+header_wnd
+Error in line 367: Unrecognized command verb.
+ocxToolBar
+Error in line 368: Unrecognized command verb.
+olecontrol
+Error in line 369: Unrecognized command verb.
+olecontrol
+Error in line 370: Unrecognized command verb.
+header_wnd
+Error in line 371: Unrecognized command verb.
+Left = 0
+Error in line 373: Statement is not in a procedure.
+Height = 2
+Error in line 374: Statement is not in a procedure.
+Width = 129
+Error in line 375: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 376: Statement is not in a procedure.
+Name = "shpSeparator01"
+Error in line 377: Statement is not in a procedure.
+search_cbo
+Error in line 379: Unrecognized command verb.
+Left = -3
+Error in line 381: Statement is not in a procedure.
+Width = 3
+Error in line 382: Statement is not in a procedure.
+Height = 248
+Error in line 383: Statement is not in a procedure.
+BorderWidth = 0
+Error in line 384: Statement is not in a procedure.
+MousePointer = 9
+Error in line 385: Statement is not in a procedure.
+TabIndex = 19
+Error in line 386: Statement is not in a procedure.
+TabStop = .F.
+Error in line 387: Statement is not in a procedure.
+ZOrderSet = 16
+Error in line 388: Statement is not in a procedure.
+Name = "cntVSplit"
+Error in line 389: Statement is not in a procedure.
+Left = 648
+Error in line 391: Statement is not in a procedure.
+Height = 49
+Error in line 392: Statement is not in a procedure.
+Width = 41
+Error in line 393: Statement is not in a procedure.
+Name = "ocxMAPISession"
+Error in line 394: Statement is not in a procedure.
+olecontrol
+Error in line 397: Unrecognized command verb.
+olecontrol
+Error in line 398: Unrecognized command verb.
+Left = 0
+Error in line 400: Statement is not in a procedure.
+Height = 264
+Error in line 401: Statement is not in a procedure.
+Width = 369
+Error in line 402: Statement is not in a procedure.
+TabIndex = 1
+Error in line 403: Statement is not in a procedure.
+ZOrderSet = 1
+Error in line 404: Statement is not in a procedure.
+Name = "ocxHtml"
+Error in line 405: Statement is not in a procedure.
+homepage
+Error in line 407: Unrecognized command verb.
+ENDPROC
+Error in line 411: Nesting error.
+olecontrol
+Error in line 413: Unrecognized command verb.
+search_txt
+Error in line 416: Unrecognized command verb.
+ENDPROC
+Error in line 418: Nesting error.
+olecontrol
+Error in line 420: Unrecognized command verb.
+Left = 2
+Error in line 421: Statement is not in a procedure.
+Height = 97
+Error in line 422: Statement is not in a procedure.
+Width = 109
+Error in line 423: Statement is not in a procedure.
+Visible = .F.
+Error in line 424: Statement is not in a procedure.
+TabIndex = 1
+Error in line 425: Statement is not in a procedure.
+ZOrderSet = 12
+Error in line 426: Statement is not in a procedure.
+Name = "ocxTreeView"
+Error in line 427: Statement is not in a procedure.
+tmrScreenSize
+Error in line 429: Unrecognized command verb.
+header_wnd
+Error in line 432: Unrecognized command verb.
+olecontrol
+Error in line 433: Unrecognized command verb.
+Left = 0
+Error in line 435: Statement is not in a procedure.
+Width = 59
+Error in line 436: Statement is not in a procedure.
+Height = 3
+Error in line 437: Statement is not in a procedure.
+BorderWidth = 0
+Error in line 438: Statement is not in a procedure.
+Visible = .F.
+Error in line 439: Statement is not in a procedure.
+MousePointer = 7
+Error in line 440: Statement is not in a procedure.
+TabIndex = 19
+Error in line 441: Statement is not in a procedure.
+TabStop = .F.
+Error in line 442: Statement is not in a procedure.
+ZOrderSet = 15
+Error in line 443: Statement is not in a procedure.
+Name = "cntHSplit"
+Error in line 444: Statement is not in a procedure.
+olecontrol
+Error in line 447: Unrecognized command verb.
+search_txt
+Error in line 448: Unrecognized command verb.
+Left = 296
+Error in line 449: Statement is not in a procedure.
+Height = 21
+Error in line 450: Statement is not in a procedure.
+Width = 72
+Error in line 451: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 452: Statement is not in a procedure.
+FontSize = 8
+Error in line 453: Statement is not in a procedure.
+Caption = "Aceptar"
+Error in line 454: Statement is not in a procedure.
+Default = .T.
+Error in line 455: Statement is not in a procedure.
+Name = "cmdOK"
+Error in line 456: Statement is not in a procedure.
+Left = 688
+Error in line 458: Statement is not in a procedure.
+Height = 77
+Error in line 459: Statement is not in a procedure.
+Width = 153
+Error in line 460: Statement is not in a procedure.
+Name = "ocxMAPIMessages"
+Error in line 461: Statement is not in a procedure.
+olecontrol
+Error in line 463: Unrecognized command verb.
+header_wnd
+Error in line 466: Unrecognized command verb.
+Left = 696
+Error in line 467: Statement is not in a procedure.
+Height = 33
+Error in line 468: Statement is not in a procedure.
+Width = 57
+Error in line 469: Statement is not in a procedure.
+Name = "ocxSysInfo"
+Error in line 470: Statement is not in a procedure.
+header_wnd
+Error in line 473: Unrecognized command verb.
+Left = 52
+Error in line 474: Statement is not in a procedure.
+Height = 21
+Error in line 475: Statement is not in a procedure.
+Width = 80
+Error in line 476: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 477: Statement is not in a procedure.
+FontSize = 8
+Error in line 478: Statement is not in a procedure.
+Caption = "Modificar"
+Error in line 479: Statement is not in a procedure.
+TabIndex = 27
+Error in line 480: Statement is not in a procedure.
+TabStop = .F.
+Error in line 481: Statement is not in a procedure.
+ZOrderSet = 10
+Error in line 482: Statement is not in a procedure.
+Name = "cmdEdit"
+Error in line 483: Statement is not in a procedure.
+Left = 704
+Error in line 485: Statement is not in a procedure.
+Height = 25
+Error in line 486: Statement is not in a procedure.
+Width = 33
+Error in line 487: Statement is not in a procedure.
+Name = "ocxSocket"
+Error in line 488: Statement is not in a procedure.
+ocxSmallIcons
+Error in line 490: Unrecognized command verb.
+olecontrol
+Error in line 491: Unrecognized command verb.
+Left = 704
+Error in line 492: Statement is not in a procedure.
+Height = 24
+Error in line 493: Statement is not in a procedure.
+Width = 24
+Error in line 494: Statement is not in a procedure.
+Enabled = .F.
+Error in line 495: Statement is not in a procedure.
+Interval = 1
+Error in line 496: Statement is not in a procedure.
+Name = "tmrHyperlink"
+Error in line 497: Statement is not in a procedure.
+Height = 168
+Error in line 499: Statement is not in a procedure.
+Left = 192
+Error in line 500: Statement is not in a procedure.
+TabIndex = 12
+Error in line 501: Statement is not in a procedure.
+Top = 28
+Error in line 502: Statement is not in a procedure.
+Width = 560
+Error in line 503: Statement is not in a procedure.
+DisabledBackColor = (This.BackColor)
+Error in line 504: Statement is not in a procedure.
+ZOrderSet = 10
+Error in line 505: Statement is not in a procedure.
+Name = "txtRightPanel"
+Error in line 506: Statement is not in a procedure.
+Left = 0
+Error in line 508: Statement is not in a procedure.
+Height = 2
+Error in line 509: Statement is not in a procedure.
+Width = 129
+Error in line 510: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 511: Statement is not in a procedure.
+Name = "shpSeparator01"
+Error in line 512: Statement is not in a procedure.
+Left = 704
+Error in line 515: Statement is not in a procedure.
+Height = 23
+Error in line 516: Statement is not in a procedure.
+Width = 23
+Error in line 517: Statement is not in a procedure.
+Name = "hypHyperlink"
+Error in line 518: Statement is not in a procedure.
+olecontrol
+Error in line 520: Unrecognized command verb.
+SET EXACT off
+Error in line 521: Statement is not in a procedure.
+SELECT REPORTE
+Error in line 522: Statement is not in a procedure.
+comando = this.Tag
+Error in line 525: Statement is not in a procedure.
+&comando
+Error in line 526: Statement is not in a procedure.
+ENDPROC
+Error in line 527: Nesting error.
+IF ThisForm.SaveDialog()
+Error in line 529: Statement is not in a procedure.
+ThisForm.IsOK = .T.
+Error in line 530: Statement is not in a procedure.
+ThisForm.Release()
+Error in line 531: Statement is not in a procedure.
+ENDIF
+Error in line 532: Statement is not in a procedure.
+ENDPROC
+Error in line 534: Nesting error.
+IF ThisForm.CancelDialog()
+Error in line 536: Statement is not in a procedure.
+ThisForm.IsOK = .F.
+Error in line 537: Statement is not in a procedure.
+ThisForm.Release()
+Error in line 538: Statement is not in a procedure.
+ENDIF
+Error in line 539: Statement is not in a procedure.
+ENDPROC
+Error in line 541: Nesting error.
+Left = 0
+Error in line 543: Statement is not in a procedure.
+Height = 2
+Error in line 544: Statement is not in a procedure.
+Width = 129
+Error in line 545: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 546: Statement is not in a procedure.
+Name = "shpSeparator01"
+Error in line 547: Statement is not in a procedure.
+Height = 166
+Error in line 549: Statement is not in a procedure.
+Left = 0
+Error in line 550: Statement is not in a procedure.
+TabIndex = 12
+Error in line 551: Statement is not in a procedure.
+Top = 28
+Error in line 552: Statement is not in a procedure.
+Visible = .F.
+Error in line 553: Statement is not in a procedure.
+Width = 176
+Error in line 554: Statement is not in a procedure.
+ZOrderSet = 7
+Error in line 555: Statement is not in a procedure.
+Name = "txtLeftPanel"
+Error in line 556: Statement is not in a procedure.
+Top = 192
+Error in line 558: Statement is not in a procedure.
+Left = 696
+Error in line 559: Statement is not in a procedure.
+Height = 37
+Error in line 560: Statement is not in a procedure.
+Width = 37
+Error in line 561: Statement is not in a procedure.
+ZOrderSet = 11
+Error in line 562: Statement is not in a procedure.
+Name = "ocxMenu"
+Error in line 563: Statement is not in a procedure.
+Left = 0
+Error in line 565: Statement is not in a procedure.
+Height = 280
+Error in line 566: Statement is not in a procedure.
+Width = 472
+Error in line 567: Statement is not in a procedure.
+Visible = .F.
+Error in line 568: Statement is not in a procedure.
+Enabled = .F.
+Error in line 569: Statement is not in a procedure.
+AutoActivate = 0
+Error in line 570: Statement is not in a procedure.
+Name = "oleGraph"
+Error in line 571: Statement is not in a procedure.
+Left = 296
+Error in line 577: Statement is not in a procedure.
+Height = 21
+Error in line 578: Statement is not in a procedure.
+Width = 72
+Error in line 579: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 580: Statement is not in a procedure.
+FontSize = 8
+Error in line 581: Statement is not in a procedure.
+Caption = "Aceptar"
+Error in line 582: Statement is not in a procedure.
+Default = .T.
+Error in line 583: Statement is not in a procedure.
+Name = "cmdOK"
+Error in line 584: Statement is not in a procedure.
+Left = 696
+Error in line 586: Statement is not in a procedure.
+Height = 49
+Error in line 587: Statement is not in a procedure.
+Width = 25
+Error in line 588: Statement is not in a procedure.
+Name = "ocxDialog"
+Error in line 589: Statement is not in a procedure.
+Left = 696
+Error in line 591: Statement is not in a procedure.
+Height = 100
+Error in line 592: Statement is not in a procedure.
+Width = 100
+Error in line 593: Statement is not in a procedure.
+Name = "ocxSmallIcons"
+Error in line 594: Statement is not in a procedure.
+FontBold = .T.
+Error in line 603: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 604: Statement is not in a procedure.
+FontSize = 8
+Error in line 605: Statement is not in a procedure.
+BackStyle = 0
+Error in line 606: Statement is not in a procedure.
+Caption = "Iniciando..."
+Error in line 607: Statement is not in a procedure.
+Height = 15
+Error in line 608: Statement is not in a procedure.
+Left = 2
+Error in line 609: Statement is not in a procedure.
+Top = 28
+Error in line 610: Statement is not in a procedure.
+Width = 63
+Error in line 611: Statement is not in a procedure.
+ForeColor = 255,255,255
+Error in line 612: Syntax error.
+ZOrderSet = 18
+Error in line 613: Statement is not in a procedure.
+Name = "lblTitle"
+Error in line 614: Statement is not in a procedure.
+Left = 764
+Error in line 616: Statement is not in a procedure.
+Height = 100
+Error in line 617: Statement is not in a procedure.
+Width = 100
+Error in line 618: Statement is not in a procedure.
+ZOrderSet = 15
+Error in line 619: Statement is not in a procedure.
+Name = "ocxToolBarHotImageList"
+Error in line 620: Statement is not in a procedure.
+Left = 0
+Error in line 622: Statement is not in a procedure.
+Height = 2
+Error in line 623: Statement is not in a procedure.
+Width = 58
+Error in line 624: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 625: Statement is not in a procedure.
+ZOrderSet = 0
+Error in line 626: Statement is not in a procedure.
+Name = "shpSeparator02"
+Error in line 627: Statement is not in a procedure.
+Height = 21
+Error in line 629: Statement is not in a procedure.
+Left = 412
+Error in line 630: Statement is not in a procedure.
+TabIndex = 8
+Error in line 631: Statement is not in a procedure.
+Top = 4
+Error in line 632: Statement is not in a procedure.
+Width = 88
+Error in line 633: Statement is not in a procedure.
+ZOrderSet = 20
+Error in line 634: Statement is not in a procedure.
+Name = "cboFiltro02"
+Error in line 635: Statement is not in a procedure.
+Height = 192
+Error in line 637: Statement is not in a procedure.
+Left = 0
+Error in line 638: Statement is not in a procedure.
+TabIndex = 12
+Error in line 639: Statement is not in a procedure.
+Top = 208
+Error in line 640: Statement is not in a procedure.
+Visible = .F.
+Error in line 641: Statement is not in a procedure.
+Width = 560
+Error in line 642: Statement is not in a procedure.
+DisabledBackColor = (This.BackColor)
+Error in line 643: Statement is not in a procedure.
+ZOrderSet = 0
+Error in line 644: Statement is not in a procedure.
+Name = "txtBottomPanel"
+Error in line 645: Statement is not in a procedure.
+Left = 228
+Error in line 647: Statement is not in a procedure.
+Height = 21
+Error in line 648: Statement is not in a procedure.
+Width = 88
+Error in line 649: Statement is not in a procedure.
+TabIndex = 4
+Error in line 650: Statement is not in a procedure.
+TabStop = .T.
+Error in line 651: Statement is not in a procedure.
+ZOrderSet = 3
+Error in line 652: Statement is not in a procedure.
+Name = "ocxEndDate"
+Error in line 653: Statement is not in a procedure.
+Left = 136
+Error in line 655: Statement is not in a procedure.
+Height = 21
+Error in line 656: Statement is not in a procedure.
+Width = 88
+Error in line 657: Statement is not in a procedure.
+TabIndex = 3
+Error in line 658: Statement is not in a procedure.
+TabStop = .T.
+Error in line 659: Statement is not in a procedure.
+ZOrderSet = 4
+Error in line 660: Statement is not in a procedure.
+Name = "ocxStartDate"
+Error in line 661: Statement is not in a procedure.
+LPARAMETERS nError, cMethod, nLine
+Error in line 663: Statement is not in a procedure.
+ThisForm.Error( nError, cMethod, nLine )
+Error in line 664: Statement is not in a procedure.
+ENDPROC
+Error in line 666: Nesting error.
+SET EXACT off
+Error in line 677: Statement is not in a procedure.
+SELECT REPORTE
+Error in line 678: Statement is not in a procedure.
+comando = this.Tag
+Error in line 681: Statement is not in a procedure.
+&comando
+Error in line 682: Statement is not in a procedure.
+ENDPROC
+Error in line 683: Nesting error.
+FontSize = 8
+Error in line 685: Statement is not in a procedure.
+Alignment = 1
+Error in line 686: Statement is not in a procedure.
+BackStyle = 0
+Error in line 687: Statement is not in a procedure.
+Caption = "Iniciando..."
+Error in line 688: Statement is not in a procedure.
+Height = 12
+Error in line 689: Statement is not in a procedure.
+Left = 0
+Error in line 690: Statement is not in a procedure.
+Top = 28
+Error in line 691: Statement is not in a procedure.
+Width = 732
+Error in line 692: Statement is not in a procedure.
+ForeColor = 255,255,255
+Error in line 693: Syntax error.
+ZOrderSet = 17
+Error in line 694: Statement is not in a procedure.
+Name = "lblSubtitle"
+Error in line 695: Statement is not in a procedure.
+Left = 296
+Error in line 697: Statement is not in a procedure.
+Height = 21
+Error in line 698: Statement is not in a procedure.
+Width = 72
+Error in line 699: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 700: Statement is not in a procedure.
+FontSize = 8
+Error in line 701: Statement is not in a procedure.
+Cancel = .T.
+Error in line 702: Statement is not in a procedure.
+Caption = "Cancelar"
+Error in line 703: Statement is not in a procedure.
+Name = "cmdCancel"
+Error in line 704: Statement is not in a procedure.
+4
+Error in line 707: Statement is not in a procedure.
+Height = 21
+Error in line 708: Statement is not in a procedure.
+Left = 332
+Error in line 709: Statement is not in a procedure.
+TabIndex = 8
+Error in line 710: Statement is not in a procedure.
+Top = 4
+Error in line 711: Statement is not in a procedure.
+Width = 88
+Error in line 712: Statement is not in a procedure.
+ZOrderSet = 20
+Error in line 713: Statement is not in a procedure.
+Name = "cboFiltro02"
+Error in line 714: Statement is not in a procedure.
+Left = 0
+Error in line 716: Statement is not in a procedure.
+Height = 48
+Error in line 717: Statement is not in a procedure.
+Width = 752
+Error in line 718: Statement is not in a procedure.
+BackColor = 0,0,0
+Error in line 719: Syntax error.
+ZOrderSet = 1
+Error in line 720: Statement is not in a procedure.
+Name = "shpTitle"
+Error in line 721: Statement is not in a procedure.
+Left = 0
+Error in line 723: Statement is not in a procedure.
+Height = 2
+Error in line 724: Statement is not in a procedure.
+Width = 58
+Error in line 725: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 726: Statement is not in a procedure.
+ZOrderSet = 3
+Error in line 727: Statement is not in a procedure.
+Name = "shpSeparator03"
+Error in line 728: Statement is not in a procedure.
+Left = 0
+Error in line 730: Statement is not in a procedure.
+Height = 2
+Error in line 731: Statement is not in a procedure.
+Width = 58
+Error in line 732: Statement is not in a procedure.
+SpecialEffect = 0
+Error in line 733: Statement is not in a procedure.
+ZOrderSet = 14
+Error in line 734: Statement is not in a procedure.
+Name = "shpSeparator01"
+Error in line 735: Statement is not in a procedure.
+Left = 774
+Error in line 737: Statement is not in a procedure.
+Height = 23
+Error in line 738: Statement is not in a procedure.
+Width = 23
+Error in line 739: Statement is not in a procedure.
+Enabled = .F.
+Error in line 740: Statement is not in a procedure.
+Interval = 1
+Error in line 741: Statement is not in a procedure.
+Name = "tmrScreenSize"
+Error in line 742: Statement is not in a procedure.
+ýùø
+Error in line 745: Unrecognized command verb.
+Height = 21
+Error in line 747: Statement is not in a procedure.
+Left = 240
+Error in line 748: Statement is not in a procedure.
+TabIndex = 8
+Error in line 749: Statement is not in a procedure.
+Top = 4
+Error in line 750: Statement is not in a procedure.
+Width = 88
+Error in line 751: Statement is not in a procedure.
+ZOrderSet = 20
+Error in line 752: Statement is not in a procedure.
+Name = "cboFiltro01"
+Error in line 753: Statement is not in a procedure.
+Left = 0
+Error in line 755: Statement is not in a procedure.
+Height = 22
+Error in line 756: Statement is not in a procedure.
+Width = 412
+Error in line 757: Statement is not in a procedure.
+ZOrderSet = 13
+Error in line 758: Statement is not in a procedure.
+Align = 0
+Error in line 759: Statement is not in a procedure.
+ShowTips = .T.
+Error in line 760: Statement is not in a procedure.
+Name = "ocxToolBar"
+Error in line 761: Statement is not in a procedure.
+Left = 56
+Error in line 763: Statement is not in a procedure.
+Height = 21
+Error in line 764: Statement is not in a procedure.
+Width = 88
+Error in line 765: Statement is not in a procedure.
+TabIndex = 3
+Error in line 766: Statement is not in a procedure.
+TabStop = .T.
+Error in line 767: Statement is not in a procedure.
+ZOrderSet = 4
+Error in line 768: Statement is not in a procedure.
+Name = "ocxStartDate"
+Error in line 769: Statement is not in a procedure.
+Height = 21
+Error in line 771: Statement is not in a procedure.
+Left = 320
+Error in line 772: Statement is not in a procedure.
+TabIndex = 8
+Error in line 773: Statement is not in a procedure.
+Top = 4
+Error in line 774: Statement is not in a procedure.
+Width = 88
+Error in line 775: Statement is not in a procedure.
+ZOrderSet = 20
+Error in line 776: Statement is not in a procedure.
+Name = "cboFiltro01"
+Error in line 777: Statement is not in a procedure.
+á
+Error in line 779: Unrecognized command verb.
+
+Error in line 781: Unrecognized command verb.
+
+Error in line 782: Unrecognized command verb.
+
+Error in line 783: Unrecognized command verb.
+
+Error in line 784: Unrecognized command verb.
+DODEFAULT()
+Error in line 785: Statement is not in a procedure.
+ThisForm.TitleBar 	= 1
+Error in line 788: Statement is not in a procedure.
+ThisForm.TitleBar 	= 0
+Error in line 789: Statement is not in a procedure.
+BorderStyle = 1
+Error in line 792: Statement is not in a procedure.
+ThisForm.Move( 0, 0, ThisForm.ocxSysInfo.WorkAreaWidth / 15, ThisForm.ocxSysInfo.WorkAreaHeight / 15 )
+Error in line 795: Statement is not in a procedure.
+ThisForm.ocxStatusBar.Move(  0,  ThisForm.Height - ThisForm.ocxStatusBar.Height,  ThisForm.Width,  ThisForm.ocxStatusBar.Height )
+Error in line 801: Statement is not in a procedure.
+ThisForm.cntHotBorder.Height = ThisForm.Height - ThisForm.cntHotBorder.Top - ThisForm.ocxStatusBar.Height
+Error in line 803: Statement is not in a procedure.
+_DOBRA.AddProperty('StatusBar',ThisForm.ocxStatusBar)
+Error in line 806: Statement is not in a procedure.
+ENDPROC
+Error in line 809: Nesting error.
+ö
+Error in line 836: Unrecognized command verb.
+ýù
+Error in line 844: Unrecognized command verb.
+Left = 7
+Error in line 846: Statement is not in a procedure.
+Height = 401
+Error in line 847: Statement is not in a procedure.
+Width = 800
+Error in line 848: Statement is not in a procedure.
+ShowWindow = 2
+Error in line 849: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 850: Statement is not in a procedure.
+BorderStyle = 0
+Error in line 851: Statement is not in a procedure.
+MaxButton = .F.
+Error in line 852: Statement is not in a procedure.
+Movable = .F.
+Error in line 853: Statement is not in a procedure.
+BackColor = 0,0,0
+Error in line 854: Syntax error.
+Name = "desktop_wnd"
+Error in line 855: Statement is not in a procedure.
+ocxSmallIcons.Top = 232
+Error in line 856: Statement is not in a procedure.
+ocxSmallIcons.Left = 696
+Error in line 857: Statement is not in a procedure.
+ocxSmallIcons.Height = 100
+Error in line 858: Statement is not in a procedure.
+ocxSmallIcons.Width = 100
+Error in line 859: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 860: Statement is not in a procedure.
+ocxDialog.Top = 80
+Error in line 861: Statement is not in a procedure.
+ocxDialog.Left = 696
+Error in line 862: Statement is not in a procedure.
+ocxDialog.Height = 49
+Error in line 863: Statement is not in a procedure.
+ocxDialog.Width = 25
+Error in line 864: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 865: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 866: Statement is not in a procedure.
+ocxSocket.Top = 160
+Error in line 867: Statement is not in a procedure.
+ocxSocket.Left = 704
+Error in line 868: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 869: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 870: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 871: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 872: Statement is not in a procedure.
+ocxSysInfo.Top = 120
+Error in line 873: Statement is not in a procedure.
+ocxSysInfo.Left = 696
+Error in line 874: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 875: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 876: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 877: Statement is not in a procedure.
+ocxMAPIMessages.Top = 16
+Error in line 878: Statement is not in a procedure.
+ocxMAPIMessages.Left = 688
+Error in line 879: Statement is not in a procedure.
+ocxMAPIMessages.Height = 77
+Error in line 880: Statement is not in a procedure.
+ocxMAPIMessages.Width = 153
+Error in line 881: Statement is not in a procedure.
+ocxMAPIMessages.Name = "ocxMAPIMessages"
+Error in line 882: Statement is not in a procedure.
+ocxMAPISession.Top = 16
+Error in line 883: Statement is not in a procedure.
+ocxMAPISession.Left = 648
+Error in line 884: Statement is not in a procedure.
+ocxMAPISession.Height = 49
+Error in line 885: Statement is not in a procedure.
+ocxMAPISession.Width = 41
+Error in line 886: Statement is not in a procedure.
+ocxMAPISession.Name = "ocxMAPISession"
+Error in line 887: Statement is not in a procedure.
+ocxMenu.Top = 192
+Error in line 888: Statement is not in a procedure.
+ocxMenu.Left = 696
+Error in line 889: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 890: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 891: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 892: Statement is not in a procedure.
+²þòÿ 
+Error in line 894: Unrecognized command verb.
+÷
+Error in line 898: Unrecognized command verb.
+÷
+Error in line 899: Unrecognized command verb.
+÷
+Error in line 900: Unrecognized command verb.
+÷
+Error in line 901: Unrecognized command verb.
+ð
+Error in line 908: Unrecognized command verb.
+ýù¤
+Error in line 909: Unrecognized command verb.
+ýù…þ
+Error in line 913: Unrecognized command verb.
+÷
+Error in line 914: Unrecognized command verb.
+÷
+Error in line 915: Unrecognized command verb.
+÷
+Error in line 917: Unrecognized command verb.
+÷
+Error in line 919: Unrecognized command verb.
+÷
+Error in line 922: Unrecognized command verb.
+÷
+Error in line 925: Unrecognized command verb.
+
+Error in line 927: Unrecognized command verb.
+õ
+Error in line 928: Unrecognized command verb.
+÷
+Error in line 929: Unrecognized command verb.
+Ù 
+Error in line 931: Unrecognized command verb.
+÷
+Error in line 932: Unrecognized command verb.
+÷
+Error in line 934: Unrecognized command verb.
+÷
+Error in line 936: Unrecognized command verb.
+÷
+Error in line 938: Unrecognized command verb.
+÷
+Error in line 940: Unrecognized command verb.
+÷
+Error in line 942: Unrecognized command verb.
+÷
+Error in line 956: Unrecognized command verb.
+÷
+Error in line 957: Unrecognized command verb.
+÷
+Error in line 958: Unrecognized command verb.
+÷
+Error in line 959: Unrecognized command verb.
+LPARAMETERS text
+Error in line 971: Statement is not in a procedure.
+_DOBRA.StatusBar.Panels(1).Text = text
+Error in line 972: Statement is not in a procedure.
+ENDPROC
+Error in line 974: Nesting error.
+ýùY
+Error in line 987: Unrecognized command verb.
+ýùU
+Error in line 989: Unrecognized command verb.
+ö
+Error in line 991: Unrecognized command verb.
+
+Error in line 994: Unrecognized command verb.
+
+Error in line 995: Unrecognized command verb.
+FontBold = .T.
+Error in line 999: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 1000: Statement is not in a procedure.
+FontSize = 8
+Error in line 1001: Statement is not in a procedure.
+WordWrap = .T.
+Error in line 1002: Statement is not in a procedure.
+BackStyle = 0
+Error in line 1003: Statement is not in a procedure.
+Caption = "\<Buscar:"
+Error in line 1004: Statement is not in a procedure.
+Height = 15
+Error in line 1005: Statement is not in a procedure.
+Left = 8
+Error in line 1006: Statement is not in a procedure.
+Top = 8
+Error in line 1007: Statement is not in a procedure.
+Width = 41
+Error in line 1008: Statement is not in a procedure.
+TabIndex = 1
+Error in line 1009: Statement is not in a procedure.
+ZOrderSet = 12
+Error in line 1010: Statement is not in a procedure.
+Name = "lblBuscar"
+Error in line 1011: Statement is not in a procedure.
+_SCREEN.Closable = .T.
+Error in line 1013: Statement is not in a procedure.
+RETURN ThisForm.IsOK
+Error in line 1014: Statement is not in a procedure.
+ENDPROC
+Error in line 1017: Nesting error.
+navigationtable
+Error in line 1032: Unrecognized command verb.
+recordpath
+Error in line 1033: Unrecognized command verb.
+recordorder
+Error in line 1034: Unrecognized command verb.
+recordid
+Error in line 1035: Unrecognized command verb.
+havetosave
+Error in line 1036: Unrecognized command verb.
+navigationindex
+Error in line 1037: Unrecognized command verb.
+navigationgrouptable
+Error in line 1038: Unrecognized command verb.
+navigationfilter
+Error in line 1039: Unrecognized command verb.
+Height = 21
+Error in line 1058: Statement is not in a procedure.
+InputMask = "9999999999"
+Error in line 1059: Statement is not in a procedure.
+Left = 8
+Error in line 1060: Statement is not in a procedure.
+TabIndex = 2
+Error in line 1061: Statement is not in a procedure.
+Top = 16
+Error in line 1062: Statement is not in a procedure.
+Width = 72
+Error in line 1063: Statement is not in a procedure.
+DisabledForeColor = (This.Forecolor)
+Error in line 1064: Statement is not in a procedure.
+ZOrderSet = 13
+Error in line 1065: Statement is not in a procedure.
+codeexpression = Número
+Error in line 1066: Statement is not in a procedure.
+nameexpression = Detalle
+Error in line 1067: Statement is not in a procedure.
+Name = "txtSearch"
+Error in line 1068: Statement is not in a procedure.
+ownercontrol
+Error in line 1070: Unrecognized command verb.
+activehypercontrol
+Error in line 1071: Unrecognized command verb.
+activeerrorwindow
+Error in line 1072: Unrecognized command verb.
+messageerror
+Error in line 1073: Unrecognized command verb.
+^errorlist[1,0] Almacena las descripciones de los errores producidos durante una transacción y en general errores producidos en la ventana.
+Error in line 1074: Unrecognized command verb.
+Top = 4
+Error in line 1080: Statement is not in a procedure.
+Left = 574
+Error in line 1081: Statement is not in a procedure.
+Height = 21
+Error in line 1082: Statement is not in a procedure.
+Width = 60
+Error in line 1083: Statement is not in a procedure.
+FontItalic = .T.
+Error in line 1084: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 1085: Statement is not in a procedure.
+FontSize = 8
+Error in line 1086: Statement is not in a procedure.
+Caption = "Documento"
+Error in line 1087: Statement is not in a procedure.
+TabIndex = 15
+Error in line 1088: Statement is not in a procedure.
+TabStop = .F.
+Error in line 1089: Statement is not in a procedure.
+Visible = .F.
+Error in line 1090: Statement is not in a procedure.
+ZOrderSet = 45
+Error in line 1091: Statement is not in a procedure.
+Name = "cmdDocumento2"
+Error in line 1092: Statement is not in a procedure.
+ThisForm.ocxStatusBar.Move( 0, 0, ThisForm.Width, ThisForm.Height )
+Error in line 1095: Statement is not in a procedure.
+ENDPROC
+Error in line 1097: Nesting error.
+lastnodekey
+Error in line 1106: Unrecognized command verb.
+leftpanelenabled
+Error in line 1107: Unrecognized command verb.
+bottompanelvisible
+Error in line 1108: Unrecognized command verb.
+bottompanelenabled
+Error in line 1109: Unrecognized command verb.
+filtered
+Error in line 1110: Unrecognized command verb.
+DOEVENTS
+Error in line 1128: Statement is not in a procedure.
+IF ( _SCREEN.Width != _DOBRA.DesktopWidth ) OR ( _SCREEN.Height != _DOBRA.DesktopHeight )
+Error in line 1129: Statement is not in a procedure.
+_DOBRA.DesktopWidth 	= _SCREEN.Width
+Error in line 1130: Statement is not in a procedure.
+_DOBRA.DesktopHeight	= _SCREEN.Height
+Error in line 1131: Statement is not in a procedure.
+_DOBRA.DesktopResize()
+Error in line 1132: Statement is not in a procedure.
+DOEVENTS
+Error in line 1133: Statement is not in a procedure.
+ENDIF
+Error in line 1134: Statement is not in a procedure.
+ENDPROC
+Error in line 1136: Nesting error.
+FontBold = .T.
+Error in line 1138: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 1139: Statement is not in a procedure.
+FontSize = 8
+Error in line 1140: Statement is not in a procedure.
+WordWrap = .T.
+Error in line 1141: Statement is not in a procedure.
+BackStyle = 0
+Error in line 1142: Statement is not in a procedure.
+Caption = "\<Buscar:"
+Error in line 1143: Statement is not in a procedure.
+Height = 15
+Error in line 1144: Statement is not in a procedure.
+Left = 8
+Error in line 1145: Statement is not in a procedure.
+Top = 4
+Error in line 1146: Statement is not in a procedure.
+Width = 41
+Error in line 1147: Statement is not in a procedure.
+TabIndex = 1
+Error in line 1148: Statement is not in a procedure.
+ForeColor = 128,0,0
+Error in line 1149: Syntax error.
+ZOrderSet = 12
+Error in line 1150: Statement is not in a procedure.
+Name = "lblBuscar"
+Error in line 1151: Statement is not in a procedure.
+Top = 5
+Error in line 1153: Statement is not in a procedure.
+Left = 7
+Error in line 1154: Statement is not in a procedure.
+Height = 401
+Error in line 1155: Statement is not in a procedure.
+Width = 749
+Error in line 1156: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 1157: Statement is not in a procedure.
+Caption = "Dobra Profesional"
+Error in line 1158: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 1159: Statement is not in a procedure.
+FontSize = 8
+Error in line 1160: Statement is not in a procedure.
+ClipControls = .F.
+Error in line 1161: Statement is not in a procedure.
+Icon = ..\graphics\appicon.ico
+Error in line 1162: Syntax error.
+KeyPreview = .T.
+Error in line 1163: Statement is not in a procedure.
+Themes = .F.
+Error in line 1164: Statement is not in a procedure.
+errorcount = 0
+Error in line 1165: Statement is not in a procedure.
+ownercontrol = 0
+Error in line 1166: Statement is not in a procedure.
+messageerror = Se presentaron los siguientes errores:
+Error in line 1167: Syntax error.
+Name = "dobra_wnd"
+Error in line 1168: Statement is not in a procedure.
+LPARAMETERS node
+Error in line 1171: Statement is not in a procedure.
+node.Sorted=.T.
+Error in line 1172: Statement is not in a procedure.
+ENDPROC
+Error in line 1174: Nesting error.
+ð
+Error in line 1186: Unrecognized command verb.
+
+Error in line 1194: Unrecognized command verb.
+lnResult = AMOUSEOBJ(aObject, 1)
+Error in line 1197: Statement is not in a procedure.
+IF ( lnResult = 0 ) OR ( aObject[1] != ThisForm.ActiveHyperControl )
+Error in line 1198: Statement is not in a procedure.
+This.Enabled = .F.
+Error in line 1203: Statement is not in a procedure.
+ThisForm.DeactivateHyperlinks()
+Error in line 1204: Statement is not in a procedure.
+ThisForm.ActiveHyperControl = ThisForm
+Error in line 1205: Statement is not in a procedure.
+DOEVENTS
+Error in line 1206: Statement is not in a procedure.
+ENDIF
+Error in line 1207: Statement is not in a procedure.
+ENDPROC
+Error in line 1209: Nesting error.
+Height = 21
+Error in line 1218: Statement is not in a procedure.
+Left = 56
+Error in line 1219: Statement is not in a procedure.
+TabIndex = 2
+Error in line 1220: Statement is not in a procedure.
+Top = 8
+Error in line 1221: Statement is not in a procedure.
+Width = 136
+Error in line 1222: Statement is not in a procedure.
+ForeColor = 255,255,255
+Error in line 1223: Syntax error.
+DisabledBackColor = (This.BackColor)
+Error in line 1224: Statement is not in a procedure.
+DisabledForeColor = (This.Forecolor)
+Error in line 1225: Statement is not in a procedure.
+ZOrderSet = 13
+Error in line 1226: Statement is not in a procedure.
+Name = "txtSearch"
+Error in line 1227: Statement is not in a procedure.
+ldStartDate = CTOD( [^] +  ALLTRIM(STR(ThisForm.ocxStartDate.Year)) + [/] +  ALLTRIM(STR(ThisForm.ocxStartDate.Month)) + [/] +  ALLTRIM(STR(ThisForm.ocxStartDate.Day)) )
+Error in line 1232: Statement is not in a procedure.
+ldEndDate 	= CTOD( [^] +  ALLTRIM(STR(ThisForm.ocxEndDate.Year)) + [/] +  ALLTRIM(STR(ThisForm.ocxEndDate.Month)) + [/] +  ALLTRIM(STR(ThisForm.ocxEndDate.Day)) )
+Error in line 1236: Statement is not in a procedure.
+IF ( ldEndDate < ldStartDate )
+Error in line 1239: Statement is not in a procedure.
+ThisForm.ocxEndDate.Day 	= 1
+Error in line 1240: Statement is not in a procedure.
+ThisForm.ocxEndDate.Year 	= ThisForm.ocxStartDate.Year 
+Error in line 1241: Statement is not in a procedure.
+ThisForm.ocxEndDate.Month	= ThisForm.ocxStartDate.Month
+Error in line 1242: Statement is not in a procedure.
+ThisForm.ocxEndDate.Day		= ThisForm.ocxStartDate.Day
+Error in line 1243: Statement is not in a procedure.
+ENDIF
+Error in line 1244: Statement is not in a procedure.
+ENDPROC
+Error in line 1247: Nesting error.
+Left = 11
+Error in line 1249: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 1250: Statement is not in a procedure.
+Caption = "Home"
+Error in line 1251: Statement is not in a procedure.
+KeyPreview = .T.
+Error in line 1252: Statement is not in a procedure.
+Name = "home_wnd"
+Error in line 1253: Statement is not in a procedure.
+ocxSmallIcons.Top = 12
+Error in line 1254: Statement is not in a procedure.
+ocxSmallIcons.Left = 696
+Error in line 1255: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 1256: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 1257: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 1258: Statement is not in a procedure.
+ocxDialog.Top = 60
+Error in line 1259: Statement is not in a procedure.
+ocxDialog.Left = 696
+Error in line 1260: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 1261: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 1262: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 1263: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 1264: Statement is not in a procedure.
+ocxSocket.Top = 120
+Error in line 1265: Statement is not in a procedure.
+ocxSocket.Left = 640
+Error in line 1266: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 1267: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 1268: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 1269: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 1270: Statement is not in a procedure.
+ocxSysInfo.Top = 120
+Error in line 1271: Statement is not in a procedure.
+ocxSysInfo.Left = 696
+Error in line 1272: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 1273: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 1274: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 1275: Statement is not in a procedure.
+OCXMAPIMESSAGES.Top = 16
+Error in line 1276: Statement is not in a procedure.
+OCXMAPIMESSAGES.Left = 688
+Error in line 1277: Statement is not in a procedure.
+OCXMAPIMESSAGES.Height = 77
+Error in line 1278: Statement is not in a procedure.
+OCXMAPIMESSAGES.Width = 153
+Error in line 1279: Statement is not in a procedure.
+OCXMAPIMESSAGES.Name = "OCXMAPIMESSAGES"
+Error in line 1280: Statement is not in a procedure.
+OCXMAPISESSION.Top = 16
+Error in line 1281: Statement is not in a procedure.
+OCXMAPISESSION.Left = 648
+Error in line 1282: Statement is not in a procedure.
+OCXMAPISESSION.Height = 49
+Error in line 1283: Statement is not in a procedure.
+OCXMAPISESSION.Width = 41
+Error in line 1284: Statement is not in a procedure.
+OCXMAPISESSION.Name = "OCXMAPISESSION"
+Error in line 1285: Statement is not in a procedure.
+ocxMenu.Top = 64
+Error in line 1286: Statement is not in a procedure.
+ocxMenu.Left = 624
+Error in line 1287: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 1288: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 1289: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 1290: Statement is not in a procedure.
+Left = 3
+Error in line 1292: Statement is not in a procedure.
+Height = 448
+Error in line 1293: Statement is not in a procedure.
+Width = 800
+Error in line 1294: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 1295: Statement is not in a procedure.
+Name = "info_graph08_wnd"
+Error in line 1296: Statement is not in a procedure.
+txtBottomPanel.Name = "txtBottomPanel"
+Error in line 1297: Statement is not in a procedure.
+ocxSmallIcons.Top = 336
+Error in line 1298: Statement is not in a procedure.
+ocxSmallIcons.Left = 628
+Error in line 1299: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 1300: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 1301: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 1302: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 1303: Statement is not in a procedure.
+ocxDialog.Top = 288
+Error in line 1304: Statement is not in a procedure.
+ocxDialog.Left = 684
+Error in line 1305: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 1306: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 1307: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 1308: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 1309: Statement is not in a procedure.
+ocxMAPIMessages.Top = 224
+Error in line 1310: Statement is not in a procedure.
+ocxMAPIMessages.Left = 636
+Error in line 1311: Statement is not in a procedure.
+ocxMAPIMessages.Height = 77
+Error in line 1312: Statement is not in a procedure.
+ocxMAPIMessages.Width = 153
+Error in line 1313: Statement is not in a procedure.
+ocxMAPIMessages.Name = "ocxMAPIMessages"
+Error in line 1314: Statement is not in a procedure.
+ocxMenu.Top = 224
+Error in line 1315: Statement is not in a procedure.
+ocxMenu.Left = 684
+Error in line 1316: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 1317: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 1318: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 1319: Statement is not in a procedure.
+txtLeftPanel.Name = "txtLeftPanel"
+Error in line 1320: Statement is not in a procedure.
+ocxMAPISession.Top = 224
+Error in line 1321: Statement is not in a procedure.
+ocxMAPISession.Left = 592
+Error in line 1322: Statement is not in a procedure.
+ocxMAPISession.Height = 49
+Error in line 1323: Statement is not in a procedure.
+ocxMAPISession.Width = 41
+Error in line 1324: Statement is not in a procedure.
+ocxMAPISession.Name = "ocxMAPISession"
+Error in line 1325: Statement is not in a procedure.
+txtRightPanel.Name = "txtRightPanel"
+Error in line 1326: Statement is not in a procedure.
+ocxIcons.Top = 336
+Error in line 1327: Statement is not in a procedure.
+ocxIcons.Left = 588
+Error in line 1328: Statement is not in a procedure.
+ocxIcons.Height = 49
+Error in line 1329: Statement is not in a procedure.
+ocxIcons.Width = 49
+Error in line 1330: Statement is not in a procedure.
+ocxIcons.Name = "ocxIcons"
+Error in line 1331: Statement is not in a procedure.
+tmrTreeView.Name = "tmrTreeView"
+Error in line 1332: Statement is not in a procedure.
+ocxTreeView.Top = 55
+Error in line 1333: Statement is not in a procedure.
+ocxTreeView.Left = 2
+Error in line 1334: Statement is not in a procedure.
+ocxTreeView.Height = 97
+Error in line 1335: Statement is not in a procedure.
+ocxTreeView.Width = 109
+Error in line 1336: Statement is not in a procedure.
+ocxTreeView.Name = "ocxTreeView"
+Error in line 1337: Statement is not in a procedure.
+ocxSysInfo.Top = 284
+Error in line 1338: Statement is not in a procedure.
+ocxSysInfo.Left = 604
+Error in line 1339: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 1340: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 1341: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 1342: Statement is not in a procedure.
+cntHSplit.Name = "cntHSplit"
+Error in line 1343: Statement is not in a procedure.
+chkLeftPanel.Name = "chkLeftPanel"
+Error in line 1344: Statement is not in a procedure.
+cntVSplit.Name = "cntVSplit"
+Error in line 1345: Statement is not in a procedure.
+cntHSplitClone.Name = "cntHSplitClone"
+Error in line 1346: Statement is not in a procedure.
+ocxTabs.Top = 30
+Error in line 1347: Statement is not in a procedure.
+ocxTabs.Left = 2
+Error in line 1348: Statement is not in a procedure.
+ocxTabs.Height = 25
+Error in line 1349: Statement is not in a procedure.
+ocxTabs.Width = 166
+Error in line 1350: Statement is not in a procedure.
+ocxTabs.Name = "ocxTabs"
+Error in line 1351: Statement is not in a procedure.
+chkBottomPanel.Name = "chkBottomPanel"
+Error in line 1352: Statement is not in a procedure.
+cntVSplitClone.Name = "cntVSplitClone"
+Error in line 1353: Statement is not in a procedure.
+ocxSocket.Top = 272
+Error in line 1354: Statement is not in a procedure.
+ocxSocket.Left = 652
+Error in line 1355: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 1356: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 1357: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 1358: Statement is not in a procedure.
+cntBottomPanel.Name = "cntBottomPanel"
+Error in line 1359: Statement is not in a procedure.
+shpSeparator01.Name = "shpSeparator01"
+Error in line 1360: Statement is not in a procedure.
+Left = 148
+Error in line 1366: Statement is not in a procedure.
+Height = 21
+Error in line 1367: Statement is not in a procedure.
+Width = 88
+Error in line 1368: Statement is not in a procedure.
+TabIndex = 4
+Error in line 1369: Statement is not in a procedure.
+TabStop = .T.
+Error in line 1370: Statement is not in a procedure.
+ZOrderSet = 3
+Error in line 1371: Statement is not in a procedure.
+Name = "ocxEndDate"
+Error in line 1372: Statement is not in a procedure.
+_SCREEN.Closable = .T.
+Error in line 1374: Statement is not in a procedure.
+_SCREEN.Enabled = .T.
+Error in line 1375: Statement is not in a procedure.
+ENDPROC
+Error in line 1377: Nesting error.
+charicon
+Error in line 1408: Unrecognized command verb.
+securitycode
+Error in line 1409: Unrecognized command verb.
+^statusbartext[2,0] Especifica el texto que se muestra en la barra de estado cuando un control tiene el enfoque.
+Error in line 1428: Unrecognized command verb.
+lnSQL = SQLEXEC( _DOBRA.SQLServerID, "EXP_Informes_SeekID '" + ThisForm.InformeID + "'" )
+Error in line 1437: Statement is not in a procedure.
+IF ( lnSQL = 1 ) AND ( RECCOUNT() = 1 ) AND !EMPTY( ThisForm.InformeID ) AND !INLIST( ThisForm.InformeID, "ROOT", "NULL" )
+Error in line 1438: Statement is not in a procedure.
+ThisForm.Script = SQLRESULT.Script
+Error in line 1440: Statement is not in a procedure.
+ELSE
+Error in line 1441: Statement is not in a procedure.
+MESSAGEBOX("No es posible recuperar las propiedades del Informe.", MB_ICONSTOP, ThisForm.Caption )
+Error in line 1442: Statement is not in a procedure.
+RETURN .F.
+Error in line 1443: Statement is not in a procedure.
+ENDIF
+Error in line 1444: Statement is not in a procedure.
+_SCREEN.MousePointer = 11
+Error in line 1446: Statement is not in a procedure.
+ldStartDate = CTOD( [^] +  ALLTRIM(STR(ThisForm.ocxStartDate.Year)) + [/] +  ALLTRIM(STR(ThisForm.ocxStartDate.Month)) + [/] +  ALLTRIM(STR(ThisForm.ocxStartDate.Day)) )
+Error in line 1452: Statement is not in a procedure.
+ldEndDate 	= CTOD( [^] +  ALLTRIM(STR(ThisForm.ocxEndDate.Year)) + [/] +  ALLTRIM(STR(ThisForm.ocxEndDate.Month)) + [/] +  ALLTRIM(STR(ThisForm.ocxEndDate.Day)) )
+Error in line 1456: Statement is not in a procedure.
+lpFiltro01	= ThisForm.cboFiltro01
+Error in line 1457: Statement is not in a procedure.
+lpFiltro02	= ThisForm.cboFiltro02
+Error in line 1458: Statement is not in a procedure.
+lpInfo 		= ThisForm.oleGraph
+Error in line 1459: Statement is not in a procedure.
+ThisForm.ErrorCount = 0
+Error in line 1462: Statement is not in a procedure.
+IF !EMPTY(ThisForm.Script) 
+Error in line 1463: Statement is not in a procedure.
+lcSentencias = ThisForm.Script
+Error in line 1464: Statement is not in a procedure.
+lnpos = AT(Chr(13),lcSentencias)
+Error in line 1465: Statement is not in a procedure.
+m.Comando 		= ""
+Error in line 1466: Statement is not in a procedure.
+DO WHILE LEN( lcSentencias ) > 2
+Error in line 1467: Statement is not in a procedure.
+m.Comando = m.Comando + TRIM( LEFT( lcSentencias, lnPos - 1) )
+Error in line 1468: Statement is not in a procedure.
+IF ( LEFT( m.Comando, 1 ) != "*" ) 
+Error in line 1470: Statement is not in a procedure.
+IF ( RIGHT( m.Comando, 1 ) != ";" )
+Error in line 1471: Statement is not in a procedure.
+&Comando
+Error in line 1472: Statement is not in a procedure.
+IF ThisForm.ErrorCount > 0
+Error in line 1474: Statement is not in a procedure.
+ERROR ThisForm.Script
+Error in line 1475: Statement is not in a procedure.
+MESSAGEBOX(MESSAGE() + chr(13) +  m.Comando + chr(13) +  "Existen errores en la sentencia.",  MB_ICONSTOP , ThisForm.Caption )
+Error in line 1479: Statement is not in a procedure.
+RETURN
+Error in line 1480: Statement is not in a procedure.
+ENDIF
+Error in line 1481: Statement is not in a procedure.
+m.Comando = ""   
+Error in line 1482: Statement is not in a procedure.
+ELSE
+Error in line 1483: Statement is not in a procedure.
+m.Comando = LEFT( m.Comando, LEN( m.Comando ) - 1 )
+Error in line 1485: Statement is not in a procedure.
+ENDIF
+Error in line 1486: Statement is not in a procedure.
+ELSE
+Error in line 1487: Statement is not in a procedure.
+m.Comando = ""  
+Error in line 1488: Statement is not in a procedure.
+ENDIF
+Error in line 1489: Statement is not in a procedure.
+lcSentencias = SUBSTR(lcSentencias, lnPos + 2)
+Error in line 1491: Statement is not in a procedure.
+lnPos = AT(Chr(13),lcSentencias)
+Error in line 1492: Statement is not in a procedure.
+ENDDO
+Error in line 1493: Statement is not in a procedure.
+ENDIF	
+Error in line 1494: Statement is not in a procedure.
+_SCREEN.MousePointer = 0
+Error in line 1496: Statement is not in a procedure.
+ENDPROC
+Error in line 1498: Nesting error.
+ThisForm.SendInforme()
+Error in line 1542: Statement is not in a procedure.
+ENDPROC
+Error in line 1544: Nesting error.
+Left = 13
+Error in line 1616: Statement is not in a procedure.
+Height = 455
+Error in line 1617: Statement is not in a procedure.
+Width = 743
+Error in line 1618: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 1619: Statement is not in a procedure.
+Caption = "Task"
+Error in line 1620: Statement is not in a procedure.
+KeyPreview = .T.
+Error in line 1621: Statement is not in a procedure.
+charicon = ("³")
+Error in line 1622: Statement is not in a procedure.
+Name = "task_wnd"
+Error in line 1623: Statement is not in a procedure.
+ocxSmallIcons.Top = 12
+Error in line 1624: Statement is not in a procedure.
+ocxSmallIcons.Left = 696
+Error in line 1625: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 1626: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 1627: Statement is not in a procedure.
+ocxSmallIcons.ZOrderSet = 1
+Error in line 1628: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 1629: Statement is not in a procedure.
+ocxDialog.Top = 60
+Error in line 1630: Statement is not in a procedure.
+ocxDialog.Left = 696
+Error in line 1631: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 1632: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 1633: Statement is not in a procedure.
+ocxDialog.ZOrderSet = 2
+Error in line 1634: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 1635: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 1636: Statement is not in a procedure.
+ocxSocket.Top = 0
+Error in line 1637: Statement is not in a procedure.
+ocxSocket.Left = 648
+Error in line 1638: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 1639: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 1640: Statement is not in a procedure.
+ocxSocket.ZOrderSet = 4
+Error in line 1641: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 1642: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 1643: Statement is not in a procedure.
+ocxSysInfo.Top = 120
+Error in line 1644: Statement is not in a procedure.
+ocxSysInfo.Left = 696
+Error in line 1645: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 1646: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 1647: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 1648: Statement is not in a procedure.
+OCXMAPIMESSAGES.Top = 16
+Error in line 1649: Statement is not in a procedure.
+OCXMAPIMESSAGES.Left = 688
+Error in line 1650: Statement is not in a procedure.
+OCXMAPIMESSAGES.Height = 77
+Error in line 1651: Statement is not in a procedure.
+OCXMAPIMESSAGES.Width = 153
+Error in line 1652: Statement is not in a procedure.
+OCXMAPIMESSAGES.Name = "OCXMAPIMESSAGES"
+Error in line 1653: Statement is not in a procedure.
+OCXMAPISESSION.Top = 16
+Error in line 1654: Statement is not in a procedure.
+OCXMAPISESSION.Left = 648
+Error in line 1655: Statement is not in a procedure.
+OCXMAPISESSION.Height = 49
+Error in line 1656: Statement is not in a procedure.
+OCXMAPISESSION.Width = 41
+Error in line 1657: Statement is not in a procedure.
+OCXMAPISESSION.Name = "OCXMAPISESSION"
+Error in line 1658: Statement is not in a procedure.
+ocxMenu.Top = 0
+Error in line 1659: Statement is not in a procedure.
+ocxMenu.Left = 624
+Error in line 1660: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 1661: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 1662: Statement is not in a procedure.
+ocxMenu.ZOrderSet = 5
+Error in line 1663: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 1664: Statement is not in a procedure.
+Left = 7
+Error in line 1666: Statement is not in a procedure.
+Height = 27
+Error in line 1667: Statement is not in a procedure.
+Width = 806
+Error in line 1668: Statement is not in a procedure.
+ShowWindow = 1
+Error in line 1669: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 1670: Statement is not in a procedure.
+BorderStyle = 0
+Error in line 1671: Statement is not in a procedure.
+Caption = ""
+Error in line 1672: Statement is not in a procedure.
+ControlBox = .F.
+Error in line 1673: Statement is not in a procedure.
+Closable = .F.
+Error in line 1674: Statement is not in a procedure.
+Movable = .F.
+Error in line 1675: Statement is not in a procedure.
+TitleBar = 0
+Error in line 1676: Statement is not in a procedure.
+Name = "status_wnd"
+Error in line 1677: Statement is not in a procedure.
+ocxSmallIcons.Top = 232
+Error in line 1678: Statement is not in a procedure.
+ocxSmallIcons.Left = 696
+Error in line 1679: Statement is not in a procedure.
+ocxSmallIcons.Height = 100
+Error in line 1680: Statement is not in a procedure.
+ocxSmallIcons.Width = 100
+Error in line 1681: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 1682: Statement is not in a procedure.
+ocxDialog.Top = 80
+Error in line 1683: Statement is not in a procedure.
+ocxDialog.Left = 696
+Error in line 1684: Statement is not in a procedure.
+ocxDialog.Height = 49
+Error in line 1685: Statement is not in a procedure.
+ocxDialog.Width = 25
+Error in line 1686: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 1687: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 1688: Statement is not in a procedure.
+ocxSocket.Top = 160
+Error in line 1689: Statement is not in a procedure.
+ocxSocket.Left = 704
+Error in line 1690: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 1691: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 1692: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 1693: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 1694: Statement is not in a procedure.
+ocxSysInfo.Top = 120
+Error in line 1695: Statement is not in a procedure.
+ocxSysInfo.Left = 696
+Error in line 1696: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 1697: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 1698: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 1699: Statement is not in a procedure.
+ocxMAPIMessages.Top = 16
+Error in line 1700: Statement is not in a procedure.
+ocxMAPIMessages.Left = 688
+Error in line 1701: Statement is not in a procedure.
+ocxMAPIMessages.Height = 77
+Error in line 1702: Statement is not in a procedure.
+ocxMAPIMessages.Width = 153
+Error in line 1703: Statement is not in a procedure.
+ocxMAPIMessages.Name = "ocxMAPIMessages"
+Error in line 1704: Statement is not in a procedure.
+ocxMAPISession.Top = 16
+Error in line 1705: Statement is not in a procedure.
+ocxMAPISession.Left = 648
+Error in line 1706: Statement is not in a procedure.
+ocxMAPISession.Height = 49
+Error in line 1707: Statement is not in a procedure.
+ocxMAPISession.Width = 41
+Error in line 1708: Statement is not in a procedure.
+ocxMAPISession.Name = "ocxMAPISession"
+Error in line 1709: Statement is not in a procedure.
+ocxMenu.Top = 192
+Error in line 1710: Statement is not in a procedure.
+ocxMenu.Left = 696
+Error in line 1711: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 1712: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 1713: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 1714: Statement is not in a procedure.
+á
+Error in line 1716: Unrecognized command verb.
+LPARAMETERS nButton, nShift, nXCoord, nYCoord
+Error in line 1729: Statement is not in a procedure.
+IF nButton = 1
+Error in line 1730: Statement is not in a procedure.
+ThisForm.cntVSplitClone.Left = This.Left + ( nXCoord - This.Left )
+Error in line 1731: Statement is not in a procedure.
+ThisForm.cntVSplitClone.Top = This.Top
+Error in line 1732: Statement is not in a procedure.
+ThisForm.cntVSplitClone.Visible = .T.
+Error in line 1733: Statement is not in a procedure.
+ThisForm.cntVSplitClone.ZOrder()
+Error in line 1734: Statement is not in a procedure.
+ENDIF
+Error in line 1735: Statement is not in a procedure.
+ENDPROC
+Error in line 1738: Nesting error.
+LPARAMETER lcTexto
+Error in line 1757: Statement is not in a procedure.
+ThisForm.SubTitle = lcTexto
+Error in line 1758: Statement is not in a procedure.
+_DOBRA.ActiveHeaderWindow.SetBodyWindowTitle(ThisForm.Caption, lcTexto )
+Error in line 1759: Statement is not in a procedure.
+ENDPROC
+Error in line 1762: Nesting error.
+á
+Error in line 1816: Unrecognized command verb.
+LPARAMETER lcTexto
+Error in line 1821: Statement is not in a procedure.
+_DOBRA.ActiveHeaderWindow.SetBodyWindowTitle(ThisForm.Caption, lcTexto )
+Error in line 1822: Statement is not in a procedure.
+ENDPROC
+Error in line 1825: Nesting error.
+Name = "info_blank_wnd"
+Error in line 1870: Statement is not in a procedure.
+ocxSmallIcons.Top = 0
+Error in line 1871: Statement is not in a procedure.
+ocxSmallIcons.Left = 716
+Error in line 1872: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 1873: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 1874: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 1875: Statement is not in a procedure.
+ocxDialog.Top = 0
+Error in line 1876: Statement is not in a procedure.
+ocxDialog.Left = 716
+Error in line 1877: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 1878: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 1879: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 1880: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 1881: Statement is not in a procedure.
+ocxSocket.Top = 0
+Error in line 1882: Statement is not in a procedure.
+ocxSocket.Left = 724
+Error in line 1883: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 1884: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 1885: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 1886: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 1887: Statement is not in a procedure.
+ocxSysInfo.Top = 0
+Error in line 1888: Statement is not in a procedure.
+ocxSysInfo.Left = 720
+Error in line 1889: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 1890: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 1891: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 1892: Statement is not in a procedure.
+ocxMAPIMessages.Top = 0
+Error in line 1893: Statement is not in a procedure.
+ocxMAPIMessages.Left = 720
+Error in line 1894: Statement is not in a procedure.
+ocxMAPIMessages.Height = 77
+Error in line 1895: Statement is not in a procedure.
+ocxMAPIMessages.Width = 153
+Error in line 1896: Statement is not in a procedure.
+ocxMAPIMessages.Name = "ocxMAPIMessages"
+Error in line 1897: Statement is not in a procedure.
+ocxMAPISession.Top = 4
+Error in line 1898: Statement is not in a procedure.
+ocxMAPISession.Left = 720
+Error in line 1899: Statement is not in a procedure.
+ocxMAPISession.Height = 49
+Error in line 1900: Statement is not in a procedure.
+ocxMAPISession.Width = 41
+Error in line 1901: Statement is not in a procedure.
+ocxMAPISession.Name = "ocxMAPISession"
+Error in line 1902: Statement is not in a procedure.
+ocxMenu.Top = 0
+Error in line 1903: Statement is not in a procedure.
+ocxMenu.Left = 720
+Error in line 1904: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 1905: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 1906: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 1907: Statement is not in a procedure.
+Left = 0
+Error in line 1909: Statement is not in a procedure.
+Height = 424
+Error in line 1910: Statement is not in a procedure.
+Width = 755
+Error in line 1911: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 1912: Statement is not in a procedure.
+Caption = "Options"
+Error in line 1913: Statement is not in a procedure.
+KeyPreview = .T.
+Error in line 1914: Statement is not in a procedure.
+charicon = ("@")
+Error in line 1915: Statement is not in a procedure.
+Name = "options_wnd"
+Error in line 1916: Statement is not in a procedure.
+ocxSmallIcons.Top = 8
+Error in line 1917: Statement is not in a procedure.
+ocxSmallIcons.Left = 696
+Error in line 1918: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 1919: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 1920: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 1921: Statement is not in a procedure.
+ocxDialog.Top = 60
+Error in line 1922: Statement is not in a procedure.
+ocxDialog.Left = 696
+Error in line 1923: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 1924: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 1925: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 1926: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 1927: Statement is not in a procedure.
+ocxSocket.Top = 120
+Error in line 1928: Statement is not in a procedure.
+ocxSocket.Left = 640
+Error in line 1929: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 1930: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 1931: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 1932: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 1933: Statement is not in a procedure.
+ocxSysInfo.Top = 120
+Error in line 1934: Statement is not in a procedure.
+ocxSysInfo.Left = 696
+Error in line 1935: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 1936: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 1937: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 1938: Statement is not in a procedure.
+OCXMAPIMESSAGES.Top = 16
+Error in line 1939: Statement is not in a procedure.
+OCXMAPIMESSAGES.Left = 688
+Error in line 1940: Statement is not in a procedure.
+OCXMAPIMESSAGES.Height = 77
+Error in line 1941: Statement is not in a procedure.
+OCXMAPIMESSAGES.Width = 153
+Error in line 1942: Statement is not in a procedure.
+OCXMAPIMESSAGES.Name = "OCXMAPIMESSAGES"
+Error in line 1943: Statement is not in a procedure.
+OCXMAPISESSION.Top = 16
+Error in line 1944: Statement is not in a procedure.
+OCXMAPISESSION.Left = 648
+Error in line 1945: Statement is not in a procedure.
+OCXMAPISESSION.Height = 49
+Error in line 1946: Statement is not in a procedure.
+OCXMAPISESSION.Width = 41
+Error in line 1947: Statement is not in a procedure.
+OCXMAPISESSION.Name = "OCXMAPISESSION"
+Error in line 1948: Statement is not in a procedure.
+ocxMenu.Top = 64
+Error in line 1949: Statement is not in a procedure.
+ocxMenu.Left = 624
+Error in line 1950: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 1951: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 1952: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 1953: Statement is not in a procedure.
+LPARAMETER lcTexto
+Error in line 1955: Statement is not in a procedure.
+ThisForm.SubTitle = lcTexto
+Error in line 1956: Statement is not in a procedure.
+_DOBRA.ActiveHeaderWindow.SetBodyWindowTitle( ThisForm.Caption, lcTexto )
+Error in line 1957: Statement is not in a procedure.
+ENDPROC
+Error in line 1959: Nesting error.
+á
+Error in line 2000: Unrecognized command verb.
+4Ð©k
+Error in line 2001: Syntax error.
+Left = 9
+Error in line 2025: Statement is not in a procedure.
+Height = 241
+Error in line 2026: Statement is not in a procedure.
+Width = 686
+Error in line 2027: Statement is not in a procedure.
+ScrollBars = 0
+Error in line 2028: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 2029: Statement is not in a procedure.
+KeyPreview = .T.
+Error in line 2030: Statement is not in a procedure.
+charicon = ("þ")
+Error in line 2031: Statement is not in a procedure.
+Name = "html_wnd"
+Error in line 2032: Statement is not in a procedure.
+ocxSmallIcons.Top = 12
+Error in line 2033: Statement is not in a procedure.
+ocxSmallIcons.Left = 696
+Error in line 2034: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 2035: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 2036: Statement is not in a procedure.
+ocxSmallIcons.ZOrderSet = 2
+Error in line 2037: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 2038: Statement is not in a procedure.
+ocxDialog.Top = 60
+Error in line 2039: Statement is not in a procedure.
+ocxDialog.Left = 696
+Error in line 2040: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 2041: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 2042: Statement is not in a procedure.
+ocxDialog.ZOrderSet = 3
+Error in line 2043: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 2044: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 2045: Statement is not in a procedure.
+ocxSocket.Top = 120
+Error in line 2046: Statement is not in a procedure.
+ocxSocket.Left = 640
+Error in line 2047: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 2048: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 2049: Statement is not in a procedure.
+ocxSocket.ZOrderSet = 5
+Error in line 2050: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 2051: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 2052: Statement is not in a procedure.
+ocxSysInfo.Top = 120
+Error in line 2053: Statement is not in a procedure.
+ocxSysInfo.Left = 696
+Error in line 2054: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 2055: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 2056: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 2057: Statement is not in a procedure.
+OCXMAPIMESSAGES.Top = 16
+Error in line 2058: Statement is not in a procedure.
+OCXMAPIMESSAGES.Left = 688
+Error in line 2059: Statement is not in a procedure.
+OCXMAPIMESSAGES.Height = 77
+Error in line 2060: Statement is not in a procedure.
+OCXMAPIMESSAGES.Width = 153
+Error in line 2061: Statement is not in a procedure.
+OCXMAPIMESSAGES.Name = "OCXMAPIMESSAGES"
+Error in line 2062: Statement is not in a procedure.
+OCXMAPISESSION.Top = 16
+Error in line 2063: Statement is not in a procedure.
+OCXMAPISESSION.Left = 648
+Error in line 2064: Statement is not in a procedure.
+OCXMAPISESSION.Height = 49
+Error in line 2065: Statement is not in a procedure.
+OCXMAPISESSION.Width = 41
+Error in line 2066: Statement is not in a procedure.
+OCXMAPISESSION.Name = "OCXMAPISESSION"
+Error in line 2067: Statement is not in a procedure.
+ocxMenu.Top = 64
+Error in line 2068: Statement is not in a procedure.
+ocxMenu.Left = 624
+Error in line 2069: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 2070: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 2071: Statement is not in a procedure.
+ocxMenu.ZOrderSet = 6
+Error in line 2072: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 2073: Statement is not in a procedure.
+Left = 11
+Error in line 2075: Statement is not in a procedure.
+Height = 574
+Error in line 2076: Statement is not in a procedure.
+Width = 760
+Error in line 2077: Statement is not in a procedure.
+ShowWindow = 1
+Error in line 2078: Statement is not in a procedure.
+ScrollBars = 3
+Error in line 2079: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 2080: Statement is not in a procedure.
+ShowTips = .T.
+Error in line 2081: Statement is not in a procedure.
+ControlBox = .F.
+Error in line 2082: Statement is not in a procedure.
+Closable = .F.
+Error in line 2083: Statement is not in a procedure.
+MaxButton = .F.
+Error in line 2084: Statement is not in a procedure.
+MinButton = .F.
+Error in line 2085: Statement is not in a procedure.
+Movable = .F.
+Error in line 2086: Statement is not in a procedure.
+subtitle = 
+Error in line 2087: Syntax error.
+charicon = ("1")
+Error in line 2088: Statement is not in a procedure.
+securitycode = 
+Error in line 2089: Syntax error.
+Name = "body_wnd"
+Error in line 2090: Statement is not in a procedure.
+ocxSmallIcons.Top = 0
+Error in line 2091: Statement is not in a procedure.
+ocxSmallIcons.Left = 716
+Error in line 2092: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 2093: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 2094: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 2095: Statement is not in a procedure.
+ocxDialog.Top = 0
+Error in line 2096: Statement is not in a procedure.
+ocxDialog.Left = 716
+Error in line 2097: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 2098: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 2099: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 2100: Statement is not in a procedure.
+hypHyperlink.Top = 0
+Error in line 2101: Statement is not in a procedure.
+hypHyperlink.Left = 716
+Error in line 2102: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 2103: Statement is not in a procedure.
+ocxSocket.Top = 0
+Error in line 2104: Statement is not in a procedure.
+ocxSocket.Left = 724
+Error in line 2105: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 2106: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 2107: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 2108: Statement is not in a procedure.
+tmrHyperlink.Top = 0
+Error in line 2109: Statement is not in a procedure.
+tmrHyperlink.Left = 716
+Error in line 2110: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 2111: Statement is not in a procedure.
+ocxSysInfo.Top = 0
+Error in line 2112: Statement is not in a procedure.
+ocxSysInfo.Left = 720
+Error in line 2113: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 2114: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 2115: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 2116: Statement is not in a procedure.
+OCXMAPIMESSAGES.Top = 0
+Error in line 2117: Statement is not in a procedure.
+OCXMAPIMESSAGES.Left = 720
+Error in line 2118: Statement is not in a procedure.
+OCXMAPIMESSAGES.Height = 77
+Error in line 2119: Statement is not in a procedure.
+OCXMAPIMESSAGES.Width = 153
+Error in line 2120: Statement is not in a procedure.
+OCXMAPIMESSAGES.Name = "OCXMAPIMESSAGES"
+Error in line 2121: Statement is not in a procedure.
+OCXMAPISESSION.Top = 4
+Error in line 2122: Statement is not in a procedure.
+OCXMAPISESSION.Left = 720
+Error in line 2123: Statement is not in a procedure.
+OCXMAPISESSION.Height = 49
+Error in line 2124: Statement is not in a procedure.
+OCXMAPISESSION.Width = 41
+Error in line 2125: Statement is not in a procedure.
+OCXMAPISESSION.Name = "OCXMAPISESSION"
+Error in line 2126: Statement is not in a procedure.
+ocxMenu.Top = 0
+Error in line 2127: Statement is not in a procedure.
+ocxMenu.Left = 720
+Error in line 2128: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 2129: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 2130: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 2131: Statement is not in a procedure.
+LPARAMETER lcTexto
+Error in line 2133: Statement is not in a procedure.
+ThisForm.SubTitle = lcTexto
+Error in line 2134: Statement is not in a procedure.
+_DOBRA.ActiveHeaderWindow.SetBodyWindowTitle(ThisForm.Caption, lcTexto )
+Error in line 2135: Statement is not in a procedure.
+ENDPROC
+Error in line 2138: Nesting error.
+á
+Error in line 2165: Unrecognized command verb.
+á
+Error in line 2170: Unrecognized command verb.
+á
+Error in line 2178: Unrecognized command verb.
+z…õwƒ…õw
+Error in line 2182: Unrecognized command verb.
+#z…õwƒ…õw
+Error in line 2183: Syntax error.
+z…õwƒ…õw
+Error in line 2189: Unrecognized command verb.
+#z…õwƒ…õw
+Error in line 2190: Syntax error.
+á
+Error in line 2198: Unrecognized command verb.
+á
+Error in line 2202: Unrecognized command verb.
+ 
+Error in line 2211: Unrecognized command verb.
+ 
+Error in line 2213: Unrecognized command verb.
+– 
+Error in line 2215: Unrecognized command verb.
+
+Error in line 2220: Unrecognized command verb.
+
+Error in line 2221: Unrecognized command verb.
+
+Error in line 2222: Unrecognized command verb.
+
+Error in line 2223: Unrecognized command verb.
+
+Error in line 2225: Unrecognized command verb.
+
+Error in line 2226: Unrecognized command verb.
+
+Error in line 2227: Unrecognized command verb.
+
+Error in line 2229: Unrecognized command verb.
+
+Error in line 2230: Unrecognized command verb.
+
+Error in line 2231: Unrecognized command verb.
+
+Error in line 2232: Unrecognized command verb.
+
+Error in line 2233: Unrecognized command verb.
+
+Error in line 2234: Unrecognized command verb.
+
+Error in line 2235: Unrecognized command verb.
+
+Error in line 2236: Unrecognized command verb.
+
+Error in line 2237: Unrecognized command verb.
+
+Error in line 2238: Unrecognized command verb.
+
+Error in line 2239: Unrecognized command verb.
+C
+Error in line 2240: Unrecognized command verb.
+
+Error in line 2241: Unrecognized command verb.
+
+Error in line 2242: Unrecognized command verb.
+C
+Error in line 2243: Unrecognized command verb.
+
+Error in line 2244: Unrecognized command verb.
+
+Error in line 2246: Unrecognized command verb.
+C
+Error in line 2247: Unrecognized command verb.
+
+Error in line 2248: Unrecognized command verb.
+
+Error in line 2249: Unrecognized command verb.
+
+Error in line 2251: Unrecognized command verb.
+
+Error in line 2252: Unrecognized command verb.
+
+Error in line 2254: Unrecognized command verb.
+
+Error in line 2258: Unrecognized command verb.
+Ø
+Error in line 2264: Unrecognized command verb.
+·
+Error in line 2265: Unrecognized command verb.
+–
+Error in line 2266: Unrecognized command verb.
+t
+Error in line 2267: Unrecognized command verb.
+S
+Error in line 2268: Unrecognized command verb.
+2
+Error in line 2269: Statement is not in a procedure.
+
+Error in line 2270: Unrecognized command verb.
+á
+Error in line 2277: Unrecognized command verb.
+
+Error in line 2285: Unrecognized command verb.
+Ø
+Error in line 2290: Unrecognized command verb.
+·
+Error in line 2291: Unrecognized command verb.
+–
+Error in line 2292: Unrecognized command verb.
+t
+Error in line 2293: Unrecognized command verb.
+S
+Error in line 2294: Unrecognized command verb.
+2
+Error in line 2295: Statement is not in a procedure.
+
+Error in line 2296: Unrecognized command verb.
+á
+Error in line 2303: Unrecognized command verb.
+á
+Error in line 2305: Unrecognized command verb.
+
+Error in line 2310: Unrecognized command verb.
+
+Error in line 2311: Unrecognized command verb.
+
+Error in line 2312: Unrecognized command verb.
+
+Error in line 2313: Unrecognized command verb.
+¦º$yÔã=NLV2ý‡ ß““œª¨ÔJÐž½Op=¹J)Vâ½ŽPUêL`“ß-[’$L˜p@
+Error in line 2314: Unrecognized command verb.
+Zlèñ#HŠý:š42¥Ä’+?N<hfL™ÜŒ)R§I~@Wö\	”ŸÐ>?=*0é¿¥,‘
+Error in line 2315: Unrecognized command verb.
+œJujÅ«
+Error in line 2316: Unrecognized command verb.
+Hp`¿ƒXÈð
+Error in line 2317: Unrecognized command verb.
+@þòÿ 
+Error in line 2318: Missing comma (,).
+ýù°
+Error in line 2326: Unrecognized command verb.
+ýùþ
+Error in line 2327: Unrecognized command verb.
+ýù7þ
+Error in line 2328: Unrecognized command verb.
+ýùkþ
+Error in line 2329: Unrecognized command verb.
+ýþW™üCÙ
+Error in line 2341: Unrecognized command verb.
+Ù
+Error in line 2342: Unrecognized command verb.
+Ù
+Error in line 2343: Unrecognized command verb.
+Ù	
+Error in line 2345: Unrecognized command verb.
+ÙH
+Error in line 2346: Unrecognized command verb.
+þ
+Error in line 2350: Unrecognized command verb.
+ýþ
+Error in line 2351: Unrecognized command verb.
+FontName = "Tahoma"
+Error in line 2357: Statement is not in a procedure.
+FontSize = 8
+Error in line 2358: Statement is not in a procedure.
+DeleteMark = .F.
+Error in line 2359: Statement is not in a procedure.
+HeaderHeight = 18
+Error in line 2360: Statement is not in a procedure.
+Height = 367
+Error in line 2361: Statement is not in a procedure.
+Left = 1
+Error in line 2362: Statement is not in a procedure.
+Panel = 1
+Error in line 2363: Statement is not in a procedure.
+ReadOnly = .T.
+Error in line 2364: Statement is not in a procedure.
+RecordMark = .F.
+Error in line 2365: Statement is not in a procedure.
+RecordSourceType = 4
+Error in line 2366: Statement is not in a procedure.
+RowHeight = 16
+Error in line 2367: Statement is not in a procedure.
+SplitBar = .F.
+Error in line 2368: Statement is not in a procedure.
+TabIndex = 11
+Error in line 2369: Statement is not in a procedure.
+Top = 29
+Error in line 2370: Statement is not in a procedure.
+Width = 748
+Error in line 2371: Statement is not in a procedure.
+ZOrderSet = 26
+Error in line 2372: Statement is not in a procedure.
+Name = "grdGrid"
+Error in line 2373: Statement is not in a procedure.
+Top = 3
+Error in line 2375: Statement is not in a procedure.
+Left = 504
+Error in line 2376: Statement is not in a procedure.
+Height = 21
+Error in line 2377: Statement is not in a procedure.
+Width = 60
+Error in line 2378: Statement is not in a procedure.
+FontItalic = .T.
+Error in line 2379: Statement is not in a procedure.
+FontName = "Tahoma"
+Error in line 2380: Statement is not in a procedure.
+FontSize = 8
+Error in line 2381: Statement is not in a procedure.
+Caption = "Documento"
+Error in line 2382: Statement is not in a procedure.
+TabIndex = 15
+Error in line 2383: Statement is not in a procedure.
+TabStop = .F.
+Error in line 2384: Statement is not in a procedure.
+Visible = .F.
+Error in line 2385: Statement is not in a procedure.
+ZOrderSet = 45
+Error in line 2386: Statement is not in a procedure.
+Name = "cmdDocumento"
+Error in line 2387: Statement is not in a procedure.
+This.BackColor	= GetSysColor( COLOR_Highlight )
+Error in line 2389: Statement is not in a procedure.
+This.ForeColor	= GetSysColor( COLOR_HighlightText )
+Error in line 2390: Statement is not in a procedure.
+ThisForm.txtSearch.ItemTable		= ThisForm.NavigationTable
+Error in line 2391: Statement is not in a procedure.
+ThisForm.txtSearch.GroupTable		= ThisForm.NavigationGroupTable
+Error in line 2392: Statement is not in a procedure.
+ThisForm.txtSearch.CodeExpression	= ThisForm.NavigationIndex
+Error in line 2393: Statement is not in a procedure.
+ThisForm.txtSearch.Filter			= ThisForm.NavigationFilter
+Error in line 2394: Statement is not in a procedure.
+DODEFAULT()
+Error in line 2395: Statement is not in a procedure.
+ENDPROC
+Error in line 2397: Nesting error.
+navigationtable
+Error in line 2404: Unrecognized command verb.
+documentid
+Error in line 2405: Unrecognized command verb.
+havetosave
+Error in line 2406: Unrecognized command verb.
+navigationindex
+Error in line 2407: Unrecognized command verb.
+tipo
+Error in line 2408: Unrecognized command verb.
+subtipo
+Error in line 2409: Unrecognized command verb.
+navigationgrouptable
+Error in line 2410: Unrecognized command verb.
+anulado
+Error in line 2411: Unrecognized command verb.
+asientoid
+Error in line 2412: Unrecognized command verb.
+navigationfilter
+Error in line 2413: Unrecognized command verb.
+exportado Sirve para saber si el documento ya ha sido exportado o no.
+Error in line 2414: Unrecognized command verb.
+Left = 3
+Error in line 2435: Statement is not in a procedure.
+Height = 448
+Error in line 2436: Statement is not in a procedure.
+Width = 762
+Error in line 2437: Statement is not in a procedure.
+ScrollBars = 0
+Error in line 2438: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 2439: Statement is not in a procedure.
+Caption = "Info"
+Error in line 2440: Statement is not in a procedure.
+Visible = .F.
+Error in line 2441: Statement is not in a procedure.
+KeyPreview = .T.
+Error in line 2442: Statement is not in a procedure.
+leftpanelvisible = .F.
+Error in line 2443: Statement is not in a procedure.
+lastnodekey = ROOT
+Error in line 2444: Statement is not in a procedure.
+leftpanelenabled = .F.
+Error in line 2445: Statement is not in a procedure.
+charicon = ("")
+Error in line 2446: Statement is not in a procedure.
+Name = "info_wnd"
+Error in line 2447: Statement is not in a procedure.
+ocxSmallIcons.Top = 336
+Error in line 2448: Statement is not in a procedure.
+ocxSmallIcons.Left = 628
+Error in line 2449: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 2450: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 2451: Statement is not in a procedure.
+ocxSmallIcons.ZOrderSet = 1
+Error in line 2452: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 2453: Statement is not in a procedure.
+ocxDialog.Top = 288
+Error in line 2454: Statement is not in a procedure.
+ocxDialog.Left = 684
+Error in line 2455: Statement is not in a procedure.
+ocxDialog.Height = 25
+Error in line 2456: Statement is not in a procedure.
+ocxDialog.Width = 49
+Error in line 2457: Statement is not in a procedure.
+ocxDialog.ZOrderSet = 2
+Error in line 2458: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 2459: Statement is not in a procedure.
+hypHyperlink.Top = 336
+Error in line 2460: Statement is not in a procedure.
+hypHyperlink.Left = 740
+Error in line 2461: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 2462: Statement is not in a procedure.
+ocxSocket.Top = 272
+Error in line 2463: Statement is not in a procedure.
+ocxSocket.Left = 652
+Error in line 2464: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 2465: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 2466: Statement is not in a procedure.
+ocxSocket.ZOrderSet = 21
+Error in line 2467: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 2468: Statement is not in a procedure.
+tmrHyperlink.Top = 336
+Error in line 2469: Statement is not in a procedure.
+tmrHyperlink.Left = 692
+Error in line 2470: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 2471: Statement is not in a procedure.
+ocxSysInfo.Top = 284
+Error in line 2472: Statement is not in a procedure.
+ocxSysInfo.Left = 604
+Error in line 2473: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 2474: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 2475: Statement is not in a procedure.
+ocxSysInfo.ZOrderSet = 13
+Error in line 2476: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 2477: Statement is not in a procedure.
+OCXMAPIMESSAGES.Top = 224
+Error in line 2478: Statement is not in a procedure.
+OCXMAPIMESSAGES.Left = 636
+Error in line 2479: Statement is not in a procedure.
+OCXMAPIMESSAGES.Height = 77
+Error in line 2480: Statement is not in a procedure.
+OCXMAPIMESSAGES.Width = 153
+Error in line 2481: Statement is not in a procedure.
+OCXMAPIMESSAGES.Name = "OCXMAPIMESSAGES"
+Error in line 2482: Statement is not in a procedure.
+OCXMAPISESSION.Top = 224
+Error in line 2483: Statement is not in a procedure.
+OCXMAPISESSION.Left = 592
+Error in line 2484: Statement is not in a procedure.
+OCXMAPISESSION.Height = 49
+Error in line 2485: Statement is not in a procedure.
+OCXMAPISESSION.Width = 41
+Error in line 2486: Statement is not in a procedure.
+OCXMAPISESSION.Name = "OCXMAPISESSION"
+Error in line 2487: Statement is not in a procedure.
+ocxMenu.Top = 224
+Error in line 2488: Statement is not in a procedure.
+ocxMenu.Left = 684
+Error in line 2489: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 2490: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 2491: Statement is not in a procedure.
+ocxMenu.ZOrderSet = 5
+Error in line 2492: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 2493: Statement is not in a procedure.
+IF _DOBRA.Session_AutoClose
+Error in line 2495: Statement is not in a procedure.
+IF WONTOP(THISFORM.Name)
+Error in line 2496: Statement is not in a procedure.
+lnLastEventTime = VAL( _DOBRA.GetRegKey( "SIS-SessionLastEventTime", "0", "", HKEY_CURRENT_USER ))
+Error in line 2497: Statement is not in a procedure.
+lnCurrentEventTime = SECONDS()
+Error in line 2498: Statement is not in a procedure.
+lnSessionTimeOut = VAL( _DOBRA.GetRegKey( "SIS-SessionTimeOut", "0", "", HKEY_CURRENT_USER  ))
+Error in line 2499: Statement is not in a procedure.
+lnSessionTimeOutVerify =  ( _DOBRA.GetRegKey( "SIS-SessionTimeOutVerify", "SI", "", HKEY_CURRENT_USER ) = "SI" )
+Error in line 2500: Statement is not in a procedure.
+IF !EMPTY( lnSessionTimeOut ) AND (lnSessionTimeOutVerify ) 
+Error in line 2501: Statement is not in a procedure.
+IF ( lnCurrentEventTime - lnLastEventTime ) > ( lnSessionTimeOut * 60 )
+Error in line 2502: Statement is not in a procedure.
+ON ERROR
+Error in line 2504: Statement is not in a procedure.
+ON SHUTDOWN
+Error in line 2505: Statement is not in a procedure.
+QUIT
+Error in line 2506: Statement is not in a procedure.
+ENDIF
+Error in line 2508: Statement is not in a procedure.
+ENDIF
+Error in line 2509: Statement is not in a procedure.
+ENDIF
+Error in line 2510: Statement is not in a procedure.
+ENDIF
+Error in line 2511: Statement is not in a procedure.
+ENDPROC
+Error in line 2513: Nesting error.
+LPARAMETERS nButton, nShift, nXCoord, nYCoord
+Error in line 2515: Statement is not in a procedure.
+IF nButton = 1
+Error in line 2516: Statement is not in a procedure.
+ThisForm.cntHSplitClone.Top = This.Top + ( nYCoord - This.Top )
+Error in line 2517: Statement is not in a procedure.
+This.Top = ThisForm.cntHSplitClone.Top
+Error in line 2518: Statement is not in a procedure.
+ThisForm.cntHSplitClone.Visible = .F.
+Error in line 2519: Statement is not in a procedure.
+Thisform.Resize()
+Error in line 2520: Statement is not in a procedure.
+ENDIF
+Error in line 2521: Statement is not in a procedure.
+ENDPROC
+Error in line 2523: Nesting error.
+Left = 7
+Error in line 2543: Statement is not in a procedure.
+Height = 44
+Error in line 2544: Statement is not in a procedure.
+Width = 800
+Error in line 2545: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 2546: Statement is not in a procedure.
+BorderStyle = 0
+Error in line 2547: Statement is not in a procedure.
+TabStop = .F.
+Error in line 2548: Statement is not in a procedure.
+TitleBar = 0
+Error in line 2549: Statement is not in a procedure.
+Name = "header_wnd"
+Error in line 2550: Statement is not in a procedure.
+ocxSmallIcons.Top = 46
+Error in line 2551: Statement is not in a procedure.
+ocxSmallIcons.Left = 786
+Error in line 2552: Statement is not in a procedure.
+ocxSmallIcons.Height = 100
+Error in line 2553: Statement is not in a procedure.
+ocxSmallIcons.Width = 100
+Error in line 2554: Statement is not in a procedure.
+ocxSmallIcons.ZOrderSet = 6
+Error in line 2555: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 2556: Statement is not in a procedure.
+ocxDialog.Top = 52
+Error in line 2557: Statement is not in a procedure.
+ocxDialog.Left = 780
+Error in line 2558: Statement is not in a procedure.
+ocxDialog.Height = 49
+Error in line 2559: Statement is not in a procedure.
+ocxDialog.Width = 25
+Error in line 2560: Statement is not in a procedure.
+ocxDialog.ZOrderSet = 5
+Error in line 2561: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 2562: Statement is not in a procedure.
+hypHyperlink.Top = 63
+Error in line 2563: Statement is not in a procedure.
+hypHyperlink.Left = 640
+Error in line 2564: Statement is not in a procedure.
+hypHyperlink.Height = 7
+Error in line 2565: Statement is not in a procedure.
+hypHyperlink.Width = 32
+Error in line 2566: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 2567: Statement is not in a procedure.
+ocxSocket.Top = 67
+Error in line 2568: Statement is not in a procedure.
+ocxSocket.Left = 786
+Error in line 2569: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 2570: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 2571: Statement is not in a procedure.
+ocxSocket.ZOrderSet = 10
+Error in line 2572: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 2573: Statement is not in a procedure.
+tmrHyperlink.Top = 47
+Error in line 2574: Statement is not in a procedure.
+tmrHyperlink.Left = 632
+Error in line 2575: Statement is not in a procedure.
+tmrHyperlink.Interval = 10000
+Error in line 2576: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 2577: Statement is not in a procedure.
+ocxSysInfo.Top = 51
+Error in line 2578: Statement is not in a procedure.
+ocxSysInfo.Left = 784
+Error in line 2579: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 2580: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 2581: Statement is not in a procedure.
+ocxSysInfo.ZOrderSet = 7
+Error in line 2582: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 2583: Statement is not in a procedure.
+OCXMAPIMESSAGES.Top = 42
+Error in line 2584: Statement is not in a procedure.
+OCXMAPIMESSAGES.Left = 794
+Error in line 2585: Statement is not in a procedure.
+OCXMAPIMESSAGES.Height = 77
+Error in line 2586: Statement is not in a procedure.
+OCXMAPIMESSAGES.Width = 153
+Error in line 2587: Statement is not in a procedure.
+OCXMAPIMESSAGES.ZOrderSet = 8
+Error in line 2588: Statement is not in a procedure.
+OCXMAPIMESSAGES.Name = "OCXMAPIMESSAGES"
+Error in line 2589: Statement is not in a procedure.
+OCXMAPISESSION.Top = 42
+Error in line 2590: Statement is not in a procedure.
+OCXMAPISESSION.Left = 796
+Error in line 2591: Statement is not in a procedure.
+OCXMAPISESSION.Height = 49
+Error in line 2592: Statement is not in a procedure.
+OCXMAPISESSION.Width = 41
+Error in line 2593: Statement is not in a procedure.
+OCXMAPISESSION.ZOrderSet = 9
+Error in line 2594: Statement is not in a procedure.
+OCXMAPISESSION.Name = "OCXMAPISESSION"
+Error in line 2595: Statement is not in a procedure.
+ocxMenu.Top = 56
+Error in line 2596: Statement is not in a procedure.
+ocxMenu.Left = 770
+Error in line 2597: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 2598: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 2599: Statement is not in a procedure.
+ocxMenu.ZOrderSet = 11
+Error in line 2600: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 2601: Statement is not in a procedure.
+Width = 330
+Error in line 2603: Statement is not in a procedure.
+ShowWindow = 2
+Error in line 2604: Statement is not in a procedure.
+DoCreate = .T.
+Error in line 2605: Statement is not in a procedure.
+AutoCenter = .T.
+Error in line 2606: Statement is not in a procedure.
+BorderStyle = 2
+Error in line 2607: Statement is not in a procedure.
+MaxButton = .F.
+Error in line 2608: Statement is not in a procedure.
+MinButton = .F.
+Error in line 2609: Statement is not in a procedure.
+Icon = ..\graphics\dialog.ico
+Error in line 2610: Syntax error.
+WhatsThisHelp = .T.
+Error in line 2611: Statement is not in a procedure.
+WhatsThisButton = .T.
+Error in line 2612: Statement is not in a procedure.
+Name = "toolbox_wnd"
+Error in line 2613: Statement is not in a procedure.
+ocxSmallIcons.Top = 12
+Error in line 2614: Statement is not in a procedure.
+ocxSmallIcons.Left = 696
+Error in line 2615: Statement is not in a procedure.
+ocxSmallIcons.Height = 49
+Error in line 2616: Statement is not in a procedure.
+ocxSmallIcons.Width = 41
+Error in line 2617: Statement is not in a procedure.
+ocxSmallIcons.Name = "ocxSmallIcons"
+Error in line 2618: Statement is not in a procedure.
+ocxDialog.Top = 80
+Error in line 2619: Statement is not in a procedure.
+ocxDialog.Left = 672
+Error in line 2620: Statement is not in a procedure.
+ocxDialog.Height = 49
+Error in line 2621: Statement is not in a procedure.
+ocxDialog.Width = 25
+Error in line 2622: Statement is not in a procedure.
+ocxDialog.Name = "ocxDialog"
+Error in line 2623: Statement is not in a procedure.
+hypHyperlink.Name = "hypHyperlink"
+Error in line 2624: Statement is not in a procedure.
+ocxSocket.Top = 160
+Error in line 2625: Statement is not in a procedure.
+ocxSocket.Left = 704
+Error in line 2626: Statement is not in a procedure.
+ocxSocket.Height = 25
+Error in line 2627: Statement is not in a procedure.
+ocxSocket.Width = 33
+Error in line 2628: Statement is not in a procedure.
+ocxSocket.Name = "ocxSocket"
+Error in line 2629: Statement is not in a procedure.
+tmrHyperlink.Name = "tmrHyperlink"
+Error in line 2630: Statement is not in a procedure.
+ocxSysInfo.Top = 120
+Error in line 2631: Statement is not in a procedure.
+ocxSysInfo.Left = 696
+Error in line 2632: Statement is not in a procedure.
+ocxSysInfo.Height = 33
+Error in line 2633: Statement is not in a procedure.
+ocxSysInfo.Width = 57
+Error in line 2634: Statement is not in a procedure.
+ocxSysInfo.Name = "ocxSysInfo"
+Error in line 2635: Statement is not in a procedure.
+ocxMAPIMessages.Top = 16
+Error in line 2636: Statement is not in a procedure.
+ocxMAPIMessages.Left = 688
+Error in line 2637: Statement is not in a procedure.
+ocxMAPIMessages.Height = 77
+Error in line 2638: Statement is not in a procedure.
+ocxMAPIMessages.Width = 153
+Error in line 2639: Statement is not in a procedure.
+ocxMAPIMessages.Name = "ocxMAPIMessages"
+Error in line 2640: Statement is not in a procedure.
+ocxMAPISession.Top = 16
+Error in line 2641: Statement is not in a procedure.
+ocxMAPISession.Left = 648
+Error in line 2642: Statement is not in a procedure.
+ocxMAPISession.Height = 49
+Error in line 2643: Statement is not in a procedure.
+ocxMAPISession.Width = 41
+Error in line 2644: Statement is not in a procedure.
+ocxMAPISession.Name = "ocxMAPISession"
+Error in line 2645: Statement is not in a procedure.
+ocxMenu.Top = 192
+Error in line 2646: Statement is not in a procedure.
+ocxMenu.Left = 696
+Error in line 2647: Statement is not in a procedure.
+ocxMenu.Height = 37
+Error in line 2648: Statement is not in a procedure.
+ocxMenu.Width = 37
+Error in line 2649: Statement is not in a procedure.
+ocxMenu.Name = "ocxMenu"
+Error in line 2650: Statement is not in a procedure.
+
+Error in line 2665: Unrecognized command verb.
+ldStartDate = CTOD( [^] +  ALLTRIM(STR(ThisForm.ocxStartDate.Year)) + [/] +  ALLTRIM(STR(ThisForm.ocxStartDate.Month)) + [/] +  ALLTRIM(STR(ThisForm.ocxStartDate.Day)) )
+Error in line 2671: Statement is not in a procedure.
+ldEndDate 	= CTOD( [^] +  ALLTRIM(STR(ThisForm.ocxEndDate.Year)) + [/] +  ALLTRIM(STR(ThisForm.ocxEndDate.Month)) + [/] +  ALLTRIM(STR(ThisForm.ocxEndDate.Day)) )
+Error in line 2675: Statement is not in a procedure.
+IF ( ldEndDate < ldStartDate )
+Error in line 2678: Statement is not in a procedure.
+ThisForm.ocxEndDate.Day 	= 1
+Error in line 2679: Statement is not in a procedure.
+ThisForm.ocxEndDate.Year 	= ThisForm.ocxStartDate.Year 
+Error in line 2680: Statement is not in a procedure.
+ThisForm.ocxEndDate.Month	= ThisForm.ocxStartDate.Month
+Error in line 2681: Statement is not in a procedure.
+ThisForm.ocxEndDate.Day		= ThisForm.ocxStartDate.Day
+Error in line 2682: Statement is not in a procedure.
+ENDIF
+Error in line 2683: Statement is not in a procedure.
+ENDPROC
+Error in line 2686: Nesting error.
+IF !EMPTY( This.Value )
+Error in line 2688: Statement is not in a procedure.
+IF LEN( This.Value ) < 10
+Error in line 2689: Statement is not in a procedure.
+This.Value = _DOBRA.SucursalID + TRAN( VAL( This.Value ), "@L 99999999" )
+Error in line 2690: Statement is not in a procedure.
+ENDIF
+Error in line 2691: Statement is not in a procedure.
+ENDIF
+Error in line 2692: Statement is not in a procedure.
+DODEFAULT()
+Error in line 2693: Statement is not in a procedure.
+ENDPROC
+Error in line 2695: Nesting error.
+‹PROCEDURE save
+Error in line 2712: Unrecognized command verb.
+LPARAMETER lpControl
+Error in line 2713: Statement is not in a procedure.
+ENDPROC
+Error in line 2715: Nesting error.
+þ
+Error in line 2843: Unrecognized command verb.
+þ*
+Error in line 2846: Unrecognized command verb.
+ÙB
+Error in line 2847: Unrecognized command verb.
+ýþ@
+Error in line 2866: Unrecognized command verb.
+ýþ@
+Error in line 2867: Unrecognized command verb.
+ýþ
+Error in line 2868: Unrecognized command verb.
+ýþ
+Error in line 2870: Unrecognized command verb.
+ýþ
+Error in line 2871: Unrecognized command verb.
+ýþ
+Error in line 2872: Unrecognized command verb.
+ýþ
+Error in line 2873: Unrecognized command verb.
+ýþ@
+Error in line 2874: Unrecognized command verb.
+ýþ
+Error in line 2875: Unrecognized command verb.
+ýù‘
+Error in line 2919: Unrecognized command verb.
+ýù§
+Error in line 2930: Unrecognized command verb.
+ýù¶
+Error in line 2947: Unrecognized command verb.
+ò
+Error in line 2951: Unrecognized command verb.
+ò
+Error in line 2952: Unrecognized command verb.
+ò
+Error in line 2953: Unrecognized command verb.
+ò
+Error in line 2954: Unrecognized command verb.
+a!á
+Error in line 2987: Unrecognized command verb.
+á
+Error in line 2992: Unrecognized command verb.
+ýþ@
+Error in line 3028: Unrecognized command verb.
+ýþ@
+Error in line 3029: Unrecognized command verb.
+ýþ
+Error in line 3030: Unrecognized command verb.
+ýþ
+Error in line 3032: Unrecognized command verb.
+ýþ
+Error in line 3033: Unrecognized command verb.
+ýþ
+Error in line 3034: Unrecognized command verb.
+ýþ
+Error in line 3035: Unrecognized command verb.
+ýþ@
+Error in line 3036: Unrecognized command verb.
+ýþ
+Error in line 3037: Unrecognized command verb.
+ýùµ
+Error in line 3047: Unrecognized command verb.
+ýù	þ
+Error in line 3051: Unrecognized command verb.
+ýù“
+Error in line 3091: Unrecognized command verb.
+ò
+Error in line 3111: Unrecognized command verb.
+ò
+Error in line 3112: Unrecognized command verb.
+ò
+Error in line 3113: Unrecognized command verb.
+ò
+Error in line 3114: Unrecognized command verb.
+editenabled
+Error in line 3149: Unrecognized command verb.
+homeenabled
+Error in line 3150: Unrecognized command verb.
+newenabled
+Error in line 3151: Unrecognized command verb.
+deleteenabled
+Error in line 3152: Unrecognized command verb.
+searchenabled
+Error in line 3153: Unrecognized command verb.
+printenabled
+Error in line 3154: Unrecognized command verb.
+gobackenabled
+Error in line 3155: Unrecognized command verb.
+cancelenabled
+Error in line 3156: Unrecognized command verb.
+goforwardenabled
+Error in line 3157: Unrecognized command verb.
+mailtoenabled
+Error in line 3158: Unrecognized command verb.
+gotoenabled
+Error in line 3159: Unrecognized command verb.
+closeenabled
+Error in line 3160: Unrecognized command verb.
+previewenabled
+Error in line 3161: Unrecognized command verb.
+updateenabled
+Error in line 3162: Unrecognized command verb.
+sendenabled
+Error in line 3163: Unrecognized command verb.
+exportenabled
+Error in line 3164: Unrecognized command verb.
+firstenabled
+Error in line 3165: Unrecognized command verb.
+previousenabled
+Error in line 3166: Unrecognized command verb.
+nextenabled
+Error in line 3167: Unrecognized command verb.
+lastenabled
+Error in line 3168: Unrecognized command verb.
+mobilenabled
+Error in line 3169: Unrecognized command verb.
+á
+Error in line 3217: Unrecognized command verb.
+á
+Error in line 3222: Unrecognized command verb.
+á
+Error in line 3235: Unrecognized command verb.
+¶
+Error in line 3245: Unrecognized command verb.
+°
+Error in line 3246: Unrecognized command verb.
+á
+Error in line 3248: Unrecognized command verb.
+á
+Error in line 3254: Unrecognized command verb.
+òWG8
+Error in line 3255: Unrecognized command verb.
+á
+Error in line 3256: Unrecognized command verb.
+á
+Error in line 3268: Unrecognized command verb.
+£É
+Error in line 3269: Unrecognized command verb.
+á
+Error in line 3270: Unrecognized command verb.
+·
+Error in line 3282: Unrecognized command verb.
+Œ
+Error in line 3284: Unrecognized command verb.
+·
+Error in line 3285: Unrecognized command verb.
+·
+Error in line 3292: Unrecognized command verb.
+Œ
+Error in line 3294: Unrecognized command verb.
+·
+Error in line 3295: Unrecognized command verb.
+3
+Error in line 3298: Syntax error.
+·8
+Error in line 3299: Unrecognized command verb.
+ˆ¸
+Error in line 3300: Unrecognized command verb.
+ˆ
+Error in line 3301: Unrecognized command verb.
+çˆ
+Error in line 3302: Unrecognized command verb.
+ˆè
+Error in line 3303: Unrecognized command verb.
+"
+Error in line 3304: Unrecognized command verb.
+§(
+Error in line 3305: Unrecognized command verb.
+ˆ¨
+Error in line 3306: Unrecognized command verb.
+U
+Error in line 3307: Unrecognized command verb.
+×X
+Error in line 3308: Unrecognized command verb.
+ˆØ
+Error in line 3309: Unrecognized command verb.
+
+Error in line 3311: Unrecognized command verb.
+—
+Error in line 3312: Unrecognized command verb.
+ˆ˜
+Error in line 3313: Unrecognized command verb.
+This.GridLineColor = GetSysColor( COLOR_ButtonFace )
+Error in line 3329: Statement is not in a procedure.
+This.HeaderHeight = 16
+Error in line 3330: Statement is not in a procedure.
+This.RowHeight	  = 16
+Error in line 3331: Statement is not in a procedure.
+This.SetAll( "FontName", "Tahoma", "Header" )
+Error in line 3332: Statement is not in a procedure.
+This.SetAll( "FontSize", 8, "Header" )
+Error in line 3333: Statement is not in a procedure.
+This.SetAll( "FontBold", .T., "Header" )
+Error in line 3334: Statement is not in a procedure.
+This.SetAll( "FontName", "Tahoma", "Column" )
+Error in line 3335: Statement is not in a procedure.
+This.SetAll( "FontSize", 8, "Column" )
+Error in line 3336: Statement is not in a procedure.
+This.SetAll( "Movable", .F., "Column" )
+Error in line 3337: Statement is not in a procedure.
+This.SetAll( "Margin", 0, "TextBox" )
+Error in line 3338: Statement is not in a procedure.
+This.SetAll( "DynamicFontBold", "IIF( INLIST( Section, 'TOTAL', 'HEADER' ), .T., .F. )", "Column" )
+Error in line 3339: Statement is not in a procedure.
+This.SetAll( "DynamicForeColor", "IIF(This.ActiveRow = RECNO(), RGB( 255,255,255 ), This.ForeColor )", "Column" )
+Error in line 3340: Statement is not in a procedure.
+This.SetAll( "DynamicBackColor", "IIF( INLIST( Section, 'TOTAL', 'HEADER' ), RGB(" + _DOBRA.GetRGB( GetSysColor( COLOR_ButtonFace ) ) + "), IIF(This.ActiveRow = RECNO(), RGB( 0,0,160 ),This.BackColor))", "Column" )
+Error in line 3341: Statement is not in a procedure.
+ENDPROC
+Error in line 3345: Nesting error.
+á
+Error in line 3347: Unrecognized command verb.
+á
+Error in line 3360: Unrecognized command verb.
+LPARAMETERS button
+Error in line 3374: Statement is not in a procedure.
+DO CASE
+Error in line 3375: Statement is not in a procedure.
+CASE button.Key = "HOME"
+Error in line 3376: Statement is not in a procedure.
+ThisForm.Home( button )
+Error in line 3377: Statement is not in a procedure.
+CASE button.Key = "GOBACK"
+Error in line 3378: Statement is not in a procedure.
+ThisForm.GoBack( button )
+Error in line 3379: Statement is not in a procedure.
+CASE button.Key = "WINDOWS"
+Error in line 3380: Statement is not in a procedure.
+ThisForm.GoTo( button )
+Error in line 3381: Statement is not in a procedure.
+CASE button.Key = "GOFORWARD"
+Error in line 3382: Statement is not in a procedure.
+ThisForm.GoForward( button )
+Error in line 3383: Statement is not in a procedure.
+CASE button.Key = "NEW"
+Error in line 3384: Statement is not in a procedure.
+ThisForm.New( button )
+Error in line 3385: Statement is not in a procedure.
+CASE button.Key = "EDIT"
+Error in line 3386: Statement is not in a procedure.
+ThisForm.Edit( button )
+Error in line 3387: Statement is not in a procedure.
+CASE button.Key = "DELETE"
+Error in line 3388: Statement is not in a procedure.
+ThisForm.Delete( button )
+Error in line 3389: Statement is not in a procedure.
+CASE button.Key = "FIRST"
+Error in line 3390: Statement is not in a procedure.
+ThisForm.First( button )
+Error in line 3391: Statement is not in a procedure.
+CASE button.Key = "PREVIOUS"
+Error in line 3392: Statement is not in a procedure.
+ThisForm.Previous( button )
+Error in line 3393: Statement is not in a procedure.
+CASE button.Key = "SEARCH"
+Error in line 3394: Statement is not in a procedure.
+ThisForm.Search( button )
+Error in line 3395: Statement is not in a procedure.
+CASE button.Key = "NEXT"
+Error in line 3396: Statement is not in a procedure.
+ThisForm.Next( button )
+Error in line 3397: Statement is not in a procedure.
+CASE button.Key = "LAST"
+Error in line 3398: Statement is not in a procedure.
+ThisForm.Last( button )
+Error in line 3399: Statement is not in a procedure.
+CASE button.Key = "SAVE"
+Error in line 3400: Statement is not in a procedure.
+ThisForm.Save( button )
+Error in line 3401: Statement is not in a procedure.
+CASE button.Key = "CANCEL"
+Error in line 3402: Statement is not in a procedure.
+ThisForm.Cancel( button )
+Error in line 3403: Statement is not in a procedure.
+CASE button.Key = "UPDATE"
+Error in line 3404: Statement is not in a procedure.
+ThisForm.Update( button )
+Error in line 3405: Statement is not in a procedure.
+CASE button.Key = "PRINT"
+Error in line 3406: Statement is not in a procedure.
+ThisForm.PrintIt( button )
+Error in line 3407: Statement is not in a procedure.
+CASE button.Key = "PREVIEW"
+Error in line 3408: Statement is not in a procedure.
+ThisForm.Preview( button )
+Error in line 3409: Statement is not in a procedure.
+CASE button.Key = "SEND"
+Error in line 3410: Statement is not in a procedure.
+ThisForm.Send( button )
+Error in line 3411: Statement is not in a procedure.
+CASE button.Key = "EXPORT"
+Error in line 3412: Statement is not in a procedure.
+ThisForm.Export( button )
+Error in line 3413: Statement is not in a procedure.
+CASE button.Key = "MOBIL"
+Error in line 3414: Statement is not in a procedure.
+ThisForm.Mobil( button )
+Error in line 3415: Statement is not in a procedure.
+CASE button.Key = "CLOSE"
+Error in line 3416: Statement is not in a procedure.
+ThisForm.Close( button )
+Error in line 3417: Statement is not in a procedure.
+ENDCASE
+Error in line 3418: Statement is not in a procedure.
+ENDPROC
+Error in line 3420: Nesting error.
+á
+Error in line 3480: Unrecognized command verb.

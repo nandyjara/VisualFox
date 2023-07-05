@@ -1,0 +1,2110 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800622">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bienvenido a DOBRA 7.0">
+		<param name="Local" value="DOBRA70_Welcome.htm">
+		<param name="ImageNumber" value="21">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Conceptos B&aacute;sicos">
+		<param name="Local" value="Conceptos Básicos\bas_contenido.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Qu&eacute; es DOBRA ?">
+			<param name="Local" value="Conceptos Básicos\bas_tema_01.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Caracter&iacute;sticas Generales">
+			<param name="Local" value="Conceptos Básicos\bas_tema_02.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="M&oacute;dulos del Sistema">
+			<param name="Local" value="Conceptos Básicos\bas_tema_03.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Plan de Implementaci&oacute;n">
+			<param name="Local" value="Conceptos Básicos\bas_tema_04.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Instalaci&oacute;n del Sistema">
+		<param name="Local" value="Instalación del Sistema\ins_contenido.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Instalaci&oacute;n del Servidor de Base de Datos">
+			<param name="Local" value="Instalación del Sistema\ins_tema_01.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Instalar Base de Datos">
+			<param name="Local" value="Instalación del Sistema\ins_tema_02.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Instalaci&oacute;n de Licencias de Dobra">
+			<param name="Local" value="Instalación del Sistema\ins_tema_03.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Activaci&oacute;n de Licencias de Dobra ">
+			<param name="Local" value="Instalación del Sistema\ins_tema_04.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Crear Conexiones ODBC">
+			<param name="Local" value="Instalación del Sistema\ins_tema_05.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Iniciando con DOBRA">
+		<param name="Local" value="Iniciando con DOBRA\ini_contenido.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Iniciar el Sistema">
+			<param name="Local" value="Iniciando con DOBRA\ini_tema_01.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Elementos de la Interfaz">
+			<param name="Local" value="Iniciando con DOBRA\ini_tema_02.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="C&oacute;mo dar Mantenimiento ?">
+			<param name="Local" value="Iniciando con DOBRA\ini_tema_03.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="C&oacute;mo registrar Documentos ?">
+			<param name="Local" value="Iniciando con DOBRA\ini_tema_04.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="C&oacute;mo ejecutar Procesos ?">
+			<param name="Local" value="Iniciando con DOBRA\ini_tema_05.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="C&oacute;mo obtener Informes ?">
+			<param name="Local" value="Iniciando con DOBRA\ini_tema_06.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Elementos de Formularios">
+			<param name="Local" value="\\Server\proyectos\DOBRA70\HTMLHelp\Iniciando con DOBRA\ini_tema_07.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configuraci&oacute;n del Sistema">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ingreso de Datos Iniciales">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Usando el Sistema">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="C&oacute;mo ejecutar procesos especiales ?">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="C&oacute;mo obtener informes y reportes impresos ?">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mantenimiento del Sistema">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Referencia de Herramientas">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Contabilidad">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\acc.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Plan de Cuentas">
+					<param name="Local" value="Referencia de Herramientas\acc_record_cuentas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\acc_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Asientos de Diario">
+					<param name="Local" value="Referencia de Herramientas\acc_document_asientos.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informes">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\acc_info_saldos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Mayor de Cuenta">
+					<param name="Local" value="Referencia de Herramientas\acc_info_mayor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Balance General">
+					<param name="Local" value="Referencia de Herramientas\acc_info_balance.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estado de Resultados">
+					<param name="Local" value="Referencia de Herramientas\acc_info_pl.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico de PL Mensual">
+					<param name="Local" value="Referencia de Herramientas\acc_info_graph_pl_mensual.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Indices Financieros">
+					<param name="Local" value="Referencia de Herramientas\acc_info_indices.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Plan de Cuentas">
+					<param name="Local" value="Referencia de Herramientas\acc_info_plan.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Asientos de Diario">
+					<param name="Local" value="Referencia de Herramientas\acc_document_asientos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Balance Comparativo">
+					<param name="Local" value="Referencia de Herramientas\acc_info_balance_comparativo.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Presupuesto">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\bgt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="C&oacute;digos Presupuestarios">
+					<param name="Local" value="Referencia de Herramientas\bgt_record_códigos.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Presupuesto">
+					<param name="Local" value="Referencia de Herramientas\bgt_info_budget.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Caja y Bancos">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\ban.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos">
+					<param name="Local" value="Referencia de Herramientas\ban_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cuentas de Caja Bancos">
+					<param name="Local" value="Referencia de Herramientas\ban_record_bancos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\ban_option_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de ingreso">
+					<param name="Local" value="Referencia de Herramientas\ban_document_ingresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Cr&eacute;dito">
+					<param name="Local" value="Referencia de Herramientas\ban_document_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de D&eacute;bito">
+					<param name="Local" value="Referencia de Herramientas\ban_document_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dep&oacute;sitos">
+					<param name="Local" value="Referencia de Herramientas\ban_document_deposito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de Egreso">
+					<param name="Local" value="Referencia de Herramientas\ban_document_egresos.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Procesos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos Iniciales">
+					<param name="Local" value="Referencia de Herramientas\ban_task_saldos_iniciales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Conciliaci&oacute;n Bancaria">
+					<param name="Local" value="Referencia de Herramientas\ban_task_conciliacion.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informes">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\ban_info_saldos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estado de Cuenta">
+					<param name="Local" value="Referencia de Herramientas\ban_info_cardex.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Arqueo de Caja">
+					<param name="Local" value="Referencia de Herramientas\ban_info_arqueo.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\ban_info_ingresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de Egreso">
+					<param name="Local" value="Referencia de Herramientas\ban_info_egresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de D&eacute;bito">
+					<param name="Local" value="Referencia de Herramientas\ban_info_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Cr&eacute;dito">
+					<param name="Local" value="Referencia de Herramientas\ban_info_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dep&oacute;sitos">
+					<param name="Local" value="Referencia de Herramientas\ban_info_depositos.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Empleados">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\emp.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos de Empleados">
+					<param name="Local" value="Referencia de Herramientas\emp_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Empleados">
+					<param name="Local" value="Referencia de Herramientas\emp_record_empleados.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\emp_record_rubros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tablas">
+					<param name="Local" value="Referencia de Herramientas\emp_record_tablas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\emp_options_opciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Funciones">
+					<param name="Local" value="Referencia de Herramientas\emp_record_funciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Cr&eacute;dito">
+					<param name="Local" value="Referencia de Herramientas\emp_document_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de D&eacute;bito">
+					<param name="Local" value="Referencia de Herramientas\emp_document_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Egresos por Pr&eacute;stamos">
+					<param name="Local" value="Referencia de Herramientas\emp_document_prestamo.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Liquidaci&oacute;n de D&eacute;cimos">
+					<param name="Local" value="Referencia de Herramientas\emp_document_decimos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rol de Pagos">
+					<param name="Local" value="Referencia de Herramientas\emp_document_roles.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Procesos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos Iniciales">
+					<param name="Local" value="Referencia de Herramientas\emp_task_saldos_iniciales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Horas Trabajadas">
+					<param name="Local" value="Referencia de Herramientas\emp_task_Horas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Actualizaci&oacute;n de Sueldos y Horas">
+					<param name="Local" value="Referencia de Herramientas\emp_task_act_sueldos_Horas.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informes">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Empleados">
+					<param name="Local" value="Referencia de Herramientas\emp_info_empleados.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\emp_info_saldos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Deudas Pendientes">
+					<param name="Local" value="Referencia de Herramientas\emp_info_deudas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estado de Cuenta">
+					<param name="Local" value="Referencia de Herramientas\emp_info_cardex.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cartera por Cobrar">
+					<param name="Local" value="Referencia de Herramientas\emp_info_cartera.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Roles de Pago">
+					<param name="Local" value="Referencia de Herramientas\emp_info_roles.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Pr&eacute;stamos">
+					<param name="Local" value="Referencia de Herramientas\emp_info_prestamos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Roles Individuales">
+					<param name="Local" value="Referencia de Herramientas\emp_info_roles_individuales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Vencimientos">
+					<param name="Local" value="Referencia de Herramientas\emp_info_vencimientos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Roles General">
+					<param name="Local" value="Referencia de Herramientas\emp_info_rol_general.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Flujos de Caja">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Organizador">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Activos Fijos">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\act.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos">
+					<param name="Local" value="Referencia de Herramientas\act_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tipos">
+					<param name="Local" value="Referencia de Herramientas\act_record_tipos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Activos">
+					<param name="Local" value="Referencia de Herramientas\act_record_activos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones del M&oacute;dulo">
+					<param name="Local" value="Referencia de Herramientas\act_option_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes">
+					<param name="Local" value="Referencia de Herramientas\act_document_ordenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas">
+					<param name="Local" value="Referencia de Herramientas\act_document_facturas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\act_document_ingresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Egreso">
+					<param name="Local" value="Referencia de Herramientas\act_document_egresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Depreciaciones">
+					<param name="Local" value="Referencia de Herramientas\act_document_depreciaciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Asignaciones">
+					<param name="Local" value="Referencia de Herramientas\act_document_asignaciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturar Orden">
+					<param name="Local" value="Referencia de Herramientas\act_task_facturar_orden.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\act_info_saldos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Kardex">
+					<param name="Local" value="Referencia de Herramientas\act_info_cardex.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Asignaciones">
+					<param name="Local" value="Referencia de Herramientas\act_info_asignaciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\act_info_ingresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Egreso">
+					<param name="Local" value="Referencia de Herramientas\act_info_egresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas">
+					<param name="Local" value="Referencia de Herramientas\act_info_facturas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos Individuales">
+					<param name="Local" value="Referencia de Herramientas\act_info_saldos_individuales.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Proveeduria">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\prv.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos">
+					<param name="Local" value="Referencia de Herramientas\prv_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\prv_record_rubros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bodegas">
+					<param name="Local" value="Referencia de Herramientas\prv_record_bodegas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Productos">
+					<param name="Local" value="Referencia de Herramientas\prv_record_productos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\prv_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes de Compra">
+					<param name="Local" value="Referencia de Herramientas\prv_document_ordenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas de compra">
+					<param name="Local" value="Referencia de Herramientas\prv_document_facturas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Devoluciones">
+					<param name="Local" value="Referencia de Herramientas\prv_document_devoluciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\prv_document_ingresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Egreso">
+					<param name="Local" value="Referencia de Herramientas\prv_document_egresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Transferencia">
+					<param name="Local" value="Referencia de Herramientas\prv_document_transferencia.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Toma F&iacute;sica">
+					<param name="Local" value="Referencia de Herramientas\prv_document_toma_fisica_dialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Consumos">
+					<param name="Local" value="Referencia de Herramientas\prv_document_consumos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Reintegros">
+					<param name="Local" value="Referencia de Herramientas\prv_document_reintegros.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ingresar Orden">
+					<param name="Local" value="Referencia de Herramientas\prv_task_ingreso_orden.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos Iniciales">
+					<param name="Local" value="Referencia de Herramientas\prv_task_saldos_iniciales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturar Orden">
+					<param name="Local" value="Referencia de Herramientas\prv_task_facturar_orden.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\prv_info_saldos_iniciales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Kardex">
+					<param name="Local" value="Referencia de Herramientas\prv_info_cardex.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes de Compra">
+					<param name="Local" value="Referencia de Herramientas\prv_info_ordenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas de Compras">
+					<param name="Local" value="Referencia de Herramientas\prv_info_facturas_dt.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\prv_document_ingresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Egreso">
+					<param name="Local" value="Referencia de Herramientas\prv_info_egresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Transferencias">
+					<param name="Local" value="Referencia de Herramientas\prv_info_transferencias.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Toma F&iacute;sica">
+					<param name="Local" value="Referencia de Herramientas\prv_info_toma_fisica.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Consumos">
+					<param name="Local" value="Referencia de Herramientas\prv_info_consumos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Devoluciones">
+					<param name="Local" value="Referencia de Herramientas\prv_info_devoluciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Reintegros">
+					<param name="Local" value="Referencia de Herramientas\prv_info_reintegros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Documentos de las Ordenes">
+					<param name="Local" value="Referencia de Herramientas\prv_info_ordenes_documentos.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Acreedores">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\acr.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos">
+					<param name="Local" value="Referencia de Herramientas\acr_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Acreedores">
+					<param name="Local" value="Referencia de Herramientas\acr_record_acreedores.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\acr_record_rubros.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Cr&eacute;dito">
+					<param name="Local" value="Referencia de Herramientas\acr_document_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de D&eacute;bito">
+					<param name="Local" value="Referencia de Herramientas\acr_document_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de Egreso">
+					<param name="Local" value="Referencia de Herramientas\acr_document_egreso.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos Iniciales">
+					<param name="Local" value="Referencia de Herramientas\acr_task_saldos_iniciales.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estado de Cuenta">
+					<param name="Local" value="Referencia de Herramientas\acr_info_cardex.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cartera por Pagar">
+					<param name="Local" value="Referencia de Herramientas\acr_info_cartera.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Deudas Pendientes">
+					<param name="Local" value="Referencia de Herramientas\acr_info_deudas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\acr_info_saldos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cheques Girados">
+					<param name="Local" value="Referencia de Herramientas\acr_info_cheques_girados.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de D&eacute;bito">
+					<param name="Local" value="Referencia de Herramientas\acr_info_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Cr&eacute;dito">
+					<param name="Local" value="Referencia de Herramientas\acr_info_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Deudas Vs. Pagos">
+					<param name="Local" value="Referencia de Herramientas\acr_info_deudas_vs_pagos.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Clientes">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\cli.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos de Clientes">
+					<param name="Local" value="Referencia de Herramientas\cli_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Clientes">
+					<param name="Local" value="Referencia de Herramientas\cli_record_clientes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\cli_record_rubros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\cli_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Recibo de Cheques Postfchados">
+					<param name="Local" value="Referencia de Herramientas\cli_document_cheques.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cobranzas">
+					<param name="Local" value="Referencia de Herramientas\cli_document_cobranzas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cotizaciones">
+					<param name="Local" value="Referencia de Herramientas\cli_document_cotizaciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Cr&eacute;dito">
+					<param name="Local" value="Referencia de Herramientas\cli_document_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de D&eacute;bito">
+					<param name="Local" value="Referencia de Herramientas\cli_document_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\cli_document_ingresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de Ingreso Masivo">
+					<param name="Local" value="Referencia de Herramientas\cli_document_ingresos_masivos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Letras de Cambio">
+					<param name="Local" value="Referencia de Herramientas\cli_document_letras.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="vencimiento de Cheques">
+					<param name="Local" value="Referencia de Herramientas\cli_task_vencimiento_cheques.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Hoja de Cobranzas">
+					<param name="Local" value="Referencia de Herramientas\cli_task_cobranzas.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estado de Cuenta">
+					<param name="Local" value="Referencia de Herramientas\cli_info_cardex.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Deudas Pendientes">
+					<param name="Local" value="Referencia de Herramientas\cli_info_deudas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\cli_info_saldos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cartera por Cobrar">
+					<param name="Local" value="Referencia de Herramientas\cli_info_cartera.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cat&aacute;logo de Clientes">
+					<param name="Local" value="Referencia de Herramientas\cli_info_clientes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Deudas Vs. Pagos">
+					<param name="Local" value="Referencia de Herramientas\cli_info_deudas_vs_pagos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Cr&eacute;dito">
+					<param name="Local" value="Referencia de Herramientas\cli_info_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de D&eacute;bito">
+					<param name="Local" value="Referencia de Herramientas\cli_info_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cobranzas">
+					<param name="Local" value="Referencia de Herramientas\cli_info_cobranzas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico de D&eacute;bitos Vs. Cr&eacute;ditos">
+					<param name="Local" value="Referencia de Herramientas\cli_info_debito_vs_credito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico de Distribuci&oacute;n de la Cartera">
+					<param name="Local" value="Referencia de Herramientas\cli_info_distribucion_graph.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico Movimiento de Cuenta">
+					<param name="Local" value="Referencia de Herramientas\cli_info_movimiento_graph.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Productos (Inventarios)">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\inv.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos de Productos">
+					<param name="Local" value="Referencia de Herramientas\inv_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\inv_record_rubros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bodegas">
+					<param name="Local" value="Referencia de Herramientas\inv_record_bodegas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Productos">
+					<param name="Local" value="Referencia de Herramientas\inv_record_productos.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Egreso">
+					<param name="Local" value="Referencia de Herramientas\inv_document_egreso.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\inv_document_ingreso.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gu&iacute;as de Remisi&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\inv_document_guias_remision.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Toma F&iacute;sica">
+					<param name="Local" value="Referencia de Herramientas\inv_document_toma_fisica.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Transferencia">
+					<param name="Local" value="Referencia de Herramientas\inv_document_transferencia.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Lista de Precios">
+					<param name="Local" value="Referencia de Herramientas\inv_task_precios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Asignar Cuenta Contable">
+					<param name="Local" value="Referencia de Herramientas\inv_task_cuentas_contables.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos">
+					<param name="Local" value="Referencia de Herramientas\inv_info_saldos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Kardex">
+					<param name="Local" value="Referencia de Herramientas\inv_info_cardex.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Stock">
+					<param name="Local" value="Referencia de Herramientas\inv_info_stock.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\inv_info_ingreso.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Notas de Egreso">
+					<param name="Local" value="Referencia de Herramientas\inv_info_egreso.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Transferencias">
+					<param name="Local" value="Referencia de Herramientas\inv_info_transferencias.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Kardex sin Costo">
+					<param name="Local" value="Referencia de Herramientas\inv_info_cardex02.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Compras">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\com.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\com_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Devoluciones">
+					<param name="Local" value="Referencia de Herramientas\com_document_devoluciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas">
+					<param name="Local" value="Referencia de Herramientas\com_document_facturas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Egresos por Importaci&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\com_document_egresos_importacion.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes">
+					<param name="Local" value="Referencia de Herramientas\com_document_ordenes.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ingresar Orden">
+					<param name="Local" value="Referencia de Herramientas\com_task_ingreso_orden.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturar Orden">
+					<param name="Local" value="Referencia de Herramientas\com_task_facturar_orden.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas de Compra">
+					<param name="Local" value="Referencia de Herramientas\com_info_facturas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Devoluciones">
+					<param name="Local" value="Referencia de Herramientas\com_info_devoluciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes">
+					<param name="Local" value="Referencia de Herramientas\com_info_ordenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Productos Facturados">
+					<param name="Local" value="Referencia de Herramientas\com_info_facturas_dt.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Documentos de las Ordenes">
+					<param name="Local" value="Referencia de Herramientas\com_info_ordenes_documentos.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Producci&oacute;n">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\prd.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\prd_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes">
+					<param name="Local" value="Referencia de Herramientas\prd_document_ordenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Uso de Materiales">
+					<param name="Local" value="Referencia de Herramientas\prd_document_uso_materiales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Reintegro de Materiales">
+					<param name="Local" value="Referencia de Herramientas\prd_document_reintegro_materiales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Mano de Obra">
+					<param name="Local" value="Referencia de Herramientas\prd_document_jornal.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Costos Indirectos">
+					<param name="Local" value="Referencia de Herramientas\prd_document_costos_indirectos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Liquidaci&oacute;n de Ordenes">
+					<param name="Local" value="Referencia de Herramientas\prd_document_liquidaciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes">
+					<param name="Local" value="Referencia de Herramientas\prd_info_ordenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Uso de Materiales">
+					<param name="Local" value="Referencia de Herramientas\prd_info_uso_materiales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Reintegro de Materiales">
+					<param name="Local" value="Referencia de Herramientas\prd_info_reintegro_materiales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Costos Indirectos">
+					<param name="Local" value="Referencia de Herramientas\prd_info_costos_indirectos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Mano de Obra">
+					<param name="Local" value="Referencia de Herramientas\prd_info_jornales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Liquidaciones">
+					<param name="Local" value="Referencia de Herramientas\prd_info_liquidaciones.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RMA">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\RMA.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Anexo de Series en Compra">
+					<param name="Local" value="Referencia de Herramientas\RMA_document_anexo_serie_compras.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Anexo de Series en Venta">
+					<param name="Local" value="Referencia de Herramientas\RMA_document_anexo_serie_ventas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Anexo de Series en Ingreso">
+					<param name="Local" value="Referencia de Herramientas\RMA_document_anexo_serie_ingreso.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Anexo de Series en Egreso">
+					<param name="Local" value="Referencia de Herramientas\RMA_document_anexo_serie_Negresos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Anexo de Series en Ensamblaje">
+					<param name="Local" value="Referencia de Herramientas\RMA_document_anexo_serie_emsamb.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Importaciones">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pedidos de Importaci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\imp_document_pedido.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Liquidaci&oacute;n de Importaci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\imp_document_comprobante_egresos.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Liquidaci&oacute;n de Importaci&oacute;n (Tecniver)">
+				<param name="Local" value="Referencia de Herramientas\imp_document_comprobante_egresos(tecniver).htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Liquidaci&oacute;n de Importac&iacute;on (Garz&oacute;n)">
+				<param name="Local" value="Referencia de Herramientas\imp_document_comprobante_egresos(Garzón).htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ventas">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introcucci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\ven.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\ven_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="despachos">
+					<param name="Local" value="Referencia de Herramientas\ven_document_despachos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Devoluciones">
+					<param name="Local" value="Referencia de Herramientas\ven_document_devoluciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura de Venta de Empleados">
+					<param name="Local" value="Referencia de Herramientas\ven_document_facturas_emp.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura de Venta">
+					<param name="Local" value="Referencia de Herramientas\ven_document_facturas.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturar Orden">
+					<param name="Local" value="Referencia de Herramientas\ven_task_facturar_orden.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comisiones">
+					<param name="Local" value="Referencia de Herramientas\ven_task_comisiones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas de venta">
+					<param name="Local" value="Referencia de Herramientas\ven_info_facturas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Devoluciones">
+					<param name="Local" value="Referencia de Herramientas\ven_info_devoluciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comisiones">
+					<param name="Local" value="Referencia de Herramientas\ven_info_comisiones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes de Venta">
+					<param name="Local" value="Referencia de Herramientas\ven_info_ordenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Productos Facturados">
+					<param name="Local" value="Referencia de Herramientas\ven_info_facturas_dt.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Utilidad de Producto">
+					<param name="Local" value="Referencia de Herramientas\ven_info_utilidad.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico de Mejores Productos">
+					<param name="Local" value="Referencia de Herramientas\ven_info_toptengraph.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico de Ventas Vs Costos">
+					<param name="Local" value="Referencia de Herramientas\ven_info_vtasctos_graph.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ventas Mensuales Clientes">
+					<param name="Local" value="Referencia de Herramientas\ven_info_ventas_clientes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ventas Mensuales de Productos">
+					<param name="Local" value="Referencia de Herramientas\ven_info_ventas_producto.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Puntos de Venta">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\pos.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\pos_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura de Venta">
+					<param name="Local" value="Referencia de Herramientas\pos_document_facturas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Devoluciones">
+					<param name="Local" value="Referencia de Herramientas\pos_document_devoluciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cierre de Caja">
+					<param name="Local" value="Referencia de Herramientas\pos_task_cierre.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				<param name="Local" value="pos_info_facturas.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas">
+					<param name="Local" value="Referencia de Herramientas\pos_info_facturas.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Asistencia T&eacute;cnica">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\ast.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\ast_options_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturar Asistencia T&eacute;cnica">
+					<param name="Local" value="Referencia de Herramientas\ast_task_asistencias.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico An&aacute;lisis de Cumplimiento">
+					<param name="Local" value="Referencia de Herramientas\ast_info_graph_cumplimiento.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Gr&aacute;fico Tareas Pendientes">
+					<param name="Local" value="Referencia de Herramientas\ast_info_graph_pendientes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tareas">
+					<param name="Local" value="Referencia de Herramientas\ast_info_tareas.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Acad&eacute;mico">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\est.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos">
+					<param name="Local" value="Referencia de Herramientas\est_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estudiantes">
+					<param name="Local" value="Referencia de Herramientas\est_record_estudiantes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Materias">
+					<param name="Local" value="Referencia de Herramientas\est_record_materias.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Horas">
+					<param name="Local" value="Referencia de Herramientas\est_record_horas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cuadro de Calificaciones">
+					<param name="Local" value="Referencia de Herramientas\est_record_cuadros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\est_record_rubros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tipos de Matriculas">
+					<param name="Local" value="Referencia de Herramientas\est_record_becas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tablas">
+					<param name="Local" value="Referencia de Herramientas\est_record_tablas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Requisitos">
+					<param name="Local" value="Referencia de Herramientas\est_record_requisitos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Brigadas">
+					<param name="Local" value="Referencia de Herramientas\est_record_brigadas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\est_option_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura de Servicios">
+					<param name="Local" value="Referencia de Herramientas\est_document_factura.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comprobante de Ingreso">
+					<param name="Local" value="Referencia de Herramientas\est_document_ingreso.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Debito">
+					<param name="Local" value="Referencia de Herramientas\est_document_debito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nota de Credito">
+					<param name="Local" value="Referencia de Herramientas\est_document_credito.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Horarios">
+					<param name="Local" value="Referencia de Herramientas\est_task_horarios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Matriculas">
+					<param name="Local" value="Referencia de Herramientas\est_task_matriculas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Calificaciones">
+					<param name="Local" value="Referencia de Herramientas\est_task_calificaciones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Convenios">
+					<param name="Local" value="Referencia de Herramientas\est_task_convenios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturacion">
+					<param name="Local" value="Referencia de Herramientas\est_task_facturacion.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tr&aacute;mites Aduaneros">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Requisitos">
+					<param name="Local" value="Referencia de Herramientas\trm_record_requisitos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Etapas">
+					<param name="Local" value="Referencia de Herramientas\trm_record_etapas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tipos">
+					<param name="Local" value="Referencia de Herramientas\trm_record_tipos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\trm_record_rubros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tipos de Garant&iacute;as">
+					<param name="Local" value="Referencia de Herramientas\trm_record_tipos_garantias.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Opciones">
+					<param name="Local" value="Referencia de Herramientas\trm_record_opciones.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tr&aacute;mites">
+					<param name="Local" value="Referencia de Herramientas\trm_document_tramites.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Egreso por Pago">
+					<param name="Local" value="Referencia de Herramientas\trm_document_egreso_pago.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Egresos Masivos">
+					<param name="Local" value="Referencia de Herramientas\trm_document_egresos_masivos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Anticipo de Cliente">
+					<param name="Local" value="Referencia de Herramientas\trm_document_anticipo_cliente.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ant. Masivo de Clientes">
+					<param name="Local" value="Referencia de Herramientas\trm_document_anticipo_masivo_clientes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="D&eacute;bito Bancario">
+					<param name="Local" value="Referencia de Herramientas\trm_document_debito_bancario.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="D&eacute;bito Masivos Bancarios">
+					<param name="Local" value="Referencia de Herramientas\trm_document_debitos_masivos_bancarios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Valores Recibidos">
+					<param name="Local" value="Referencia de Herramientas\trm_document_valores_recibidos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura de Servicios">
+					<param name="Local" value="Referencia de Herramientas\trm_document_factura_servicios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="D&eacute;bito al Tr&aacute;mite">
+					<param name="Local" value="Referencia de Herramientas\trm_document_debito_tramite.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cr&eacute;dito al Tr&aacute;mite">
+					<param name="Local" value="Referencia de Herramientas\trm_document_credito_tramite.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Aplicaci&oacute;n de Seguros">
+					<param name="Local" value="Referencia de Herramientas\trm_document_aplicacion_seguros.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Procesos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Saldos Iniciales">
+					<param name="Local" value="Referencia de Herramientas\trm_task_saldos_iniciales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturaci&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\trm_task_facturacion.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturaci&oacute;n Anticipada">
+					<param name="Local" value="Referencia de Herramientas\trm_task_facturacion_anticipada.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Alcance Facturaci&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\trm_task_alcance_facturacion.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="RE Facturaci&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\trm_task_re_facturacion.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturas de Alianza">
+					<param name="Local" value="Referencia de Herramientas\trm_task_facturas_alianza.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informes">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bandeja de Tr&aacute;mites">
+					<param name="Local" value="Referencia de Herramientas\trm_info_bandeja_tramites.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bandeja Papeles Previos">
+					<param name="Local" value="Referencia de Herramientas\trm_info_bandeja_papeles_previos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bandeja de Comunicaci&oacute;n (Imp)">
+					<param name="Local" value="Referencia de Herramientas\trm_info_bandeja_comunicacion.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bandeja de Comunicaci&oacute;n (Exp)">
+					<param name="Local" value="Referencia de Herramientas\trm_info_bandeja_comunicacion2.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tr&aacute;mites">
+					<param name="Local" value="Referencia de Herramientas\trm_info_tramites.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="O/Egreso por Pago">
+					<param name="Local" value="Referencia de Herramientas\trm_info_o_egreso_pago.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tr&aacute;mites Pendientes de Facturar">
+					<param name="Local" value="Referencia de Herramientas\trm_info_tramites_pendientes_facturar.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Pagos por Reembolso">
+					<param name="Local" value="Referencia de Herramientas\trm_info_pagos_reembolso.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Indices de Oficina">
+					<param name="Local" value="Referencia de Herramientas\trm_info_indices_oficina.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Indices de Puerto">
+					<param name="Local" value="Referencia de Herramientas\trm_info_indices_puerto.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Indices Tiempo para Cliente">
+					<param name="Local" value="Referencia de Herramientas\trm_info_indices_tiempo_cliente.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Indice Medici&oacute;n Personas">
+					<param name="Local" value="Referencia de Herramientas\trm_info_indices_medicion_personas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Garant&iacute;as">
+					<param name="Local" value="Referencia de Herramientas\trm_info_garantias.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Partidas Arancelarias">
+					<param name="Local" value="Referencia de Herramientas\trm_info_partidas_arancelarias.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CAE">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Acreedores">
+					<param name="Local" value="Referencia de Herramientas\cae_record_acreedores.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Aduanas">
+					<param name="Local" value="Referencia de Herramientas\cae_record_aduanas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ciudades">
+					<param name="Local" value="Referencia de Herramientas\cae_record_ciudades.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Agente Aduanero">
+					<param name="Local" value="Referencia de Herramientas\cae_record_agente_aduanero.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Formas Pago">
+					<param name="Local" value="Referencia de Herramientas\cae_record_formas_pago.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Puertos">
+					<param name="Local" value="Referencia de Herramientas\cae_record_puertos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="V&iacute;as de Transporte">
+					<param name="Local" value="Referencia de Herramientas\cae_record_via_transporte.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tipo Carga">
+					<param name="Local" value="Referencia de Herramientas\cae_record_tipo_carga.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Banderas">
+					<param name="Local" value="Referencia de Herramientas\cae_record_banderas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Linea de Transporte">
+					<param name="Local" value="Referencia de Herramientas\cae_record_linea_transporte.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Agencias de Carga">
+					<param name="Local" value="Referencia de Herramientas\cae_record_agencias_carga.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Navieras">
+					<param name="Local" value="Referencia de Herramientas\cae_record_navieras.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Regimen">
+					<param name="Local" value="Referencia de Herramientas\cae_record_regimen.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Almacenes">
+					<param name="Local" value="Referencia de Herramientas\cae_record_almacenes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Garant&iacute;as">
+					<param name="Local" value="Referencia de Herramientas\cae_record_garantias.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Pa&iacute;ses">
+					<param name="Local" value="Referencia de Herramientas\cae_record_paises.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dep&oacute;sito">
+					<param name="Local" value="Referencia de Herramientas\cae_record_deposito.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Sectores">
+					<param name="Local" value="Referencia de Herramientas\cae_record_sectores.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Beneficiarios">
+					<param name="Local" value="Referencia de Herramientas\cae_record_beneficiarios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Exoneraci&oacute;n de Certificados">
+					<param name="Local" value="Referencia de Herramientas\cae_record_exoneracion_certificados.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Partidas">
+					<param name="Local" value="Referencia de Herramientas\cae_record_partidas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bancos">
+					<param name="Local" value="Referencia de Herramientas\cae_record_bancos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Garantes">
+					<param name="Local" value="Referencia de Herramientas\cae_record_garantes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="TPCI">
+					<param name="Local" value="Referencia de Herramientas\cae_record_tpci.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="TPNG">
+					<param name="Local" value="Referencia de Herramientas\cae_record_tpng.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="TPNE">
+					<param name="Local" value="Referencia de Herramientas\cae_record_tpne.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Secci&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\cae_record_seccion.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cap&iacute;tulo">
+					<param name="Local" value="Referencia de Herramientas\cae_record_capitulo.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cod. Liberatorios">
+					<param name="Local" value="Referencia de Herramientas\cae_record_cod_liberatorio.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Transporte">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Etapas">
+					<param name="Local" value="Referencia de Herramientas\tra_record_etapas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Paradas">
+					<param name="Local" value="Referencia de Herramientas\tra_record_paradas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rutas">
+					<param name="Local" value="Referencia de Herramientas\tra_record_rutas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tipos de Carga">
+					<param name="Local" value="Referencia de Herramientas\tra_record_tipos_carga.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Camiones">
+					<param name="Local" value="Referencia de Herramientas\tra_record_camiones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Rubros">
+					<param name="Local" value="Referencia de Herramientas\tra_record_rubros.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Documentos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Orden de Trabajo">
+					<param name="Local" value="Referencia de Herramientas\tra_document_orden_trabajo.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bodegaje">
+					<param name="Local" value="Referencia de Herramientas\tra_document_bodegaje.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Egresos por Pago">
+					<param name="Local" value="Referencia de Herramientas\tra_document_egresos_pago.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tanqueo de Camiones">
+					<param name="Local" value="Referencia de Herramientas\tra_document_tanqueo_camiones.htm">
+					<param name="URL" value="Referencia de Herramientas\tra_document_tanqueo_camiones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura del Proveedor">
+					<param name="Local" value="Referencia de Herramientas\tra_document_factura_proveedor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura Comisi&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\tra_document_factura_comision.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factura de Venta">
+					<param name="Local" value="Referencia de Herramientas\tra_document_factura_venta.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Procesos">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Asignaci&oacute;n de Precios">
+					<param name="Local" value="Referencia de Herramientas\tra_task_asignacion_precios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Liquidaci&oacute;n de Comisiones">
+					<param name="Local" value="Referencia de Herramientas\tra_task_liquidacion_comisiones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Facturaci&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\tra_task_facturacion.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informes">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bandeja Orden de Trabajo">
+					<param name="Local" value="Referencia de Herramientas\tra_info_orden_trabajo.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estados Tr&aacute;mites">
+					<param name="Local" value="Referencia de Herramientas\tra_info_estados_tramite.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ordenes Detalladas">
+					<param name="Local" value="Referencia de Herramientas\tra_info_ordenes_detalladas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estibadores">
+					<param name="Local" value="Referencia de Herramientas\tra_info_estibadores.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Viajes de Papis">
+					<param name="Local" value="Referencia de Herramientas\tra_info_viajes_papis.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Analisis de Choferes">
+					<param name="Local" value="Referencia de Herramientas\tra_info_analisis_choferes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Garant&iacute;as">
+					<param name="Local" value="Referencia de Herramientas\tra_info_garantias.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Kilometraje de Camiones">
+					<param name="Local" value="Referencia de Herramientas\tra_info_kilometraje_camiones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Estadisticas Viajes">
+					<param name="Local" value="Referencia de Herramientas\tra_info_estadisticas_viajes.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Seguridad">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\seg.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Grupos">
+					<param name="Local" value="Referencia de Herramientas\seg_record_grupos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Usuarios">
+					<param name="Local" value="Referencia de Herramientas\seg_record_usuarios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Recursos">
+					<param name="Local" value="Referencia de Herramientas\seg_record_recursos.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Usuarios">
+					<param name="Local" value="Referencia de Herramientas\seg_info_usuarios.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bit&aacute;cora">
+					<param name="Local" value="Referencia de Herramientas\seg_info_bitacora.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Recursos">
+					<param name="Local" value="Referencia de Herramientas\seg_info_recursos.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Gerencial">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sistema">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Introducci&oacute;n">
+				<param name="Local" value="Referencia de Herramientas\sis.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Empresa">
+					<param name="Local" value="Referencia de Herramientas\sis_options_empresa.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Par&aacute;metros del Sistema">
+					<param name="Local" value="Referencia de Herramientas\sis_option_parametros.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Sucursales">
+					<param name="Local" value="Referencia de Herramientas\sis_record_sucursales.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Divisas">
+					<param name="Local" value="Referencia de Herramientas\sis_record_divisas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Departamentos">
+					<param name="Local" value="Referencia de Herramientas\sis_record_departamentos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Zonas">
+					<param name="Local" value="Referencia de Herramientas\sis_record_zonas.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Divisiones">
+					<param name="Local" value="Referencia de Herramientas\sis_record_divisiones.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Preferencias Locales">
+					<param name="Local" value="Referencia de Herramientas\sis_options_locales.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Proceso">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Comandos">
+					<param name="Local" value="Referencia de Herramientas\sis_task_comandos.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Integraci&oacute;n OFFLINE">
+					<param name="Local" value="Referencia de Herramientas\sis_task_integración.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Replicaci&oacute;n OFFLINE">
+					<param name="Local" value="Referencia de Herramientas\sis_task_replicacion.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informe">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="versi&oacute;n">
+					<param name="Local" value="Referencia de Herramientas\sis_info_version.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bit&aacute;cora de Errores">
+					<param name="Local" value="Referencia de Herramientas\sis_info_errores.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Soporte T&eacute;cnico">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cr&eacute;ditos">
+		<param name="Local" value="Referencia de Herramientas\sis_dobra_creditos.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

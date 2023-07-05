@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<iva>
+
+
+<compras>
+      <detalleCompras>
+   </compras>
+
+<ventas>
+      <detalleVentas>
+   </ventas>
+
+<ventasEstablecimiento>
+      <ventaEst>
+   </ventasEstablecimiento>
+
+<exportaciones>
+      <detalleExportaciones>
+   </exportaciones>
+
+</iva>

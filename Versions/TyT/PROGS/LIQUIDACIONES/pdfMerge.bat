@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\PDFtk Server\bin\pdftk.exe" "M:\VERSIONS\TYT\PROGS\Liquidaciones\2020-IM-11956-RESUMEN-ITEMS.PDF" cat output "M:\VERSIONS\TYT\PROGS\Liquidaciones\2020-IM-11956-Daitodo-02.PDF"

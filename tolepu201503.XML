@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<iva>
+
+<TipoIDInformante>R</TipoIDInformante>
+   <IdInformante>0991438130001</IdInformante>
+   <razonSocial>TOLEPU SA</razonSocial>
+   <Anio>2015</Anio>
+   <Mes>03</Mes>
+   <numEstabRuc>001</numEstabRuc>
+   <totalVentas>367725.34</totalVentas>
+   <codigoOperativo>IVA</codigoOperativo>
+
+<compras>
+      <detalleCompras>
+         <codSustento>02</codSustento>
+         <tpIdProv>03</tpIdProv>
+         <idProv>0701009200013</idProv>
+         <tipoComprobante>04</tipoComprobante>
+         <tipoProv>02</tipoProv>
+         <parteRel>NO</parteRel>
+         <fechaRegistro>01/03/2015</fechaRegistro>
+         <establecimiento>999</establecimiento>
+         <puntoEmision>999</puntoEmision>
+         <secuencial>999004029</secuencial>
+         <fechaEmision>01/03/2015</fechaEmision>
+         <autorizacion>9999999999</autorizacion>
+         <baseNoGraIva>0.00</baseNoGraIva>
+         <baseImponible>29.25</baseImponible>
+         <baseImpGrav>0.00</baseImpGrav>
+   </compras>
+
+<ventas>
+      <detalleVentas>
+         <tpIdCliente>04</tpIdCliente>
+         <idCliente>0190317951001</idCliente>
+   </ventas>
+
+<ventasEstablecimiento>
+      <ventaEst>
+         <codEstab>005</codEstab>
+         <ventasEstab>367725.34</ventasEstab>
+      </ventaEst>
+   </ventasEstablecimiento>
+
+<exportaciones>
+      <detalleExportaciones>
+   </exportaciones>
+
+<anulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000367</secuencialInicio>
+         <secuencialFin>000000367</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000368</secuencialInicio>
+         <secuencialFin>000000368</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000369</secuencialInicio>
+         <secuencialFin>000000369</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000381</secuencialInicio>
+         <secuencialFin>000000381</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000380</secuencialInicio>
+         <secuencialFin>000000380</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000394</secuencialInicio>
+         <secuencialFin>000000394</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000408</secuencialInicio>
+         <secuencialFin>000000408</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000430</secuencialInicio>
+         <secuencialFin>000000430</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000431</secuencialInicio>
+         <secuencialFin>000000431</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000455</secuencialInicio>
+         <secuencialFin>000000455</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>07</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>000000466</secuencialInicio>
+         <secuencialFin>000000466</secuencialFin>
+         <autorizacion>0000000000</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>18</tipoComprobante>
+         <establecimiento>000</establecimiento>
+         <puntoEmision>000</puntoEmision>
+         <secuencialInicio>000000</secuencialInicio>
+         <secuencialFin>000000</secuencialFin>
+         <autorizacion>1116425807</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>18</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>400000</secuencialInicio>
+         <secuencialFin>400000</secuencialFin>
+         <autorizacion>1116425807</autorizacion>
+      </detalleAnulados>
+      <detalleAnulados>
+         <tipoComprobante>18</tipoComprobante>
+         <establecimiento>005</establecimiento>
+         <puntoEmision>004</puntoEmision>
+         <secuencialInicio>400000</secuencialInicio>
+         <secuencialFin>400000</secuencialFin>
+         <autorizacion>1116425807</autorizacion>
+      </detalleAnulados>
+   </anulados>
+
+</iva>

@@ -1,0 +1,565 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Border" content="none">
+<link REL="stylesheet" HREF="..\estilos.css" TYPE="text/css">
+<title>DOBRA Empresarial 7.0</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 ALIGN="JUSTIFY">Conceptos Básicos<br>
+Plan de Implementación</h1>
+<font SIZE="1">
+
+<p ALIGN="JUSTIFY">Para llevar a cabo la Implementación de DOBRA 7.0 es necesario cumplir
+las siguientes actividades generales:</p>
+
+<dl>
+  <dd><p ALIGN="JUSTIFY">1.- <a href="#Instalación del Sistema">Instalación del Sistema</a><br>
+    2.- <a href="#Establecer Parámetros Básicos">Establecer Parámetros Básicos</a><br>
+    3.- <a href="#Ingreso de Catálogos de Datos">Ingresar Catálogos de Datos</a><br>
+    4.-<a href="#Establecer opciones de Módulos"> Establecer Opciones de Módulos</a><br>
+    5.- <a href="#Ingresar Saldos Iniciales">Ingresar Saldos Iniciales</a><br>
+    6.- <a href="#Crear Asiento de Diario Inicial">Crear Asiento de Diario Inicial</a></p>
+  </dd>
+</dl>
+<b>
+
+<h2 ALIGN="JUSTIFY"><a name="Instalación del Sistema">Instalación del Sistema</a></b></h2>
+
+<p ALIGN="JUSTIFY">Esta actividad comprende lo siguiente:</p>
+
+<table border="0" width="88%">
+  <tr>
+    <th width="31%"><p align="center"><strong>Actividad</strong></th>
+    <th width="69%"><p align="center"><strong>Explicación</strong></th>
+  </tr>
+  <tr>
+    <td width="31%"><a href="../Instalación%20del%20Sistema/ins_tema_01.htm">Instalación del
+    Servidor de Base de Datos</a></td>
+    <td width="69%">Instalar la versión de SQL Server de propiedad del CLIENTE en el
+    Servidor.</td>
+  </tr>
+  <tr>
+    <td width="31%"><a href="../Instalación%20del%20Sistema/ins_tema_02.htm">Instalar Base de
+    Datos Dobra </a></td>
+    <td width="69%">Instalar una versión de la Base de Datos de DOBRA vacía.</td>
+  </tr>
+  <tr>
+    <td width="31%"><a href="../Instalación%20del%20Sistema/ins_tema_03.htm">Instalación de
+    Licencias de Dobra</a></td>
+    <td width="69%">Instalar el Producto de Software DOBRA en cada computadora de los
+    usuarios.</td>
+  </tr>
+  <tr>
+    <td width="31%"><a href="../Instalación%20del%20Sistema/ins_tema_04.htm">Activación de
+    Licencias de Dobra</a></td>
+    <td width="69%">Activar el Producto de Software.</td>
+  </tr>
+  <tr>
+    <td width="31%"><a href="../Instalación%20del%20Sistema/ins_tema_05.htm">Crear Conexiones
+    ODBC</a></td>
+    <td width="69%">Crear las respectivas conexiones desde los usuarios hasta la Base de
+    Datos.</td>
+  </tr>
+</table>
+
+<p ALIGN="JUSTIFY"><b><a name="Establecer Parámetros Básicos">Establecer Parámetros
+Básicos</a></b></p>
+
+<p ALIGN="JUSTIFY">Después de instalado el Sistema es necesario establecer los siguientes
+parámetros básicos:</p>
+
+<table border="0" width="89%" height="370">
+  <tr>
+    <th width="24%" height="22"><p align="center">Parámetros</th>
+    <th width="76%" height="22">Explicación</th>
+  </tr>
+  <tr>
+    <td width="24%" height="36">Sucursal Predeterminada</td>
+    <td width="76%" height="36">Si no existen, debe crearse por lo menos la sucursal MATRIZ en<a
+    href="../Referencia%20de%20Herramientas/sis_options_locales.htm"> Herramientas, Sistema,
+    Preferencias Locales.</a></td>
+  </tr>
+  <tr>
+    <td width="24%" height="49">Divisa Predeterminada</td>
+    <td width="76%" height="49">Si no existen, es necesario crear por lo menos una divisa
+    Base, en este caso la divisa DÓLARES. Si el sistema solicita ejecutar un proceso de
+    cambio de divisa, acepte los cuadros de díalogo hasta que termine.&nbsp; Esta opción se
+    encuentra en <a href="../Referencia%20de%20Herramientas/sis_record_divisas.htm">Herramientas,
+    Sistema, Divisas.</a></td>
+  </tr>
+  <tr>
+    <td width="24%" height="62">Datos de la Empresa</td>
+    <td width="76%" height="62">Es necesario establecer los datos de la empresa y
+    principalmente el nombre del archivo de LOGOTIPO. Esto es necesario para la impresión de
+    varios reportes del sistema. Sólo debe escribir el nombre del archivo, NO la ruta
+    completa. Estos parámetros se establecen en<a
+    href="../Referencia%20de%20Herramientas/sis_options_empresa.htm"> Herramientas, Sistema,
+    Empresa.</a></td>
+  </tr>
+  <tr>
+    <td width="24%" height="101">Rutas de Archivos</td>
+    <td width="76%" height="101">Es necesario establecer las rutas o directorios en donde se
+    encuentran los archivos de formatos preimpresos de Facturas o Comprobantes; y además el
+    directorio en donde se puede localizar el archivo de Logotipo. Estas rutas se establecen
+    para cada computadora; es decir, que en una computadora la ruta de reportes puede ser F: y
+    en otra puede ser G:. De igual forma el logotipo puede estar copiado en la unidad C: de
+    cada máquina, entonces la ruta sería: </font><font SIZE="1" color="#000000">C:\DOBRA7</font><font
+    SIZE="1"> por ejemplo. Estas opciones se establecen en <a
+    href="../Referencia%20de%20Herramientas/sis_options_locales.htm">Herramientas, Sistema,
+    Preferencias Locales</a>. Debe reiniciar DOBRA para que los cambios tengan efecto.</font></td>
+  </tr>
+  <tr>
+    <td width="24%" height="36">División Predeterminada</td>
+    <td width="76%" height="36">Si no existen, es necesario crear al menos una División o
+    Línea de Negocio. Esto se puede realizar en<a
+    href="../Referencia%20de%20Herramientas/sis_record_divisiones.htm"> Herramientas, Sistema,
+    Divisiones.</a></td>
+  </tr>
+  <tr>
+    <td width="24%" height="36">Ventana de Inicio</td>
+    <td width="76%" height="36">Si no existen, es necesario crear al menos una División o
+    Línea de Negocio. Esto se puede realizar en<a
+    href="../Referencia%20de%20Herramientas/sis_record_divisiones.htm"> Herramientas, Sistema,
+    Divisiones.</a></td>
+  </tr>
+</table>
+
+<p ALIGN="JUSTIFY">NOTA: Reinicie DOBRA para que los cambios tengan efecto.</p>
+<b>
+
+<h2 ALIGN="JUSTIFY"><a name="Ingreso de Catálogos de Datos">Ingreso de Catálogos de
+Datos</a></h2>
+</b>
+
+<p ALIGN="JUSTIFY">Los catálogos de datos son las Tablas Maestras en cada Módulo. Son
+todos los registros de la sección de Mantenimiento de Cada Módulo, los catálogos a
+registrarse son:</p>
+
+<table border="0" width="89%" cellpadding="0" height="1049">
+  <tr>
+    <th width="22%" height="25">Módulo</th>
+    <th width="21%" height="25">Catálogo</th>
+    <th width="57%" height="25">Explicación</th>
+  </tr>
+  <tr>
+    <td width="22%" height="45">Seguridad</td>
+    <td width="21%" height="45">Grupos</td>
+    <td width="57%" height="45">Los grupos sirven para organizar las cuentas de
+    usuarios.&nbsp; Más información en <a
+    href="../Referencia%20de%20Herramientas/seg_record_grupos.htm">Herramientas, Seguridad,
+    Grupos.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="53">Seguridad</td>
+    <td width="21%" height="53">Usuarios</td>
+    <td width="57%" height="53">Los usuarios sirven para organizar las nombres de
+    usuarios.&nbsp; Más información en <a
+    href="../Referencia%20de%20Herramientas/seg_record_usuarios.htm">Herramientas, Seguridad,
+    Usuarios.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="63">Sistema</td>
+    <td width="21%" height="63">Zonas</td>
+    <td width="57%" height="63">Las zonas sirven para organizar las nombres de los cientes con
+    su respectiva ubicación.&nbsp;&nbsp; Más información en <a
+    href="../Referencia%20de%20Herramientas/sis_record_zonas.htm">Herramientas, Sistema, Zonas</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="64">Contabilidad</td>
+    <td width="21%" height="64">Plan de Cuentas </td>
+    <td width="57%" height="64">El plan de cuentas sirven para organizar las cuentas
+    mayor.&nbsp; &nbsp; Más información<a
+    href="../Referencia%20de%20Herramientas/acc_record_cuentas.htm"> Herramientas,
+    Contabilidad, Plan de Cuentas</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="36">Cajas y Bancos</td>
+    <td width="21%" height="36">Grupos de Cuentas</td>
+    <td width="57%" height="36">Las grupos sirven para organizar las cuentas de caja y
+    bancos.&nbsp; &nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/ban_record_grupos.htm">Herramientas, Caja y
+    Bancos, Grupos</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Caja y Bancos</td>
+    <td width="21%" height="38">Cuentas de Caja y Bancos</td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Las Cuentas de Caja y Bancos son
+    un Catálogo de Cuentas que pueden ser de la Clase: BANCARIA, EFECTIVO o CAJA. Esta
+    clasificación se establece en base al conocimiento de las Etapas del Flujo de Dinero que
+    reconoce DOBRA®.</font> Mas información ir a <a
+    href="../Referencia%20de%20Herramientas/ban_record_bancos.htm">Herramientas, Caja y
+    Bancos, Cuentas.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Empleados</td>
+    <td width="21%" height="38">Grupos</td>
+    <td width="57%" height="38">Las grupos sirven para organizar las cuentas de
+    empleados.&nbsp; &nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/emp_record_grupos.htm">Herramientas, Empleados,
+    Grupos.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Empleados</td>
+    <td width="21%" height="25">Rubro </td>
+    <td width="57%" height="25">Las rubros sirven para organizar las rubros de las cuentas de
+    empleados.&nbsp;&nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/emp_record_rubros.htm">Herramientas, Empleados,
+    Rubros</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Empleados</td>
+    <td width="21%" height="25">Tablas </td>
+    <td width="57%" height="25">Las tablas sirven para organizar las rubros de
+    empleados.&nbsp; &nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/emp_record_tablas.htm">Herramientas, Empleados,
+    Tablas</a>..</td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Empleados</td>
+    <td width="21%" height="38">Funciones </td>
+    <td width="57%" height="38">Las funciones sirven para organizar a los empleados por medio
+    de un organigrama funcional.&nbsp;&nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/emp_record_funciones.htm">Herramientas, Empleados,
+    Funciones</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Empleados</td>
+    <td width="21%" height="38">Empleados</td>
+    <td width="57%" height="38">Los empleados sirven para tener un fichero con todos los datos
+    importantes del empleado.&nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/emp_record_empleados.htm">Herramientas, Empleados,
+    Empleados</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Organizador</td>
+    <td width="21%" height="38">Buzones </td>
+    <td width="57%" height="38">Los buzones sirven para mensajería de documentos que están
+    previamiente llenados.&nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/org_record_buzones.htm">Herramientas, Organizador,
+    Buzones</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Activos Fijos</td>
+    <td width="21%" height="38">Grupos </td>
+    <td width="57%" height="38">Los grupos sirven para organizar por gupos todos las cuentas
+    de activos.&nbsp; Más información ir a <a
+    href="../Referencia%20de%20Herramientas/act_record_grupos.htm">Herramientas, Activos
+    Fijos, Grupos</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Activos Fijos</td>
+    <td width="21%" height="25">Tipos </td>
+    <td width="57%" height="25"><font FACE="Verdana" SIZE="1">Los Tipos de Activos nos
+    permiten definir las políticas de integración Contable</font>.&nbsp; Más información
+    ir a <a href="../Referencia%20de%20Herramientas/act_record_tipos.htm">Herramientas,
+    Activos Fijos, Tipos. </a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Activos Fijos</td>
+    <td width="21%" height="38">Activos </td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Los activo va a estar
+    relacionado con tres cuentas para la integración contable dependiendo de las cuentas
+    ingresadas en el Fichero de TIPOS.</font><a
+    href="../Referencia%20de%20Herramientas/act_record_activos.htm">&nbsp; Herramientas,
+    Activos Fijos, Activos</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Proveeduría</td>
+    <td width="21%" height="38">Grupos </td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Los grupos sirven para organizar
+    las Carpetas de Proveedores</font>.&nbsp; <a
+    href="../Referencia%20de%20Herramientas/prv_record_grupos.htm">Herramientas,Proveeduría,
+    Grupos</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Proveeduría </td>
+    <td width="21%" height="38">Rubros&nbsp; </td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Los rubros sirven para trabajar
+    con el módulo de Proveeduria.</font>&nbsp;<a
+    href="../Referencia%20de%20Herramientas/prv_record_rubros.htm"> Herramientas,
+    Proveeduría, Rubros.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="1">Proveeduría </td>
+    <td width="21%" height="1">Bodegas&nbsp; </td>
+    <td width="57%" height="1"><font FACE="Verdana" SIZE="1">Las bodegas donde se van a
+    almacenar los productos &#150; materiales &#150; suministros para uso interno de la
+    Empresa.</font>&nbsp; <a href="../Referencia%20de%20Herramientas/prv_record_bodegas.htm">Herramientas,
+    Proveeduría, Bodegas.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Proveeduría</td>
+    <td width="21%" height="38">Productos</td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Los productos sirve para guardar
+    toda los datos referentes a productos &#150; materiales &#150; suministros de uso interno
+    de la Empresa.</font>&nbsp; Para mayor información ir a <a
+    href="../Referencia%20de%20Herramientas/prv_record_productos.htm">Herramientas,
+    Proveeduría, Productos.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Acreedores </td>
+    <td width="21%" height="38">Acreedores&nbsp; </td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Los acreedores facilita la
+    creación de nuevos acreedores, así como la edición o anulación de los acreedores
+    existentes.</font> &nbsp; Para mayor información ir a&nbsp; <a
+    href="../Referencia%20de%20Herramientas/acr_record_acreedores.htm">Herramientas,
+    Acreedores, Acreedores.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Clientes </td>
+    <td width="21%" height="25">Grupos&nbsp; </td>
+    <td width="57%" height="25"><p ALIGN="JUSTIFY"><font FACE="Verdana" SIZE="1">Los grupos
+    sirve para crear, modificar o anular las Carpetas de organización de Clientes.&nbsp;<a
+    href="../Referencia%20de%20Herramientas/cli_record_grupos.htm"> </font>Herramientas,
+    Clientes, Grupos.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Clientes </td>
+    <td width="21%" height="25">Rubros&nbsp; </td>
+    <td width="57%" height="25"><font FACE="Verdana" SIZE="1">Los rubros sirven para
+    especificar ciertos conceptos para usarlos en documentos como comprobantes, notas de
+    débito/crédito entre otros.&nbsp; </font>Para mayor información ir a <a
+    href="../Referencia%20de%20Herramientas/cli_record_rubros.htm">Herramientas, Clientes,
+    Rubros.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Clientes </td>
+    <td width="21%" height="25">Clientes&nbsp; </td>
+    <td width="57%" height="25"><font FACE="Verdana" SIZE="1">Los clientes Presenta 2
+    secciones, una General para los datos del cliente y otra para registrar Datos de la
+    Empresa &#150; Datos del Garante &#150; Datos del Representante y firmas autorizadas.
+    &nbsp; </font>Para mayor información ir a <a
+    href="../Referencia%20de%20Herramientas/cli_record_clientes.htm">Herramientas, Clientes,
+    Clientes.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Productos </td>
+    <td width="21%" height="25">Grupos&nbsp; </td>
+    <td width="57%" height="25"><font FACE="Verdana" SIZE="1">Los grupos sirven para crear,
+    modificar o anular las Carpetas de organización de Productos.</font> Para mayor
+    información ir a <a href="../Referencia%20de%20Herramientas/inv_record_grupos.htm">Herramientas,
+    Productos, Grupos.</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="25">Productos </td>
+    <td width="21%" height="25">Rubros&nbsp; </td>
+    <td width="57%" height="25"><font FACE="Verdana" SIZE="1">Los rubros sirven para organizar
+    los rubros que se utilizarán en procesos de Inventarios y que estarán relacionados con
+    Cuentas Contables.</font> Para mayor información ir a <a
+    href="../Referencia%20de%20Herramientas/inv_record_rubros.htm">Herramientas, Productos,
+    Rubros</a>.</td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Productos </td>
+    <td width="21%" height="38">Bodegas&nbsp; </td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Las bodegas sirven para crear,
+    modificar o anular las bodegas donde serán almacenados los Productos-Materias
+    Primas-Suministros de la empresa.</font> Para mayor información ir a<a
+    href="../Referencia%20de%20Herramientas/inv_record_bodegas.htm"> Herramientas, Productos,
+    Bodegas</a></td>
+  </tr>
+  <tr>
+    <td width="22%" height="38">Productos</td>
+    <td width="21%" height="38">Productos</td>
+    <td width="57%" height="38"><font FACE="Verdana" SIZE="1">Los productos presentan 2
+    secciones, una General para los datos de identificación del producto y otra para
+    registrar los parámetros de comercialización, costo, precios de venta, tasas de
+    comisión y presentaciones.</font>&nbsp;<a
+    href="../Referencia%20de%20Herramientas/inv_record_productos.htm">&nbsp;&nbsp;
+    Herramientas, Productos, Productos</a></td>
+  </tr>
+</table>
+<b>
+
+<h2 ALIGN="JUSTIFY"><a name="Establecer opciones de Módulos">Establecer opciones de
+Módulos</a></h2>
+</b>
+
+<p ALIGN="JUSTIFY">Las opciones en cada módulo son parámetros especiales que indican al
+sistema que Cuentas Contables usar para generar los asientos automáticos, los archivos de
+formatos preimpresos, entre otros. Las opciones se encuentran en la sección de
+mantenimiento de cada módulo. Se deben establecer las opciones en los siguientes
+módulos:</p>
+
+<table border="0" width="89%" cellpadding="0">
+  <tr>
+    <th width="13%">Módulo</th>
+    <th width="54%">Explicación</th>
+  </tr>
+  <tr>
+    <td width="13%">Contabilidad</td>
+    <td width="54%">Las Opciones de contablidad sirve para Determinar hasta qué fecha
+    quedará bloqueado el ingreso de transacciones en el sistema; es decir, los usuarios no
+    podrán guardar transacciones con fechas anteriores a la de este parámetro. Esta opción
+    se encuentra en&nbsp;&nbsp; <a
+    href="../Referencia%20de%20Herramientas/acc_options_opciones.htm">Herramientas,
+    Contabilidad, Opciones</a>.</td>
+  </tr>
+  <tr>
+    <td width="13%">Caja y Bancos</td>
+    <td width="54%">Las opciones sirve para elejir la caja predeterminada para la máquina.
+    &nbsp; Esta opción se encuentra en <a
+    href="../Referencia%20de%20Herramientas/ban_option_opciones.htm">Herramientas, Caja y
+    Bancos, Opciones.</a></td>
+  </tr>
+  <tr>
+    <td width="13%">Empleados</td>
+    <td width="54%"><font FACE="Verdana" SIZE="1">Las opciones sirve para establecer
+    parámetros iniciales para trabajar con el Módulo de Empleados.</font> Esta opción se
+    encuentra en <a href="../Referencia%20de%20Herramientas/emp_options_opciones.htm">Herramientas,
+    Empleados, Opciones</a>.</td>
+  </tr>
+  <tr>
+    <td width="13%">Activos Fijos</td>
+    <td width="54%">Las opciones de activo fijo contiene el cuadro Cta. Descuento en Compra
+    que sirve para acreditar un descuento en compra a una de las cuentas del fichero de plan
+    de cuentas, el descuento de compra.&nbsp; Esta opción se encuentra en Herramientas,<a
+    href="../Referencia%20de%20Herramientas/act_option_opciones.htm"> Activos Fijos, Opciones.</a></td>
+  </tr>
+  <tr>
+    <td width="13%">Proveeduría</td>
+    <td width="54%">las opciones de proveeduría tiene dos secciones acreedores y
+    proveeduría.&nbsp; Esta opción se encuentra en <a
+    href="../Referencia%20de%20Herramientas/prv_options_opciones.htm">Herramientas,
+    Proveeduría, Opciones</a></td>
+  </tr>
+  <tr>
+    <td width="13%">Acreedores</td>
+    <td width="54%">Las opciones de acreedores sirve para seleccionar el rubro perteneciente a
+    los débitos a favor.&nbsp; Esta opción se encuentra en <a
+    href="../Referencia%20de%20Herramientas/acr_option_options.htm">Herramientas, Acreedores,
+    Opciones.</a></td>
+  </tr>
+  <tr>
+    <td width="13%">Clientes</td>
+    <td width="54%"><font FACE="Verdana" SIZE="1">Las opciones de clientes permite relacionar
+    cuentas contables o rubros a las opciones presentadas en éste fichero que la empresa
+    utilice para trabajar con sus clientes.</font> Esta opción se encuentra en <a
+    href="../Referencia%20de%20Herramientas/cli_options_opciones.htm">Herramientas, Clientes,
+    Opciones.</a></td>
+  </tr>
+  <tr>
+    <td width="13%">Compras</td>
+    <td width="54%"><font FACE="Verdana" SIZE="1">Las opciones sirve para registrar las
+    cuentas Contables que serán afectadas por las opciones del módulo de Compras.</font>
+    &nbsp; Esta opción se encuentra en <a
+    href="../Referencia%20de%20Herramientas/com_options_opciones.htm">Herramientas, Compras,
+    Opciones.</a></td>
+  </tr>
+  <tr>
+    <td width="13%">Importaciones</td>
+    <td width="54%"><font FACE="Verdana" SIZE="1">Las opciones de importaciones permite
+    relacionar cuentas contables o rubros a las opciones presentadas en éste fichero que la
+    empresa utilice para trabajar con sus clientes.</font> Esta opción se encuentra en<a
+    href="../Referencia%20de%20Herramientas/imp_options_opciones.htm"> Herramientas,
+    Importaciones, Opciones.</a></td>
+  </tr>
+  <tr>
+    <td width="13%">Ventas</td>
+    <td width="54%"><font FACE="Verdana" SIZE="1">Las opciones sirve para registrar las
+    cuentas Contables que serán afectadas por las opciones del módulo de Ventas. Además se
+    ingresar los Formatos de Impresión para Facturas y Letras de Cambio.</font>&nbsp; <a
+    href="../Referencia%20de%20Herramientas/ven_options_opciones.htm">Herramientas, Ventas,
+    Opciones</a>.</td>
+  </tr>
+</table>
+<b>
+
+<h2 ALIGN="JUSTIFY"><a name="Ingresar Saldos Iniciales">Ingresar Saldos Iniciales</a></h2>
+</b>
+
+<p ALIGN="JUSTIFY">El ingreso de saldos iniciales es conocido como un Proceso, permite
+establecer los valores iniciales de deudas de clientes, saldos de inventarios, etc. pero
+NO genera asientos contables. Luego de ingresar los saldos iniciales de un respectivo
+Módulo, se pueden imprimir reportes de saldos para usar es información en el ingreso del
+Balance Inicial. Los saldos iniciales que deben ingresarse son:</p>
+
+<table border="0" width="90%" cellpadding="0">
+  <tr>
+    <th width="11%"><p align="center">Módulo</th>
+    <th width="56%"><p align="center"><strong>Explicación</strong></th>
+  </tr>
+  <tr>
+    <td width="11%">Caja y Bancos</td>
+    <td width="56%">Ingrese los saldos reales desde sus cuentas de efectivo y sus cuentas
+    bancarias. Las cuentas de clase CAJA deben iniciar con saldo cero. En el caso de cheques
+    girados y no cobrados, se recomienda ingresar el total de cheques en una cuenta por pagar
+    (PASIVO) en el balance inicial; luego , al iniciar el ingreso de transacciones, se deben
+    girar los cheques desde el módulo de Caja y Bancos mediante Comprobantes de Ingreso,
+    cruzando con la cuenta por pagar utilizada en el Balance Inicial. Para más información
+    ir a <a href="../Referencia%20de%20Herramientas/ban_task_saldos_iniciales.htm">Herramientas,
+    Caja y Bancos, Saldos Iniciales</a>.</td>
+  </tr>
+  <tr>
+    <td width="11%">Empleados</td>
+    <td width="56%">Se deben ingresar por cada empleado, cada una de las deudas por préstamos
+    u otros conceptos junto con sus fechas de vencimiento. Estas deudas aparecerán en el
+    futuro al momento de crear Roles de Pago. Para más información ir a <a
+    href="../Referencia%20de%20Herramientas/emp_task_saldos_iniciales.htm">Herramientas,
+    Empleados, Saldos iniciales</a>.</td>
+  </tr>
+  <tr>
+    <td width="11%">Activos Fijos</td>
+    <td width="56%">Los activos fijos no tienen proceso de Saldo Inicial. Los activos son
+    entidades únicas que tienen un valor de compra, y su saldo inicial está dado por el
+    valor con que se ingresó al sistema. Para más información ir a <a
+    href="../Referencia%20de%20Herramientas/act_task_facturar_orden.htm">Herramientas, Activos
+    Fijos, facturar orden.</a></td>
+  </tr>
+  <tr>
+    <td width="11%">Proveeduría</td>
+    <td width="56%">En caso de que la empresa use el Módulo de Proveeduría para llevar un
+    registro y control de los suministros adquiridos como Papelería, lápices, etc. es
+    necesario que registr su saldo inicial por cada bodega.&nbsp; Para más información ir a <a
+    href="../../../../../proyectos/DOBRA70/HTMLHelp/Referencia%20de%20Herramientas/prv_task_saldos_iniciales.htm">Herramientas,
+    Proveeduría, Saldos iniciales.</a></td>
+  </tr>
+  <tr>
+    <td width="11%">Acreedores</td>
+    <td width="56%">Se deben registrar por cada acreedor, cada una de las facturas por pagar y
+    otras deudas pendientes con sus fechas de vencimiento.&nbsp; Para más información ir a<a
+    href="../Referencia%20de%20Herramientas/acr_task_saldos_iniciales.htm"> Herramientas,
+    Acreedores, Saldos iniciales.</a></td>
+  </tr>
+  <tr>
+    <td width="11%">Clientes</td>
+    <td width="56%">Se deben registrar por cada cliente, cada una de las facturas por cobrar y
+    otras deudas pendientes con sus fechas de vencimiento.&nbsp; Para más información ir a <a
+    href="../Referencia%20de%20Herramientas/cli_options_opciones.htm">Herramientas, Clientes,
+    Saldos iniciales</a></td>
+  </tr>
+  <tr>
+    <td width="11%">Productos</td>
+    <td width="56%"><p ALIGN="JUSTIFY">Es necesario registrar por cada bodega, las existencias
+    de cada producto y su respectivo costo. El costo será el mismo para todas las bodegas y
+    una vez que se ha ingresado los costos de un producto, aparecerá automáticamente al
+    momento de registrar los saldos para otra bodega.&nbsp; Para más información ir a <a
+    href="../../../../../proyectos/DOBRA70/HTMLHelp/Referencia%20de%20Herramientas/inv_task_saldos_iniciales.htm">Herramientas,
+    Productos, Saldos iniciales</a></td>
+  </tr>
+</table>
+<b>
+
+<h2 ALIGN="JUSTIFY"><a name="Crear Asiento de Diario Inicial">Crear Asiento de Diario
+Inicial</a></h2>
+</b>
+
+<p ALIGN="JUSTIFY">El paso final en la Implementación de DOBRA es la crearción del
+primer Asiento de Diario que constituye el Balance de Situación inicial de la Empresa.
+Después de crear el Asiento de Diario inicial el sistema quedará listo para que los
+usuarios empiecen a registrar transacciones como ventas, compras, cobros, depósitos, etc.</p>
+
+<p ALIGN="JUSTIFY">Si el Balance Inicial no está listo al momento de crear el Asiento de
+Diario inicial, puede crearse un asiento con dos cuentas cualquiera con los valores del
+DEBE y HABER iguales. Los usuario pueden empezar a trabajar con trasacciones y cuando en
+la empresa se haya completado el Balance Inicial, se puede modificar el Asiento de Diario
+número uno para actualizar el Balance que quedó pendiente.</p>
+
+<p class="copyright">Copyright©2000 CODETEK S. A. Todos los derechos reservados.</p>
+</body>
+</html>

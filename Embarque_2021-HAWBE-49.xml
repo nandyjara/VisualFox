@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shipments xmlns="http://www.magaya.com/XMLSchema/V1">
+	<AirShipment GUID="a3bd453b-d92b-4451-ab66-47cb805fb5cf" Type="SH">
+		<URL>https://track.magaya.net/TransTracking/TransTracking.dll?ID=36028&amp;SH=a3bd453b-d92b-4451-ab66-47cb805fb5cf&amp;LG=es&amp;XM=0</URL>
+		<CreatedOn>2021-07-23T15:46:18-05:00</CreatedOn>
+		<Number>2021-HAWBE-49</Number>
+		<CreatedByName>Juan Jose Guanin</CreatedByName>
+		<Version>106</Version>
+		<ModeOfTransportation Code="40">
+			<Description>Aéreo, Carga Suelta</Description>
+			<Method>Air</Method>
+			<Default>true</Default>
+		</ModeOfTransportation>
+		<ModeOfTransportCode>40</ModeOfTransportCode>
+		<IssuedByName>Tolepu S.A</IssuedByName>
+		<IssuedBy GUID="09400917-4682-45f7-888a-7e3b4dadb400">
+			<Type>ForwardingAgent</Type>
+			<Name>Tolepu S.A</Name>
+			<EntityID>0991438130001</EntityID>
+			<CreatedOn>2019-01-23T12:08:05-05:00</CreatedOn>
+			<Address>
+				<Street>RUC: 0991438130001</Street>
+				<Street>Edificio Nobis Executive Center</Street>
+				<Street>Piso 6 Oficina 612</Street>
+				<City>Guayaquil</City>
+				<State>GUAYAS</State>
+				<Country Code="EC">Ecuador</Country>
+				<Description>Dirección de Embarque Predeterminada</Description>
+				<ContactPhone>593-4-215-8132</ContactPhone>
+				<ContactEmail>magaya@torresytorres.com</ContactEmail>
+				<PortCode>ECGYE</PortCode>
+			</Address>
+			<BillingAddress>
+				<Street>Edificio Nobis Executive Center</Street>
+				<Street>Piso 6 Oficina 612</Street>
+				<City>Guayaquil</City>
+				<State>GUAYAS</State>
+				<Country Code="EC">Ecuador</Country>
+				<Description>Dirección de Facturación Predeterminada</Description>
+				<ContactPhone>593-4-215-8132</ContactPhone>
+				<ContactEmail>magaya@torresytorres.com</ContactEmail>
+				<PortCode>ECGYE</PortCode>
+			</BillingAddress>
+			<Email>magaya@torresytorres.com</Email>
+			<Website>www.torresytorres.com</Website>
+			<Phone>593-4-215-8132</Phone>
+			<NetworkID>36028</NetworkID>
+			<IsKnownShipper>true</IsKnownShipper>
+			<OtherAddresses>
+				<Address>
+					<Description>TOLEPU QUITO</Description>
+				</Address>
+			</OtherAddresses>
+			<IsPrepaid>true</IsPrepaid>
+			<MobilePhone>593-993-760130</MobilePhone>
+		</IssuedBy>
+		<IssuedByAddress>
+			<Street>RUC: 0991438130001</Street>
+			<Street>Edificio Nobis Executive Center</Street>
+			<Street>Piso 6 Oficina 612</Street>
+			<City>Guayaquil</City>
+			<State>GUAYAS</State>
+			<Country Code="EC">Ecuador</Country>
+			<Description>Dirección de Embarque Predeterminada</Description>
+			<ContactPhone>593-4-215-8132</ContactPhone>
+			<ContactEmail>magaya@torresytorres.com</ContactEmail>
+			<PortCode>ECGYE</PortCode>
+		</IssuedByAddress>
+		<ShipperName>MASTER BUILDERS SOLUTIONS ECUADOR MBS-EC S.A.</ShipperName>
+		<Shipper GUID="85b37450-8f26-49fc-83bf-a5da7cc9b840">
+			<Type>Client</Type>
+			<Name>MASTER BUILDERS SOLUTIONS ECUADOR MBS-EC S.A.</Name>
+			<EntityID>1793064779001</EntityID>
+			<CreatedOn>2021-02-08T08:58:10-05:00</CreatedOn>
+			<Address>
+				<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+				<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+				<Street>RUC 1793064779001</Street>
+				<Description>Dirección de Embarque Predeterminada</Description>
+				<ContactPhone>023979500</ContactPhone>
+				<ContactEmail>maria.padilla@basf.com</ContactEmail>
+			</Address>
+			<BillingAddress>
+				<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+				<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+				<Street>RUC 1793064779001</Street>
+				<Description>Dirección de Facturación Predeterminada</Description>
+				<ContactPhone>023979500</ContactPhone>
+				<ContactEmail>maria.padilla@basf.com</ContactEmail>
+			</BillingAddress>
+			<Email>maria.padilla@basf.com</Email>
+			<Phone>023979500</Phone>
+			<AccountNumber>1194</AccountNumber>
+			<PaymentTerms>
+				<Description>Al Contado</Description>
+				<NetDueDays>0</NetDueDays>
+				<DiscountPercentage>0.00</DiscountPercentage>
+				<DiscountPaidDays>0</DiscountPaidDays>
+			</PaymentTerms>
+			<IsPrepaid>false</IsPrepaid>
+			<CustomFields>
+				<CustomField>
+					<CustomFieldDefinition>
+						<Type>Logical</Type>
+						<InternalName>documentacion_completa</InternalName>
+						<DisplayName>Documentacion completa</DisplayName>
+						<InternalUse>false</InternalUse>
+						<BuildReports>false</BuildReports>
+						<Inactive>false</Inactive>
+						<IsCalculated>false</IsCalculated>
+						<IsReadOnly>false</IsReadOnly>
+					</CustomFieldDefinition>
+					<Value>true</Value>
+				</CustomField>
+			</CustomFields>
+		</Shipper>
+		<ShipperAddress>
+			<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+			<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+			<Street>RUC 1793064779001</Street>
+			<Description>Dirección de Embarque Predeterminada</Description>
+			<ContactPhone>023979500</ContactPhone>
+			<ContactEmail>maria.padilla@basf.com</ContactEmail>
+		</ShipperAddress>
+		<ConsigneeName>MASTER BUILDERS SOLUTIONS ECUADOR MBS-EC S.A.</ConsigneeName>
+		<Consignee GUID="85b37450-8f26-49fc-83bf-a5da7cc9b840">
+			<Type>Client</Type>
+			<Name>MASTER BUILDERS SOLUTIONS ECUADOR MBS-EC S.A.</Name>
+			<EntityID>1793064779001</EntityID>
+			<CreatedOn>2021-02-08T08:58:10-05:00</CreatedOn>
+			<Address>
+				<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+				<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+				<Street>RUC 1793064779001</Street>
+				<Description>Dirección de Embarque Predeterminada</Description>
+				<ContactPhone>023979500</ContactPhone>
+				<ContactEmail>maria.padilla@basf.com</ContactEmail>
+			</Address>
+			<BillingAddress>
+				<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+				<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+				<Street>RUC 1793064779001</Street>
+				<Description>Dirección de Facturación Predeterminada</Description>
+				<ContactPhone>023979500</ContactPhone>
+				<ContactEmail>maria.padilla@basf.com</ContactEmail>
+			</BillingAddress>
+			<Email>maria.padilla@basf.com</Email>
+			<Phone>023979500</Phone>
+			<AccountNumber>1194</AccountNumber>
+			<PaymentTerms>
+				<Description>Al Contado</Description>
+				<NetDueDays>0</NetDueDays>
+				<DiscountPercentage>0.00</DiscountPercentage>
+				<DiscountPaidDays>0</DiscountPaidDays>
+			</PaymentTerms>
+			<IsPrepaid>false</IsPrepaid>
+			<CustomFields>
+				<CustomField>
+					<CustomFieldDefinition>
+						<Type>Logical</Type>
+						<InternalName>documentacion_completa</InternalName>
+						<DisplayName>Documentacion completa</DisplayName>
+						<InternalUse>false</InternalUse>
+						<BuildReports>false</BuildReports>
+						<Inactive>false</Inactive>
+						<IsCalculated>false</IsCalculated>
+						<IsReadOnly>false</IsReadOnly>
+					</CustomFieldDefinition>
+					<Value>true</Value>
+				</CustomField>
+			</CustomFields>
+		</Consignee>
+		<ConsigneeAddress>
+			<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+			<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+			<Street>RUC 1793064779001</Street>
+			<Description>Dirección de Embarque Predeterminada</Description>
+			<ContactName> </ContactName>
+			<ContactPhone>023979500</ContactPhone>
+			<ContactEmail>maria.padilla@basf.com</ContactEmail>
+		</ConsigneeAddress>
+		<CarrierName>LAS CARGO</CarrierName>
+		<Carrier GUID="d03a452d-e00d-402c-a102-c593021af8e1">
+			<Type>Carrier</Type>
+			<Name>LAS CARGO</Name>
+			<CreatedOn>2019-11-18T16:10:33-05:00</CreatedOn>
+			<Address>
+				<Street>Av. Amazonas y Río Palora</Street>
+				<City>Quito</City>
+				<Country Code="EC">Ecuador</Country>
+				<ContactPhone>593-2 330-1153</ContactPhone>
+			</Address>
+			<BillingAddress>
+				<Street>Av. Amazonas y Río Palora</Street>
+				<City>Quito</City>
+				<Country Code="EC">Ecuador</Country>
+				<ContactPhone>593-2 330-1153</ContactPhone>
+			</BillingAddress>
+			<Phone>593-2 330-1153</Phone>
+			<IsPrepaid>true</IsPrepaid>
+			<CarrierInfo>
+				<CarrierTypeCode>Air</CarrierTypeCode>
+			</CarrierInfo>
+		</Carrier>
+		<CarrierAddress>
+			<Street>Av. Amazonas y Río Palora</Street>
+			<City>Quito</City>
+			<Country Code="EC">Ecuador</Country>
+			<ContactPhone>593-2 330-1153</ContactPhone>
+		</CarrierAddress>
+		<Notes>*Aerolínea:� LAS
+*Frecuencia: Según itinerario de la Aerolínea. 
+*Gastos locales aplican + IVA 12%. 
+*Tarifa sujeta a disponibilidad de espacio.
+*Cotización aplica para carga regular
+*Cotización aplica por peso o peso volumen dependiendo cual sea el mayor. 
+*Cotización aplica solo para carga general, apilable y correctamente embalada. 
+*Cotización no aplica para carga peligrosa, sobredimensionada, extrapesada. 
+*Cotización no incluye trámite aduanero de importacion ni impuestos en Ecuador. 
+*Cotización no incluye embalaje, estiba o maquinaria para cargue, de requerirlos favor indicar. 
+*Oferta excluye: Tramite de aduana, recogida, seguro, gastos en destino.
+*Tarifa aplica para embarques PREPAID
+*Previa revisión del espacio
+*&quot;La tarifa cotizada, aplica para los kilos informados en ésta solicitud de cotización. Cualquier reducción en los kilos, puede implicar un aumento en la tarifa&quot;
+*Todo embalaje de madera debe estar debidamente sanitizado-fumigado.
+*Las cajas de madera ó metal deben viajar con protección de esquineros.
+** En caso de que la carga no vuele el mismo día de entrega por temas ajenos a la aerolínea la guía aérea deberá incluir el valor de bodegaje generado hasta la fecha de despacho de la carga el mismo corresponde a $0.04 por kg neto por día.
+*Al momento de confirmar la reserva, exportador deberá re-confirmar si su carga es de origen animal o fitosanitaria, en caso de omitir esta información y se generan costos, estos correrán por su cuenta.	
+*El exportador es responsable del correcto embalaje de su mercadería para la travesía.				
+*Para todos los embarques debemos recibir copia de la factura comercial, packing list, certificado de origen, análisis y fitosanitario (si aplica).	
+*Cotización no incluye gastos en destino por: Entrega, Seguro, Aduana, bodegaje, impuestos/aranceles y demás para su nacionalización.
+*En caso de reembarque, no se incluye gastos de almacenaje por la importación ni traslados hasta la zona de consolidación.
+*COMM: Carga general, no DGR   Próxima salida : Domingo ( Vuelo directo) </Notes>
+		<Items>
+			<Item GUID="22eadbd1-89ad-44b2-b63b-d09c6337ca60" Type="WI">
+				<Version>105</Version>
+				<Status>Loaded</Status>
+				<Pieces>1</Pieces>
+				<Description>Cemento</Description>
+				<PieceQuantity>0.00</PieceQuantity>
+				<IsSummarized>false</IsSummarized>
+				<WHRItemID>0</WHRItemID>
+				<Length Unit="m">0.00</Length>
+				<Height Unit="m">0.00</Height>
+				<Width Unit="m">0.00</Width>
+				<Weight Unit="kg">315.00</Weight>
+				<ContainedPiecesWeightIncluded>true</ContainedPiecesWeightIncluded>
+				<Volume Unit="m3">0.89000000000000001332</Volume>
+				<VolumeWeight Unit="vkg">148.40430850869833534489</VolumeWeight>
+				<PieceWeight Unit="kg">0.00</PieceWeight>
+				<PieceVolume Unit="m3">0.00</PieceVolume>
+				<OutShipmentGUID>a3bd453b-d92b-4451-ab66-47cb805fb5cf</OutShipmentGUID>
+				<OutShipmentURL>https://track.magaya.net/TransTracking/TransTracking.dll?ID=36028&amp;SH=a3bd453b-d92b-4451-ab66-47cb805fb5cf&amp;LG=es&amp;XM=0</OutShipmentURL>
+				<IncludeInSED>false</IncludeInSED>
+				<IsContainer>false</IsContainer>
+				<OutMasterWayBillNumber>2021-MAWBE-49</OutMasterWayBillNumber>
+				<OutHouseWayBillNumber>2021-HAWBE-49</OutHouseWayBillNumber>
+				<LastReceptionNetworkID>0</LastReceptionNetworkID>
+				<ShipmentType>Air</ShipmentType>
+				<OutDate>2021-07-23T15:46:18-05:00</OutDate>
+				<OrderIndex>1</OrderIndex>
+				<IsPallet>false</IsPallet>
+				<IsOverstock>false</IsOverstock>
+				<NotLoaded>false</NotLoaded>
+				<InTask>false</InTask>
+			</Item>
+		</Items>
+		<MeasurementUnits>
+			<LengthUnit>m</LengthUnit>
+			<VolumeUnit>m3</VolumeUnit>
+			<WeightUnit>kg</WeightUnit>
+			<VolumeWeightUnit>vkg</VolumeWeightUnit>
+			<AreaUnit>m2</AreaUnit>
+			<LengthPrecision>2</LengthPrecision>
+			<VolumePrecision>2</VolumePrecision>
+			<WeightPrecision>2</WeightPrecision>
+			<VolumeWeightPrecision>2</VolumeWeightPrecision>
+			<AreaPrecision>2</AreaPrecision>
+			<VolumeWeightFactor>166.00</VolumeWeightFactor>
+		</MeasurementUnits>
+		<CreatorNetworkID>36028</CreatorNetworkID>
+		<TotalPieces>1</TotalPieces>
+		<TotalWeight Unit="kg">315.00</TotalWeight>
+		<TotalVolume Unit="m3">0.89000000000000001332</TotalVolume>
+		<TotalVolumeWeight Unit="vkg">148.40430850869833534489</TotalVolumeWeight>
+		<ChargeableWeight Unit="kg">315.00</ChargeableWeight>
+		<TotalValue Currency="USD">0.00</TotalValue>
+		<DescriptionOfGoods>...</DescriptionOfGoods>
+		<OriginPort Code="ECGYE">
+			<Country Code="EC">Ecuador</Country>
+			<Method>Air</Method>
+			<Method>Ocean</Method>
+			<Method>Ground</Method>
+			<Name>Guayaquil</Name>
+		</OriginPort>
+		<DestinationPort Code="COBOG">
+			<Country Code="CO">Colombia</Country>
+			<Method>Air</Method>
+			<Method>Ocean</Method>
+			<Method>Ground</Method>
+			<Name>Bogota</Name>
+		</DestinationPort>
+		<Status>Loaded</Status>
+		<LayoutType>House</LayoutType>
+		<Direction>Outgoing</Direction>
+		<EstimatedArrivalDate>2021-07-22T23:58:03-05:00</EstimatedArrivalDate>
+		<ActualArrivalDate>2021-07-23T15:46:18-05:00</ActualArrivalDate>
+		<EstimatedDepartureDate>2021-07-22T23:58:03-05:00</EstimatedDepartureDate>
+		<ActualDepartureDate>2021-07-23T15:46:18-05:00</ActualDepartureDate>
+		<BillingClient GUID="85b37450-8f26-49fc-83bf-a5da7cc9b840">
+			<Type>Client</Type>
+			<Name>MASTER BUILDERS SOLUTIONS ECUADOR MBS-EC S.A.</Name>
+			<EntityID>1793064779001</EntityID>
+			<CreatedOn>2021-02-08T08:58:10-05:00</CreatedOn>
+			<Address>
+				<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+				<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+				<Street>RUC 1793064779001</Street>
+				<Description>Dirección de Embarque Predeterminada</Description>
+				<ContactPhone>023979500</ContactPhone>
+				<ContactEmail>maria.padilla@basf.com</ContactEmail>
+			</Address>
+			<BillingAddress>
+				<Street>PINCHINCHA, QUITO CALLE 12 DE OCTUBRE N</Street>
+				<Street>26-48 INTERSECCION MZ ABRAHAM LIMCON</Street>
+				<Street>RUC 1793064779001</Street>
+				<Description>Dirección de Facturación Predeterminada</Description>
+				<ContactPhone>023979500</ContactPhone>
+				<ContactEmail>maria.padilla@basf.com</ContactEmail>
+			</BillingAddress>
+			<Email>maria.padilla@basf.com</Email>
+			<Phone>023979500</Phone>
+			<AccountNumber>1194</AccountNumber>
+			<PaymentTerms>
+				<Description>Al Contado</Description>
+				<NetDueDays>0</NetDueDays>
+				<DiscountPercentage>0.00</DiscountPercentage>
+				<DiscountPaidDays>0</DiscountPaidDays>
+			</PaymentTerms>
+			<IsPrepaid>false</IsPrepaid>
+			<CustomFields>
+				<CustomField>
+					<CustomFieldDefinition>
+						<Type>Logical</Type>
+						<InternalName>documentacion_completa</InternalName>
+						<DisplayName>Documentacion completa</DisplayName>
+						<InternalUse>false</InternalUse>
+						<BuildReports>false</BuildReports>
+						<Inactive>false</Inactive>
+						<IsCalculated>false</IsCalculated>
+						<IsReadOnly>false</IsReadOnly>
+					</CustomFieldDefinition>
+					<Value>true</Value>
+				</CustomField>
+			</CustomFields>
+		</BillingClient>
+		<ExecutedPlace>Guayaquil</ExecutedPlace>
+		<ExecutedCityCode>ECECGYE</ExecutedCityCode>
+		<MasterGUID>f75fa3f3-a2b9-456a-84e1-d783655e6eee</MasterGUID>
+		<LastDateOfDeparture>2021-07-22T23:58:03-05:00</LastDateOfDeparture>
+		<SpottingDate>2021-07-22T23:58:03-05:00</SpottingDate>
+		<PickupDate>2021-07-22T23:58:03-05:00</PickupDate>
+		<CutoffDate>2021-07-22T23:58:03-05:00</CutoffDate>
+		<MasterWayBillNumber>2021-MAWBE-49</MasterWayBillNumber>
+		<MasterNumber>2021-MAWBE-49</MasterNumber>
+		<HasAttachments>false</HasAttachments>
+		<ShipmentOptions>
+			<IsShipperConsigneeRelated>false</IsShipperConsigneeRelated>
+			<IsRoutedTransaction>true</IsRoutedTransaction>
+			<IsAirWayBillDetailExpanded>false</IsAirWayBillDetailExpanded>
+			<IsBillOfLadingDetailExpanded>false</IsBillOfLadingDetailExpanded>
+			<IsCargoManifestDetailExpanded>true</IsCargoManifestDetailExpanded>
+			<FillDocsWithAccountingInfo>true</FillDocsWithAccountingInfo>
+			<AirWayBillWeightUnit>Both</AirWayBillWeightUnit>
+			<BillOfLadingWeightUnit>Both</BillOfLadingWeightUnit>
+			<ShowContainerDetails>false</ShowContainerDetails>
+			<ShowWHRsInCargoManifest>false</ShowWHRsInCargoManifest>
+			<ShowDimensionsInAWB>true</ShowDimensionsInAWB>
+			<ShowDimensionsDetailedInAWB>false</ShowDimensionsDetailedInAWB>
+			<UseNotesAsMarksNumbersInBL>false</UseNotesAsMarksNumbersInBL>
+			<BillOfLadingGroupSimilarItems>false</BillOfLadingGroupSimilarItems>
+		</ShipmentOptions>
+		<IsLessThanFullLoad>true</IsLessThanFullLoad>
+		<Service>PortToPort</Service>
+		<IsOnline>false</IsOnline>
+		<IsLiquidated>false</IsLiquidated>
+		<CreatedFrom>
+			<GUID>b93e74c1-94b2-45e1-96cb-914169efd90e</GUID>
+			<Type>AirBooking</Type>
+			<Number>2021-SI-3087</Number>
+		</CreatedFrom>
+		<CustomFields>
+			<CustomField>
+				<CustomFieldDefinition>
+					<Type>Logical</Type>
+					<InternalName>freehand</InternalName>
+					<DisplayName>Freehand</DisplayName>
+					<InternalUse>true</InternalUse>
+					<BuildReports>false</BuildReports>
+					<Inactive>false</Inactive>
+					<IsCalculated>false</IsCalculated>
+					<IsReadOnly>false</IsReadOnly>
+					<DefaultValue>
+						<Value>false</Value>
+					</DefaultValue>
+				</CustomFieldDefinition>
+				<Value>false</Value>
+			</CustomField>
+			<CustomField>
+				<CustomFieldDefinition>
+					<Type>PickList</Type>
+					<InternalName>urgencia_problema</InternalName>
+					<DisplayName>Urgencia/ problema</DisplayName>
+					<InternalUse>true</InternalUse>
+					<BuildReports>false</BuildReports>
+					<Inactive>false</Inactive>
+					<IsCalculated>false</IsCalculated>
+					<IsReadOnly>false</IsReadOnly>
+					<DefaultValue>
+						<Value>NORMAL</Value>
+					</DefaultValue>
+					<PickItems>
+						<PickItem>NORMAL</PickItem>
+						<PickItem>URGENTE</PickItem>
+						<PickItem>PROBLEMA</PickItem>
+					</PickItems>
+				</CustomFieldDefinition>
+				<Value>NORMAL</Value>
+			</CustomField>
+			<CustomField>
+				<CustomFieldDefinition>
+					<Type>Logical</Type>
+					<InternalName>confirmacion_emisionliberacion</InternalName>
+					<DisplayName>CONFIRMACION EMISION-LIBERACION</DisplayName>
+					<InternalUse>true</InternalUse>
+					<BuildReports>false</BuildReports>
+					<Inactive>false</Inactive>
+					<IsCalculated>false</IsCalculated>
+					<IsReadOnly>false</IsReadOnly>
+					<DefaultValue>
+						<Value>false</Value>
+					</DefaultValue>
+				</CustomFieldDefinition>
+				<Value>false</Value>
+			</CustomField>
+		</CustomFields>
+		<AirShipmentInfo>
+			<AirWayBillNumber>2021-HAWBE-49</AirWayBillNumber>
+		</AirShipmentInfo>
+	</AirShipment>
+</Shipments>

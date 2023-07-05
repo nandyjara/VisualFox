@@ -1,0 +1,204 @@
+LPARAMETER lcFormato, ldUserDate
+LOCAL lnDia, lnMEs, lnAño, lnPos, lnDiaSemana, lbExit
+* Funcion:		Fecha
+* Uso:			Fecha( [<formato> [,<expD>]] )
+* Ejemplo: 		=fecha("Guayaquil, dd de mmmm de aaaa")
+* Retorna:		Fecha en el formato que se indique.
+IF EMPTY( ldUserDate )
+	ldUserDate = _DOBRA.SysDate
+ENDIF
+IF EMPTY( lcFormato )
+	lcFormato = "d/m/aa"
+ENDIF
+
+*-- Referencias					  
+lnDia       = DAY( ldUserDate )
+lnMes       = MONTH( ldUserDate )
+lnAño      	= YEAR( ldUserDate )
+lnDiaSemana = DOW( ldUserDate )
+* Seleccionar el Mes
+lcMes = "xxx"
+DO CASE
+	CASE lnMes = 1
+		lcMes	= "Enero"
+	CASE lnMes = 2
+		lcMes	= "Febrero"
+	CASE lnMes = 3
+		lcMes	= "Marzo"
+	CASE lnMes = 4
+		lcMes	= "Abril"
+	CASE lnMes = 5
+		lcMes	= "Mayo"
+	CASE lnMes = 6
+		lcMes	= "Junio"
+	CASE lnMes = 7
+		lcMes	= "Julio"
+	CASE lnMes = 8
+		lcMes	= "Agosto"
+	CASE lnMes = 9
+		lcMes	= "Septiembre"
+	CASE lnMes = 10
+		lcMes	= "Octubre"
+	CASE lnMes = 11
+		lcMes	= "Noviembre"
+	CASE lnMes = 12
+		lcMes	= "Diciembre"
+ENDCASE		
+* Seleccionar Dia
+lcDiaSemana = "xxx"
+DO CASE
+	CASE lnDiaSemana = 1
+		lcDia	= "Domingo"
+	CASE lnDiaSemana = 2
+		lcDia	= "Lunes"
+	CASE lnDiaSemana = 3
+		lcDia	= "Martes"
+	CASE lnDiaSemana = 4
+		lcDia	= "Miércoles"
+	CASE lnDiaSemana = 5
+		lcDia	= "Jueves"
+	CASE lnDiaSemana = 6
+		lcDia	= "Viernes"
+	CASE lnDiaSemana = 7
+		lcDia	= "Sábado"
+ENDCASE		
+
+* Buscar las ocurrencias de formato cuantas veces sea necesario
+* hasta que el indicador de terminado sea .T.
+lbExit = .F.
+DO WHILE !lbExit
+	lbExit = .T.
+
+	* Ocurrencia de << d >>
+	lnPos = AT( "d", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +1, 1 )) , .T. ) AND ;
+			IIF( lnPos > 1 , ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos -1, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos, 1, "" )
+		lcFormato = STUFF( lcFormato , lnPos, 0, ;
+			STR( lnDia, IIF( lnDia > 9, 2, 1 ),0) )
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << dd >>
+	lnPos = AT( "dd", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 1 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +2, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos , 2, "" )
+		lcFormato = STUFF( lcFormato , lnPos , 0, TRAN( lnDia, "@L 99" ))
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << ddd >>
+	lnPos = AT( "ddd", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 2 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +3, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos , 3, "" )
+		lcFormato = STUFF( lcFormato , lnPos , 0, LEFT( lcDia, 3 ))
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << dddd >>
+	lnPos = AT( "dddd", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 3 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +4, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos , 4, "" )
+		lcFormato = STUFF( lcFormato , lnPos , 0, lcDia )
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << m >>
+	lnPos = AT( "m", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +1, 1 )) , .T. ) AND ;
+			IIF( lnPos > 1 , ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos -1, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos, 1, "" )
+		lcFormato = STUFF( lcFormato , lnPos, 0, ;
+			STR( lnMes, IIF( lnMes > 9, 2, 1 ),0) )
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << mm >>
+	lnPos = AT( "mm", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 1 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +2, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos , 2, "" )
+		lcFormato = STUFF( lcFormato , lnPos , 0, TRAN( lnMes, "@L 99" ))
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << mmm >>
+	lnPos = AT( "mmm", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 2 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +3, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos , 3, "" )
+		lcFormato = STUFF( lcFormato , lnPos , 0, LEFT( lcMes, 3))
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << mmmm >>
+	lnPos = AT( "mmmm", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 3 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +4, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos , 4, "" )
+		lcFormato = STUFF( lcFormato , lnPos , 0, lcMes )
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << a >>
+	lnPos = AT( "a", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +1, 1 )) , .T. ) AND ;
+			IIF( lnPos > 1 , ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos -1, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos, 1, "" )
+		lcFormato = STUFF( lcFormato , lnPos, 0, ;
+			RIGHT( STR( lnAño, 4, 0 ), 2 ))
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << aa >>
+	lnPos = AT( "aa", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 1 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +2, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos, 2, "" )
+		lcFormato = STUFF( lcFormato , lnPos, 0, ;
+			RIGHT( STR( lnAño, 4, 0 ), 2 ))
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << aaa >>
+	lnPos = AT( "aaa", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 2 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +3, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos, 3, "" )
+		lcFormato = STUFF( lcFormato , lnPos, 0, ;
+			RIGHT( STR( lnAño, 4, 0 ), 2 ))
+		lbExit = .F.
+	ENDIF
+
+	* Ocurrencia de << aaaa >>
+	lnPos = AT( "aaaa", lcFormato )
+	IF !EMPTY( lnPos ) AND ;
+			IIF( lnPos + 3 < LEN( lcFormato ), ;
+			!ISALPHA( SUBSTR( lcFormato, lnPos +4, 1 )) , .T. )
+		lcFormato = STUFF( lcFormato , lnPos, 4, "" )
+		lcFormato = STUFF( lcFormato , lnPos, 0, TRAN( lnAño, "9999" ))
+		lbExit = .F.
+	ENDIF
+ENDDO
+RETURN( lcFormato )
+

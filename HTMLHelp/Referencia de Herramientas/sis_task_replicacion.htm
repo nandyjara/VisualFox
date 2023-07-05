@@ -1,0 +1,193 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Integración OFFLINE de Sucursales</title>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" style="padding: 4px"><table border="0" width="100%" cellspacing="1"
+    cellpadding="0">
+      <tr>
+        <td width="72%" valign="top"><strong><font face="Verdana" color="#000000"><big><big>Módulo
+        de Sistema</big></big></font><font face="Verdana" color="#FFFFFF"><br>
+        </font><font face="Verdana" color="#808080"><big>Integración OFFLINE de Sucursales</big></font></strong></td>
+      </tr>
+      <tr>
+        <td width="72%" valign="top" bgcolor="#000000"></td>
+      </tr>
+    </table>
+    <p><font face="Verdana" color="#004080"><big><strong>Explicación</strong></big></font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">El Proceso de Integración de Sucursales
+    proporciona una alternativa para que dos establecimientos que están físicamente
+    incomunicadas, puedan integrarse y trabajar sobre la misma información o sobre una misma
+    Base de Datos.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">La Integración OFFLINE no es lo mismo
+    que la REPLICACIÓN de Bases de Datos; en un proceso de replicación se requiere que
+    exista un medio de comunicación ya sea telefónico, microondas, fibra óptica o cualquier
+    otro medio por lo menos mientras dure el proceso de replicación.&nbsp; La Integración
+    OFFLINE está orientada a establecimientos que no tienen una línea de comunicación de
+    datos permanente.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">En este sentido, es correcto entender que
+    debe haber un medio de transporte de información para integrar las transacciones
+    generadas tanto en el establecimiento 1 como en el establecimiento 2.&nbsp; Además, el
+    Sistema debe ser capaz de realizar procesos de Exportación y de Importación de
+    transacciones para mantener los dos establecimientos con información actualizada.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">En DOBRA® el proceso de Integración
+    OFFLINE sigue la metáfora del establecimiento MATRIZ y Sucursales y establece una
+    política de operación basada cuatro etapas: DISTRIBUCIÓN - ACTUALIZACIÓN -
+    EXPORTACIÓN - INTEGRACIÓN como se muestra en la siguiente figura:</font></p>
+    <p ALIGN="JUSTIFY"><font face="Verdana" color="#004080" size="3"><strong>Etapas de la
+    Integración OFFLINE de DOBRA®</strong></font></p>
+    <p ALIGN="JUSTIFY"><img src="sis_task_integración.gif" width="572" height="421"></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Como puede verse en la figura, en el
+    proceso de Integración OFFLINE se identifican dos tipos de establecimiento o puntos de
+    procesamiento la MATRIZ y las Sucursales.&nbsp; En el Proceso sólo puede existir una
+    Matriz y pueden existir varias sucursales pero la Base de Datos Maestra siempre reside en
+    la MATRIZ.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana"><strong>DISTRIBUCIÓN</strong></font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">La distribución consiste en generar una
+    copia exacta de la Base de Datos de la MATRIZ para ser distribuída en las Sucursales.
+    &nbsp; Este proceso lo puede realizar usando el mecanismo de compresión de DOBRA® o
+    también usando el método <strong>BACKUP</strong> de SQLServer®.&nbsp; Se recomienda
+    este último si va a ser llevado a cabo por el Administrador del Sistema.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Note que la Base de Datos pueder ser muy
+    grande para guardarse en un diskette.&nbsp; Se recomienda en este caso un dispositivo de
+    más capacidad como unidades ZIP de iomega® o el uso de una computadora portátil con
+    unidad de disco duro.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Este proceso sólo debe ser ejecutado en
+    el Servidor de la MATRIZ.</font></p>
+    <p ALIGN="JUSTIFY"><strong><font SIZE="1" face="Verdana">ACTUALIZACIÓN</font></strong></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">El proceso de Actualización consiste en <strong>sobre-escribir</strong>
+    la Base de Datos de Distribución sobre la Base de Datos de la Sucursal.&nbsp; Note que
+    este proceso sirve para que la sucursal cuente con la última versión de la Base de Datos
+    y si la sucursal ha efectuado transacciones recientemente, y estas transacciones no han
+    sido enviadas a la MATRIZ, entonces se perderán.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">La actualización puede ser realizada de
+    dos formas: Usando el Mecanismo de Decompresión de DOBRA® en caso de que la
+    DISTRIBUCIÓN se haya realizado con DOBRA® o usando el Método <strong>RESTORE</strong>
+    de SQLServer® en caso de que la Distribución se haya realizado usando el método <strong>BACKUP</strong>
+    de SQLServer®.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Este proceso sólo debe ser ejecutado en
+    el Servidor de la Sucursal.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana"><strong>EXPORTACIÓN</strong></font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Una vez que la Sucursal ha recibido una
+    actualización de la última versión de la Base de Datos, puede empezar a introducir
+    transacciones.&nbsp; Las transacciones se guardan con un identificador de Sucursal. &nbsp;
+    El proceso de Exportación es el mecanismo por el cual una Sucursal exporta sus últimas
+    transacciones a la MATRIZ.&nbsp; Una Sucursal puede exportar cada día o cada semana y
+    recibir una actualización mensual claro, esto depende de la actividad transaccional tanto
+    de la MATRIZ y de la SUCURSAL.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Para este caso, se usa el mecanismo de
+    compresión de DOBRA® y debido a que sólo se exportan las últimas transacciones, el
+    tamaño de la Base de Datos OFFLINE que se llevará a la MATRIZ podría no acupar más de
+    1MB que pueden ser copiados perfectamente en un diskette de alta densidad; pero, si el
+    tamaño de la Base de Datos OFFLINE es mayor, se recomienda el uso de unidades de más
+    capacidad como las unidades ZIP de iomega®.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">El usuario debe tomar precauciones ya que
+    una vez que se exportan las transacciones nuevas, estas quedan marcadas de tal manera que
+    ya no serán tomadas en cuenta en la próxima exportación; es decir, que si por alguna
+    razón, se dañó o se perdió la Base de Datos OFFLINE, la sucursal quedaría
+    desincronizada de la Base de Datos Central.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Si la Base de Datos OFFLINE recientemente
+    exportada se pierde, la Sucursal debe solicitar una ACTUALIZACIÓN de la Base de Datos de
+    la MATRIZ lo cual invalidará las transacciones nuevas que habían sido exportadas y se
+    tendrán que reingresar en el Sistema.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Para el proceso de exportación se usa un
+    método de compresión y codificación de nombres de tablas y archivos como medida de
+    seguridad para proteger la información que es trasladada desde la Sucursal hasta la
+    MATRIZ.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Este proceso sólo debe ser ejecutado en
+    el Servidor de la Sucursal.</font></p>
+    <p ALIGN="JUSTIFY"><strong><font SIZE="1" face="Verdana">IMPORTACIÓN</font></strong></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">El Proceso de Importación e Integración
+    consiste en recuperar las transacciones de una Base de Datos OFFLINE proveniente de una
+    Sucursal e integrarlas a la Base de Datos Central.&nbsp; Con este proceso se completa el
+    ciclo de Integración OFFLINE.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">El usuario debe tener precaución ya que
+    una vez que se han integrado las transacciones provenientes de la sucursal, no se puede
+    repetir el proceso ya que esto generaría duplicaciones de datos y DOBRA® interrumpiría
+    el proceso presentando los errores correspondientes.</font></p>
+    <p ALIGN="JUSTIFY"><font SIZE="1" face="Verdana">Este proceso sólo debe ser ejecutado en
+    el Servidor de la MATRIZ.</font></p>
+    <p><font face="Verdana" color="#004080"><big><strong>Requisitos</strong></big></font></p>
+    <table border="0" width="100%" cellspacing="1" cellpadding="4">
+      <tr>
+        <td width="4%" bgcolor="#F0F0F0" valign="top"><font face="Verdana" color="#FF0000"
+        size="4"><strong>1</strong></font></td>
+        <td width="32%" bgcolor="#F0F0F0" valign="top"><font SIZE="1" face="Verdana"><strong>Lista
+        de Sucursales</strong></font></td>
+        <td width="82%" bgcolor="#F0F0F0" valign="top"><font color="#000000" face="Verdana"><small><small>Una
+        Lista de las Sucursales que participarán en el proceso.&nbsp; Las Sucursales tienen un
+        código y una descripción.&nbsp; El código de una sucursal está formado por 2 dígitos
+        siendo el 00 reservado para identificar la MATRIZ.</small></small></font><p><font
+        color="#000000" face="Verdana"><small><small>Para iniciar la ventana de mantenimiento de
+        sucursales seleccione la opción <strong>Sucursales</strong> de la sección de
+        mantenimiento del módulo de <strong>Sistema</strong> en el <strong>Menú de Inicio de
+        DOBRA®.</strong></small></small></font></td>
+      </tr>
+      <tr>
+        <td width="4%" bgcolor="#F0F0F0" valign="top"><font face="Verdana" color="#FF0000"
+        size="4"><strong>2</strong></font></td>
+        <td width="32%" bgcolor="#F0F0F0" valign="top"><font SIZE="1" face="Verdana"><strong>Instalar
+        código de sucursal en cada computadora.</strong></font></td>
+        <td width="82%" bgcolor="#F0F0F0" valign="top"><font color="#000000" face="Verdana"><small><small>Para
+        realizar este paso, debe seleccionar la sucursal correspondiente desde la ventana de
+        opciones de empresa.</small></small></font><p><font color="#000000" face="Verdana"><small><small>Para
+        iniciar la ventana de Opciones de Empresa seleccione la opción <strong>Empresa</strong>
+        de la sección de mantenimiento del <strong>Módulo de Sistema</strong> en el <strong>Menú
+        de Inicio de DOBRA®.</strong></small></small></font></td>
+      </tr>
+    </table>
+    <p><font face="Verdana" color="#004080"><big><strong>Ejecución</strong></big></font></p>
+    <p><font SIZE="1" face="Verdana">Para Iniciar el Asistente de Integración OFFLINE de
+    Sucursales, debe seleccionar la opción <strong>Integración</strong> de la sección de
+    Asistentes del <strong>Módulo de Sistema</strong> en el <strong>Menú de Inicio de
+    DOBRA®</strong>.</font><font FACE="Tahoma" SIZE="1"></p>
+    </font><p><font face="Verdana" color="#004080"><big><strong>Recomendaciones</strong></big></font></p>
+    <table border="0" width="100%" cellspacing="1" cellpadding="4">
+      <tr>
+        <td width="4%" bgcolor="#F0F0F0" valign="top"><font face="Verdana" color="#FF0000"
+        size="4"><strong>1</strong></font></td>
+        <td width="32%" bgcolor="#F0F0F0" valign="top"><font SIZE="1" face="Verdana"><strong>Ejecutar
+        fuera de Horas de Oficina</strong></font></td>
+        <td width="82%" bgcolor="#F0F0F0" valign="top"><font color="#000000" face="Verdana"><small><small>Se
+        recomienda que los procesos sean ejecutados mientras ya nadie está trabajando en el
+        Sistema.</small></small></font></td>
+      </tr>
+      <tr>
+        <td width="4%" bgcolor="#F0F0F0" valign="top"><font face="Verdana" color="#FF0000"
+        size="4"><strong>2</strong></font></td>
+        <td width="32%" bgcolor="#F0F0F0" valign="top"><font SIZE="1" face="Verdana"><strong>Ejecutar
+        en el Servidor</strong></font></td>
+        <td width="82%" bgcolor="#F0F0F0" valign="top"><font color="#000000" face="Verdana"><small><small>Se
+        recomienda que los procesos de Integración sean ejecutados en el Servidor.&nbsp; DOBRA®
+        genera archivos temporales de las exportaciones e importaciones que pueden ser usados en
+        caso de fallas o errores.&nbsp; Es conveniente que estos archivos estén en el Servidor.</small></small></font></td>
+      </tr>
+      <tr>
+        <td width="4%" bgcolor="#F0F0F0" valign="top"><font face="Verdana" color="#FF0000"
+        size="4"><strong>3</strong></font></td>
+        <td width="32%" bgcolor="#F0F0F0" valign="top"><font SIZE="1" face="Verdana"><strong>Usar
+        respaldo de SQLServer® para los procesos de Distribución</strong></font></td>
+        <td width="82%" bgcolor="#F0F0F0" valign="top"><font color="#000000" face="Verdana"><small><small>Aunque
+        DOBRA® proporciona un método seguro de para generar la Base de Datos de distribución,
+        este proceso es más lento que el proceso de respaldo de SQLServer®.</small></small></font></td>
+      </tr>
+    </table>
+    <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%" style="padding: 4px" bgcolor="#E0E0E0"></td>
+  </tr>
+  <tr>
+    <td width="100%" style="padding: 4px"><small><small><small><font face="Verdana">©2000
+    Laboratorios CODETEK S. A. Todos los derechos reservados.</font></small></small></small></td>
+  </tr>
+</table>
+</body>
+</html>
